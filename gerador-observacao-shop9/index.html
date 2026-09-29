@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARILUB | Gerador de Observação</title>
+
+<style>
+    * { box-sizing: border-box; }
+
+    body {
+        margin: 0;
+        background: #f3f4f6;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1f2937;
+    }
+
+    .container {
+        max-width: 760px;
+        margin: 35px auto;
+        padding: 0 18px;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 28px;
+        box-shadow: 0 3px 14px rgba(0,0,0,.08);
+    }
+
+    h1 {
+        margin: 0 0 5px;
+        font-size: 22px;
+    }
+
+    .subtitle {
+        margin-bottom: 25px;
+        color: #6b7280;
+        font-size: 14px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+    .full { grid-column: 1 / -1; }
+
+    label {
+        display: block;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 6px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 11px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+        background: #fff;
+    }
+
+    input:focus, select:focus, textarea:focus {
+        outline: none;
+        border-color: #6b7280;
+    }
+
+    .checkbox {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 5px;
+    }
+
+    .checkbox input {
+        width: auto;
+    }
+
+    .checkbox label {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 25px;
+        flex-wrap: wrap;
+    }
+
+    button {
+        border: 0;
+        border-radius: 6px;
+        padding: 11px 18px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .primary {
+        background: #111827;
+        color: white;
+    }
+
+    .secondary {
+        background: #e5e7eb;
+        color: #111827;
+    }
+
+    .copy {
+        background: #374151;
+        color: white;
+    }
+
+    #resultadoArea {
+        display: none;
+        margin-top: 26px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 22px;
+    }
+
+    #resultado {
+        height: 270px;
+        font-family: Consolas, monospace;
+        line-height: 1.5;
+        background: #f9fafb;
+    }
+
+    .status {
+        margin-top: 10px;
+        font-size: 13px;
+        min-height: 18px;
+    }
+
+    .erro { color: #b91c1c; }
+    .sucesso { color: #166534; }
+
+    .hidden { display: none; }
+
+    @media(max-width: 620px) {
+        .grid { grid-template-columns: 1fr; }
+        .full { grid-column: auto; }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="card">
+
+    <h1>Gerador de Observação — ARILUB</h1>
+    <div class="subtitle">
+        Padronização de dados para Orçamento/Venda — Shop9
+    </div>
+
+    <div class="grid">
+
+        <div>
+            <label for="origem">Origem *</label>
+            <select id="origem" onchange="alterarOrigem()">
+                <option value="">Selecione</option>
+                <option value="KOMMO">Kommo</option>
+                <option value="BALCAO">Balcão</option>
+            </select>
+        </div>
+
+        <div id="grupoKommo" class="hidden">
+            <label for="idKommo">ID Kommo *</label>
+            <input
+                id="idKommo"
+                type="text"
+                inputmode="numeric"
+                placeholder="Ex.: 12345678"
+            >
+        </div>
+
+        <div>
+            <label for="frete">Frete *</label>
+            <select id="frete">
+                <option value="">Selecione</option>
+                <option value="CIF">CIF</option>
+                <option value="FOB">FOB</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="pagamento">Forma de pagamento *</label>
+            <select id="pagamento" onchange="alterarPagamento()">
+                <option value="">Selecione</option>
+                <option value="PIX">PIX</option>
+                <option value="TRANSFERÊNCIA">Transferência</option>
+                <option value="BOLETO">Boleto</option>
+                <option value="CARTÃO">Cartão</option>
+                <option value="DINHEIRO">Dinheiro</option>
+            </select>
+        </div>
+
+        <div class="full">
+            <label for="entrega">Entrega *</label>
+            <input
+                id="entrega"
+                type="text"
+                placeholder="Ex.: Transportadora / retirada / endereço de entrega"
+            >
+        </div>
+
+        <div class="full">
+            <label for="prazo">Prazo *</label>
+            <input
+                id="prazo"
+                type="text"
+                placeholder="Ex.: À vista / 7 dias / 28-35 dias"
+            >
+        </div>
+
+        <div class="full">
+            <div class="checkbox">
+                <input type="checkbox" id="dadosBancarios">
+                <label for="dadosBancarios">
+                    Incluir dados bancários
+                </label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="actions">
+        <button class="primary" onclick="gerar()">Gerar observação</button>
+        <button class="copy" onclick="copiar()">Copiar</button>
+        <button class="secondary" onclick="limpar()">Limpar</button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <div id="resultadoArea">
+        <label for="resultado">Texto para Observações do Shop9</label>
+        <textarea id="resultado" readonly></textarea>
+    </div>
+
+</div>
+</div>
+
+<script>
+
+const DADOS_BANCARIOS =
+`DADOS BANCÁRIOS:
+PIX (CNPJ): 41.389.388/0001-41
+BANCO: BRADESCO
+FAVORECIDO: ARILUB DISTRIBUIDOR DE OLEO
+AGÊNCIA: 0741-2
+CONTA CORRENTE: 10.286-5`;
+
+function alterarOrigem() {
+
+    const origem = document.getElementById("origem").value;
+    const grupo = document.getElementById("grupoKommo");
+    const idKommo = document.getElementById("idKommo");
+
+    if (origem === "KOMMO") {
+        grupo.classList.remove("hidden");
+    } else {
+        grupo.classList.add("hidden");
+        idKommo.value = "";
+    }
+}
+
+function alterarPagamento() {
+
+    const pagamento = document.getElementById("pagamento").value;
+    const checkbox = document.getElementById("dadosBancarios");
+
+    checkbox.checked = pagamento === "PIX";
+}
+
+function mostrarStatus(texto, tipo) {
+
+    const status = document.getElementById("status");
+
+    status.textContent = texto;
+    status.className = "status " + tipo;
+}
+
+function gerar() {
+
+    const origem = document.getElementById("origem").value;
+    const idKommo = document.getElementById("idKommo").value.trim();
+    const frete = document.getElementById("frete").value;
+    const entrega = document.getElementById("entrega").value.trim();
+    const pagamento = document.getElementById("pagamento").value;
+    const prazo = document.getElementById("prazo").value.trim();
+    const incluirBanco = document.getElementById("dadosBancarios").checked;
+
+    if (!origem || !frete || !entrega || !pagamento || !prazo) {
+        mostrarStatus("Preencha todos os campos obrigatórios.", "erro");
+        return;
+    }
+
+    if (origem === "KOMMO") {
+
+        if (!idKommo) {
+            mostrarStatus("Informe o ID Kommo.", "erro");
+            return;
+        }
+
+        if (!/^\d+$/.test(idKommo)) {
+            mostrarStatus("O ID Kommo deve conter somente números.", "erro");
+            return;
+        }
+    }
+
+    let linhas = [];
+
+    linhas.push("ORIGEM: " + origem);
+
+    if (origem === "KOMMO") {
+        linhas.push("ID KOMMO: " + idKommo);
+    }
+
+    linhas.push("FRETE: " + frete);
+    linhas.push("ENTREGA: " + entrega);
+    linhas.push("FORMA DE PAGAMENTO: " + pagamento);
+    linhas.push("PRAZO: " + prazo);
+
+    if (incluirBanco) {
+        linhas.push("");
+        linhas.push(DADOS_BANCARIOS);
+    }
+
+    document.getElementById("resultado").value = linhas.join("\n");
+    document.getElementById("resultadoArea").style.display = "block";
+
+    mostrarStatus("Observação gerada.", "sucesso");
+}
+
+async function copiar() {
+
+    const resultado = document.getElementById("resultado").value;
+
+    if (!resultado) {
+        mostrarStatus("Gere a observação antes de copiar.", "erro");
+        return;
+    }
+
+    try {
+
+        await navigator.clipboard.writeText(resultado);
+        mostrarStatus("Texto copiado. Cole em Observações do Shop9.", "sucesso");
+
+    } catch {
+
+        const campo = document.getElementById("resultado");
+
+        campo.removeAttribute("readonly");
+        campo.select();
+        document.execCommand("copy");
+        campo.setAttribute("readonly", true);
+
+        mostrarStatus("Texto copiado. Cole em Observações do Shop9.", "sucesso");
+    }
+}
+
+function limpar() {
+
+    document.getElementById("origem").value = "";
+    document.getElementById("idKommo").value = "";
+    document.getElementById("frete").value = "";
+    document.getElementById("entrega").value = "";
+    document.getElementById("pagamento").value = "";
+    document.getElementById("prazo").value = "";
+    document.getElementById("dadosBancarios").checked = false;
+    document.getElementById("resultado").value = "";
+
+    document.getElementById("grupoKommo").classList.add("hidden");
+    document.getElementById("resultadoArea").style.display = "none";
+
+    mostrarStatus("", "");
+}
+
+</script>
+
+</body>
+</html>
