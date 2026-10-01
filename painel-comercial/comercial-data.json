@@ -1,0 +1,162 @@
+{
+    "meta":  {
+                 "sistema":  "ARILUB Comercial",
+                 "geradoEm":  "2026-09-30T21:25:08",
+                 "versaoIntegrador":  "1.1.0",
+                 "pipelineKommo":  "14547387",
+                 "chaveIntegracao":  "Kommo Lead ID = Shop9 Movimento.Referencia_Interna",
+                 "principio":  "KOMMO = OPORTUNIDADE | SHOP9 = OPERACAO | INTEGRADOR = RECONCILIACAO",
+                 "duracaoSegundos":  5.66
+             },
+    "auditoria":  {
+                      "leadControle":  "26864236",
+                      "orcControle":  438327,
+                      "encontrado":  true,
+                      "validacao":  true,
+                      "reconciliacao":  "KOMMO_PERDIDO_COM_ORC_NAO_CONVERTIDO"
+                  },
+    "resumo":  {
+                   "kommo":  {
+                                 "leads":  2
+                             },
+                   "shop9Integracao":  {
+                                           "orcamentosCandidatos":  1,
+                                           "vendasCandidatas":  1,
+                                           "referenciasNaoConciliadas":  1
+                                       },
+                   "reconciliacao":  {
+                                         "leadsProcessados":  2,
+                                         "ok":  0,
+                                         "criticos":  1,
+                                         "atencao":  1,
+                                         "informativos":  0
+                                     }
+               },
+    "oportunidades":  [
+                          {
+                              "leadId":  "26621000",
+                              "kommo":  {
+                                            "nome":  "Lead #26621000",
+                                            "cliente":  "(sem empresa vinculada)",
+                                            "cnpjCpf":  "11410422000151",
+                                            "produto":  "teste",
+                                            "linhaProduto":  "Pneumáticos",
+                                            "origem":  "WhatsApp",
+                                            "numeroCoep":  "(não preenchido)",
+                                            "pipelineId":  "14547387",
+                                            "funil":  "Comercial ARILUB v2 - TESTE",
+                                            "etapa":  "Venda ganha",
+                                            "valorCRM":  10,
+                                            "responsavel":  "Fabiana",
+                                            "atendente":  "Erico-Inativo",
+                                            "criadoEm":  "2026-08-31T23:56:21.000Z",
+                                            "atualizadoEm":  "2026-09-30T17:42:21.000Z",
+                                            "fechadoEm":  "2026-09-30T17:42:14.000Z"
+                                        },
+                              "shop9":  {
+                                            "possuiOrcamento":  false,
+                                            "quantidadeOrcamentos":  0,
+                                            "orcPrincipal":  {
+                                                                 "ordem":  null,
+                                                                 "classificacao":  null,
+                                                                 "idadeDias":  null,
+                                                                 "valorOrcado":  0,
+                                                                 "cliente":  null,
+                                                                 "vendedorReal":  null
+                                                             },
+                                            "possuiVenda":  false,
+                                            "vendasViaOrcQtd":  0,
+                                            "vendasDiretasComReferenciaQtd":  0,
+                                            "valorVendidoViaOrc":  0,
+                                            "valorVendidoDireto":  0,
+                                            "valorVendidoTotal":  0
+                                        },
+                              "reconciliacao":  {
+                                                    "codigo":  "KOMMO_GANHO_SEM_VENDA_SHOP9",
+                                                    "nivel":  "CRITICO"
+                                                },
+                              "orcamentos":  [
+
+                                             ],
+                              "vendasComReferencia":  [
+
+                                                      ]
+                          },
+                          {
+                              "leadId":  "26864236",
+                              "kommo":  {
+                                            "nome":  "Severo Teste",
+                                            "cliente":  "(sem empresa vinculada)",
+                                            "cnpjCpf":  "(não preenchido)",
+                                            "produto":  "teste",
+                                            "linhaProduto":  "Geral/Outros",
+                                            "origem":  "WhatsApp",
+                                            "numeroCoep":  "(não preenchido)",
+                                            "pipelineId":  "14547387",
+                                            "funil":  "Comercial ARILUB v2 - TESTE",
+                                            "etapa":  "Venda perdida",
+                                            "valorCRM":  10,
+                                            "responsavel":  "Fabiana",
+                                            "atendente":  "Erico-Inativo",
+                                            "criadoEm":  "2026-09-30T17:48:08.000Z",
+                                            "atualizadoEm":  "2026-09-30T18:02:48.000Z",
+                                            "fechadoEm":  "2026-09-30T18:02:47.000Z"
+                                        },
+                              "shop9":  {
+                                            "possuiOrcamento":  true,
+                                            "quantidadeOrcamentos":  1,
+                                            "orcPrincipal":  {
+                                                                 "ordem":  438327,
+                                                                 "classificacao":  "RECENTE",
+                                                                 "idadeDias":  2,
+                                                                 "valorOrcado":  100.00,
+                                                                 "cliente":  "teste3",
+                                                                 "vendedorReal":  "DAVI ARARUNA DE VASCONCELOS"
+                                                             },
+                                            "possuiVenda":  false,
+                                            "vendasViaOrcQtd":  0,
+                                            "vendasDiretasComReferenciaQtd":  0,
+                                            "valorVendidoViaOrc":  0,
+                                            "valorVendidoDireto":  0,
+                                            "valorVendidoTotal":  0
+                                        },
+                              "reconciliacao":  {
+                                                    "codigo":  "KOMMO_PERDIDO_COM_ORC_NAO_CONVERTIDO",
+                                                    "nivel":  "ATENCAO"
+                                                },
+                              "orcamentos":  [
+                                                 {
+                                                     "tipo":  "ORC",
+                                                     "kommoLeadId":  "26864236",
+                                                     "ordemShop9":  438327,
+                                                     "data":  "2026-09-28",
+                                                     "idadeDias":  2,
+                                                     "clienteId":  93282,
+                                                     "cliente":  "teste3",
+                                                     "vendedorId":  2126,
+                                                     "vendedor":  "DAVI ARARUNA DE VASCONCELOS",
+                                                     "valor":  100.00,
+                                                     "classificacao":  "RECENTE",
+                                                     "vendaOrdem":  null,
+                                                     "dataVenda":  null,
+                                                     "valorVendido":  null
+                                                 }
+                                             ],
+                              "vendasComReferencia":  [
+
+                                                      ]
+                          }
+                      ],
+    "referenciasNaoConciliadas":  [
+                                      {
+                                          "tipo":  "VND",
+                                          "referenciaInterna":  "6",
+                                          "ordemShop9":  71104,
+                                          "valor":  6.00,
+                                          "cliente":  "MARIA DAS GRAÇAS LEITE DO NASCIMENTO",
+                                          "vendedor":  "Marcelo da Silva Melo",
+                                          "classificacao":  "VND_SEM_ORC_CANDIDATA",
+                                          "tratamento":  "REFERENCIA_NAO_CONCILIADA"
+                                      }
+                                  ]
+}
