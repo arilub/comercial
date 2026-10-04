@@ -1,23 +1,23 @@
 # ============================================================
 # ARILUB - SERIE TEMPORAL COMERCIAL SHOP9
-# V1.0
+# V1.1
 #
 # Fonte:
-# C:\ARILUB\Comercial\comercial-shop9.json
+# C:\ARILUB\Comercial\integrador-v2\saida\shop9-v2.json
 #
 # Saida:
-# C:\ARILUB\Comercial\comercial-shop9-series-v1.json
+# C:\ARILUB\Comercial\integrador-v2\saida\shop9-series-v1.json
 #
 # Objetivo:
 # Gerar series agregadas por dia e por mes para o Painel Comercial.
 # Nao acessa SQL. Nao altera Shop9. Trabalha somente sobre o JSON
-# homologado produzido pelo extrator Shop9 V1.4.
+# homologado produzido pelo extrator Shop9 V2/V1.4 reconstruido.
 # ============================================================
 
 $ErrorActionPreference = "Stop"
 
-$ArquivoEntrada = "C:\ARILUB\Comercial\comercial-shop9.json"
-$ArquivoSaida   = "C:\ARILUB\Comercial\comercial-shop9-series-v1.json"
+$ArquivoEntrada = "C:\ARILUB\Comercial\integrador-v2\saida\shop9-v2.json"
+$ArquivoSaida   = "C:\ARILUB\Comercial\integrador-v2\saida\shop9-series-v1.json"
 
 function Decimal-Zero {
     param($Valor)
@@ -90,7 +90,7 @@ function Arredondar-Moeda {
 
 Write-Host ""
 Write-Host "==============================================="
-Write-Host " ARILUB - SERIE TEMPORAL SHOP9 V1.0"
+Write-Host " ARILUB - SERIE TEMPORAL SHOP9 V1.1"
 Write-Host "==============================================="
 Write-Host ""
 
@@ -98,7 +98,7 @@ if (-not (Test-Path $ArquivoEntrada)) {
     throw "Arquivo de entrada nao encontrado: $ArquivoEntrada"
 }
 
-Write-Host "Carregando comercial-shop9.json..."
+Write-Host "Carregando shop9-v2.json..."
 
 $dados = Get-Content -Raw -Encoding UTF8 $ArquivoEntrada | ConvertFrom-Json
 
@@ -428,7 +428,7 @@ $documento = [ordered]@{
             "ARILUB Comercial"
 
         versao =
-            "series-shop9-1.0.0"
+            "series-shop9-1.1.0"
 
         geradoEm =
             (Get-Date).ToString(
@@ -436,7 +436,7 @@ $documento = [ordered]@{
             )
 
         fonte =
-            "comercial-shop9.json"
+            "shop9-v2.json"
 
         fonteExtratorVersao =
             $dados.meta.versaoExtrator
