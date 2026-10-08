@@ -73,11 +73,28 @@ function analise(){if(renderAnalitico())return;let sel=$('canalAnalise').value,c
 function insights(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']),tot=vd.vendasValor+li.vendasValor,proj=projectionMonthly(['VENDA_DIRETA'])+projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']),gap=META-proj,fs=sellerStats(PIPE_D,'Fabiana',missDirect),es=sellerStats(PIPE_L,'Edvaldo',missLic),arr=[];arr.push(['Meta e projeção',proj>=META?'ok':'wa',proj>=META?'Projeção atual acima/igual à meta geral.':'Projeção atual abaixo da meta geral em '+brl(Math.max(0,gap))+'.']);let share=tot?Math.max(vd.vendasValor,li.vendasValor)/tot*100:0;arr.push(['Composição dos canais',share>80?'wa':'',tot?'Maior canal representa '+pct(share)+' do realizado dos dois canais.':'Sem realizado no período.']);arr.push(['Saúde da carteira · Venda Direta',fs.old>0?'bad':'ok',num(fs.old)+' oportunidade(s) aberta(s) sem evolução há 15+ dias; '+num(fs.pend)+' pendência(s) de campo.']);arr.push(['Saúde da carteira · Licitação',es.old>0?'bad':'ok',num(es.old)+' oportunidade(s) aberta(s) sem evolução há 15+ dias; '+num(es.pend)+' pendência(s) de campo.']);if(A?.ready){let sales=A.movimentos.filter(x=>x.tipo_operacao==='VND'&&inDetailPeriod(x));let totalA=sales.reduce((s,x)=>s+(+x.valor_documento||0),0),cm=new Map();for(const x of sales){let id=String(x.cliente_id);cm.set(id,(cm.get(id)||0)+(+x.valor_documento||0))}let top=[...cm.values()].sort((a,b)=>b-a)[0]||0,shareC=totalA?top/totalA*100:0;arr.push(['Concentração de clientes',shareC>25?'wa':'ok',sales.length?'Maior cliente representa '+pct(shareC)+' do faturamento detalhado no recorte.':'Sem vendas detalhadas no recorte.']);arr.push(['Camada analítica Shop9','ok','Detalhe de 12 meses carregado. Clientes, produtos e ORCs usam fatos do Shop9; ajustes documentais não são rateados.'])}else arr.push(['Camada analítica Shop9','wa','Arquivos detalhados de 12 meses ainda não carregados. A aba Análise Comercial permanece em modo agregado.']);$('insightGrid').innerHTML=arr.map(([t,c,b])=>`<div class="card insight ${c}"><div class="h">${t}</div><div>${b}</div></div>`).join('')}function render(){document.querySelectorAll('.period-btn').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.monthSel').forEach(x=>{x.disabled=p!=='mes';x.value=mr});dashboard();channelTabs();analise();insights()}function wire(){document.querySelectorAll('.nb').forEach(b=>b.onclick=()=>{document.querySelectorAll('.nb,.sec').forEach(x=>x.classList.remove('on'));b.classList.add('on');$(b.dataset.sec).classList.add('on')});document.querySelectorAll('.period-btn').forEach(b=>b.onclick=()=>{p=b.dataset.p;if(p!=='mes')mr=latest().slice(0,7);render()});document.querySelectorAll('.monthSel').forEach(s=>s.onchange=()=>{mr=s.value;p='mes';render()});['canalAnalise','vendedorAnalise','clienteAnalise','produtoAnalise','situacaoAnalise'].forEach(id=>$(id).onchange=()=>{analise();insights()})}
 async function jf(u){let r=await fetch(u,{cache:'no-store'});if(!r.ok)throw Error(u+' HTTP '+r.status);return r.json()}
 async function loadAnalytics(){try{let[mov,it,pr,cl,ln,aj,hist,man]=await Promise.all([jf(AX.movimentos),jf(AX.itens),jf(AX.produtos),jf(AX.clientes),jf(AX.links),jf(AX.ajustes),jf(AX.historico),jf(AX.manifesto)]);A={ready:true,movimentos:mov,itens:it,produtos:pr,clientes:cl,links:ln,ajustes:aj,historico:hist,manifesto:man};
-let _ge=String(man.gerado_em||man.geradoEm||'');
-let _gm=_ge.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/);
-if(_gm){
-    $('updateBadge').textContent='Atualizado (Shop9/Kommo): '+_gm[3]+'/'+_gm[2]+'/'+_gm[1]+' '+_gm[4]+':'+_gm[5]+':'+_gm[6]+' · Cálculos Rev. 2';
-}
+
 A.cliMap=new Map(cl.map(x=>[String(x.cliente_id),x]));A.prodMap=new Map(pr.map(x=>[String(x.produto_id),x]));A.linkSet=new Set(ln.map(x=>String(x.orcamento_id)));let cs=$('clienteAnalise'),ps=$('produtoAnalise');cl.slice().sort((a,b)=>String(a.cliente_nome||'').localeCompare(String(b.cliente_nome||''),'pt-BR')).forEach(x=>cs.add(new Option(x.cliente_nome||('Cliente '+x.cliente_id),String(x.cliente_id))));pr.slice().sort((a,b)=>String(a.produto||'').localeCompare(String(b.produto||''),'pt-BR')).forEach(x=>ps.add(new Option((x.produto||('Produto '+x.produto_id))+' · '+(x.fabricante||'s/fabricante'),String(x.produto_id))));['vendedorAnalise','clienteAnalise','produtoAnalise','situacaoAnalise'].forEach(id=>$(id).disabled=false);let j=man.janela_detalhada||{};$('analyticsStatus').innerHTML='<b>Camada analítica Shop9:</b><span class="pill">12 MESES</span><span>'+dbr(j.data_inicio||'')+' a '+dbr(j.data_fim||'')+'</span><span>'+num(mov.length)+' movimentos · '+num(it.length)+' itens</span><span class="pill">NOMES REAIS · SEM CPF/CNPJ</span>'}catch(e){A={ready:false,error:e.message};$('analyticsStatus').innerHTML='<b>Camada analítica Shop9:</b><span class="pill">AGREGADO</span><span>arquivos detalhados de 12 meses ainda não disponíveis.</span>'}}
-async function init(){wire();try{let[db,ds]=await Promise.all([fetch(D,{cache:'no-store'}),fetch(C,{cache:'no-store'})]);if(!ds.ok)throw Error('Canal HTTP '+ds.status);S=await ds.json();B=db.ok?await db.json():null;if(!Array.isArray(S.diasCanal)||!Array.isArray(S.mesesCanal))throw Error('Payload de canal inválido');fill();$('status').innerHTML='<b>Fonte de resultado:</b> Shop9 por canal homologado · até '+dbr(latest())+' · <span class="pill">PRODUÇÃO</span>';await loadAnalytics();render()}catch(e){$('status').textContent='Falha ao carregar V4.2: '+e.message}}init();
+async function loadUpdateStatus(){
+    try{
+        let r=await fetch('./status-atualizacao.json',{cache:'no-store'});
+        if(!r.ok)throw Error('HTTP '+r.status);
+
+        let s=await r.json();
+        let ge=String(s.ultima_execucao_sucesso||'');
+        let gm=ge.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/);
+
+        if(gm){
+            $('updateBadge').textContent=
+                'Atualizado (Shop9/Kommo): '+
+                gm[3]+'/'+gm[2]+'/'+gm[1]+' '+
+                gm[4]+':'+gm[5]+':'+gm[6]+
+                ' · Cálculos Rev. 2';
+        }
+    }catch(e){
+        console.warn('Status de atualizacao indisponivel:',e.message);
+    }
+}
+async function init(){wire();await loadUpdateStatus();try{let[db,ds]=await Promise.all([fetch(D,{cache:'no-store'}),fetch(C,{cache:'no-store'})]);if(!ds.ok)throw Error('Canal HTTP '+ds.status);S=await ds.json();B=db.ok?await db.json():null;if(!Array.isArray(S.diasCanal)||!Array.isArray(S.mesesCanal))throw Error('Payload de canal inválido');fill();$('status').innerHTML='<b>Fonte de resultado:</b> Shop9 por canal homologado · até '+dbr(latest())+' · <span class="pill">PRODUÇÃO</span>';await loadAnalytics();render()}catch(e){$('status').textContent='Falha ao carregar V4.2: '+e.message}}init();
 </script></body></html>
+
