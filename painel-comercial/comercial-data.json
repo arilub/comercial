@@ -2,20 +2,20 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "1.0.0-demo",
-                 "geradoEm":  "2026-10-09T07:19:40-03:00",
+                 "geradoEm":  "2026-10-09T08:18:54-03:00",
                  "publicacao":  "TRANSITORIA_GITHUB",
                  "seguranca":  "DADOS_OPERACIONAIS_PUBLICADOS_TEMPORARIAMENTE",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3608,
+    "totalLeads":  3609,
     "porEtapa":  {
                      "Venda perdida":  1341,
                      "Venda ganha":  941,
                      "Cliente Ativo":  594,
-                     "NegociaÃ§Ã£o":  483,
-                     "Nova Sondagem":  152,
-                     "Chegada do Lead":  91,
+                     "NegociaÃ§Ã£o":  484,
+                     "Nova Sondagem":  151,
+                     "Chegada do Lead":  92,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
                      "Contato Inicial":  1
@@ -24,7 +24,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  1947,
+                          "leads":  1948,
                           "ganhos":  452,
                           "perdidos":  1019
                       },
@@ -51,7 +51,7 @@
                    "ticketMedio":  2593.15,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  223,
+                                                        "totalLeads":  224,
                                                         "ganhosQtd":  79,
                                                         "perdidosQtd":  6,
                                                         "ganhosValor":  220497
@@ -65,12 +65,12 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  31,
+                      "WhatsApp":  32,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
                             "Geral/Outros":  {
-                                                 "totalLeads":  31,
+                                                 "totalLeads":  32,
                                                  "ganhosQtd":  10,
                                                  "ganhosValor":  44853
                                              },
@@ -105,16 +105,16 @@
                                      "ganhosValor":  411
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
-                                 },
-                                 {
                                      "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
                                  },
                                  {
                                      "nome":  "ROLAMENTOS",
@@ -123,10 +123,16 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "GRAXA KARTER CHASSIS 20 KG",
+                                     "nome":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1161
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo mobil therm 605 bd 20 litros",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo vr lub 220 ep",
@@ -135,34 +141,10 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO VALVOLINE CI4 15W40 BD 20 LITROS E700",
+                                     "nome":  "GRAXA KARTER CHASSIS 20 KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  1853
-                                 },
-                                 {
-                                     "nome":  "OLEO CI4 15W40 VR LUB BALDE 20 LITROS",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo vr lub aws 68 balde 20 litros",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  4907
-                                 },
-                                 {
-                                     "nome":  "econoline 68 bd 20 litros",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1994
-                                 },
-                                 {
-                                     "nome":  "oleo tac 450 dulub 20 litros",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosValor":  1161
                                  },
                                  {
                                      "nome":  "oleo 1000 vr lub litro",
@@ -171,16 +153,28 @@
                                      "ganhosValor":  166
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 2 VR LUB 20KG",
+                                     "nome":  "oleo vr lub aws 68 balde 20 litros",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  4907
+                                 },
+                                 {
+                                     "nome":  "OLEO CI4 15W40 VR LUB BALDE 20 LITROS",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo 68 vr lub, 250 e graxa 20 kg vr lub",
+                                     "nome":  "oleo tac 450 dulub 20 litros",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "15W40 BD 20L VAVOLINE",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  3332
+                                     "ganhosValor":  1020
                                  },
                                  {
                                      "nome":  "GRAXA GRAFITADA 20 KG",
@@ -195,19 +189,25 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "15W40 BD 20L VAVOLINE",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1020
-                                 },
-                                 {
-                                     "nome":  "oleo mobil therm 605 bd 20 litros",
+                                     "nome":  "EXTRA TURBO LUBRAX 6X3 E 20 LITROS",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
+                                     "nome":  "FILTRO DE COMBUSTIVEL TECFIL",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "VARIOS OLEOS LUBRAX, SHELL E MOBIL",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "trm 4 80 lubrax litro",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -216,15 +216,15 @@
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6004,
-                                     "valorTotal":  21509675.32,
+                                     "total":  6005,
+                                     "valorTotal":  21512260.67,
                                      "convertidos":  2530,
                                      "cancelados":  379,
-                                     "recente":  18,
+                                     "recente":  19,
                                      "acompanhamento":  35,
                                      "atencao":  60,
                                      "envelhecido":  2936,
-                                     "taxaConversao":  0.4214
+                                     "taxaConversao":  0.4213
                                  },
                   "vendas":  {
                                  "total":  70622,
@@ -680,20 +680,6 @@
                                   "diferencaPct":  0
                               },
                               {
-                                  "leadId":  15332674,
-                                  "pipelineId":  "9473539",
-                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
-                                  "classificacao":  "PROVAVEL",
-                                  "clienteShop9":  "Unilink Transportes Integrados Ltda",
-                                  "vendaOrdem":  438256,
-                                  "fechamentoKommo":  "2026-09-25",
-                                  "dataVenda":  "2026-09-25",
-                                  "diasDiferenca":  0,
-                                  "valorKommo":  1853,
-                                  "valorShop9":  1853.34,
-                                  "diferencaPct":  0.0183
-                              },
-                              {
                                   "leadId":  23404148,
                                   "pipelineId":  "9473539",
                                   "funil":  "PositivaÃ§Ã£o - Fabiana",
@@ -902,6 +888,20 @@
                                   "valorKommo":  985,
                                   "valorShop9":  984.69,
                                   "diferencaPct":  0.0315
+                              },
+                              {
+                                  "leadId":  15332674,
+                                  "pipelineId":  "9473539",
+                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Unilink Transportes Integrados Ltda",
+                                  "vendaOrdem":  438256,
+                                  "fechamentoKommo":  "2026-09-25",
+                                  "dataVenda":  "2026-09-25",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  1853,
+                                  "valorShop9":  1853.34,
+                                  "diferencaPct":  0.0183
                               }
                           ],
     "leads":  [
@@ -72684,48 +72684,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26817154,
-                      "nome":  "Autolead: CL 2189 MAISA",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206571",
-                      "etapa":  "Nova Sondagem",
-                      "valor":  0,
-                      "cliente":  "Unilink Transportes Integrados Ltda",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-09-25T16:28:48-03:00",
-                      "atualizadoEm":  "2026-09-28T09:46:35-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  15332674,
-                      "nome":  "CL 2189 MAISA",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  1853,
-                      "cliente":  "Unilink Transportes Integrados Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO VALVOLINE CI4 15W40 BD 20 LITROS E700",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-14T10:01:59-03:00",
-                      "atualizadoEm":  "2026-09-28T09:53:43-03:00",
-                      "fechadoEm":  "2026-09-25T16:28:46-03:00",
-                      "reconciliacaoHistorica":  "PROVAVEL",
-                      "vendaShop9":  438256
-                  },
-                  {
                       "id":  23404148,
                       "nome":  "Autolead: Lead #23323386",
                       "pipelineId":  "9473539",
@@ -76670,6 +76628,69 @@
                       "criadoEm":  "2025-12-12T11:40:53-03:00",
                       "atualizadoEm":  "2026-10-09T06:03:25-03:00",
                       "fechadoEm":  "2026-02-02T14:59:10-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26920322,
+                      "nome":  "Lead #26920322",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-09T08:11:39-03:00",
+                      "atualizadoEm":  "2026-10-09T08:12:25-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15332674,
+                      "nome":  "CL 2189 MAISA",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  1853,
+                      "cliente":  "Unilink Transportes Integrados Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO VALVOLINE CI4 15W40 BD 20 LITROS E700",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-14T10:01:59-03:00",
+                      "atualizadoEm":  "2026-10-09T08:15:05-03:00",
+                      "fechadoEm":  "2026-09-25T16:28:46-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438256
+                  },
+                  {
+                      "id":  26817154,
+                      "nome":  "Autolead: CL 2189 MAISA",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  2585,
+                      "cliente":  "Unilink Transportes Integrados Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "graxa gadus s3 220 2 shell bd 18 kg",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-09-25T16:28:48-03:00",
+                      "atualizadoEm":  "2026-10-09T08:16:38-03:00",
+                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
