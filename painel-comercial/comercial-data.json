@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "1.0.0-demo",
-                 "geradoEm":  "2026-10-13T23:17:56-03:00",
+                 "geradoEm":  "2026-10-14T00:17:34-03:00",
                  "publicacao":  "TRANSITORIA_GITHUB",
                  "seguranca":  "DADOS_OPERACIONAIS_PUBLICADOS_TEMPORARIAMENTE",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -220,9 +220,9 @@
                                      "valorTotal":  21552917.23,
                                      "convertidos":  2536,
                                      "cancelados":  379,
-                                     "recente":  24,
-                                     "acompanhamento":  30,
-                                     "atencao":  56,
+                                     "recente":  21,
+                                     "acompanhamento":  24,
+                                     "atencao":  65,
                                      "envelhecido":  2951,
                                      "taxaConversao":  0.4211
                                  },
