@@ -737,6 +737,17 @@
         "data_cadastro":  "2014-10-08"
     },
     {
+        "cliente_id":  2369,
+        "codigo_shop9":  3095,
+        "cliente_nome":  "Marfa Locacoes De Maquinas E Equipamentos Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2014-11-25"
+    },
+    {
         "cliente_id":  2371,
         "codigo_shop9":  3097,
         "cliente_nome":  "JOSE EUDES DE SOUSA SILVA",
@@ -8633,5 +8644,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-14"
+    },
+    {
+        "cliente_id":  93309,
+        "codigo_shop9":  4967,
+        "cliente_nome":  "World Epi Distribuidora Ltda",
+        "fantasia":  "",
+        "cidade":  "Eusébio",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-15"
     }
 ]
