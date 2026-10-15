@@ -1,0 +1,74 @@
+{
+    "versao":  "shop9-analytics-v3.0.0-homolog-local",
+    "gerado_em":  "2026-10-15T19:14:49",
+    "fonte":  "Snapshots locais da aquisicao central Shop9 V3",
+    "modo":  "processamento_local_zero_sql_zero_rede",
+    "janela_detalhada":  {
+                             "meses":  12,
+                             "data_inicio":  "2025-10-15",
+                             "data_fim":  "2026-10-15"
+                         },
+    "historico":  {
+                      "detalhe_completo":  false,
+                      "consolidado_mensal_completo":  true
+                  },
+    "arquivos":  {
+                     "movimentos":  {
+                                        "arquivo":  "shop9-analytics-movimentos-12m-v3.json",
+                                        "registros":  3403,
+                                        "tamanho_mb":  2.27,
+                                        "duracao_seg":  0.19
+                                    },
+                     "itens":  {
+                                   "arquivo":  "shop9-analytics-itens-12m-v3.json",
+                                   "registros":  4996,
+                                   "tamanho_mb":  2.53,
+                                   "duracao_seg":  0.2
+                               },
+                     "produtos":  {
+                                      "arquivo":  "shop9-analytics-produtos-12m-v3.json",
+                                      "registros":  659,
+                                      "tamanho_mb":  0.27,
+                                      "duracao_seg":  0.03
+                                  },
+                     "clientes":  {
+                                      "arquivo":  "shop9-analytics-clientes-local-12m-v3.json",
+                                      "registros":  787,
+                                      "tamanho_mb":  0.25,
+                                      "duracao_seg":  0.03
+                                  },
+                     "links":  {
+                                   "arquivo":  "shop9-analytics-orc-vnd-12m-v3.json",
+                                   "registros":  752,
+                                   "tamanho_mb":  0.11,
+                                   "duracao_seg":  0.01
+                               },
+                     "ajustes":  {
+                                     "arquivo":  "shop9-analytics-ajustes-12m-v3.json",
+                                     "registros":  3,
+                                     "tamanho_mb":  0,
+                                     "duracao_seg":  0
+                                 },
+                     "historico":  {
+                                       "arquivo":  "shop9-analytics-historico-mensal-v3.json",
+                                       "registros":  1425,
+                                       "tamanho_mb":  0.24,
+                                       "duracao_seg":  0.05
+                                   }
+                 },
+    "regras":  {
+                   "valor_oficial_documento":  "Movimento.Preco_Final_Somado preservado no snapshot V3",
+                   "valor_item":  "Movimento_Prod_Serv.Preco_Final preservado no snapshot V3",
+                   "linha_excluida":  "fora da fato de itens",
+                   "ajuste_documental":  "cabecalho - soma dos itens ativos; sem rateio automatico",
+                   "abc_cliente":  "calcular analiticamente por faturamento; nao usar campo ABC nativo"
+               },
+    "privacidade":  {
+                        "arquivo_clientes_local":  true,
+                        "contem_nome_cliente":  true,
+                        "contem_cpf_cnpj":  false,
+                        "contem_telefone":  false,
+                        "contem_endereco":  false,
+                        "publicar_clientes_em_github_publico":  false
+                    }
+}
