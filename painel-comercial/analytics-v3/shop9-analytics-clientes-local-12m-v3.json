@@ -1309,17 +1309,6 @@
         "data_cadastro":  "2019-09-30"
     },
     {
-        "cliente_id":  65895,
-        "codigo_shop9":  3717,
-        "cliente_nome":  " ESTRUTURAL COMERCIO E SERVICOS LTDA",
-        "fantasia":  "ESTRUTURAL",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2019-10-10"
-    },
-    {
         "cliente_id":  66942,
         "codigo_shop9":  3744,
         "cliente_nome":  "Hm Imports Comercio E Maquinario De Construcao Ltda",
@@ -3597,6 +3586,17 @@
         "data_cadastro":  "2025-03-06"
     },
     {
+        "cliente_id":  86491,
+        "codigo_shop9":  2332,
+        "cliente_nome":  "MERCONPLAS INDUSTRIAL DE PLASTICOS COMERCIO LTDA",
+        "fantasia":  "não disponivel",
+        "cidade":  "Arapiraca",
+        "uf":  "AL",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2025-03-17"
+    },
+    {
         "cliente_id":  86523,
         "codigo_shop9":  4294,
         "cliente_nome":  "Itl Industria De Tecnologia Maquinas E Equipamentos Ltda",
@@ -4057,39 +4057,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2025-10-10"
-    },
-    {
-        "cliente_id":  89756,
-        "codigo_shop9":  4492,
-        "cliente_nome":  "Associacao Dos Taxistas De Iraucuba",
-        "fantasia":  "Associacao Dos Taxista De Iraucuba",
-        "cidade":  "Irauçuba",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-15"
-    },
-    {
-        "cliente_id":  89757,
-        "codigo_shop9":  4493,
-        "cliente_nome":  "Doutor Arla Pecas E Servicos Automotivos Ltda - Epp",
-        "fantasia":  "",
-        "cidade":  "Maracanaú",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-15"
-    },
-    {
-        "cliente_id":  89758,
-        "codigo_shop9":  4494,
-        "cliente_nome":  "Nmq Comercio De Maquinas E Equipamentos Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-15"
     },
     {
         "cliente_id":  90756,
@@ -8655,5 +8622,49 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-15"
+    },
+    {
+        "cliente_id":  93310,
+        "codigo_shop9":  4968,
+        "cliente_nome":  "Eagle Solucoes Tecnologicas Ltda",
+        "fantasia":  "Eagle Solucoes Tecnologicas",
+        "cidade":  "Blumenau",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93311,
+        "codigo_shop9":  4969,
+        "cliente_nome":  "Maredomus Turismo Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93312,
+        "codigo_shop9":  4970,
+        "cliente_nome":  "Auto Cuidado Servicos E Comercio De Pecas Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93313,
+        "codigo_shop9":  4971,
+        "cliente_nome":  "Cidscar Solucao Automotiva Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
     }
 ]
