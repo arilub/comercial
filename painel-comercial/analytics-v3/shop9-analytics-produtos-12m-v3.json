@@ -1380,6 +1380,21 @@
         "unidade":  "UN"
     },
     {
+        "produto_id":  2109,
+        "codigo":  "OC35",
+        "produto":  "FILTRO MAHLE OLEO MT. MWM D229/6  (PSL339)",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  13,
+        "grupo":  "35%",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10032,
+        "fabricante":  "MAHLE",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  2136,
         "codigo":  "PEL108",
         "produto":  "FILTRO OLEO PEUGEOT 206 1.4 16V 04\u003e (WOE710) ",
@@ -6283,21 +6298,6 @@
         "fabricante":  "INTELBRAS",
         "unidade_id":  10030,
         "unidade":  "UN"
-    },
-    {
-        "produto_id":  63581,
-        "codigo":  "5741",
-        "produto":  "10W40 CI-4 S.SINT 20L SUPER EXTRON",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  39986,
-        "fabricante":  "EXTRON",
-        "unidade_id":  10002,
-        "unidade":  "BD"
     },
     {
         "produto_id":  63583,
