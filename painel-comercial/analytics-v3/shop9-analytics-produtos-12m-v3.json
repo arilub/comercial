@@ -1305,21 +1305,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  2001,
-        "codigo":  "192",
-        "produto":  "GRAXA COBREADA CONDUTIVA1KG",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  19,
-        "grupo":  "65%",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  10204,
-        "fabricante":  "ROCOL",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  2002,
         "codigo":  "1024K",
         "produto":  "GRAXA LITHPLUS EP-2 KARTER 20KG",
@@ -6165,21 +6150,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  63564,
-        "codigo":  "1547",
-        "produto":  "LUMINARIA HERMETICA IP65 2XT8 120CM - LUMEPETRO",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39985,
-        "fabricante":  "LUMEPETRO",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  63565,
         "codigo":  "ARS9839",
         "produto":  "FILTRO DE AR RADIAL SEAL USA ARS9839",
@@ -6313,21 +6283,6 @@
         "fabricante":  "ALL LUBRIFICANTES",
         "unidade_id":  10002,
         "unidade":  "BD"
-    },
-    {
-        "produto_id":  63585,
-        "codigo":  "14744",
-        "produto":  "CEFER 1L SN 0.5 PE/STI ALA 500V CZ UV CONDUFERES",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39990,
-        "fabricante":  "CONDUFERES",
-        "unidade_id":  10018,
-        "unidade":  "MT"
     },
     {
         "produto_id":  63586,
