@@ -8622,5 +8622,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93314,
+        "codigo_shop9":  4972,
+        "cliente_nome":  "Gsc Atelier Comercio De Pedras E Superficies Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-19"
     }
 ]
