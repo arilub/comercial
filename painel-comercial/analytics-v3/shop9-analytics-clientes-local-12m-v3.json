@@ -8633,5 +8633,27 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-19"
+    },
+    {
+        "cliente_id":  93315,
+        "codigo_shop9":  4973,
+        "cliente_nome":  "Dinamic Servicos Ltda",
+        "fantasia":  "",
+        "cidade":  "Itapipoca",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-19"
+    },
+    {
+        "cliente_id":  93316,
+        "codigo_shop9":  4974,
+        "cliente_nome":  "Acb Auto Service E Engenharia Mecanica Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-19"
     }
 ]
