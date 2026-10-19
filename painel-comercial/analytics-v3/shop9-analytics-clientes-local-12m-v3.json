@@ -1980,17 +1980,6 @@
         "data_cadastro":  "2023-04-17"
     },
     {
-        "cliente_id":  78472,
-        "codigo_shop9":  4182,
-        "cliente_nome":  "PAVIMARI INDUSTRIA E COMERCIO DE ARTEFATOS DE CIMENTO LTDA",
-        "fantasia":  "PAVIMARI BRASIL",
-        "cidade":  "Eusébio",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2023-04-20"
-    },
-    {
         "cliente_id":  78474,
         "codigo_shop9":  4184,
         "cliente_nome":  "Global Ship Service Ltda",
@@ -3916,17 +3905,6 @@
         "data_cadastro":  "2025-08-01"
     },
     {
-        "cliente_id":  88675,
-        "codigo_shop9":  4428,
-        "cliente_nome":  "MANOEL PAIVA FILHO",
-        "fantasia":  "",
-        "cidade":  "Boa Viagem",
-        "uf":  "CE",
-        "fisica_juridica":  "F",
-        "inativo":  false,
-        "data_cadastro":  "2025-08-05"
-    },
-    {
         "cliente_id":  88694,
         "codigo_shop9":  4446,
         "cliente_nome":  "Clara Jenifer Eloi De Oliveira 08778015332",
@@ -4070,33 +4048,11 @@
         "data_cadastro":  "2025-10-16"
     },
     {
-        "cliente_id":  90757,
-        "codigo_shop9":  4496,
-        "cliente_nome":  "Organizacao Helio Meireles Petroleo Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-17"
-    },
-    {
         "cliente_id":  90758,
         "codigo_shop9":  4497,
         "cliente_nome":  "Projeinox Industria E Comercio De Refrigeracao Ltda Me",
         "fantasia":  "",
         "cidade":  "Caucaia",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-17"
-    },
-    {
-        "cliente_id":  90759,
-        "codigo_shop9":  4498,
-        "cliente_nome":  "J A Ires Filho Comercio De Materiais De Construcoes Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
         "uf":  "CE",
         "fisica_juridica":  "J",
         "inativo":  false,
