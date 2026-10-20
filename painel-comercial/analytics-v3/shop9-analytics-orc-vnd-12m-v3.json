@@ -4488,6 +4488,12 @@
         "valor_venda":  3913.8800
     },
     {
+        "orcamento_id":  438489,
+        "venda_id":  438514,
+        "data_venda":  "2026-10-20",
+        "valor_venda":  1492.3100
+    },
+    {
         "orcamento_id":  438491,
         "venda_id":  438492,
         "data_venda":  "2026-10-19",
@@ -4504,5 +4510,11 @@
         "venda_id":  438504,
         "data_venda":  "2026-10-20",
         "valor_venda":  537.0000
+    },
+    {
+        "orcamento_id":  438512,
+        "venda_id":  438513,
+        "data_venda":  "2026-10-20",
+        "valor_venda":  540.0000
     }
 ]
