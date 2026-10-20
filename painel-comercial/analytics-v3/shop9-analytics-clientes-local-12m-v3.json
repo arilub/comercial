@@ -8655,5 +8655,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-19"
+    },
+    {
+        "cliente_id":  93317,
+        "codigo_shop9":  4975,
+        "cliente_nome":  "Nova Wuhu Comercio De Veiculos Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-20"
     }
 ]
