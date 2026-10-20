@@ -67738,5 +67738,25 @@
         "orcamento_mantido":  false,
         "motivo_cancelamento_orcamento":  0,
         "referencia_interna":  null
+    },
+    {
+        "movimento_id":  438502,
+        "tipo_operacao":  "ORC",
+        "data_movimento":  "2026-10-20",
+        "data_criacao":  "2026-10-20 09:01:38",
+        "cliente_id":  68076,
+        "vendedor_id":  17,
+        "vendedor_origem":  "MARITZA FABIANA LIMA E SILVA ",
+        "valor_documento":  1086.1000,
+        "valor_sem_desconto":  1086.1000,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "despesa_acessoria":  0.0000,
+        "apagado":  false,
+        "invalido":  false,
+        "orcamento_mantido":  false,
+        "motivo_cancelamento_orcamento":  0,
+        "referencia_interna":  null
     }
 ]
