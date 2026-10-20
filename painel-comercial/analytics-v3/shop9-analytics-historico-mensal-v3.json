@@ -9957,15 +9957,15 @@
         "mes":  "2026-10",
         "tipo_operacao":  "ORC",
         "vendedor_id":  17,
-        "quantidade_documentos":  105,
-        "valor_total":  262048.1200
+        "quantidade_documentos":  106,
+        "valor_total":  260932.2100
     },
     {
         "mes":  "2026-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  57,
-        "valor_total":  62499.4700
+        "quantidade_documentos":  60,
+        "valor_total":  64760.7800
     },
     {
         "mes":  "2026-10",
