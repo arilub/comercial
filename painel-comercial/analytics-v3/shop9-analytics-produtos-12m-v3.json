@@ -9853,5 +9853,20 @@
         "fabricante":  "Não Cadastrado",
         "unidade_id":  10030,
         "unidade":  "UN"
+    },
+    {
+        "produto_id":  65943,
+        "codigo":  "P-PA-01-0028-F01",
+        "produto":  "GRAXA LITH EVORA EP - NLGI 0  20KG",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10021,
+        "fabricante":  "EVORA",
+        "unidade_id":  10002,
+        "unidade":  "BD"
     }
 ]
