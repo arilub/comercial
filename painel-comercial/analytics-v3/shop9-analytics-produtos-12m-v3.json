@@ -540,6 +540,21 @@
         "unidade":  "BD"
     },
     {
+        "produto_id":  178,
+        "codigo":  "1002395",
+        "produto":  "15W40 CI4/SL 20L TOP TURBO LUBRAX",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  14,
+        "grupo":  "40%",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10003,
+        "fabricante":  "LuBRax",
+        "unidade_id":  10002,
+        "unidade":  "BD"
+    },
+    {
         "produto_id":  179,
         "codigo":  "1002396",
         "produto":  "15W40 CI4/SL 200L TOP TURBO LUBRAX ",
