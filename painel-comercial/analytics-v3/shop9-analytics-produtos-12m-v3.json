@@ -5940,21 +5940,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  63506,
-        "codigo":  "716669",
-        "produto":  "SILICONE VERMELHO ACETICO 300G LOCTITE",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39978,
-        "fabricante":  "HENKEL",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  63512,
         "codigo":  "39605918",
         "produto":  "FLUIDO P/RADIADOR CAMINHAO PRONTO USO 20L IPIRANGA",
