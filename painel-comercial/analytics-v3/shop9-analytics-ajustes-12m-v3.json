@@ -25,5 +25,14 @@
         "valor_itens":  1862.4000,
         "ajuste_documental":  186.2400,
         "tipo_ajuste":  "AJUSTE_NAO_ATRIBUIDO"
+    },
+    {
+        "movimento_id":  438525,
+        "tipo_operacao":  "VND",
+        "data_movimento":  "2026-10-21",
+        "valor_documento":  32.0000,
+        "valor_itens":  97.0000,
+        "ajuste_documental":  -65.0000,
+        "tipo_ajuste":  "AJUSTE_NAO_ATRIBUIDO"
     }
 ]
