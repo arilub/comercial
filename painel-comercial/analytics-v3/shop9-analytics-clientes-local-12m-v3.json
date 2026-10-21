@@ -2596,17 +2596,6 @@
         "data_cadastro":  "2024-01-15"
     },
     {
-        "cliente_id":  78816,
-        "codigo_shop9":  2816,
-        "cliente_nome":  "S PONTES SALGADO ENGENHARIA CLINICA E CONSULTORIA",
-        "fantasia":  "ETS ENGENHARIA E CONSULTORIA",
-        "cidade":  "São Luís",
-        "uf":  "MA",
-        "fisica_juridica":  "J",
-        "inativo":  true,
-        "data_cadastro":  "2024-01-16"
-    },
-    {
         "cliente_id":  78832,
         "codigo_shop9":  2803,
         "cliente_nome":  "FRANCISCO FERNANDES BARROS 31003974368",
@@ -4057,28 +4046,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2025-10-17"
-    },
-    {
-        "cliente_id":  90760,
-        "codigo_shop9":  4499,
-        "cliente_nome":  "Rentruck Locacao De Maquinas E Caminhoes Ltda",
-        "fantasia":  "Rentruck Locacao De Maquinas E Caminhoes",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-20"
-    },
-    {
-        "cliente_id":  90761,
-        "codigo_shop9":  4500,
-        "cliente_nome":  "ANTONIO LAFAIETE SILVA DE FREITAS",
-        "fantasia":  "ANTONIO LAFAIETE SILVA DE FREITAS",
-        "cidade":  "Caucaia",
-        "uf":  "CE",
-        "fisica_juridica":  "F",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-20"
     },
     {
         "cliente_id":  90762,
