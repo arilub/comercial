@@ -2,19 +2,19 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-22T16:23:08-03:00",
+                 "geradoEm":  "2026-10-22T17:23:06-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3703,
+    "totalLeads":  3705,
     "porEtapa":  {
                      "Venda perdida":  1335,
-                     "Venda ganha":  955,
-                     "Cliente Ativo":  589,
-                     "NegociaÃ§Ã£o":  521,
-                     "Nova Sondagem":  153,
+                     "Venda ganha":  957,
+                     "Cliente Ativo":  591,
+                     "NegociaÃ§Ã£o":  520,
+                     "Nova Sondagem":  152,
                      "Chegada do Lead":  144,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
@@ -31,8 +31,8 @@
                       {
                           "pipelineId":  "9473539",
                           "funil":  "PositivaÃ§Ã£o - Fabiana",
-                          "leads":  1642,
-                          "ganhos":  477,
+                          "leads":  1644,
+                          "ganhos":  479,
                           "perdidos":  311
                       },
                       {
@@ -44,17 +44,17 @@
                       }
                   ],
     "vendas":  {
-                   "ganhosQtd":  955,
-                   "ganhosValor":  2462024,
+                   "ganhosQtd":  957,
+                   "ganhosValor":  2474831,
                    "perdidosQtd":  1335,
                    "perdidosValor":  5139285,
-                   "ticketMedio":  2578.04,
+                   "ticketMedio":  2586.03,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  282,
-                                                        "ganhosQtd":  95,
+                                                        "totalLeads":  283,
+                                                        "ganhosQtd":  97,
                                                         "perdidosQtd":  6,
-                                                        "ganhosValor":  244092
+                                                        "ganhosValor":  256899
                                                     },
                                         "Erico-Inativo":  {
                                                               "totalLeads":  7,
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  94,
+                      "WhatsApp":  95,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
@@ -75,9 +75,9 @@
                                                  "ganhosValor":  50815
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  182,
-                                                  "ganhosQtd":  61,
-                                                  "ganhosValor":  149745
+                                                  "totalLeads":  183,
+                                                  "ganhosQtd":  63,
+                                                  "ganhosValor":  162552
                                               },
                             "Polipropileno":  {
                                                   "totalLeads":  1,
@@ -99,18 +99,6 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
-                                 },
-                                 {
                                      "nome":  "graxa azul karter 20 kg",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
@@ -129,20 +117,20 @@
                                      "ganhosValor":  411
                                  },
                                  {
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
+                                 },
+                                 {
                                      "nome":  "ROLAMENTOS",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "GRAXA CLAY 2 LUBRAX 20 KG",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "filtro de combustivel e cabecote de filtro",
-                                     "totalLeads":  1,
+                                     "nome":  "GRAXA AZUL 10KG",
+                                     "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
@@ -151,6 +139,12 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  1853
+                                 },
+                                 {
+                                     "nome":  "filtro de combustivel e cabecote de filtro",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "LUBRAX HYDRA XP 15 BD 20 LITROS",
@@ -165,7 +159,7 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO SOLUVEL ALL PS 100 20L",
+                                     "nome":  "graxa gadus s3 220 2 shell bd 18 kg",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -189,6 +183,12 @@
                                      "ganhosValor":  0
                                  },
                                  {
+                                     "nome":  "OLEO SOLUVEL ALL PS 100 20L",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "OLEO 680 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
@@ -201,7 +201,7 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA MARFAX MP2 20KG TEXACO",
+                                     "nome":  "OLEO HIDRAULICO 46 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -217,18 +217,18 @@
     "shop9":  {
                   "orcamentos":  {
                                      "total":  6082,
-                                     "valorTotal":  21679202.22,
-                                     "convertidos":  2562,
+                                     "valorTotal":  21679578.62,
+                                     "convertidos":  2563,
                                      "cancelados":  379,
-                                     "recente":  30,
+                                     "recente":  29,
                                      "acompanhamento":  26,
                                      "atencao":  53,
                                      "envelhecido":  2986,
-                                     "taxaConversao":  0.4212
+                                     "taxaConversao":  0.4214
                                  },
                   "vendas":  {
-                                 "total":  70666,
-                                 "valorTotal":  51873481.48,
+                                 "total":  70667,
+                                 "valorTotal":  51874269.28,
                                  "ticketMedio":  734.07,
                                  "semOrc":  68104,
                                  "valorSemOrc":  47064525.97
@@ -236,9 +236,9 @@
               },
     "integracao":  {
                        "vinculoDefinitivoLeadId":  0,
-                       "reconciliacaoHistorica":  59,
+                       "reconciliacaoHistorica":  61,
                        "forteProvisorio":  14,
-                       "provavel":  45,
+                       "provavel":  47,
                        "ambiguo":  3,
                        "documentoAmbiguo":  0,
                        "semClienteShop9":  8,
@@ -1084,6 +1084,34 @@
                                   "valorKommo":  3332,
                                   "valorShop9":  3332.48,
                                   "diferencaPct":  0.0144
+                              },
+                              {
+                                  "leadId":  24339094,
+                                  "pipelineId":  "9473539",
+                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Maximus Grafica E Editora Ltda",
+                                  "vendaOrdem":  438545,
+                                  "fechamentoKommo":  "2026-10-22",
+                                  "dataVenda":  "2026-10-22",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  787,
+                                  "valorShop9":  787.80,
+                                  "diferencaPct":  0.1017
+                              },
+                              {
+                                  "leadId":  26707268,
+                                  "pipelineId":  "9473539",
+                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Jeri-1 Empreendimento Imobiliario Spe Ltda",
+                                  "vendaOrdem":  438542,
+                                  "fechamentoKommo":  "2026-10-22",
+                                  "dataVenda":  "2026-10-22",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  12020,
+                                  "valorShop9":  12020.38,
+                                  "diferencaPct":  0.0032
                               }
                           ],
     "leads":  [
@@ -64655,27 +64683,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26707268,
-                      "nome":  "Autolead: Lead #24870388",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206571",
-                      "etapa":  "Nova Sondagem",
-                      "valor":  0,
-                      "cliente":  "Jeri-1 Empreendimento Imobiliario Spe Ltda",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-09-10T15:25:54-03:00",
-                      "atualizadoEm":  "2026-09-10T17:50:43-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24279830,
                       "nome":  "DUDA",
                       "pipelineId":  "9334023",
@@ -77612,27 +77619,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  24339094,
-                      "nome":  "Autolead: Lead #24337594",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206575",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  376,
-                      "cliente":  "Maximus Grafica E Editora Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "ECTRON 68 VR LUB",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-01-26T14:15:51-03:00",
-                      "atualizadoEm":  "2026-10-20T16:17:42-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26965368,
                       "nome":  "Lead #26965368",
                       "pipelineId":  "9334023",
@@ -78368,27 +78354,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  12097680,
-                      "nome":  "DOUGLAS DRAGAO DOS PARAFUSOS",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  87,
-                      "cliente":  "Comercial Dragao Ltda",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2024-10-25T16:15:14-03:00",
-                      "atualizadoEm":  "2026-10-22T11:45:54-03:00",
-                      "fechadoEm":  "2026-01-28T09:35:47-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27003118,
                       "nome":  "Lead #27003118",
                       "pipelineId":  "9334023",
@@ -78767,27 +78732,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27006122,
-                      "nome":  "Lead #27006122",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-22T15:30:55-03:00",
-                      "atualizadoEm":  "2026-10-22T15:38:41-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27005730,
                       "nome":  "Naiara La Construcoes",
                       "pipelineId":  "9334023",
@@ -78847,6 +78791,132 @@
                       "criadoEm":  "2026-01-23T09:57:24-03:00",
                       "atualizadoEm":  "2026-10-22T16:18:16-03:00",
                       "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27006122,
+                      "nome":  "Lead #27006122",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-22T15:30:55-03:00",
+                      "atualizadoEm":  "2026-10-22T16:37:22-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24339094,
+                      "nome":  "Autolead: Lead #24337594",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  787,
+                      "cliente":  "Maximus Grafica E Editora Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "ECTRON 68 VR LUB",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-01-26T14:15:51-03:00",
+                      "atualizadoEm":  "2026-10-22T16:52:20-03:00",
+                      "fechadoEm":  "2026-10-22T16:52:20-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438545
+                  },
+                  {
+                      "id":  27006754,
+                      "nome":  "Autolead: Lead #24337594",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206567",
+                      "etapa":  "Cliente Ativo",
+                      "valor":  0,
+                      "cliente":  "Maximus Grafica E Editora Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-22T16:52:24-03:00",
+                      "atualizadoEm":  "2026-10-22T16:52:24-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26707268,
+                      "nome":  "Autolead: Lead #24870388",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  12020,
+                      "cliente":  "Jeri-1 Empreendimento Imobiliario Spe Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO 15W40 MOTORLUB E 68 ECTRON E FILTROS",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-09-10T15:25:54-03:00",
+                      "atualizadoEm":  "2026-10-22T16:56:05-03:00",
+                      "fechadoEm":  "2026-10-22T16:56:05-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438542
+                  },
+                  {
+                      "id":  27006776,
+                      "nome":  "Autolead: Lead #24870388",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206567",
+                      "etapa":  "Cliente Ativo",
+                      "valor":  0,
+                      "cliente":  "Jeri-1 Empreendimento Imobiliario Spe Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-22T16:56:12-03:00",
+                      "atualizadoEm":  "2026-10-22T16:56:12-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  12097680,
+                      "nome":  "DOUGLAS DRAGAO DOS PARAFUSOS",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  87,
+                      "cliente":  "Comercial Dragao Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2024-10-25T16:15:14-03:00",
+                      "atualizadoEm":  "2026-10-22T17:15:45-03:00",
+                      "fechadoEm":  "2026-01-28T09:35:47-03:00",
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
