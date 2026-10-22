@@ -84320,7 +84320,7 @@
         "valor_item":  35.0000
     },
     {
-        "item_id":  614167,
+        "item_id":  614240,
         "movimento_id":  438516,
         "tipo_operacao":  "ORC",
         "data_movimento":  "2026-10-20",
@@ -84329,12 +84329,12 @@
         "numero_linha":  1,
         "produto_id":  1596,
         "quantidade":  1.0000,
-        "preco_unitario":  376.4000,
-        "preco_total_sem_desconto":  376.4000,
+        "preco_unitario":  411.4000,
+        "preco_total_sem_desconto":  411.4000,
         "desconto_valor":  0.0000,
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
-        "valor_item":  376.4000
+        "valor_item":  411.4000
     },
     {
         "item_id":  614188,
