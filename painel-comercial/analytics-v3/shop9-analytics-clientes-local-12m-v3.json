@@ -8644,5 +8644,16 @@
         "fisica_juridica":  "F",
         "inativo":  false,
         "data_cadastro":  "2026-10-22"
+    },
+    {
+        "cliente_id":  93319,
+        "codigo_shop9":  4977,
+        "cliente_nome":  "Fazenda Vitoria Empreendimentos Agropecuarios Ltda",
+        "fantasia":  "",
+        "cidade":  "Acaraú",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-22"
     }
 ]
