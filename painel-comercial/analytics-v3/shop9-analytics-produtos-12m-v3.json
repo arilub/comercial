@@ -9838,5 +9838,35 @@
         "fabricante":  "EVORA",
         "unidade_id":  10002,
         "unidade":  "BD"
+    },
+    {
+        "produto_id":  65944,
+        "codigo":  "WFC213",
+        "produto":  "FILTRO DE CAMBIO AUTOMATICO WEGA WF213",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  32788,
+        "fabricante":  "WEGA",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
+        "produto_id":  65945,
+        "codigo":  "PSL280",
+        "produto":  "FILTRO DE OLEO LUBRIFICANTE TECFIL PSL280",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10022,
+        "fabricante":  "TECFIL ",
+        "unidade_id":  10030,
+        "unidade":  "UN"
     }
 ]
