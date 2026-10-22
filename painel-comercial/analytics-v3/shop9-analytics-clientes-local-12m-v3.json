@@ -8633,5 +8633,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-20"
+    },
+    {
+        "cliente_id":  93318,
+        "codigo_shop9":  4976,
+        "cliente_nome":  "UBIRAJARA LUIZ PALACIO",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-22"
     }
 ]
