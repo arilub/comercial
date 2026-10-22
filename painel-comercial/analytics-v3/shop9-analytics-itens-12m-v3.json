@@ -84862,5 +84862,22 @@
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
         "valor_item":  58.0600
+    },
+    {
+        "item_id":  614221,
+        "movimento_id":  438533,
+        "tipo_operacao":  "ORC",
+        "data_movimento":  "2026-10-22",
+        "cliente_id":  93319,
+        "vendedor_id":  17,
+        "numero_linha":  1,
+        "produto_id":  38825,
+        "quantidade":  1.0000,
+        "preco_unitario":  937.7000,
+        "preco_total_sem_desconto":  937.7000,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "valor_item":  937.7000
     }
 ]
