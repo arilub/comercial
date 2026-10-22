@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-22T19:23:59-03:00",
+                 "geradoEm":  "2026-10-22T20:24:06-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -218,32 +218,32 @@
                   "orcamentos":  {
                                      "total":  6082,
                                      "valorTotal":  21679578.62,
-                                     "convertidos":  2563,
+                                     "convertidos":  2397,
                                      "cancelados":  379,
                                      "recente":  29,
                                      "acompanhamento":  26,
                                      "atencao":  53,
-                                     "envelhecido":  2986,
-                                     "taxaConversao":  0.4214
+                                     "envelhecido":  2987,
+                                     "taxaConversao":  0.3941
                                  },
                   "vendas":  {
-                                 "total":  70667,
-                                 "valorTotal":  51874269.28,
-                                 "ticketMedio":  734.07,
-                                 "semOrc":  68104,
-                                 "valorSemOrc":  47064525.97
+                                 "total":  63012,
+                                 "valorTotal":  42541112.25,
+                                 "ticketMedio":  675.13,
+                                 "semOrc":  60615,
+                                 "valorSemOrc":  38162914.99
                              }
               },
     "integracao":  {
                        "vinculoDefinitivoLeadId":  0,
-                       "reconciliacaoHistorica":  61,
+                       "reconciliacaoHistorica":  62,
                        "forteProvisorio":  14,
-                       "provavel":  47,
-                       "ambiguo":  3,
+                       "provavel":  48,
+                       "ambiguo":  1,
                        "documentoAmbiguo":  0,
                        "semClienteShop9":  8,
                        "semVendaJanela":  3,
-                       "valorNaoCompativel":  1
+                       "valorNaoCompativel":  2
                    },
     "licitacoes":  {
                        "total":  35,
@@ -734,6 +734,20 @@
                                   "valorKommo":  1539,
                                   "valorShop9":  1539.24,
                                   "diferencaPct":  0.0156
+                              },
+                              {
+                                  "leadId":  26867474,
+                                  "pipelineId":  "9334023",
+                                  "funil":  "Funil Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Idibra Participacoes Ltda",
+                                  "vendaOrdem":  438362,
+                                  "fechamentoKommo":  "2026-10-05",
+                                  "dataVenda":  "2026-10-05",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  2194,
+                                  "valorShop9":  2193.52,
+                                  "diferencaPct":  0.0219
                               },
                               {
                                   "leadId":  26637116,
@@ -69908,7 +69922,7 @@
                       "criadoEm":  "2026-09-24T09:37:20-03:00",
                       "atualizadoEm":  "2026-09-25T16:26:24-03:00",
                       "fechadoEm":  "2026-09-25T16:26:23-03:00",
-                      "reconciliacaoHistorica":  "AMBIGUO",
+                      "reconciliacaoHistorica":  "VALOR_NAO_COMPATIVEL",
                       "vendaShop9":  null
                   },
                   {
@@ -72029,8 +72043,8 @@
                       "criadoEm":  "2026-10-01T07:46:09-03:00",
                       "atualizadoEm":  "2026-10-05T10:12:16-03:00",
                       "fechadoEm":  "2026-10-05T10:12:15-03:00",
-                      "reconciliacaoHistorica":  "AMBIGUO",
-                      "vendaShop9":  null
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438362
                   },
                   {
                       "id":  26865208,
