@@ -9958,14 +9958,14 @@
         "tipo_operacao":  "ORC",
         "vendedor_id":  17,
         "quantidade_documentos":  118,
-        "valor_total":  289120.0300
+        "valor_total":  289496.4300
     },
     {
         "mes":  "2026-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  69,
-        "valor_total":  85166.4100
+        "quantidade_documentos":  70,
+        "valor_total":  85954.2100
     },
     {
         "mes":  "2026-10",
