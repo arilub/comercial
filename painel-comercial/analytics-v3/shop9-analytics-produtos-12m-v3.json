@@ -5655,21 +5655,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  62466,
-        "codigo":  "112537",
-        "produto":  "GEAR 150 20L PAO SINT. SH CARTER TOTAL ",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  17,
-        "grupo":  "55%",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  35859,
-        "fabricante":  "TOTAL",
-        "unidade_id":  10002,
-        "unidade":  "BD"
-    },
-    {
         "produto_id":  62467,
         "codigo":  "1010293",
         "produto":  "GEAR 220 20L PAO SINT. LUBRAX",
