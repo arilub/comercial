@@ -5775,6 +5775,21 @@
         "unidade":  "UN"
     },
     {
+        "produto_id":  63483,
+        "codigo":  "OC506",
+        "produto":  " Filtro de Óleo Lubrificante",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10032,
+        "fabricante":  "MAHLE",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  63490,
         "codigo":  "39603137",
         "produto":  "GRAXA MP2 MARFAK TEXACO 10KG",
