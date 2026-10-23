@@ -18,24 +18,6 @@
         "valor_venda":  1061.2000
     },
     {
-        "orcamento_id":  426488,
-        "venda_id":  427499,
-        "data_venda":  "2025-10-22",
-        "valor_venda":  295.3000
-    },
-    {
-        "orcamento_id":  426502,
-        "venda_id":  427503,
-        "data_venda":  "2025-10-22",
-        "valor_venda":  536.7800
-    },
-    {
-        "orcamento_id":  428501,
-        "venda_id":  428503,
-        "data_venda":  "2025-10-22",
-        "valor_venda":  2750.0000
-    },
-    {
         "orcamento_id":  428502,
         "venda_id":  433618,
         "data_venda":  "2025-11-04",
