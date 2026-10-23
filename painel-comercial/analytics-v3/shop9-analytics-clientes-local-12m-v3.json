@@ -8655,5 +8655,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-22"
+    },
+    {
+        "cliente_id":  93320,
+        "codigo_shop9":  4978,
+        "cliente_nome":  "Dikka Industria Quimica Ltda",
+        "fantasia":  "",
+        "cidade":  "Massapê",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-23"
     }
 ]
