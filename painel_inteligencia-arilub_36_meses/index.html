@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARILUB — Inteligência Comercial 36M</title>
+<style>
+:root{
+  --blue:#073d9c; --blue2:#0d56c8; --blue3:#eaf2ff; --cyan:#1aa7ec;
+  --ink:#10213c; --muted:#66758e; --line:#dce5f2; --bg:#f4f7fb; --card:#fff;
+  --green:#079455; --amber:#c67a00; --red:#d92d20; --purple:#6d4aff;
+  --shadow:0 8px 22px rgba(26,49,88,.08);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+button,select,input{font:inherit}
+.header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30}
+.header-top{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.logo{width:38px;height:38px;border-radius:12px;background:linear-gradient(145deg,#ed2f45,#0e61c9);display:grid;place-items:center;color:#fff;font-weight:800;box-shadow:var(--shadow)}
+.brand h1{font-size:20px;margin:0;color:#073d9c}.brand small{display:block;color:var(--muted);margin-top:2px}
+.meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.pill{background:#f7f9fc;border:1px solid var(--line);padding:8px 11px;border-radius:10px;color:#34425a;font-size:13px}
+.tabs{background:linear-gradient(90deg,#04348b,#0058c7);padding:0 14px;display:flex;gap:4px;overflow-x:auto}
+.tab{appearance:none;border:0;background:transparent;color:#dce8ff;padding:13px 15px;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent}
+.tab.active{background:#fff;color:#0a46aa;border-radius:9px 9px 0 0;border-bottom-color:#fff;font-weight:700}
+.wrap{max-width:1680px;margin:auto;padding:16px}
+.filters{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:10px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;box-shadow:var(--shadow);margin-bottom:14px}
+.filter label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:0 0 5px}
+.filter select{width:100%;border:1px solid var(--line);border-radius:9px;padding:9px;background:#fff;color:var(--ink)}
+.notice{border:1px solid #b7d4ff;background:#eef5ff;border-radius:12px;padding:11px 13px;margin-bottom:14px;color:#174a8b;font-size:13px}
+.grid-kpi{display:grid;grid-template-columns:repeat(6,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow);min-height:110px}
+.kpi .label{font-size:12px;color:var(--muted);min-height:30px}.kpi .value{font-size:25px;font-weight:800;color:#0b3b8f;margin-top:7px}.kpi .sub{font-size:12px;color:var(--muted);margin-top:5px}
+.kpi.good .value{color:var(--green)} .kpi.warn .value{color:var(--amber)} .kpi.danger .value{color:var(--red)}
+.grid2{display:grid;grid-template-columns:1.5fr 1fr;gap:14px;margin-bottom:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;box-shadow:var(--shadow);min-width:0}
+.card h3{font-size:15px;margin:0;color:#0b3f95}.card .head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:13px}.card .head p{margin:4px 0 0;color:var(--muted);font-size:12px}
+.badge{font-size:11px;padding:5px 8px;border-radius:999px;background:#eef4ff;color:#0a55bb;border:1px solid #d4e4ff;white-space:nowrap}
+.barlist{display:flex;flex-direction:column;gap:11px}.barrow{display:grid;grid-template-columns:minmax(100px,1.3fr) 3fr auto;gap:9px;align-items:center}
+.barlabel{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.track{height:9px;background:#edf1f7;border-radius:999px;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#0c61d8,#2ca7f5);border-radius:999px}.barval{font-size:12px;font-weight:700;color:#1b3152}
+.table-wrap{overflow:auto}.tbl{width:100%;border-collapse:collapse;font-size:12px}.tbl th{background:#0a4aa7;color:#fff;text-align:left;padding:9px;position:sticky;top:0}.tbl td{padding:9px;border-bottom:1px solid #e9eef5}.tbl tr:hover td{background:#f8fbff}
+.spark{height:220px;display:flex;align-items:flex-end;gap:7px;border-bottom:1px solid var(--line);padding:10px 4px 0}
+.spark .col{flex:1;min-width:8px;background:linear-gradient(180deg,#27a9f6,#0c5ed4);border-radius:5px 5px 0 0;opacity:.92;position:relative}
+.spark .col:hover{opacity:1}.spark .col span{display:none;position:absolute;bottom:calc(100% + 5px);left:50%;transform:translateX(-50%);background:#10213c;color:#fff;padding:4px 6px;border-radius:6px;font-size:10px;white-space:nowrap}.spark .col:hover span{display:block}
+.placeholder{border:1px dashed #b9c7da;background:#fafcff;border-radius:12px;padding:22px;text-align:center;color:#6e7b90;font-size:13px}
+.donut{width:150px;height:150px;border-radius:50%;background:conic-gradient(#0b63da 0 32%,#d9e4f2 32% 100%);display:grid;place-items:center;margin:auto}.donut:after{content:"";width:92px;height:92px;border-radius:50%;background:#fff}.donut-label{position:relative;margin-top:-93px;text-align:center;font-weight:800;font-size:24px;color:#0b3f95}.donut-label small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
+.status{display:inline-flex;align-items:center;gap:5px;font-size:11px;padding:4px 7px;border-radius:999px}.s-high{background:#e9f8ef;color:#087443}.s-mid{background:#fff4df;color:#9b5d00}.s-review{background:#fdecec;color:#b42318}
+.insight{border-left:4px solid #0c5fd3;padding:10px 12px;background:#f6f9ff;border-radius:8px;margin:8px 0;font-size:13px}
+.section{display:none}.section.active{display:block}
+.footer{color:#7a8799;font-size:11px;text-align:center;padding:18px 8px}
+.two-col-note{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.metric-line{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #edf1f5;padding:9px 0;font-size:12px}.metric-line:last-child{border-bottom:0}
+@media(max-width:1100px){.grid-kpi{grid-template-columns:repeat(3,1fr)}.grid3{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.filters{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:650px){.header-top{align-items:flex-start;flex-direction:column}.meta{justify-content:flex-start}.grid-kpi{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(2,1fr)}.wrap{padding:10px}.two-col-note{grid-template-columns:1fr}.barrow{grid-template-columns:1fr 2fr auto}.kpi .value{font-size:21px}}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="header-top">
+    <div class="brand">
+      <div class="logo">A</div>
+      <div><h1>ARILUB — Inteligência Comercial 36M</h1><small>Histórico • Segmentação • Recorrência • Oportunidades</small></div>
+    </div>
+    <div class="meta">
+      <div class="pill">Período base: 09/10/2023–08/10/2026</div>
+      <div class="pill">Versão V1 • 22/10/2026</div>
+      <div class="pill">Fonte: Shop9 + auditoria analítica</div>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="geral">Visão Geral</button>
+    <button class="tab" data-tab="classes">Classes de Clientes</button>
+    <button class="tab" data-tab="canais">Canais</button>
+    <button class="tab" data-tab="produtos">Produtos</button>
+    <button class="tab" data-tab="categorias">Classes de Produto</button>
+    <button class="tab" data-tab="recorrencia">Recorrência & Oportunidades</button>
+    <button class="tab" data-tab="qualidade">Qualidade da Base</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="filters">
+    <div class="filter"><label>Período</label><select><option>36 meses</option><option>24 meses</option><option>12 meses</option><option>6 meses</option><option>3 meses</option></select></div>
+    <div class="filter"><label>Classe econômica</label><select><option>Todas</option><option>Indústrias</option><option>Construtoras</option><option>Órgãos Públicos</option><option>Transportes</option><option>Locadoras</option></select></div>
+    <div class="filter"><label>Canal</label><select><option>Todos</option><option>Licitação</option><option>Venda Direta</option><option>Não classificado</option></select></div>
+    <div class="filter"><label>Produto</label><select><option>Todos</option><option>Óleo Motor</option><option>Óleo Hidráulico</option><option>Graxas</option><option>ARLA 32</option></select></div>
+    <div class="filter"><label>Classe produto</label><select><option>Todas</option><option>Lubrificantes e Fluidos</option><option>Não classificado</option></select></div>
+    <div class="filter"><label>Situação</label><select><option>Todas</option><option>Recorrente</option><option>Em queda</option><option>Reativação</option><option>Alto ticket</option></select></div>
+  </section>
+
+  <div class="notice"><strong>V1 histórica:</strong> valores exibidos são somente os já homologados/revisados. Séries mensais, Top 10 completo e distribuições financeiras por classe serão carregados da base analítica detalhada na etapa de integração.</div>
+
+  <section id="geral" class="section active">
+    <div class="grid-kpi">
+      <div class="kpi"><div class="label">Receita documental 36M</div><div class="value">R$ 9,23 mi</div><div class="sub">R$ 9.232.901,73</div></div>
+      <div class="kpi"><div class="label">Vendas realizadas</div><div class="value">4.064</div><div class="sub">documentos VND válidos</div></div>
+      <div class="kpi"><div class="label">Clientes canônicos</div><div class="value">631</div><div class="sub">634 cadastros originais</div></div>
+      <div class="kpi"><div class="label">Ticket médio documental</div><div class="value">R$ 2.272</div><div class="sub">aprox. por venda</div></div>
+      <div class="kpi"><div class="label">Produtos vendidos</div><div class="value">1.053</div><div class="sub">SKUs distintos</div></div>
+      <div class="kpi good"><div class="label">Licitação confirmada</div><div class="value">≥ R$ 2,96 mi</div><div class="sub">piso auditado do canal</div></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <div class="head"><div><h3>Evolução mensal da receita</h3><p>Estrutura preparada para a série real de 36 meses.</p></div><span class="badge">Dados mensais pendentes</span></div>
+        <div class="spark" aria-label="Placeholder de evolução mensal">
+          <div class="col" style="height:38%"><span>Carregar base</span></div><div class="col" style="height:52%"><span>Carregar base</span></div>
+          <div class="col" style="height:44%"><span>Carregar base</span></div><div class="col" style="height:69%"><span>Carregar base</span></div>
+          <div class="col" style="height:61%"><span>Carregar base</span></div><div class="col" style="height:73%"><span>Carregar base</span></div>
+          <div class="col" style="height:58%"><span>Carregar base</span></div><div class="col" style="height:80%"><span>Carregar base</span></div>
+          <div class="col" style="height:66%"><span>Carregar base</span></div><div class="col" style="height:88%"><span>Carregar base</span></div>
+          <div class="col" style="height:75%"><span>Carregar base</span></div><div class="col" style="height:92%"><span>Carregar base</span></div>
+        </div>
+        <p style="font-size:11px;color:#8a97a8;margin:8px 0 0">Visual ilustrativo de layout — não representa valores mensais medidos.</p>
+      </div>
+      <div class="card">
+        <div class="head"><div><h3>Concentração de receita</h3><p>Participação histórica dos maiores clientes.</p></div><span class="badge">Homologado</span></div>
+        <div class="barlist">
+          <div class="barrow"><div class="barlabel">Top 5 clientes</div><div class="track"><div class="fill" style="width:52.52%"></div></div><div class="barval">52,52%</div></div>
+          <div class="barrow"><div class="barlabel">Top 10 clientes</div><div class="track"><div class="fill" style="width:62.16%"></div></div><div class="barval">62,16%</div></div>
+          <div class="barrow"><div class="barlabel">Top 20 clientes</div><div class="track"><div class="fill" style="width:70.49%"></div></div><div class="barval">70,49%</div></div>
+        </div>
+        <div class="insight"><strong>Leitura:</strong> a receita histórica é altamente concentrada. A V1 deve permitir abrir cada faixa e identificar as contas responsáveis.</div>
+      </div>
+    </div>
+
+    <div class="grid3">
+      <div class="card">
+        <div class="head"><div><h3>Canal — piso confirmado</h3><p>Licitação versus saldo ainda não auditado integralmente.</p></div></div>
+        <div class="donut"></div><div class="donut-label">32,0%<small>Licitação confirmada</small></div>
+        <div class="metric-line"><span>Licitação confirmada</span><strong>R$ 2,96 mi</strong></div>
+        <div class="metric-line"><span>Demais / pendente de auditoria</span><strong>R$ 6,28 mi</strong></div>
+      </div>
+      <div class="card">
+        <div class="head"><div><h3>Classes — Top 50 enriquecidas</h3><p>Quantidade de empresas por classe revisada.</p></div></div>
+        <div class="barlist">
+          <div class="barrow"><div class="barlabel">Órgão Público</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="barval">12</div></div>
+          <div class="barrow"><div class="barlabel">Indústrias</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="barval">12</div></div>
+          <div class="barrow"><div class="barlabel">Construtoras</div><div class="track"><div class="fill" style="width:58%"></div></div><div class="barval">7</div></div>
+          <div class="barrow"><div class="barlabel">Consumo</div><div class="track"><div class="fill" style="width:42%"></div></div><div class="barval">5</div></div>
+          <div class="barrow"><div class="barlabel">Transportes</div><div class="track"><div class="fill" style="width:25%"></div></div><div class="barval">3</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="head"><div><h3>Top clientes</h3><p>Ranking nominal será carregado do dataset detalhado.</p></div><span class="badge">Parcial</span></div>
+        <table class="tbl"><thead><tr><th>#</th><th>Cliente</th><th>Receita</th></tr></thead><tbody>
+          <tr><td>1</td><td>CAGECE</td><td>R$ 2,56 mi</td></tr>
+          <tr><td>2–10</td><td colspan="2">Aguardando base nominal homologada</td></tr>
+        </tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section id="classes" class="section">
+    <div class="grid-kpi">
+      <div class="kpi"><div class="label">Top 50 classificadas</div><div class="value">50</div><div class="sub">86,6% da receita PJ a auditar</div></div>
+      <div class="kpi"><div class="label">Órgãos Públicos</div><div class="value">12</div><div class="sub">nas Top 50</div></div>
+      <div class="kpi"><div class="label">Indústrias</div><div class="value">12</div><div class="sub">nas Top 50</div></div>
+      <div class="kpi"><div class="label">Construtoras</div><div class="value">7</div><div class="sub">nas Top 50</div></div>
+      <div class="kpi"><div class="label">PJ sem classe útil</div><div class="value">446</div><div class="sub">antes do enriquecimento prioritário</div></div>
+      <div class="kpi warn"><div class="label">Cobertura nativa Shop9</div><div class="value">12,5%</div><div class="sub">classe econômica útil</div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="head"><div><h3>Distribuição revisada — Top 50</h3><p>Contagem de empresas por classe.</p></div></div>
+        <div class="barlist">
+          <div class="barrow"><div class="barlabel">ORGAO PUBLICO</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="barval">12</div></div>
+          <div class="barrow"><div class="barlabel">CL INDUSTRIAS</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="barval">12</div></div>
+          <div class="barrow"><div class="barlabel">CL CONSTRUTORAS</div><div class="track"><div class="fill" style="width:58.3%"></div></div><div class="barval">7</div></div>
+          <div class="barrow"><div class="barlabel">CL CONSUMO</div><div class="track"><div class="fill" style="width:41.7%"></div></div><div class="barval">5</div></div>
+          <div class="barrow"><div class="barlabel">SERVIÇOS/MANUT.</div><div class="track"><div class="fill" style="width:25%"></div></div><div class="barval">3</div></div>
+          <div class="barrow"><div class="barlabel">TRANSPORTES</div><div class="track"><div class="fill" style="width:25%"></div></div><div class="barval">3</div></div>
+          <div class="barrow"><div class="barlabel">AUTOPEÇAS</div><div class="track"><div class="fill" style="width:25%"></div></div><div class="barval">3</div></div>
+          <div class="barrow"><div class="barlabel">LOCADORAS</div><div class="track"><div class="fill" style="width:16.7%"></div></div><div class="barval">2</div></div>
+          <div class="barrow"><div class="barlabel">ESPECIAIS</div><div class="track"><div class="fill" style="width:16.7%"></div></div><div class="barval">2</div></div>
+          <div class="barrow"><div class="barlabel">AGROPECUÁRIAS</div><div class="track"><div class="fill" style="width:8.3%"></div></div><div class="barval">1</div></div>
+        </div>
+      </div>
+      <div class="card"><div class="head"><div><h3>Drill-down por classe</h3><p>Com a base detalhada, clicar em uma classe abrirá clientes, receita, mix, recorrência e oportunidades.</p></div></div>
+        <div class="placeholder">Estrutura pronta para integrar: Receita • Pedidos • Ticket • Clientes • Meses ativos • Frequência • Top produtos • Clientes em queda • Clientes para expansão.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="canais" class="section">
+    <div class="grid-kpi">
+      <div class="kpi good"><div class="label">Licitação confirmada</div><div class="value">≥ R$ 2,96 mi</div><div class="sub">piso auditado</div></div>
+      <div class="kpi"><div class="label">CAGECE — canal Licitação</div><div class="value">R$ 2,56 mi</div><div class="sub">193 vendas válidas</div></div>
+      <div class="kpi"><div class="label">Participação mínima</div><div class="value">32,0%</div><div class="sub">sobre receita total</div></div>
+      <div class="kpi"><div class="label">Família Shop9 “Licitação”</div><div class="value">R$ 4,11 mi</div><div class="sub">não equivale ao canal</div></div>
+      <div class="kpi danger"><div class="label">Carteira D antiga</div><div class="value">R$ 284 mil</div><div class="sub">superada como medida do canal</div></div>
+      <div class="kpi"><div class="label">Canal Venda Direta</div><div class="value">Pendente</div><div class="sub">fechamento integral</div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="head"><div><h3>Canal revisado</h3><p>Não confundir natureza do cliente com forma da venda.</p></div></div>
+        <div class="insight"><strong>Regra:</strong> cliente pode ser CL INDUSTRIAS e ter venda por LICITAÇÃO. Classe e canal são dimensões independentes.</div>
+        <div class="barlist">
+          <div class="barrow"><div class="barlabel">Licitação confirmada</div><div class="track"><div class="fill" style="width:32%"></div></div><div class="barval">32,0%</div></div>
+          <div class="barrow"><div class="barlabel">Demais / em auditoria</div><div class="track"><div class="fill" style="width:68%"></div></div><div class="barval">68,0%</div></div>
+        </div>
+      </div>
+      <div class="card"><div class="head"><div><h3>Regras de evidência</h3><p>O painel deverá guardar o motivo da classificação.</p></div></div>
+        <div class="metric-line"><span>Operação transacional compatível</span><span class="status s-high">Alta</span></div>
+        <div class="metric-line"><span>Cliente com regra de negócio validada</span><span class="status s-high">Alta</span></div>
+        <div class="metric-line"><span>Classe do cliente</span><span class="status s-mid">Apoio</span></div>
+        <div class="metric-line"><span>Vendedor isoladamente</span><span class="status s-review">Não definitivo</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos" class="section">
+    <div class="grid-kpi">
+      <div class="kpi"><div class="label">Produtos vendidos</div><div class="value">1.053</div><div class="sub">SKUs históricos</div></div>
+      <div class="kpi"><div class="label">Itens ativos vendidos</div><div class="value">5.730</div><div class="sub">linhas de item</div></div>
+      <div class="kpi"><div class="label">Valor dos itens</div><div class="value">R$ 9,23 mi</div><div class="sub">R$ 9.231.116,06</div></div>
+      <div class="kpi"><div class="label">Ajustes documentais</div><div class="value">R$ 1.786</div><div class="sub">não rateados artificialmente</div></div>
+      <div class="kpi"><div class="label">Top produto</div><div class="value">Pendente</div><div class="sub">base detalhada</div></div>
+      <div class="kpi"><div class="label">Produtos sem venda recente</div><div class="value">Pendente</div><div class="sub">depende da série temporal</div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="head"><div><h3>Top 20 produtos</h3><p>Alternar receita, quantidade, clientes e pedidos.</p></div></div><div class="placeholder">Ranking nominal depende da carga dos 1.053 SKUs. Layout e indicadores já definidos.</div></div>
+      <div class="card"><div class="head"><div><h3>Associação de produtos</h3><p>Base para cross-sell comportamental.</p></div></div><div class="placeholder">Quem compra Produto A também compra quais produtos? Será calculado a partir dos itens por cliente e por pedido.</div></div>
+    </div>
+  </section>
+
+  <section id="categorias" class="section">
+    <div class="grid-kpi">
+      <div class="kpi"><div class="label">Lubrificantes e Fluidos</div><div class="value">R$ 4,25 mi</div><div class="sub">no core histórico</div></div>
+      <div class="kpi"><div class="label">Óleo Motor</div><div class="value">R$ 1,05 mi</div><div class="sub">259 clientes</div></div>
+      <div class="kpi"><div class="label">Óleo Hidráulico</div><div class="value">R$ 1,02 mi</div><div class="sub">135 clientes</div></div>
+      <div class="kpi"><div class="label">Graxas</div><div class="value">R$ 602 mil</div><div class="sub">215 clientes</div></div>
+      <div class="kpi"><div class="label">Engrenagens</div><div class="value">R$ 396 mil</div><div class="sub">80 clientes</div></div>
+      <div class="kpi"><div class="label">ARLA 32</div><div class="value">R$ 170 mil</div><div class="sub">27 clientes</div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="head"><div><h3>Principais classes de produto — Core</h3><p>Valores históricos homologados no estudo.</p></div></div>
+        <div class="barlist">
+          <div class="barrow"><div class="barlabel">Óleo Motor</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="barval">R$ 1,05 mi</div></div>
+          <div class="barrow"><div class="barlabel">Óleo Hidráulico</div><div class="track"><div class="fill" style="width:97%"></div></div><div class="barval">R$ 1,02 mi</div></div>
+          <div class="barrow"><div class="barlabel">Outros Lubrificantes</div><div class="track"><div class="fill" style="width:60%"></div></div><div class="barval">R$ 633 mil</div></div>
+          <div class="barrow"><div class="barlabel">Graxas</div><div class="track"><div class="fill" style="width:57%"></div></div><div class="barval">R$ 602 mil</div></div>
+          <div class="barrow"><div class="barlabel">Engrenagens</div><div class="track"><div class="fill" style="width:38%"></div></div><div class="barval">R$ 396 mil</div></div>
+          <div class="barrow"><div class="barlabel">Transmissão</div><div class="track"><div class="fill" style="width:23%"></div></div><div class="barval">R$ 240 mil</div></div>
+          <div class="barrow"><div class="barlabel">Arrefecimento</div><div class="track"><div class="fill" style="width:19%"></div></div><div class="barval">R$ 197 mil</div></div>
+          <div class="barrow"><div class="barlabel">ARLA 32</div><div class="track"><div class="fill" style="width:16%"></div></div><div class="barval">R$ 170 mil</div></div>
+        </div>
+      </div>
+      <div class="card"><div class="head"><div><h3>Matriz classe cliente × produto</h3><p>Uma das análises de maior valor da V2.</p></div></div>
+        <div class="placeholder">Ex.: Indústrias × Hidráulicos; Construtoras × Graxas; Transportes × Óleo Motor. A matriz permitirá localizar lacunas de mix e candidatos de cross-sell.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recorrencia" class="section">
+    <div class="grid-kpi">
+      <div class="kpi"><div class="label">Recorrentes estratégicos</div><div class="value">52</div><div class="sub">R$ 1,82 mi</div></div>
+      <div class="kpi danger"><div class="label">Grandes em queda</div><div class="value">11</div><div class="sub">R$ 2,52 mi históricos</div></div>
+      <div class="kpi warn"><div class="label">Alto histórico / inativos</div><div class="value">22</div><div class="sub">R$ 1,51 mi</div></div>
+      <div class="kpi"><div class="label">Frequentes / baixo ticket</div><div class="value">41</div><div class="sub">R$ 429 mil</div></div>
+      <div class="kpi"><div class="label">Novos crescendo</div><div class="value">60</div><div class="sub">R$ 1,38 mi</div></div>
+      <div class="kpi"><div class="label">Previsíveis</div><div class="value">31</div><div class="sub">R$ 262 mil</div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="head"><div><h3>Fila de oportunidades</h3><p>Oportunidade explicável, não score opaco.</p></div></div>
+        <table class="tbl"><thead><tr><th>Sinal</th><th>Clientes</th><th>Receita histórica</th><th>Ação</th></tr></thead><tbody>
+          <tr><td>Grandes em queda</td><td>11</td><td>R$ 2,52 mi</td><td><span class="status s-high">Contato executivo</span></td></tr>
+          <tr><td>Alto histórico / inativos</td><td>22</td><td>R$ 1,51 mi</td><td><span class="status s-high">Reativar</span></td></tr>
+          <tr><td>Monocategoria p/ expansão</td><td>64</td><td>R$ 575 mil</td><td><span class="status s-mid">Cross-sell</span></td></tr>
+          <tr><td>Frequentes / baixo ticket</td><td>41</td><td>R$ 429 mil</td><td><span class="status s-mid">Aumentar cesta</span></td></tr>
+        </tbody></table>
+      </div>
+      <div class="card"><div class="head"><div><h3>Motor de recorrência</h3><p>Comparar cada cliente com seu próprio padrão histórico.</p></div></div>
+        <div class="metric-line"><span>Recorrente normal</span><span class="status s-high">Saudável</span></div>
+        <div class="metric-line"><span>Recorrente em atenção</span><span class="status s-mid">Monitorar</span></div>
+        <div class="metric-line"><span>Recorrência rompida</span><span class="status s-review">Priorizar</span></div>
+        <div class="metric-line"><span>Em queda</span><span class="status s-review">Diagnosticar</span></div>
+        <div class="metric-line"><span>Novo em crescimento</span><span class="status s-high">Expandir</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="qualidade" class="section">
+    <div class="grid-kpi">
+      <div class="kpi danger"><div class="label">Não Cadastrado no Shop9</div><div class="value">528</div><div class="sub">83,3% dos 634 originais</div></div>
+      <div class="kpi warn"><div class="label">CL INATIVOS</div><div class="value">27</div><div class="sub">status, não classe econômica</div></div>
+      <div class="kpi danger"><div class="label">Sem classe econômica útil</div><div class="value">87,5%</div><div class="sub">555 de 634 cadastros</div></div>
+      <div class="kpi"><div class="label">PJ a enriquecer/revisar</div><div class="value">446</div><div class="sub">R$ 6,51 mi</div></div>
+      <div class="kpi good"><div class="label">Top 50 enriquecidas</div><div class="value">86,6%</div><div class="sub">da receita PJ a auditar</div></div>
+      <div class="kpi"><div class="label">Clientes canônicos</div><div class="value">631</div><div class="sub">após tratamento fiscal</div></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><div class="head"><div><h3>Cobertura cadastral atual</h3><p>Fotografia encontrada no Shop9.</p></div></div>
+        <div class="barlist">
+          <div class="barrow"><div class="barlabel">Não Cadastrado</div><div class="track"><div class="fill" style="width:83.3%"></div></div><div class="barval">528</div></div>
+          <div class="barrow"><div class="barlabel">CL INATIVOS</div><div class="track"><div class="fill" style="width:4.3%"></div></div><div class="barval">27</div></div>
+          <div class="barrow"><div class="barlabel">Classe econômica útil</div><div class="track"><div class="fill" style="width:12.5%"></div></div><div class="barval">79</div></div>
+        </div>
+      </div>
+      <div class="card"><div class="head"><div><h3>Governança da V1</h3><p>O painel deve sempre distinguir fato, enriquecimento e hipótese.</p></div></div>
+        <div class="metric-line"><span>Dado Shop9 transacional</span><span class="status s-high">FATO</span></div>
+        <div class="metric-line"><span>CNAE / natureza jurídica pesquisada</span><span class="status s-high">ENRIQUECIDO</span></div>
+        <div class="metric-line"><span>Classe sugerida por compatibilidade</span><span class="status s-mid">DERIVADO</span></div>
+        <div class="metric-line"><span>Sem evidência suficiente</span><span class="status s-review">REVISAR</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">ARILUB — Inteligência Comercial 36M • V1 de homologação • Base fechada em 08/10/2026 • Shop9 não alterado</div>
+</main>
+
+<script>
+const tabs=[...document.querySelectorAll('.tab')];
+const sections=[...document.querySelectorAll('.section')];
+tabs.forEach(btn=>btn.addEventListener('click',()=>{
+  tabs.forEach(x=>x.classList.remove('active')); btn.classList.add('active');
+  sections.forEach(s=>s.classList.toggle('active',s.id===btn.dataset.tab));
+  window.scrollTo({top:0,behavior:'smooth'});
+}));
+</script>
+</body>
+</html>
