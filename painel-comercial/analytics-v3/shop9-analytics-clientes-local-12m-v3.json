@@ -8666,5 +8666,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-23"
+    },
+    {
+        "cliente_id":  93321,
+        "codigo_shop9":  4979,
+        "cliente_nome":  "Pernambucana Empreiteira De Mao-De-Obra E Locacao Ltda.",
+        "fantasia":  "Construtora Pernambucana",
+        "cidade":  "Custódia",
+        "uf":  "PE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-23"
     }
 ]
