@@ -1309,17 +1309,6 @@
         "data_cadastro":  "2019-09-30"
     },
     {
-        "cliente_id":  65895,
-        "codigo_shop9":  3717,
-        "cliente_nome":  " ESTRUTURAL COMERCIO E SERVICOS LTDA",
-        "fantasia":  "ESTRUTURAL",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2019-10-10"
-    },
-    {
         "cliente_id":  66942,
         "codigo_shop9":  3744,
         "cliente_nome":  "Hm Imports Comercio E Maquinario De Construcao Ltda",
@@ -1991,17 +1980,6 @@
         "data_cadastro":  "2023-04-17"
     },
     {
-        "cliente_id":  78472,
-        "codigo_shop9":  4182,
-        "cliente_nome":  "PAVIMARI INDUSTRIA E COMERCIO DE ARTEFATOS DE CIMENTO LTDA",
-        "fantasia":  "PAVIMARI BRASIL",
-        "cidade":  "Eusébio",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2023-04-20"
-    },
-    {
         "cliente_id":  78474,
         "codigo_shop9":  4184,
         "cliente_nome":  "Global Ship Service Ltda",
@@ -2616,17 +2594,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2024-01-15"
-    },
-    {
-        "cliente_id":  78816,
-        "codigo_shop9":  2816,
-        "cliente_nome":  "S PONTES SALGADO ENGENHARIA CLINICA E CONSULTORIA",
-        "fantasia":  "ETS ENGENHARIA E CONSULTORIA",
-        "cidade":  "São Luís",
-        "uf":  "MA",
-        "fisica_juridica":  "J",
-        "inativo":  true,
-        "data_cadastro":  "2024-01-16"
     },
     {
         "cliente_id":  78832,
@@ -3597,6 +3564,17 @@
         "data_cadastro":  "2025-03-06"
     },
     {
+        "cliente_id":  86491,
+        "codigo_shop9":  2332,
+        "cliente_nome":  "MERCONPLAS INDUSTRIAL DE PLASTICOS COMERCIO LTDA",
+        "fantasia":  "não disponivel",
+        "cidade":  "Arapiraca",
+        "uf":  "AL",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2025-03-17"
+    },
+    {
         "cliente_id":  86523,
         "codigo_shop9":  4294,
         "cliente_nome":  "Itl Industria De Tecnologia Maquinas E Equipamentos Ltda",
@@ -3916,17 +3894,6 @@
         "data_cadastro":  "2025-08-01"
     },
     {
-        "cliente_id":  88675,
-        "codigo_shop9":  4428,
-        "cliente_nome":  "MANOEL PAIVA FILHO",
-        "fantasia":  "",
-        "cidade":  "Boa Viagem",
-        "uf":  "CE",
-        "fisica_juridica":  "F",
-        "inativo":  false,
-        "data_cadastro":  "2025-08-05"
-    },
-    {
         "cliente_id":  88694,
         "codigo_shop9":  4446,
         "cliente_nome":  "Clara Jenifer Eloi De Oliveira 08778015332",
@@ -4059,39 +4026,6 @@
         "data_cadastro":  "2025-10-10"
     },
     {
-        "cliente_id":  89756,
-        "codigo_shop9":  4492,
-        "cliente_nome":  "Associacao Dos Taxistas De Iraucuba",
-        "fantasia":  "Associacao Dos Taxista De Iraucuba",
-        "cidade":  "Irauçuba",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-15"
-    },
-    {
-        "cliente_id":  89757,
-        "codigo_shop9":  4493,
-        "cliente_nome":  "Doutor Arla Pecas E Servicos Automotivos Ltda - Epp",
-        "fantasia":  "",
-        "cidade":  "Maracanaú",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-15"
-    },
-    {
-        "cliente_id":  89758,
-        "codigo_shop9":  4494,
-        "cliente_nome":  "Nmq Comercio De Maquinas E Equipamentos Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-15"
-    },
-    {
         "cliente_id":  90756,
         "codigo_shop9":  4495,
         "cliente_nome":  "Industria De Maquinas E Equipamentos Industriais Ltda",
@@ -4103,17 +4037,6 @@
         "data_cadastro":  "2025-10-16"
     },
     {
-        "cliente_id":  90757,
-        "codigo_shop9":  4496,
-        "cliente_nome":  "Organizacao Helio Meireles Petroleo Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-17"
-    },
-    {
         "cliente_id":  90758,
         "codigo_shop9":  4497,
         "cliente_nome":  "Projeinox Industria E Comercio De Refrigeracao Ltda Me",
@@ -4123,39 +4046,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2025-10-17"
-    },
-    {
-        "cliente_id":  90759,
-        "codigo_shop9":  4498,
-        "cliente_nome":  "J A Ires Filho Comercio De Materiais De Construcoes Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-17"
-    },
-    {
-        "cliente_id":  90760,
-        "codigo_shop9":  4499,
-        "cliente_nome":  "Rentruck Locacao De Maquinas E Caminhoes Ltda",
-        "fantasia":  "Rentruck Locacao De Maquinas E Caminhoes",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-20"
-    },
-    {
-        "cliente_id":  90761,
-        "codigo_shop9":  4500,
-        "cliente_nome":  "ANTONIO LAFAIETE SILVA DE FREITAS",
-        "fantasia":  "ANTONIO LAFAIETE SILVA DE FREITAS",
-        "cidade":  "Caucaia",
-        "uf":  "CE",
-        "fisica_juridica":  "F",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-20"
     },
     {
         "cliente_id":  90762,
@@ -8538,11 +8428,11 @@
     {
         "cliente_id":  93295,
         "codigo_shop9":  4955,
-        "cliente_nome":  "NAILTON ALVES DA SILVA JUNIOR",
+        "cliente_nome":  "Tiago Batista Da Silva",
         "fantasia":  "",
         "cidade":  "Fortaleza",
         "uf":  "CE",
-        "fisica_juridica":  "F",
+        "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-06"
     },
@@ -8655,5 +8545,115 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-15"
+    },
+    {
+        "cliente_id":  93310,
+        "codigo_shop9":  4968,
+        "cliente_nome":  "Eagle Solucoes Tecnologicas Ltda",
+        "fantasia":  "Eagle Solucoes Tecnologicas",
+        "cidade":  "Blumenau",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93311,
+        "codigo_shop9":  4969,
+        "cliente_nome":  "Maredomus Turismo Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93312,
+        "codigo_shop9":  4970,
+        "cliente_nome":  "Auto Cuidado Servicos E Comercio De Pecas Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93313,
+        "codigo_shop9":  4971,
+        "cliente_nome":  "Cidscar Solucao Automotiva Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-16"
+    },
+    {
+        "cliente_id":  93314,
+        "codigo_shop9":  4972,
+        "cliente_nome":  "Gsc Atelier Comercio De Pedras E Superficies Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-19"
+    },
+    {
+        "cliente_id":  93315,
+        "codigo_shop9":  4973,
+        "cliente_nome":  "Dinamic Servicos Ltda",
+        "fantasia":  "",
+        "cidade":  "Itapipoca",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-19"
+    },
+    {
+        "cliente_id":  93316,
+        "codigo_shop9":  4974,
+        "cliente_nome":  "Acb Auto Service E Engenharia Mecanica Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-19"
+    },
+    {
+        "cliente_id":  93317,
+        "codigo_shop9":  4975,
+        "cliente_nome":  "Nova Wuhu Comercio De Veiculos Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-20"
+    },
+    {
+        "cliente_id":  93318,
+        "codigo_shop9":  4976,
+        "cliente_nome":  "UBIRAJARA LUIZ PALACIO",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-22"
+    },
+    {
+        "cliente_id":  93319,
+        "codigo_shop9":  4977,
+        "cliente_nome":  "Fazenda Vitoria Empreendimentos Agropecuarios Ltda",
+        "fantasia":  "",
+        "cidade":  "Acaraú",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-22"
     }
 ]
