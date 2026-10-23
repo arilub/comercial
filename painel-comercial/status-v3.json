@@ -3,7 +3,8 @@
     "ambiente":  "PRODUCAO",
     "status":  "SUCESSO",
     "ultima_execucao_sucesso":  "2026-10-22T21:23:57",
-    "run_id":  "20261022-212002",
+    "run_id":  "20261022-212026",
     "ciclo":  "shop9-20261022-212026",
-    "publicacao_producao":  true
+    "publicacao_producao":  true,
+    "promovido_em":  "2026-10-22T23:00:15"
 }
