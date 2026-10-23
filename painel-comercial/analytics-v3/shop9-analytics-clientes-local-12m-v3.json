@@ -506,6 +506,17 @@
         "data_cadastro":  "2013-10-03"
     },
     {
+        "cliente_id":  2175,
+        "codigo_shop9":  2210,
+        "cliente_nome":  "POSTO TAVARES \u0026 ASSUNCAO LTDA",
+        "fantasia":  "POSTO EUCALIPTO",
+        "cidade":  "São Gonçalo do Amarante",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  true,
+        "data_cadastro":  "2013-10-10"
+    },
+    {
         "cliente_id":  2203,
         "codigo_shop9":  2238,
         "cliente_nome":  "SOLANY ARAUJO ROCHA DE OLIVEIRA 50752570382",
@@ -8674,6 +8685,17 @@
         "fantasia":  "Construtora Pernambucana",
         "cidade":  "Custódia",
         "uf":  "PE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-23"
+    },
+    {
+        "cliente_id":  93322,
+        "codigo_shop9":  4980,
+        "cliente_nome":  "Pio Engenharia De Manutencao Comissionamento E Seguranca Ind",
+        "fantasia":  "Pio Engenharia",
+        "cidade":  "Salvador",
+        "uf":  "BA",
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-23"
