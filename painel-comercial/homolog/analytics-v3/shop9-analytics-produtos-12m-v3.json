@@ -540,6 +540,21 @@
         "unidade":  "BD"
     },
     {
+        "produto_id":  178,
+        "codigo":  "1002395",
+        "produto":  "15W40 CI4/SL 20L TOP TURBO LUBRAX",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  14,
+        "grupo":  "40%",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10003,
+        "fabricante":  "LuBRax",
+        "unidade_id":  10002,
+        "unidade":  "BD"
+    },
+    {
         "produto_id":  179,
         "codigo":  "1002396",
         "produto":  "15W40 CI4/SL 200L TOP TURBO LUBRAX ",
@@ -1305,21 +1320,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  2001,
-        "codigo":  "192",
-        "produto":  "GRAXA COBREADA CONDUTIVA1KG",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  19,
-        "grupo":  "65%",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  10204,
-        "fabricante":  "ROCOL",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  2002,
         "codigo":  "1024K",
         "produto":  "GRAXA LITHPLUS EP-2 KARTER 20KG",
@@ -1368,6 +1368,21 @@
         "produto_id":  2108,
         "codigo":  "OC304",
         "produto":  "FILTRO MAHLE OLEO MT. CUMMINS 6CT 8.3 VWC(PSL300)",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  13,
+        "grupo":  "35%",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10032,
+        "fabricante":  "MAHLE",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
+        "produto_id":  2109,
+        "codigo":  "OC35",
+        "produto":  "FILTRO MAHLE OLEO MT. MWM D229/6  (PSL339)",
         "tipo":  "N",
         "inativo":  false,
         "grupo_id":  13,
@@ -5640,21 +5655,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  62466,
-        "codigo":  "112537",
-        "produto":  "GEAR 150 20L PAO SINT. SH CARTER TOTAL ",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  17,
-        "grupo":  "55%",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  35859,
-        "fabricante":  "TOTAL",
-        "unidade_id":  10002,
-        "unidade":  "BD"
-    },
-    {
         "produto_id":  62467,
         "codigo":  "1010293",
         "produto":  "GEAR 220 20L PAO SINT. LUBRAX",
@@ -5925,21 +5925,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  63506,
-        "codigo":  "716669",
-        "produto":  "SILICONE VERMELHO ACETICO 300G LOCTITE",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39978,
-        "fabricante":  "HENKEL",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  63512,
         "codigo":  "39605918",
         "produto":  "FLUIDO P/RADIADOR CAMINHAO PRONTO USO 20L IPIRANGA",
@@ -6150,21 +6135,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  63564,
-        "codigo":  "1547",
-        "produto":  "LUMINARIA HERMETICA IP65 2XT8 120CM - LUMEPETRO",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39985,
-        "fabricante":  "LUMEPETRO",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  63565,
         "codigo":  "ARS9839",
         "produto":  "FILTRO DE AR RADIAL SEAL USA ARS9839",
@@ -6285,21 +6255,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  63581,
-        "codigo":  "5741",
-        "produto":  "10W40 CI-4 S.SINT 20L SUPER EXTRON",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  39986,
-        "fabricante":  "EXTRON",
-        "unidade_id":  10002,
-        "unidade":  "BD"
-    },
-    {
         "produto_id":  63583,
         "codigo":  "100300ALL",
         "produto":  "OLEO SOLUVEL 20L SINT.ALL PS 100 SS ALL LUB",
@@ -6313,21 +6268,6 @@
         "fabricante":  "ALL LUBRIFICANTES",
         "unidade_id":  10002,
         "unidade":  "BD"
-    },
-    {
-        "produto_id":  63585,
-        "codigo":  "14744",
-        "produto":  "CEFER 1L SN 0.5 PE/STI ALA 500V CZ UV CONDUFERES",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39990,
-        "fabricante":  "CONDUFERES",
-        "unidade_id":  10018,
-        "unidade":  "MT"
     },
     {
         "produto_id":  63586,
@@ -9881,6 +9821,51 @@
         "familia":  "VAREJO",
         "fabricante_id":  0,
         "fabricante":  "Não Cadastrado",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
+        "produto_id":  65943,
+        "codigo":  "P-PA-01-0028-F01",
+        "produto":  "GRAXA LITH EVORA EP - NLGI 0  20KG",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10021,
+        "fabricante":  "EVORA",
+        "unidade_id":  10002,
+        "unidade":  "BD"
+    },
+    {
+        "produto_id":  65944,
+        "codigo":  "WFC213",
+        "produto":  "FILTRO DE CAMBIO AUTOMATICO WEGA WF213",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  32788,
+        "fabricante":  "WEGA",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
+        "produto_id":  65945,
+        "codigo":  "PSL280",
+        "produto":  "FILTRO DE OLEO LUBRIFICANTE TECFIL PSL280",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10022,
+        "fabricante":  "TECFIL ",
         "unidade_id":  10030,
         "unidade":  "UN"
     }
