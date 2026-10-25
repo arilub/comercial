@@ -2,8 +2,8 @@
     "sistema":  "ARILUB Comercial V3",
     "ambiente":  "PRODUCAO",
     "status":  "SUCESSO",
-    "ultima_execucao_sucesso":  "2026-10-25T07:24:01",
-    "run_id":  "20261025-072001",
-    "ciclo":  "shop9-20261025-072025",
+    "ultima_execucao_sucesso":  "2026-10-25T08:24:00",
+    "run_id":  "20261025-082001",
+    "ciclo":  "shop9-20261025-082025",
     "publicacao_producao":  true
 }
