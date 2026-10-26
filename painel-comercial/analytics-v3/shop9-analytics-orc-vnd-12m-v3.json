@@ -4492,5 +4492,11 @@
         "venda_id":  438563,
         "data_venda":  "2026-10-26",
         "valor_venda":  1080.0000
+    },
+    {
+        "orcamento_id":  438573,
+        "venda_id":  438575,
+        "data_venda":  "2026-10-26",
+        "valor_venda":  6210.6000
     }
 ]
