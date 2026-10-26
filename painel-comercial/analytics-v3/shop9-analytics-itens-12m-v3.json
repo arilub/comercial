@@ -84286,7 +84286,7 @@
         "valor_item":  17470.0000
     },
     {
-        "item_id":  614253,
+        "item_id":  614296,
         "movimento_id":  438550,
         "tipo_operacao":  "ORC",
         "data_movimento":  "2026-10-23",
@@ -84295,12 +84295,12 @@
         "numero_linha":  1,
         "produto_id":  255,
         "quantidade":  4.0000,
-        "preco_unitario":  84.3400,
-        "preco_total_sem_desconto":  337.3600,
+        "preco_unitario":  81.8100,
+        "preco_total_sem_desconto":  327.2400,
         "desconto_valor":  0.0000,
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
-        "valor_item":  337.3600
+        "valor_item":  327.2400
     },
     {
         "item_id":  614254,
@@ -84607,5 +84607,22 @@
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
         "valor_item":  4219.1000
+    },
+    {
+        "item_id":  614297,
+        "movimento_id":  438572,
+        "tipo_operacao":  "ORC",
+        "data_movimento":  "2026-10-26",
+        "cliente_id":  93320,
+        "vendedor_id":  17,
+        "numero_linha":  1,
+        "produto_id":  640,
+        "quantidade":  4.0000,
+        "preco_unitario":  40.0000,
+        "preco_total_sem_desconto":  160.0000,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "valor_item":  160.0000
     }
 ]
