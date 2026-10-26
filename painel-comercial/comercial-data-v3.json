@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-26T12:23:53-03:00",
+                 "geradoEm":  "2026-10-26T13:24:02-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -216,15 +216,15 @@
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6096,
-                                     "valorTotal":  21720999.76,
+                                     "total":  6097,
+                                     "valorTotal":  21725064.43,
                                      "convertidos":  2398,
                                      "cancelados":  379,
-                                     "recente":  31,
+                                     "recente":  32,
                                      "acompanhamento":  23,
                                      "atencao":  49,
                                      "envelhecido":  3005,
-                                     "taxaConversao":  0.3934
+                                     "taxaConversao":  0.3933
                                  },
                   "vendas":  {
                                  "total":  63014,
@@ -79138,6 +79138,27 @@
                       "vendaShop9":  null
                   },
                   {
+                      "id":  26916624,
+                      "nome":  "Lead #26916624",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  4947,
+                      "cliente":  "SOBRAL \u0026 PALACIO PETROLEO LTDA",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO GL4 140 VR LUB",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-08T15:15:05-03:00",
+                      "atualizadoEm":  "2026-10-26T11:42:10-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
                       "id":  27027244,
                       "nome":  "Lead #27027244",
                       "pipelineId":  "9334023",
@@ -79153,7 +79174,7 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-10-26T11:19:39-03:00",
-                      "atualizadoEm":  "2026-10-26T11:32:47-03:00",
+                      "atualizadoEm":  "2026-10-26T12:32:31-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -79174,28 +79195,7 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-01-21T11:23:18-03:00",
-                      "atualizadoEm":  "2026-10-26T11:40:17-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26916624,
-                      "nome":  "Lead #26916624",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  4947,
-                      "cliente":  "SOBRAL \u0026 PALACIO PETROLEO LTDA",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO GL4 140 VR LUB",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-08T15:15:05-03:00",
-                      "atualizadoEm":  "2026-10-26T11:42:10-03:00",
+                      "atualizadoEm":  "2026-10-26T12:41:20-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
