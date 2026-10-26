@@ -8699,5 +8699,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-26"
+    },
+    {
+        "cliente_id":  93324,
+        "codigo_shop9":  4982,
+        "cliente_nome":  "Casa Agricola Lagoa Funda Ltda",
+        "fantasia":  "",
+        "cidade":  "Paraipaba",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-26"
     }
 ]
