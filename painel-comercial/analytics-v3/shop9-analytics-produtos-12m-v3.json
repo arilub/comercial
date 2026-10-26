@@ -3810,21 +3810,6 @@
         "unidade":  "BBN"
     },
     {
-        "produto_id":  54012,
-        "codigo":  "06114.2V",
-        "produto":  "5W30 SN 1L SINT. INGRAX",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  13,
-        "grupo":  "35%",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  35866,
-        "fabricante":  "INGRAX",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  55012,
         "codigo":  "3377",
         "produto":  "GL5 85W90 20L HIPOIDE S DULUB",
@@ -6360,21 +6345,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  64586,
-        "codigo":  "115",
-        "produto":  "OLEO MINERAL ALOGRO M70 CADIUM",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  39991,
-        "fabricante":  "CADIUM",
-        "unidade_id":  10002,
-        "unidade":  "BD"
-    },
-    {
         "produto_id":  64587,
         "codigo":  "459.33.3V",
         "produto":  "GL5 85W140 24X1L HP GEAR VALVOLINE",
@@ -6403,21 +6373,6 @@
         "fabricante":  "VALVOLINE",
         "unidade_id":  10015,
         "unidade":  "LT"
-    },
-    {
-        "produto_id":  65586,
-        "codigo":  "11203",
-        "produto":  "RESPIRADOR PPF2 C/V MASKFACE BRANCO AIR SAFETY",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  40991,
-        "fabricante":  "AIR SAFETY",
-        "unidade_id":  10030,
-        "unidade":  "UN"
     },
     {
         "produto_id":  65589,
