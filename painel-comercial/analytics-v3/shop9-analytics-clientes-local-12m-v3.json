@@ -8710,5 +8710,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-26"
+    },
+    {
+        "cliente_id":  93325,
+        "codigo_shop9":  4983,
+        "cliente_nome":  "Clean Higienizacao De Texteis Ltda",
+        "fantasia":  "",
+        "cidade":  "Eusébio",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-26"
     }
 ]
