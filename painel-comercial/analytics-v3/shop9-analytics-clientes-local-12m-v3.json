@@ -4059,17 +4059,6 @@
         "data_cadastro":  "2025-10-17"
     },
     {
-        "cliente_id":  90762,
-        "codigo_shop9":  4501,
-        "cliente_nome":  "Jonas Car Servicos Automotivos Ltda",
-        "fantasia":  "Jonas Car",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-24"
-    },
-    {
         "cliente_id":  91764,
         "codigo_shop9":  4502,
         "cliente_nome":  "Brisanet Servicos De Telecomunicacoes S.A.",
@@ -8699,5 +8688,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-23"
+    },
+    {
+        "cliente_id":  93323,
+        "codigo_shop9":  4981,
+        "cliente_nome":  "53.352.379 Marcelo Do Nascimento Da Silva",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-26"
     }
 ]
