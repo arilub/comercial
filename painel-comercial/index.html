@@ -256,7 +256,7 @@ async function loadAnalytics(){try{let[mov,it,pr,cl,ln,aj,hist,man]=await Promis
 A.cliMap=new Map(cl.map(x=>[String(x.cliente_id),x]));A.prodMap=new Map(pr.map(x=>[String(x.produto_id),x]));A.linkSet=new Set(ln.map(x=>String(x.orcamento_id)));let cs=$('clienteAnalise'),ps=$('produtoAnalise');cl.slice().sort((a,b)=>String(a.cliente_nome||'').localeCompare(String(b.cliente_nome||''),'pt-BR')).forEach(x=>cs.add(new Option(x.cliente_nome||('Cliente '+x.cliente_id),String(x.cliente_id))));pr.slice().sort((a,b)=>String(a.produto||'').localeCompare(String(b.produto||''),'pt-BR')).forEach(x=>ps.add(new Option((x.produto||('Produto '+x.produto_id))+' · '+(x.fabricante||'s/fabricante'),String(x.produto_id))));['vendedorAnalise','clienteAnalise','produtoAnalise','situacaoAnalise'].forEach(id=>$(id).disabled=false);let j=man.janela_detalhada||{};$('analyticsStatus').innerHTML='<b>Camada analítica Shop9:</b><span class="pill">12 MESES</span><span>'+dbr(j.data_inicio||'')+' a '+dbr(j.data_fim||'')+'</span><span>'+num(mov.length)+' movimentos · '+num(it.length)+' itens</span><span class="pill">NOMES REAIS · SEM CPF/CNPJ</span>'}catch(e){A={ready:false,error:e.message};$('analyticsStatus').innerHTML='<b>Camada analítica Shop9:</b><span class="pill">AGREGADO</span><span>arquivos detalhados de 12 meses ainda não disponíveis.</span>'}}
 async function loadUpdateStatus(){
     try{
-        let r=await fetch('./status-v3-homolog.json',{cache:'no-store'});
+        let r=await fetch('./status-v3.json',{cache:'no-store'});
         if(!r.ok)throw Error('HTTP '+r.status);
 
         let s=await r.json();
