@@ -1,6 +1,6 @@
 {
     "versao":  "shop9-analytics-v3.0.0-homolog-local",
-    "gerado_em":  "2026-10-27T11:23:48",
+    "gerado_em":  "2026-10-27T12:23:53",
     "fonte":  "Snapshots locais da aquisicao central Shop9 V3",
     "modo":  "processamento_local_zero_sql_zero_rede",
     "janela_detalhada":  {
@@ -17,13 +17,13 @@
                                         "arquivo":  "shop9-analytics-movimentos-12m-v3.json",
                                         "registros":  3391,
                                         "tamanho_mb":  4,
-                                        "duracao_seg":  0.25
+                                        "duracao_seg":  0.21
                                     },
                      "itens":  {
                                    "arquivo":  "shop9-analytics-itens-12m-v3.json",
                                    "registros":  4995,
                                    "tamanho_mb":  2.53,
-                                   "duracao_seg":  0.23
+                                   "duracao_seg":  0.16
                                },
                      "produtos":  {
                                       "arquivo":  "shop9-analytics-produtos-12m-v3.json",
@@ -41,7 +41,7 @@
                                    "arquivo":  "shop9-analytics-orc-vnd-12m-v3.json",
                                    "registros":  751,
                                    "tamanho_mb":  0.11,
-                                   "duracao_seg":  0.02
+                                   "duracao_seg":  0.01
                                },
                      "ajustes":  {
                                      "arquivo":  "shop9-analytics-ajustes-12m-v3.json",
@@ -53,7 +53,7 @@
                                        "arquivo":  "shop9-analytics-historico-mensal-v3.json",
                                        "registros":  1368,
                                        "tamanho_mb":  0.24,
-                                       "duracao_seg":  0.03
+                                       "duracao_seg":  0.04
                                    }
                  },
     "regras":  {
