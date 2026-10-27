@@ -1,0 +1,39 @@
+name: Update market panel title
+
+on:
+  push:
+    paths:
+      - '.github/workflows/update-market-title.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Replace only the visible panel title
+        shell: python
+        run: |
+          from pathlib import Path
+          path = Path('painel_inteligencia-arilub_36_meses/index.html')
+          text = path.read_text(encoding='utf-8')
+          old = '<div class="ttl">Painel de Inteligência Comercial</div>'
+          new = '<div class="ttl">Inteligência de Mercado</div>'
+          count = text.count(old)
+          if count != 1:
+              raise SystemExit(f'Expected exactly one title occurrence, found {count}')
+          path.write_text(text.replace(old, new), encoding='utf-8')
+      - name: Commit title change
+        run: |
+          git config user.name "ARILUB Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add painel_inteligencia-arilub_36_meses/index.html
+          if git diff --cached --quiet; then
+            echo "No change required"
+            exit 0
+          fi
+          git commit -m "Ajusta título para Inteligência de Mercado"
+          git push
