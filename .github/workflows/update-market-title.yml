@@ -19,14 +19,16 @@ jobs:
         shell: python
         run: |
           from pathlib import Path
+          import re
           path = Path('painel_inteligencia-arilub_36_meses/index.html')
           text = path.read_text(encoding='utf-8')
-          old = '<div class="ttl">Painel de Inteligência Comercial</div>'
+          pattern = r'<div class="ttl">.*?</div>'
+          matches = re.findall(pattern, text, flags=re.S)
+          if len(matches) != 1:
+              raise SystemExit(f'Expected exactly one ttl element, found {len(matches)}: {matches[:3]}')
           new = '<div class="ttl">Inteligência de Mercado</div>'
-          count = text.count(old)
-          if count != 1:
-              raise SystemExit(f'Expected exactly one title occurrence, found {count}')
-          path.write_text(text.replace(old, new), encoding='utf-8')
+          text = re.sub(pattern, new, text, count=1, flags=re.S)
+          path.write_text(text, encoding='utf-8')
           Path('.github/title-update-trigger.txt').unlink(missing_ok=True)
       - name: Commit title change to PR branch
         run: |
