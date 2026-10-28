@@ -30,13 +30,13 @@
         "tipo_ajuste":  "AJUSTE_NAO_ATRIBUIDO"
     },
     {
-        "movimento_id":  438592,
+        "movimento_id":  438549,
         "tipo_operacao":  "ORC",
         "venda_realizada_valida":  false,
-        "data_movimento":  "2026-10-28",
-        "valor_documento":  284.7800,
-        "valor_itens":  319.0200,
-        "ajuste_documental":  -34.2400,
+        "data_movimento":  "2026-10-23",
+        "valor_documento":  17470.0000,
+        "valor_itens":  5241.0000,
+        "ajuste_documental":  12229.0000,
         "tipo_ajuste":  "AJUSTE_NAO_ATRIBUIDO"
     }
 ]
