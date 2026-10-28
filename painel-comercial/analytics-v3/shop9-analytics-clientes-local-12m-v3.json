@@ -3861,17 +3861,6 @@
         "data_cadastro":  "2025-07-16"
     },
     {
-        "cliente_id":  88665,
-        "codigo_shop9":  4418,
-        "cliente_nome":  "Germano Viana Da Cruz 00040086348",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-07-23"
-    },
-    {
         "cliente_id":  88669,
         "codigo_shop9":  4422,
         "cliente_nome":  "Pinheirinho Comercio \u0026 Servicos Ltda",
@@ -8721,5 +8710,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-26"
+    },
+    {
+        "cliente_id":  93326,
+        "codigo_shop9":  4984,
+        "cliente_nome":  "Fort Locacoes De Equipamentos Ltda",
+        "fantasia":  "Fort Loc",
+        "cidade":  "Parauapebas",
+        "uf":  "PA",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-27"
     }
 ]
