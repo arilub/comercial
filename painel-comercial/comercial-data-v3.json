@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-28T08:23:55-03:00",
+                 "geradoEm":  "2026-10-28T09:24:09-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -99,16 +99,10 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
+                                     "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "graxa azul karter 20 kg",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  798
                                  },
                                  {
                                      "nome":  "GRAXA CHASSIS 10KG VR LUB",
@@ -117,16 +111,22 @@
                                      "ganhosValor":  737
                                  },
                                  {
+                                     "nome":  "graxa azul karter 20 kg",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "ROLAMENTOS",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "OLEO 68 ECONOLINE",
+                                     "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  798
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo ectron 68 vr lub bd 20 litros",
@@ -135,13 +135,7 @@
                                      "ganhosValor":  411
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS VR LUB E OLEO 68 VR LUB",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO 25W50 LUBRAX E STHIL 2T",
+                                     "nome":  "oleo ectron 68 vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -153,13 +147,25 @@
                                      "ganhosValor":  0
                                  },
                                  {
+                                     "nome":  "OLEO SOLUVEL ALL PS 100",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO 25W50 LUBRAX E STHIL 2T",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "GRAXA CLAY 2 LUBRAX 20 KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub",
+                                     "nome":  "QUEROSENE SOLUT",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -177,13 +183,13 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "unitractor gl 4 10w30 lubrax 02 baldes",
+                                     "nome":  "oleo atf 20 litros vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "QUEROSENE SOLUT",
+                                     "nome":  "GRAXA CHASSIS VR LUB E OLEO 68 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -201,26 +207,20 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo atf 20 litros vr lub",
+                                     "nome":  "graxa azul 20 kg karter",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "HIDR. 32 LUBRAX",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1700
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6105,
-                                     "valorTotal":  21888505.41,
+                                     "total":  6106,
+                                     "valorTotal":  21889281.35,
                                      "convertidos":  2400,
                                      "cancelados":  379,
-                                     "recente":  27,
+                                     "recente":  28,
                                      "acompanhamento":  33,
                                      "atencao":  47,
                                      "envelhecido":  3007,
@@ -72201,27 +72201,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25551638,
-                      "nome":  "Lead #25551638",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  1100,
-                      "cliente":  "Petral Comercio De Ferro E Aco Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo all pm 20 bd 20 litros",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-05-19T11:35:12-03:00",
-                      "atualizadoEm":  "2026-10-06T14:15:11-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26890180,
                       "nome":  "Lead #26890180",
                       "pipelineId":  "9334023",
@@ -79152,27 +79131,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27033206,
-                      "nome":  "Lead #27033206",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-27T10:13:45-03:00",
-                      "atualizadoEm":  "2026-10-27T15:58:26-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27035530,
                       "nome":  "Lead #27035530",
                       "pipelineId":  "9334023",
@@ -79278,27 +79236,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  23885935,
-                      "nome":  "Autolead: Lead #23833547",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  1739,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-12-12T11:40:53-03:00",
-                      "atualizadoEm":  "2026-10-27T16:38:02-03:00",
-                      "fechadoEm":  "2026-02-02T14:59:10-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27034688,
                       "nome":  "Autolead: DAKOTA CL 4318",
                       "pipelineId":  "9473539",
@@ -79358,6 +79295,69 @@
                       "criadoEm":  "2025-06-02T10:40:34-03:00",
                       "atualizadoEm":  "2026-10-28T07:28:02-03:00",
                       "fechadoEm":  "2026-07-07T08:28:48-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  23885935,
+                      "nome":  "Autolead: Lead #23833547",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  1739,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-12-12T11:40:53-03:00",
+                      "atualizadoEm":  "2026-10-28T08:45:14-03:00",
+                      "fechadoEm":  "2026-02-02T14:59:10-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27033206,
+                      "nome":  "Lead #27033206",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-27T10:13:45-03:00",
+                      "atualizadoEm":  "2026-10-28T08:54:24-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  25551638,
+                      "nome":  "Lead #25551638",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1100,
+                      "cliente":  "Petral Comercio De Ferro E Aco Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo all pm 20 bd 20 litros",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-05-19T11:35:12-03:00",
+                      "atualizadoEm":  "2026-10-28T09:11:49-03:00",
+                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
