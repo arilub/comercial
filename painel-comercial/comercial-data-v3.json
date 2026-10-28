@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-28T07:24:07-03:00",
+                 "geradoEm":  "2026-10-28T08:23:55-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -78879,27 +78879,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  20375982,
-                      "nome":  "Autolead: Lead #18818337",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  1480,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-06-02T10:40:34-03:00",
-                      "atualizadoEm":  "2026-10-27T10:57:06-03:00",
-                      "fechadoEm":  "2026-07-07T08:28:48-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  17907660,
                       "nome":  "Lead #17907660",
                       "pipelineId":  "9473539",
@@ -79360,6 +79339,27 @@
                       "fechadoEm":  "2026-10-27T13:10:59-03:00",
                       "reconciliacaoHistorica":  "PROVAVEL",
                       "vendaShop9":  438582
+                  },
+                  {
+                      "id":  20375982,
+                      "nome":  "Autolead: Lead #18818337",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  1480,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-06-02T10:40:34-03:00",
+                      "atualizadoEm":  "2026-10-28T07:28:02-03:00",
+                      "fechadoEm":  "2026-07-07T08:28:48-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
                   }
               ]
 }
