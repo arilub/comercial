@@ -2,18 +2,18 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-28T09:24:09-03:00",
+                 "geradoEm":  "2026-10-28T10:24:08-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3726,
+    "totalLeads":  3727,
     "porEtapa":  {
                      "Venda perdida":  1334,
                      "Venda ganha":  956,
                      "Cliente Ativo":  586,
-                     "NegociaÃ§Ã£o":  529,
+                     "NegociaÃ§Ã£o":  530,
                      "Chegada do Lead":  158,
                      "Nova Sondagem":  157,
                      "Vencedor - OF":  3,
@@ -24,7 +24,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2045,
+                          "leads":  2046,
                           "ganhos":  455,
                           "perdidos":  1014
                       },
@@ -51,7 +51,7 @@
                    "ticketMedio":  2591.14,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  294,
+                                                        "totalLeads":  295,
                                                         "ganhosQtd":  97,
                                                         "perdidosQtd":  7,
                                                         "ganhosValor":  264687
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  106,
+                      "WhatsApp":  107,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
@@ -75,7 +75,7 @@
                                                  "ganhosValor":  50815
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  194,
+                                                  "totalLeads":  195,
                                                   "ganhosQtd":  63,
                                                   "ganhosValor":  170340
                                               },
@@ -105,10 +105,10 @@
                                      "ganhosValor":  798
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
+                                     "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "graxa azul karter 20 kg",
@@ -117,22 +117,22 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "ROLAMENTOS",
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  14659
-                                 },
-                                 {
-                                     "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
                                  },
                                  {
                                      "nome":  "oleo ectron 68 vr lub bd 20 litros",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  411
+                                 },
+                                 {
+                                     "nome":  "ROLAMENTOS",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  14659
                                  },
                                  {
                                      "nome":  "oleo ectron 68 vr lub",
@@ -142,6 +142,12 @@
                                  },
                                  {
                                      "nome":  "OLEO 90,140 E ATF VR LUB",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "GRAXA CLAY 2 LUBRAX 20 KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -159,7 +165,7 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA CLAY 2 LUBRAX 20 KG",
+                                     "nome":  "oleo max turbo 15w40 vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -205,26 +211,20 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "graxa azul 20 kg karter",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6106,
-                                     "valorTotal":  21889281.35,
+                                     "total":  6107,
+                                     "valorTotal":  21889566.13,
                                      "convertidos":  2400,
                                      "cancelados":  379,
-                                     "recente":  28,
+                                     "recente":  29,
                                      "acompanhamento":  33,
                                      "atencao":  47,
                                      "envelhecido":  3007,
-                                     "taxaConversao":  0.3931
+                                     "taxaConversao":  0.393
                                  },
                   "vendas":  {
                                  "total":  63017,
@@ -78690,27 +78690,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  20627951,
-                      "nome":  "Autolead: ARNOLDO CL 4600",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  1100,
-                      "cliente":  "L C Gress Ltda - Me",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-06-10T15:23:11-03:00",
-                      "atualizadoEm":  "2026-10-27T08:09:13-03:00",
-                      "fechadoEm":  "2026-01-22T09:16:22-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  21516291,
                       "nome":  "Autolead: Lead #18346761",
                       "pipelineId":  "9473539",
@@ -79110,27 +79089,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  24926344,
-                      "nome":  "Lead #24926344",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  1146,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-03-17T14:29:12-03:00",
-                      "atualizadoEm":  "2026-10-27T15:42:43-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27035530,
                       "nome":  "Lead #27035530",
                       "pipelineId":  "9334023",
@@ -79209,27 +79167,6 @@
                       "origem":  "WhatsApp",
                       "numeroCoep":  null,
                       "criadoEm":  "2025-10-28T16:28:05-03:00",
-                      "atualizadoEm":  "2026-10-27T16:37:22-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  23316726,
-                      "nome":  "Lead #23316726",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  129453,
-                      "cliente":  "Inace Iate Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "VARIOS OLEOS LUBRAX, SHELL E MOBIL",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-10-28T16:32:36-03:00",
                       "atualizadoEm":  "2026-10-27T16:37:22-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
@@ -79320,8 +79257,8 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27033206,
-                      "nome":  "Lead #27033206",
+                      "id":  27039366,
+                      "nome":  "Lead #27039366",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
                       "statusId":  "72324135",
@@ -79334,8 +79271,29 @@
                       "linhaProduto":  null,
                       "origem":  null,
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-10-27T10:13:45-03:00",
-                      "atualizadoEm":  "2026-10-28T08:54:24-03:00",
+                      "criadoEm":  "2026-10-28T09:27:40-03:00",
+                      "atualizadoEm":  "2026-10-28T09:28:39-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  23316726,
+                      "nome":  "Lead #23316726",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  129453,
+                      "cliente":  "Inace Iate Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "VARIOS OLEOS LUBRAX, SHELL E MOBIL",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-10-28T16:32:36-03:00",
+                      "atualizadoEm":  "2026-10-28T09:49:35-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -79356,8 +79314,71 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-05-19T11:35:12-03:00",
-                      "atualizadoEm":  "2026-10-28T09:11:49-03:00",
+                      "atualizadoEm":  "2026-10-28T09:54:07-03:00",
                       "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27033206,
+                      "nome":  "Lead #27033206",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  776,
+                      "cliente":  "Fort Locacoes De Equipamentos Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "FILTROS MANN FILTER/TECFIL",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-27T10:13:45-03:00",
+                      "atualizadoEm":  "2026-10-28T09:58:22-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24926344,
+                      "nome":  "Lead #24926344",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1146,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-03-17T14:29:12-03:00",
+                      "atualizadoEm":  "2026-10-28T10:06:17-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  20627951,
+                      "nome":  "Autolead: ARNOLDO CL 4600",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  1100,
+                      "cliente":  "L C Gress Ltda - Me",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-06-10T15:23:11-03:00",
+                      "atualizadoEm":  "2026-10-28T10:11:05-03:00",
+                      "fechadoEm":  "2026-01-22T09:16:22-03:00",
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
