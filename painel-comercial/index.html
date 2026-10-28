@@ -342,8 +342,12 @@ function funil(pipe,tableId,chartId,seller,missFn,respId,agingId,alertId){
             ' | Pendências de campos nos abertos da coorte: '+
             num(pend)+' · 15+ dias sem evolução: '+num(old);
 
-        let bad=ab
-            .filter(x=>missFn(x)>0||aging15([x])>0)
+        let alertFloor=new Date('2026-10-01T00:00:00'),
+            bad=ab
+            .filter(x=>{
+                let d=dt(x);
+                return d&&d>=alertFloor&&(missFn(x)>0||aging15([x])>0)
+            })
             .slice(0,15);
 
         if(!bad.length){
@@ -491,6 +495,7 @@ async function loadUpdateStatus(){
 }
 async function init(){wire();await loadUpdateStatus();try{let[db,ds]=await Promise.all([fetch(D,{cache:'no-store'}),fetch(C,{cache:'no-store'})]);if(!ds.ok)throw Error('Canal HTTP '+ds.status);S=await ds.json();B=db.ok?await db.json():null;if(!Array.isArray(S.diasCanal)||!Array.isArray(S.mesesCanal))throw Error('Payload de canal inválido');fill();$('status').innerHTML='<b>Fonte de resultado:</b> Shop9 por canal homologado · até '+dbr(latest())+' · <span class="pill">HOMOLOG V3</span>';await loadAnalytics();render()}catch(e){$('status').textContent='Falha ao carregar V3 HOMOLOG: '+e.message}}init();
 </script></body></html>
+
 
 
 
