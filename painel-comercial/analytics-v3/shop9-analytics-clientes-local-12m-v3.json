@@ -8732,5 +8732,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-28"
+    },
+    {
+        "cliente_id":  93328,
+        "codigo_shop9":  4986,
+        "cliente_nome":  "Brasilplac Industria E Comercio De Placas E Comunicacao Visu",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-28"
     }
 ]
