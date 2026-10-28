@@ -193,7 +193,7 @@
 <div class="g2"><div class="card"><div class="h">Ritmo comercial · Venda Direta</div><div class="hint">Semanas seg–sex; feriados ainda não parametrizados.</div><table style="margin-top:9px"><thead><tr><th>Semana</th><th>Faixa</th><th class="r">Vendas</th><th class="r">Realizado</th></tr></thead><tbody id="dWeeks"></tbody></table></div><div class="card"><div class="h">Ritmo comercial · Licitação</div><div class="hint">Mesma régua temporal; resultado realizado no Shop9.</div><table style="margin-top:9px"><thead><tr><th>Semana</th><th>Faixa</th><th class="r">Vendas</th><th class="r">Realizado</th></tr></thead><tbody id="lWeeks"></tbody></table></div></div>
 <div class="bt">Farol de gestão</div><div class="card"><table><thead><tr><th>Vendedor</th><th>Canal</th><th>Status</th></tr></thead><tbody id="farol"></tbody></table><div class="note">Dashboard mostra apenas o farol executivo. O detalhamento das pendências fica na aba de cada canal. Verde = sem pendência crítica; amarelo = pendência de preenchimento; vermelho = pendência + oportunidade parada há 15+ dias. Aglailton não compõe a visão de vendedor.</div></div>
 <div class="bt">Panorama comercial do período</div><div class="card"><table><thead><tr><th>Canal</th><th class="r">Vendas</th><th class="r">Realizado</th><th class="r">Participação</th></tr></thead><tbody id="pan"></tbody></table></div></section>
-<section id="direta" class="sec"><div class="bt">Venda Direta</div><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select class="monthSel"></select><span class="small pnote"></span></div><div class="alert"><b>Resultado:</b> Shop9. <b>Funil atual e oportunidades:</b> Kommo · pipeline Venda Direta. Dados CRM aparecem como gestão de processo, não como faturamento. O funil/fluxo do Kommo é apresentado como snapshot atual, porque o snapshot não reconstrói historicamente a etapa em que cada oportunidade estava em uma semana passada.</div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="vdReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="vdQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket</div><div id="vdTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="vdProj" class="val">—</div></div></div><div class="g2"><div class="card"><div class="h">Funil atual · Venda Direta · Kommo</div><canvas id="vdFun"></canvas><table><thead><tr><th>Etapa</th><th class="r">Qtd.</th><th class="r">%</th></tr></thead><tbody id="vdFunT"></tbody></table></div><div class="card"><div class="h">Vendedor · Fabiana</div><table><thead><tr><th>Responsável</th><th class="r">Total</th><th class="r">Abertas</th><th class="r">Ganhas</th><th class="r">Perdidas</th><th class="r">Conversão</th></tr></thead><tbody id="vdResp"></tbody></table><div id="vdAging" class="src"></div></div></div>
+<section id="direta" class="sec"><div class="bt">Venda Direta</div><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select class="monthSel"></select><span class="small pnote"></span></div><div class="alert"><b>Resultado:</b> Shop9. <b>Processo comercial:</b> Kommo · pipeline Venda Direta. O funil abaixo apresenta a coorte de leads criados no período selecionado e sua situação atual. Encerramentos ocorridos no período são informados separadamente para não misturar coortes diferentes.</div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="vdReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="vdQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket</div><div id="vdTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="vdProj" class="val">—</div></div></div><div class="g2"><div class="card"><div class="h">Coorte do período · Venda Direta · Kommo</div><canvas id="vdFun"></canvas><table><thead><tr><th>Etapa</th><th class="r">Qtd.</th><th class="r">%</th></tr></thead><tbody id="vdFunT"></tbody></table></div><div class="card"><div class="h">Responsável · Fabiana · coorte do período</div><table><thead><tr><th>Responsável</th><th class="r">Entradas</th><th class="r">Em aberto</th><th class="r">Ganhas</th><th class="r">Perdidas</th><th class="r">Êxito coorte</th></tr></thead><tbody id="vdResp"></tbody></table><div id="vdAging" class="src"></div></div></div>
 <div class="card"><div class="h">Alertas de preenchimento e gestão · Venda Direta</div><div id="vdAlertas" class="src"></div></div>
 <div class="card"><div class="h">Orçamentos e conversão · Shop9</div><table><thead><tr><th>Métrica</th><th class="r">Quantidade</th><th class="r">Valor orçado</th></tr></thead><tbody id="vdOrcT"></tbody></table></div></section>
 <section id="licitacao" class="sec"><div class="bt">Licitação</div><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select class="monthSel"></select><span class="small pnote"></span></div><div class="alert"><b>Resultado:</b> Shop9. <b>Processo comercial:</b> Kommo · pipeline Licitações. A base disponível no Kommo não possui alimentação operacional recente e, por isso, seus indicadores atuais estão suspensos neste painel. Os registros históricos permanecem preservados na origem.</div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="licReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="licQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket</div><div id="licTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="licProj" class="val">—</div></div></div><div class="g2"><div class="card"><div class="h">Kommo · Licitações · base sem alimentação recente</div><canvas id="licFun"></canvas><table><thead><tr><th>Etapa</th><th class="r">Qtd.</th><th class="r">%</th></tr></thead><tbody id="licFunT"></tbody></table></div><div class="card"><div class="h">Responsável operacional · Edvaldo</div><table><thead><tr><th>Responsável</th><th class="r">Total</th><th class="r">Abertas</th><th class="r">Ganhas</th><th class="r">Perdidas</th><th class="r">Conversão</th></tr></thead><tbody id="licResp"></tbody></table><div id="licAging" class="src"></div></div></div>
@@ -241,7 +241,214 @@ $('lOrcA').textContent=num(li.orcAbertosQtd||0);
 $('lOrcAN').textContent=brl(li.orcAbertosValor||0);
 $('lConvQ').textContent=num(li.vendasQtd);
 $('lConvP').textContent=li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—';$('mReal').textContent=brl(tot);$('mPct').textContent=pct(tot/META*100);$('mProj').textContent=brl(proj);$('mProjPct').textContent='projeção: '+pct(proj/META*100);$('mPrev').textContent=pct(vr);$('mPrevN').textContent=prv?'base: '+ml(addm(mr,-1))+' fechado · '+brl(prv):'sem base comparável';let den=tot;$('pan').innerHTML=[['Venda Direta',vd],['Licitação',li],['Não classificado',nc]].map(([n,x])=>`<tr><td>${n}</td><td class="r">${num(x.vendasQtd)}</td><td class="r">${brl(x.vendasValor)}</td><td class="r">${den?pct(x.vendasValor/den*100):'—'}</td></tr>`).join('');weekly('dWeeks',['VENDA_DIRETA']);weekly('lWeeks',['LICITACAO','LICITACAO_HISTORICA']);renderFarol()}function alertDetail(pipe,seller,missFn,target){let st=sellerStats(pipe,seller,missFn),open=st.all.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),bad=open.filter(x=>missFn(x)>0||aging15([x])>0).slice(0,15);if(!bad.length){$(target).innerHTML='<span class="pill ok">Sem pendência crítica identificada</span>';return}$(target).innerHTML='<table><thead><tr><th>Oportunidade</th><th>Etapa</th><th>Pendência</th><th>Última atualização</th></tr></thead><tbody>'+bad.map(x=>{let nm=String(x.nome||x.leadNome||x.titulo||x.id||x.leadId||'Oportunidade'),m=missFn(x),old=aging15([x])>0,pend=m?m+' campo(s)':'',txt=[pend,old?'15+ dias sem evolução':''].filter(Boolean).join(' · '),d=dt(x);return`<tr><td>${nm}</td><td>${stage(x)}</td><td>${txt||'—'}</td><td>${d?d.toLocaleDateString('pt-BR'):'—'}</td></tr>`}).join('')+'</tbody></table>'}
-function funil(pipe,tableId,chartId,seller,missFn,respId,agingId,alertId){if(!B){$(tableId).innerHTML='<tr><td colspan="3">Kommo indisponível</td></tr>';return}let a=leads(pipe),ss={};a.forEach(x=>ss[stage(x)]=(ss[stage(x)]||0)+1);let ord=pipe===PIPE_L?['Classificado','Vencedor - OF','Venda ganha','Venda perdida']:['Chegada do Lead','Contato Inicial','Nova Sondagem','Cliente Ativo','Negociação','Venda ganha','Venda perdida'];let sr=[...ord.filter(x=>ss[x]),...Object.keys(ss).filter(x=>!ord.includes(x))].map(x=>[x,ss[x]]);$(tableId).innerHTML=sr.map(([n,q])=>`<tr><td>${n}</td><td class="r">${q}</td><td class="r">${a.length?pct(q/a.length*100):'—'}</td></tr>`).join('')||'<tr><td colspan="3">Sem dados</td></tr>';if(typeof Chart!=='undefined'){if(charts[chartId])charts[chartId].destroy();charts[chartId]=new Chart($(chartId),{type:'bar',data:{labels:sr.map(x=>x[0]),datasets:[{data:sr.map(x=>x[1]),backgroundColor:'#2098D5'}]},options:{indexAxis:'y',plugins:{legend:{display:false}}}})}let st=sellerStats(pipe,seller,missFn);$(respId).innerHTML=`<tr><td>${seller}</td><td class="r">${num(st.t)}</td><td class="r">${num(st.a)}</td><td class="r">${num(st.g)}</td><td class="r">${num(st.p)}</td><td class="r">${pct(st.conv)}</td></tr>`;$(agingId).textContent='Snapshot atual do Kommo · Pendências de campos: '+num(st.pend)+' · Carteira aberta sem evolução 15+ dias: '+num(st.old);alertDetail(pipe,seller,missFn,alertId)}function channelTabs(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']);setChannel('vd',vd,projectionMonthly(['VENDA_DIRETA']));setChannel('lic',li,projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']));$('vdOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(vd.orcEmitidosQtd)}</td><td class="r">${brl(vd.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(vd.orcConvertidosQtd)}</td><td class="r">${brl(vd.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${vd.orcEmitidosQtd?pct(vd.orcConvertidosQtd/vd.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(vd.vendasQtd)}</td><td class="r">${brl(vd.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${vd.orcEmitidosValor?pct(vd.vendasValor/vd.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(vd.orcAbertosQtd||0)}</td><td class="r">${brl(vd.orcAbertosValor||0)}</td></tr>`;$('licOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(li.orcEmitidosQtd)}</td><td class="r">${brl(li.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(li.orcConvertidosQtd)}</td><td class="r">${brl(li.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(li.vendasQtd)}</td><td class="r">${brl(li.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${li.orcEmitidosValor?pct(li.vendasValor/li.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(li.orcAbertosQtd||0)}</td><td class="r">${brl(li.orcAbertosValor||0)}</td></tr>`;funil(PIPE_D,'vdFunT','vdFun','Fabiana',missDirect,'vdResp','vdAging','vdAlertas');$('licFunT').innerHTML='<tr><td colspan="3">Indicadores Kommo suspensos · pipeline sem alimentação operacional recente</td></tr>';
+function leadInPeriod(x,field){
+    let[a,b]=periodBounds(),
+        d=String(x?.[field]||'').slice(0,10);
+    return !!d&&d>=a&&d<=b
+}
+
+function funil(pipe,tableId,chartId,seller,missFn,respId,agingId,alertId){
+    if(!B){
+        $(tableId).innerHTML='<tr><td colspan="3">Kommo indisponível</td></tr>';
+        return
+    }
+
+    let all=leads(pipe);
+
+    if(pipe===PIPE_D){
+
+        let cohort=all.filter(x=>leadInPeriod(x,'criadoEm')),
+            own=cohort.filter(x=>canon(resp(x))===seller),
+            ss={};
+
+        own.forEach(x=>ss[stage(x)]=(ss[stage(x)]||0)+1);
+
+        let ord=[
+                'Chegada do Lead',
+                'Contato Inicial',
+                'Nova Sondagem',
+                'Cliente Ativo',
+                'Negociação',
+                'Venda ganha',
+                'Venda perdida'
+            ],
+            sr=[
+                ...ord.filter(x=>ss[x]),
+                ...Object.keys(ss).filter(x=>!ord.includes(x))
+            ].map(x=>[x,ss[x]]);
+
+        $(tableId).innerHTML=
+            sr.map(([n,q])=>
+                `<tr>
+                    <td>${n}</td>
+                    <td class="r">${num(q)}</td>
+                    <td class="r">${own.length?pct(q/own.length*100):'—'}</td>
+                </tr>`
+            ).join('') ||
+            '<tr><td colspan="3">Sem leads criados no período selecionado.</td></tr>';
+
+        if(typeof Chart!=='undefined'){
+            if(charts[chartId])charts[chartId].destroy();
+
+            charts[chartId]=new Chart($(chartId),{
+                type:'bar',
+                data:{
+                    labels:sr.map(x=>x[0]),
+                    datasets:[{
+                        data:sr.map(x=>x[1]),
+                        backgroundColor:'#2098D5'
+                    }]
+                },
+                options:{
+                    indexAxis:'y',
+                    plugins:{legend:{display:false}}
+                }
+            })
+        }
+
+        let ab=own.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),
+            ga=own.filter(x=>stage(x)==='Venda ganha'),
+            pe=own.filter(x=>stage(x)==='Venda perdida'),
+            closed=ga.length+pe.length,
+            conv=closed?ga.length/closed*100:NaN;
+
+        $(respId).innerHTML=
+            `<tr>
+                <td>${seller}</td>
+                <td class="r">${num(own.length)}</td>
+                <td class="r">${num(ab.length)}</td>
+                <td class="r">${num(ga.length)}</td>
+                <td class="r">${num(pe.length)}</td>
+                <td class="r">${pct(conv)}</td>
+            </tr>`;
+
+        let closedPeriod=all.filter(x=>leadInPeriod(x,'fechadoEm')),
+            wonPeriod=closedPeriod.filter(x=>stage(x)==='Venda ganha'),
+            lostPeriod=closedPeriod.filter(x=>stage(x)==='Venda perdida'),
+            totalClosed=wonPeriod.length+lostPeriod.length,
+            convClosed=totalClosed?wonPeriod.length/totalClosed*100:NaN,
+            pend=ab.reduce((s,x)=>s+missFn(x),0),
+            old=aging15(ab);
+
+        $(agingId).textContent=
+            'Coorte criada no período: '+num(own.length)+
+            ' entrada(s) · '+num(ab.length)+' em aberto · '+
+            num(ga.length)+' ganha(s) · '+num(pe.length)+' perdida(s)'+
+            ' · êxito da coorte encerrada: '+pct(conv)+
+            ' | Encerramentos ocorridos no período: '+
+            num(wonPeriod.length)+' ganha(s) · '+
+            num(lostPeriod.length)+' perdida(s)'+
+            ' · êxito: '+pct(convClosed)+
+            ' | Pendências de campos nos abertos da coorte: '+
+            num(pend)+' · 15+ dias sem evolução: '+num(old);
+
+        let bad=ab
+            .filter(x=>missFn(x)>0||aging15([x])>0)
+            .slice(0,15);
+
+        if(!bad.length){
+            $(alertId).innerHTML=
+                '<span class="pill ok">Sem pendência crítica nos leads abertos da coorte</span>';
+        }else{
+            $(alertId).innerHTML=
+                '<table>'+
+                '<thead><tr>'+
+                '<th>Oportunidade</th>'+
+                '<th>Etapa</th>'+
+                '<th>Pendência</th>'+
+                '<th>Última atualização</th>'+
+                '</tr></thead>'+
+                '<tbody>'+
+                bad.map(x=>{
+                    let nm=String(
+                            x.nome||
+                            x.leadNome||
+                            x.titulo||
+                            x.id||
+                            x.leadId||
+                            'Oportunidade'
+                        ),
+                        m=missFn(x),
+                        aged=aging15([x])>0,
+                        pendTxt=m?m+' campo(s)':'',
+                        txt=[
+                            pendTxt,
+                            aged?'15+ dias sem evolução':''
+                        ].filter(Boolean).join(' · '),
+                        d=dt(x);
+
+                    return `<tr>
+                        <td>${nm}</td>
+                        <td>${stage(x)}</td>
+                        <td>${txt||'—'}</td>
+                        <td>${d?d.toLocaleDateString('pt-BR'):'—'}</td>
+                    </tr>`
+                }).join('')+
+                '</tbody></table>'
+        }
+
+        return
+    }
+
+    let a=all,
+        ss={};
+
+    a.forEach(x=>ss[stage(x)]=(ss[stage(x)]||0)+1);
+
+    let ord=pipe===PIPE_L
+        ?['Classificado','Vencedor - OF','Venda ganha','Venda perdida']
+        :['Chegada do Lead','Contato Inicial','Nova Sondagem','Cliente Ativo','Negociação','Venda ganha','Venda perdida'],
+        sr=[
+            ...ord.filter(x=>ss[x]),
+            ...Object.keys(ss).filter(x=>!ord.includes(x))
+        ].map(x=>[x,ss[x]]);
+
+    $(tableId).innerHTML=
+        sr.map(([n,q])=>
+            `<tr><td>${n}</td><td class="r">${q}</td><td class="r">${a.length?pct(q/a.length*100):'—'}</td></tr>`
+        ).join('')||
+        '<tr><td colspan="3">Sem dados</td></tr>';
+
+    if(typeof Chart!=='undefined'){
+        if(charts[chartId])charts[chartId].destroy();
+
+        charts[chartId]=new Chart($(chartId),{
+            type:'bar',
+            data:{
+                labels:sr.map(x=>x[0]),
+                datasets:[{
+                    data:sr.map(x=>x[1]),
+                    backgroundColor:'#2098D5'
+                }]
+            },
+            options:{
+                indexAxis:'y',
+                plugins:{legend:{display:false}}
+            }
+        })
+    }
+
+    let st=sellerStats(pipe,seller,missFn);
+
+    $(respId).innerHTML=
+        `<tr>
+            <td>${seller}</td>
+            <td class="r">${num(st.t)}</td>
+            <td class="r">${num(st.a)}</td>
+            <td class="r">${num(st.g)}</td>
+            <td class="r">${num(st.p)}</td>
+            <td class="r">${pct(st.conv)}</td>
+        </tr>`;
+
+    $(agingId).textContent=
+        'Snapshot atual do Kommo · Pendências de campos: '+
+        num(st.pend)+
+        ' · Carteira aberta sem evolução 15+ dias: '+
+        num(st.old);
+
+    alertDetail(pipe,seller,missFn,alertId)
+}
+function channelTabs(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']);setChannel('vd',vd,projectionMonthly(['VENDA_DIRETA']));setChannel('lic',li,projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']));$('vdOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(vd.orcEmitidosQtd)}</td><td class="r">${brl(vd.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(vd.orcConvertidosQtd)}</td><td class="r">${brl(vd.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${vd.orcEmitidosQtd?pct(vd.orcConvertidosQtd/vd.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(vd.vendasQtd)}</td><td class="r">${brl(vd.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${vd.orcEmitidosValor?pct(vd.vendasValor/vd.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(vd.orcAbertosQtd||0)}</td><td class="r">${brl(vd.orcAbertosValor||0)}</td></tr>`;$('licOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(li.orcEmitidosQtd)}</td><td class="r">${brl(li.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(li.orcConvertidosQtd)}</td><td class="r">${brl(li.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(li.vendasQtd)}</td><td class="r">${brl(li.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${li.orcEmitidosValor?pct(li.vendasValor/li.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(li.orcAbertosQtd||0)}</td><td class="r">${brl(li.orcAbertosValor||0)}</td></tr>`;funil(PIPE_D,'vdFunT','vdFun','Fabiana',missDirect,'vdResp','vdAging','vdAlertas');$('licFunT').innerHTML='<tr><td colspan="3">Indicadores Kommo suspensos · pipeline sem alimentação operacional recente</td></tr>';
 $('licResp').innerHTML='<tr><td>Edvaldo</td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td></tr>';
 $('licAging').textContent='Base Kommo de Licitações sem alimentação operacional recente.';
 $('licAlertas').innerHTML='<span class="pill">Sem base Kommo atual para alertas operacionais</span>'}function canalMov(x){let id=+x.vendedor_id||0;if(id===17)return'VENDA_DIRETA';if(id===1114)return'LICITACAO';if(id===1101)return'LICITACAO_HISTORICA';return'NAO_CLASSIFICADO'}
@@ -284,6 +491,7 @@ async function loadUpdateStatus(){
 }
 async function init(){wire();await loadUpdateStatus();try{let[db,ds]=await Promise.all([fetch(D,{cache:'no-store'}),fetch(C,{cache:'no-store'})]);if(!ds.ok)throw Error('Canal HTTP '+ds.status);S=await ds.json();B=db.ok?await db.json():null;if(!Array.isArray(S.diasCanal)||!Array.isArray(S.mesesCanal))throw Error('Payload de canal inválido');fill();$('status').innerHTML='<b>Fonte de resultado:</b> Shop9 por canal homologado · até '+dbr(latest())+' · <span class="pill">HOMOLOG V3</span>';await loadAnalytics();render()}catch(e){$('status').textContent='Falha ao carregar V3 HOMOLOG: '+e.message}}init();
 </script></body></html>
+
 
 
 
