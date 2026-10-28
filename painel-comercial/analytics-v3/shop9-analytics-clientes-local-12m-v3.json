@@ -8721,5 +8721,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-27"
+    },
+    {
+        "cliente_id":  93327,
+        "codigo_shop9":  4985,
+        "cliente_nome":  "Antonio Gerre Andrade Soares Transportes Ltda",
+        "fantasia":  "",
+        "cidade":  "Tabuleiro Do Norte",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-28"
     }
 ]
