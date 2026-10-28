@@ -9559,14 +9559,14 @@
         "tipo_operacao":  "ORC",
         "vendedor_id":  17,
         "quantidade_documentos":  146,
-        "valor_total":  490481.2500
+        "valor_total":  500679.6500
     },
     {
         "mes":  "2026-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  69,
-        "valor_total":  89448.1000
+        "quantidade_documentos":  70,
+        "valor_total":  90748.1000
     },
     {
         "mes":  "2026-10",
