@@ -1560,21 +1560,6 @@
         "unidade":  "PC"
     },
     {
-        "produto_id":  2220,
-        "codigo":  "PSL327",
-        "produto":  "FILTRO OLEO H100,MIST.PAJERO,L200 LB327",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  42,
-        "grupo":  "V80",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  10022,
-        "fabricante":  "TECFIL ",
-        "unidade_id":  10020,
-        "unidade":  "PC"
-    },
-    {
         "produto_id":  2225,
         "codigo":  "PSL55",
         "produto":  "FILTRO OLEO MT.1.0,1.3 FIRE FIAT  LB55",
