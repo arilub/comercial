@@ -2871,17 +2871,6 @@
         "data_cadastro":  "2024-04-29"
     },
     {
-        "cliente_id":  78958,
-        "codigo_shop9":  2695,
-        "cliente_nome":  "DIOGO LIMA OLIVEIRA 05346470301",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  true,
-        "data_cadastro":  "2024-04-30"
-    },
-    {
         "cliente_id":  78964,
         "codigo_shop9":  2694,
         "cliente_nome":  "Amandla Aina Lima Lopes Ltda",
@@ -8743,5 +8732,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-28"
+    },
+    {
+        "cliente_id":  93329,
+        "codigo_shop9":  4987,
+        "cliente_nome":  "Ruah Industria E Comercio De Moveis Ltda",
+        "fantasia":  "",
+        "cidade":  "Marco",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-29"
     }
 ]
