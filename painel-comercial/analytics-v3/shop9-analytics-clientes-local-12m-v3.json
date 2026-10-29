@@ -8743,5 +8743,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-29"
+    },
+    {
+        "cliente_id":  93330,
+        "codigo_shop9":  4988,
+        "cliente_nome":  "Psd Solutions Engenharia, Servicos E Consultoria Ltda",
+        "fantasia":  "",
+        "cidade":  "Rio De Janeiro",
+        "uf":  "RJ",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-29"
     }
 ]
