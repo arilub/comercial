@@ -8765,5 +8765,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-29"
+    },
+    {
+        "cliente_id":  93331,
+        "codigo_shop9":  4989,
+        "cliente_nome":  "Eco Metal Scrap Solutions Ltda",
+        "fantasia":  "",
+        "cidade":  "Caucaia",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-29"
     }
 ]
