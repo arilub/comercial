@@ -9565,14 +9565,14 @@
         "mes":  "2026-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  72,
-        "valor_total":  91481.3000
+        "quantidade_documentos":  73,
+        "valor_total":  96887.4000
     },
     {
         "mes":  "2026-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  1114,
-        "quantidade_documentos":  4,
-        "valor_total":  53320.0000
+        "quantidade_documentos":  5,
+        "valor_total":  58120.0000
     }
 ]
