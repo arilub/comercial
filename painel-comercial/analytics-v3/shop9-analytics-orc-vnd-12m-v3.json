@@ -12,18 +12,6 @@
         "valor_venda":  1266.0000
     },
     {
-        "orcamento_id":  431502,
-        "venda_id":  432547,
-        "data_venda":  "2025-10-28",
-        "valor_venda":  2511.4200
-    },
-    {
-        "orcamento_id":  431508,
-        "venda_id":  432553,
-        "data_venda":  "2025-10-28",
-        "valor_venda":  2637.0000
-    },
-    {
         "orcamento_id":  432534,
         "venda_id":  433573,
         "data_venda":  "2025-10-31",
@@ -4516,5 +4504,11 @@
         "venda_id":  438593,
         "data_venda":  "2026-10-28",
         "valor_venda":  433.8900
+    },
+    {
+        "orcamento_id":  438594,
+        "venda_id":  438601,
+        "data_venda":  "2026-10-29",
+        "valor_venda":  706.2000
     }
 ]
