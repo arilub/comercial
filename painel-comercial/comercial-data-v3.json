@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-29T11:23:58-03:00",
+                 "geradoEm":  "2026-10-29T12:24:04-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -12,8 +12,8 @@
     "porEtapa":  {
                      "Venda perdida":  1335,
                      "Venda ganha":  957,
-                     "Cliente Ativo":  587,
-                     "NegociaÃ§Ã£o":  532,
+                     "Cliente Ativo":  586,
+                     "NegociaÃ§Ã£o":  533,
                      "Chegada do Lead":  159,
                      "Nova Sondagem":  157,
                      "Vencedor - OF":  3,
@@ -51,7 +51,7 @@
                    "ticketMedio":  2589.17,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  298,
+                                                        "totalLeads":  299,
                                                         "ganhosQtd":  98,
                                                         "perdidosQtd":  7,
                                                         "ganhosValor":  265393
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  110,
+                      "WhatsApp":  111,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
@@ -75,7 +75,7 @@
                                                  "ganhosValor":  51521
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  198,
+                                                  "totalLeads":  199,
                                                   "ganhosQtd":  63,
                                                   "ganhosValor":  170340
                                               },
@@ -99,7 +99,19 @@
                                      "ganhosValor":  6892
                                  },
                                  {
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  411
+                                 },
+                                 {
                                      "nome":  "GRAXA AZUL 10KG",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "graxa azul karter 20 kg",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -109,12 +121,6 @@
                                      "totalLeads":  2,
                                      "ganhosQtd":  2,
                                      "ganhosValor":  737
-                                 },
-                                 {
-                                     "nome":  "graxa azul karter 20 kg",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "OLEO 68 ECONOLINE",
@@ -129,25 +135,19 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  411
+                                     "nome":  "GRAXA CLAY 2 LUBRAX 20 KG",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo ectron 68 vr lub",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "OLEO 25W50 LUBRAX E STHIL 2T",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "QUEROSENE SOLUT",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO SOLUVEL ALL PS 100",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -165,19 +165,7 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA CLAY 2 LUBRAX 20 KG",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO HIDRAULICO 46 VR LUB",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo 5w30 valvloline e vr lub de litro",
+                                     "nome":  "OLEO SOLUVEL ALL PS 100",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -189,7 +177,19 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub",
+                                     "nome":  "QUEROSENE SOLUT",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO PARA COMPRESOR AC 150",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  472
+                                 },
+                                 {
+                                     "nome":  "oleo 5w30 valvloline e vr lub de litro",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -207,24 +207,24 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo aw68 vr lub bd 20 litros",
+                                     "nome":  "OLEO HIDRAULICO 46 VR LUB",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  4907
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6115,
-                                     "valorTotal":  22588154.63,
+                                     "total":  6117,
+                                     "valorTotal":  22593630.73,
                                      "convertidos":  2403,
                                      "cancelados":  379,
-                                     "recente":  31,
+                                     "recente":  33,
                                      "acompanhamento":  31,
                                      "atencao":  43,
                                      "envelhecido":  3016,
-                                     "taxaConversao":  0.393
+                                     "taxaConversao":  0.3928
                                  },
                   "vendas":  {
                                  "total":  63021,
@@ -70871,27 +70871,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26564351,
-                      "nome":  "Lead #26564351",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-08-26T10:57:42-03:00",
-                      "atualizadoEm":  "2026-10-01T14:00:37-03:00",
-                      "fechadoEm":  "2026-08-26T15:31:03-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  25143986,
                       "nome":  "Lead #25143986",
                       "pipelineId":  "9334023",
@@ -71286,27 +71265,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-09-01T16:42:39-03:00",
                       "atualizadoEm":  "2026-10-05T10:10:34-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26890934,
-                      "nome":  "Autolead: Lead #26867772",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206567",
-                      "etapa":  "Cliente Ativo",
-                      "valor":  0,
-                      "cliente":  "Brasfond Fundacoes Especiais Ltda",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-05T10:12:01-03:00",
-                      "atualizadoEm":  "2026-10-05T10:12:01-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -74189,27 +74147,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26867772,
-                      "nome":  "Lead #26867772",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  4907,
-                      "cliente":  "Brasfond Fundacoes Especiais Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo aw68 vr lub bd 20 litros",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-01T08:46:13-03:00",
-                      "atualizadoEm":  "2026-10-15T08:19:21-03:00",
-                      "fechadoEm":  "2026-10-05T10:11:59-03:00",
-                      "reconciliacaoHistorica":  "SEM_VENDA_JANELA",
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  21545807,
                       "nome":  "ADILIO VASCONCELOS",
                       "pipelineId":  "9334023",
@@ -76898,27 +76835,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25876196,
-                      "nome":  "Lead #25876196",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  217,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-06-22T09:05:00-03:00",
-                      "atualizadoEm":  "2026-10-22T07:40:23-03:00",
-                      "fechadoEm":  "2026-06-23T09:12:58-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26947118,
                       "nome":  "Lead #26947118",
                       "pipelineId":  "9334023",
@@ -79334,27 +79250,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27041798,
-                      "nome":  "Lead #27041798",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-28T15:21:56-03:00",
-                      "atualizadoEm":  "2026-10-29T10:23:37-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  22056207,
                       "nome":  "Autolead: Lead #22054655",
                       "pipelineId":  "9473539",
@@ -79392,27 +79287,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-09-15T12:00:25-03:00",
                       "atualizadoEm":  "2026-10-29T10:43:08-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26176130,
-                      "nome":  "Lead #26176130",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  189,
-                      "cliente":  "P L Eletromax Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "FILTRO DE COMBUSTIVEL TECFIL",
-                      "linhaProduto":  "Geral/Outros",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-07-23T10:08:24-03:00",
-                      "atualizadoEm":  "2026-10-29T10:45:10-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -79502,6 +79376,132 @@
                       "vendaShop9":  null
                   },
                   {
+                      "id":  25876196,
+                      "nome":  "Lead #25876196",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  217,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-06-22T09:05:00-03:00",
+                      "atualizadoEm":  "2026-10-29T11:37:14-03:00",
+                      "fechadoEm":  "2026-06-23T09:12:58-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26176130,
+                      "nome":  "Lead #26176130",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  189,
+                      "cliente":  "P L Eletromax Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "FILTRO DE COMBUSTIVEL TECFIL",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-07-23T10:08:24-03:00",
+                      "atualizadoEm":  "2026-10-29T11:46:10-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26564351,
+                      "nome":  "Lead #26564351",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-08-26T10:57:42-03:00",
+                      "atualizadoEm":  "2026-10-29T11:50:29-03:00",
+                      "fechadoEm":  "2026-08-26T15:31:03-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27041798,
+                      "nome":  "Lead #27041798",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-28T15:21:56-03:00",
+                      "atualizadoEm":  "2026-10-29T11:51:22-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26867772,
+                      "nome":  "Lead #26867772",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  4907,
+                      "cliente":  "Brasfond Fundacoes Especiais Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo aw68 vr lub bd 20 litros",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-01T08:46:13-03:00",
+                      "atualizadoEm":  "2026-10-29T12:00:56-03:00",
+                      "fechadoEm":  "2026-10-05T10:11:59-03:00",
+                      "reconciliacaoHistorica":  "SEM_VENDA_JANELA",
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26890934,
+                      "nome":  "FRANCISCO CANINDE Geofix Engenharia Fundacoes E Estaqueamento Sociedade Empres",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  5406,
+                      "cliente":  "Brasfond Fundacoes Especiais Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo aw68 vr lub e aditivo valvoline roseo",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-05T10:12:01-03:00",
+                      "atualizadoEm":  "2026-10-29T12:06:39-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
                       "id":  27028770,
                       "nome":  "Lead #27028770",
                       "pipelineId":  "9334023",
@@ -79517,7 +79517,7 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-10-26T14:22:49-03:00",
-                      "atualizadoEm":  "2026-10-29T11:19:05-03:00",
+                      "atualizadoEm":  "2026-10-29T12:20:23-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
