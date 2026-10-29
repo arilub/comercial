@@ -1210,6 +1210,17 @@
         "data_cadastro":  "2019-02-26"
     },
     {
+        "cliente_id":  62745,
+        "codigo_shop9":  3622,
+        "cliente_nome":  "AILEC INDUSTRIA E COMERCIO LTDA",
+        "fantasia":  "AILTEC MÁRMORES E GRANITOS",
+        "cidade":  "FORTALEZA",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2019-03-15"
+    },
+    {
         "cliente_id":  62754,
         "codigo_shop9":  3626,
         "cliente_nome":  "CLAUDIO PINHEIRO CAVALCANTI EIRELI ",
