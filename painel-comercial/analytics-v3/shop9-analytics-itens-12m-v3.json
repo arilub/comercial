@@ -85049,5 +85049,39 @@
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
         "valor_item":  499.0000
+    },
+    {
+        "item_id":  614390,
+        "movimento_id":  438608,
+        "tipo_operacao":  "ORC",
+        "data_movimento":  "2026-10-29",
+        "cliente_id":  62745,
+        "vendedor_id":  17,
+        "numero_linha":  1,
+        "produto_id":  40851,
+        "quantidade":  1.0000,
+        "preco_unitario":  56.0000,
+        "preco_total_sem_desconto":  56.0000,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "valor_item":  56.0000
+    },
+    {
+        "item_id":  614391,
+        "movimento_id":  438609,
+        "tipo_operacao":  "VND",
+        "data_movimento":  "2026-10-29",
+        "cliente_id":  93318,
+        "vendedor_id":  17,
+        "numero_linha":  1,
+        "produto_id":  63555,
+        "quantidade":  1.0000,
+        "preco_unitario":  27.0000,
+        "preco_total_sem_desconto":  27.0000,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "valor_item":  27.0000
     }
 ]
