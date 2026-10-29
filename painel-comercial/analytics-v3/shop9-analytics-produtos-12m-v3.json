@@ -9780,6 +9780,21 @@
         "unidade":  "UN"
     },
     {
+        "produto_id":  65942,
+        "codigo":  "NU316C3",
+        "produto":  "ROLAMENTO ROLOS CILINDRICOS NU 316 C3 NSK",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  10283,
+        "fabricante":  "NSK",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  65943,
         "codigo":  "P-PA-01-0028-F01",
         "produto":  "GRAXA LITH EVORA EP - NLGI 0  20KG",
