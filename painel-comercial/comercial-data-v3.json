@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-30T15:24:00-03:00",
+                 "geradoEm":  "2026-10-30T16:24:02-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -99,28 +99,22 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
-                                 },
-                                 {
                                      "nome":  "oleo ectron 68 vr lub bd 20 litros",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  411
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
                                      "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  798
+                                 },
+                                 {
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
                                  },
                                  {
                                      "nome":  "graxa azul karter 20 kg",
@@ -135,7 +129,19 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "GRAXA DIELETRICA ROCOL",
+                                     "nome":  "GRAXA AZUL 10KG",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO , ADITIVO E FILTROS",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO MEROPA 220 E 320 BD 20L",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -153,25 +159,13 @@
                                      "ganhosValor":  353
                                  },
                                  {
-                                     "nome":  "OLEO , ADITIVO E FILTROS",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO LUBRAX TOP 10W40 CI4 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
                                      "nome":  "OLEO PARA COMPRESOR AC 150",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  472
                                  },
                                  {
-                                     "nome":  "oleo max turbo 15w40 vr lub",
+                                     "nome":  "OLEO 5W30 SUV VR LUB E VALVOLINE",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -183,10 +177,10 @@
                                      "ganhosValor":  525
                                  },
                                  {
-                                     "nome":  "hidr. 46",
+                                     "nome":  "OLEO LUBRAX TOP 10W40 CI4 20L",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  525
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "HIDR. 32 LUBRAX",
@@ -195,7 +189,7 @@
                                      "ganhosValor":  1700
                                  },
                                  {
-                                     "nome":  "OLEO 5W30 SUV VR LUB E VALVOLINE",
+                                     "nome":  "GRAXA DIELETRICA ROCOL",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -207,7 +201,13 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "15w40 ci4  tb 200 litros lubrax top turbo",
+                                     "nome":  "hidr. 46",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  525
+                                 },
+                                 {
+                                     "nome":  "SOLVENTE 90 ML 34 UN D",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -792,20 +792,6 @@
                                   "diferencaPct":  0
                               },
                               {
-                                  "leadId":  15332674,
-                                  "pipelineId":  "9473539",
-                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
-                                  "classificacao":  "PROVAVEL",
-                                  "clienteShop9":  "Unilink Transportes Integrados Ltda",
-                                  "vendaOrdem":  438256,
-                                  "fechamentoKommo":  "2026-09-25",
-                                  "dataVenda":  "2026-09-25",
-                                  "diasDiferenca":  0,
-                                  "valorKommo":  1853,
-                                  "valorShop9":  1853.34,
-                                  "diferencaPct":  0.0183
-                              },
-                              {
                                   "leadId":  26801158,
                                   "pipelineId":  "9473539",
                                   "funil":  "PositivaÃ§Ã£o - Fabiana",
@@ -1126,6 +1112,20 @@
                                   "valorKommo":  2302,
                                   "valorShop9":  2302.41,
                                   "diferencaPct":  0.0178
+                              },
+                              {
+                                  "leadId":  15332674,
+                                  "pipelineId":  "9473539",
+                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Unilink Transportes Integrados Ltda",
+                                  "vendaOrdem":  438256,
+                                  "fechamentoKommo":  "2026-09-25",
+                                  "dataVenda":  "2026-09-25",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  1853,
+                                  "valorShop9":  1853.34,
+                                  "diferencaPct":  0.0183
                               }
                           ],
     "leads":  [
@@ -72341,27 +72341,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  15332674,
-                      "nome":  "CL 2189 MAISA",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  1853,
-                      "cliente":  "Unilink Transportes Integrados Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO VALVOLINE CI4 15W40 BD 20 LITROS E700",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-14T10:01:59-03:00",
-                      "atualizadoEm":  "2026-10-09T08:15:05-03:00",
-                      "fechadoEm":  "2026-09-25T16:28:46-03:00",
-                      "reconciliacaoHistorica":  "PROVAVEL",
-                      "vendaShop9":  438256
-                  },
-                  {
                       "id":  26817154,
                       "nome":  "Autolead: CL 2189 MAISA",
                       "pipelineId":  "9473539",
@@ -79754,27 +79733,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25236996,
-                      "nome":  "Lead #25236996",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  72087,
-                      "cliente":  "Inace Iate Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-04-17T10:02:34-03:00",
-                      "atualizadoEm":  "2026-10-30T15:03:28-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26715776,
                       "nome":  "FRANCISCO CASTRO DE SOUSA LTDA",
                       "pipelineId":  "9473539",
@@ -79811,7 +79769,7 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-01-21T08:56:15-03:00",
-                      "atualizadoEm":  "2026-10-30T15:05:54-03:00",
+                      "atualizadoEm":  "2026-10-30T15:27:56-03:00",
                       "fechadoEm":  "2026-01-21T15:36:07-03:00",
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -79832,7 +79790,49 @@
                       "origem":  "WhatsApp",
                       "numeroCoep":  null,
                       "criadoEm":  "2026-10-30T13:59:47-03:00",
-                      "atualizadoEm":  "2026-10-30T15:19:12-03:00",
+                      "atualizadoEm":  "2026-10-30T15:56:14-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15332674,
+                      "nome":  "CL 2189 MAISA",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  1853,
+                      "cliente":  "Unilink Transportes Integrados Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO VALVOLINE CI4 15W40 BD 20 LITROS E700",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-14T10:01:59-03:00",
+                      "atualizadoEm":  "2026-10-30T16:13:10-03:00",
+                      "fechadoEm":  "2026-09-25T16:28:46-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438256
+                  },
+                  {
+                      "id":  25236996,
+                      "nome":  "Lead #25236996",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  72087,
+                      "cliente":  "Inace Iate Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-04-17T10:02:34-03:00",
+                      "atualizadoEm":  "2026-10-30T16:18:43-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
