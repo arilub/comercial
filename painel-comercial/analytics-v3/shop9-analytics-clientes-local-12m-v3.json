@@ -8787,5 +8787,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-30"
+    },
+    {
+        "cliente_id":  93333,
+        "codigo_shop9":  4991,
+        "cliente_nome":  "Mar Do Ceara Ltda",
+        "fantasia":  "Mar Do Ceara",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-30"
     }
 ]
