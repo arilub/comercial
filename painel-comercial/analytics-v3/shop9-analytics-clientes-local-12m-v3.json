@@ -8809,5 +8809,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-30"
+    },
+    {
+        "cliente_id":  93334,
+        "codigo_shop9":  4992,
+        "cliente_nome":  "Showgraf - Servico De Impressao Ltda - Me",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-10-30"
     }
 ]
