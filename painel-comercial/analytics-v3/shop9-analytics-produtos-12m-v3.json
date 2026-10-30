@@ -645,21 +645,6 @@
         "unidade":  "BD"
     },
     {
-        "produto_id":  301,
-        "codigo":  "1011554",
-        "produto":  "15W40 SN 24X1L S.SINT. TECNO LUBRAX",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  14,
-        "grupo":  "40%",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  10003,
-        "fabricante":  "LuBRax",
-        "unidade_id":  10006,
-        "unidade":  "CX"
-    },
-    {
         "produto_id":  302,
         "codigo":  "1011554V",
         "produto":  "15W40 SN 1L S.SINT. TECNO LUBRAX",
@@ -4888,21 +4873,6 @@
         "fabricante":  "VALVOLINE",
         "unidade_id":  10006,
         "unidade":  "CX"
-    },
-    {
-        "produto_id":  55247,
-        "codigo":  "516.31.3V",
-        "produto":  "5W20 SP 1L SINT. ADVANCED VALVOLINE",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  13,
-        "grupo":  "35%",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  18515,
-        "fabricante":  "VALVOLINE",
-        "unidade_id":  10015,
-        "unidade":  "LT"
     },
     {
         "produto_id":  55248,
