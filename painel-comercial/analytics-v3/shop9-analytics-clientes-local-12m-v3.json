@@ -3421,6 +3421,17 @@
         "data_cadastro":  "2024-12-05"
     },
     {
+        "cliente_id":  86269,
+        "codigo_shop9":  2419,
+        "cliente_nome":  "CELIO DE SOUZA TENÓRIO",
+        "fantasia":  "CELIO DE SOUZA",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2024-12-27"
+    },
+    {
         "cliente_id":  86270,
         "codigo_shop9":  2418,
         "cliente_nome":  "FRANCISCO PEROCLES GOMES PIRES",
