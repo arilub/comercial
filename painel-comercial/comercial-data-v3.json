@@ -2,19 +2,19 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-30T08:23:56-03:00",
+                 "geradoEm":  "2026-10-30T09:24:08-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3741,
+    "totalLeads":  3742,
     "porEtapa":  {
                      "Venda perdida":  1335,
                      "Venda ganha":  959,
-                     "Cliente Ativo":  587,
-                     "NegociaÃ§Ã£o":  533,
-                     "Chegada do Lead":  163,
+                     "Cliente Ativo":  586,
+                     "NegociaÃ§Ã£o":  534,
+                     "Chegada do Lead":  164,
                      "Nova Sondagem":  158,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
@@ -24,7 +24,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2057,
+                          "leads":  2058,
                           "ganhos":  456,
                           "perdidos":  1015
                       },
@@ -51,7 +51,7 @@
                    "ticketMedio":  2590.39,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  301,
+                                                        "totalLeads":  302,
                                                         "ganhosQtd":  100,
                                                         "perdidosQtd":  7,
                                                         "ganhosValor":  271736
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  113,
+                      "WhatsApp":  114,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
@@ -75,7 +75,7 @@
                                                  "ganhosValor":  52458
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  201,
+                                                  "totalLeads":  202,
                                                   "ganhosQtd":  64,
                                                   "ganhosValor":  175746
                                               },
@@ -99,19 +99,7 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  411
-                                 },
-                                 {
                                      "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "graxa azul karter 20 kg",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -121,6 +109,12 @@
                                      "totalLeads":  2,
                                      "ganhosQtd":  2,
                                      "ganhosValor":  737
+                                 },
+                                 {
+                                     "nome":  "graxa azul karter 20 kg",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "OLEO 68 ECONOLINE",
@@ -135,34 +129,10 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "OLEO SOLUVEL ALL PS 100",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo max turbo 15w40 vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO 25W50 LUBRAX E STHIL 2T",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO PARA COMPRESOR AC 150",
-                                     "totalLeads":  1,
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  472
-                                 },
-                                 {
-                                     "nome":  "OLEO LUBRAX TOP 10W40 CI4 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosValor":  411
                                  },
                                  {
                                      "nome":  "HIDRAULICO 46 VR LUB",
@@ -171,25 +141,7 @@
                                      "ganhosValor":  525
                                  },
                                  {
-                                     "nome":  "OLEO HIDRAULICO 46 VR LUB",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo 5w30 valvloline e vr lub de litro",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo sthil 2t castrol",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "GRAXA CHASSIS VR LUB E OLEO 68 VR LUB",
+                                     "nome":  "OLEO LUBRAX TOP 10W40 CI4 20L",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -201,13 +153,61 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub",
+                                     "nome":  "OLEO 5W30 SUV VR LUB E VALVOLINE",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO PARA COMPRESOR AC 150",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  472
+                                 },
+                                 {
+                                     "nome":  "oleo max turbo 15w40 vr lub",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "GRAXA AZUL 20KG KARTER",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "GRAXA CHASSIS VR LUB E OLEO 68 VR LUB",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO HIDRAULICO 46 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "OLEO 90,140 E ATF VR LUB",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO SOLUVEL ALL PS 100",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "OLEO 25W50 LUBRAX E STHIL 2T",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo ectron 68 vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -60490,27 +60490,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  24365886,
-                      "nome":  "MAX BRIX MINERACAO",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206567",
-                      "etapa":  "Cliente Ativo",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-01-28T14:49:16-03:00",
-                      "atualizadoEm":  "2026-09-02T11:35:13-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24365954,
                       "nome":  "Lead #24365954",
                       "pipelineId":  "9334023",
@@ -79663,27 +79642,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25389816,
-                      "nome":  "Lead #25389816",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  584,
-                      "cliente":  "Basalto Pedreira E PavimentaÃ§Ã£o Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO GL4 VR LUB 140",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-05-02T09:00:30-03:00",
-                      "atualizadoEm":  "2026-10-30T08:15:11-03:00",
-                      "fechadoEm":  "2026-09-24T12:52:55-03:00",
-                      "reconciliacaoHistorica":  "FORTE_PROVISORIO",
-                      "vendaShop9":  438230
-                  },
-                  {
                       "id":  25828542,
                       "nome":  "Lead #25828542",
                       "pipelineId":  "9334023",
@@ -79699,8 +79657,71 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-06-16T15:11:14-03:00",
-                      "atualizadoEm":  "2026-10-30T08:16:13-03:00",
+                      "atualizadoEm":  "2026-10-30T08:22:15-03:00",
                       "fechadoEm":  "2026-08-31T14:02:17-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24365886,
+                      "nome":  "MAX BRIX MINERACAO",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1111,
+                      "cliente":  "Basalto Pedreira E PavimentaÃ§Ã£o Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "gear 220 e atf bd 20l",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-01-28T14:49:16-03:00",
+                      "atualizadoEm":  "2026-10-30T08:26:48-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  25389816,
+                      "nome":  "Lead #25389816",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  584,
+                      "cliente":  "Basalto Pedreira E PavimentaÃ§Ã£o Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO GL4 VR LUB 140",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-05-02T09:00:30-03:00",
+                      "atualizadoEm":  "2026-10-30T09:15:51-03:00",
+                      "fechadoEm":  "2026-09-24T12:52:55-03:00",
+                      "reconciliacaoHistorica":  "FORTE_PROVISORIO",
+                      "vendaShop9":  438230
+                  },
+                  {
+                      "id":  27051362,
+                      "nome":  "Lead #27051362",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-30T08:42:14-03:00",
+                      "atualizadoEm":  "2026-10-30T09:17:17-03:00",
+                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
