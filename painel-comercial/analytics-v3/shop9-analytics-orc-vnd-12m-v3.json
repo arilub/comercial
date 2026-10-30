@@ -4510,5 +4510,11 @@
         "venda_id":  438617,
         "data_venda":  "2026-10-30",
         "valor_venda":  1111.6000
+    },
+    {
+        "orcamento_id":  438628,
+        "venda_id":  438629,
+        "data_venda":  "2026-10-30",
+        "valor_venda":  176.9000
     }
 ]
