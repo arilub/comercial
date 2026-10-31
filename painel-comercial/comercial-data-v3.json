@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-10-30T23:23:55-03:00",
+                 "geradoEm":  "2026-10-31T00:23:54-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -220,10 +220,10 @@
                                      "valorTotal":  22630456.94,
                                      "convertidos":  2408,
                                      "cancelados":  381,
-                                     "recente":  33,
-                                     "acompanhamento":  28,
-                                     "atencao":  44,
-                                     "envelhecido":  3022,
+                                     "recente":  25,
+                                     "acompanhamento":  32,
+                                     "atencao":  45,
+                                     "envelhecido":  3025,
                                      "taxaConversao":  0.393
                                  },
                   "vendas":  {
