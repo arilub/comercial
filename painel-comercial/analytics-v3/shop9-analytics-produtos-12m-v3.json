@@ -5880,21 +5880,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  63512,
-        "codigo":  "39605918",
-        "produto":  "FLUIDO P/RADIADOR CAMINHAO PRONTO USO 20L IPIRANGA",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  10048,
-        "fabricante":  "IPIRANGA",
-        "unidade_id":  10002,
-        "unidade":  "BD"
-    },
-    {
         "produto_id":  63513,
         "codigo":  "30034K",
         "produto":  "GL4 90 24X1L KARTER",
