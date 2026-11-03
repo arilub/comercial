@@ -3575,17 +3575,6 @@
         "data_cadastro":  "2025-02-24"
     },
     {
-        "cliente_id":  86363,
-        "codigo_shop9":  2323,
-        "cliente_nome":  "BRIX MINERACAO DO BRASIL LTDA",
-        "fantasia":  "BMB DO BRASIL",
-        "cidade":  "Granja",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-03-06"
-    },
-    {
         "cliente_id":  86491,
         "codigo_shop9":  2332,
         "cliente_nome":  "MERCONPLAS INDUSTRIAL DE PLASTICOS COMERCIO LTDA",
@@ -4079,17 +4068,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2025-10-29"
-    },
-    {
-        "cliente_id":  92766,
-        "codigo_shop9":  4505,
-        "cliente_nome":  "Glauco Sales Barbosa 75885107300",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-10-30"
     },
     {
         "cliente_id":  92767,
