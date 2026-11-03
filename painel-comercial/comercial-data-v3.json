@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-03T07:24:01-03:00",
+                 "geradoEm":  "2026-11-03T08:24:04-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -105,6 +105,12 @@
                                      "ganhosValor":  411
                                  },
                                  {
+                                     "nome":  "GRAXA AZUL 10KG",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
@@ -129,19 +135,13 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO , ADITIVO E FILTROS",
+                                     "nome":  "91278",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  353
                                  },
                                  {
-                                     "nome":  "OLEO MEROPA 220 E 320 BD 20L",
+                                     "nome":  "OLEO 5W30, 5W40, 15W40, 0W20 VR LUB E VALVOLINE",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -153,16 +153,16 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "91278",
+                                     "nome":  "OLEO MEROPA 220 E 320 BD 20L",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  353
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO PARA COMPRESOR AC 150",
+                                     "nome":  "OLEO , ADITIVO E FILTROS",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  472
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "OLEO 5W30 SUV VR LUB E VALVOLINE",
@@ -171,25 +171,13 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "HIDRAULICO 46 VR LUB",
+                                     "nome":  "OLEO PARA COMPRESOR AC 150",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  525
+                                     "ganhosValor":  472
                                  },
                                  {
                                      "nome":  "OLEO LUBRAX TOP 10W40 CI4 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "HIDR. 32 LUBRAX",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1700
-                                 },
-                                 {
-                                     "nome":  "GRAXA DIELETRICA ROCOL",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -199,6 +187,18 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "GRAXA DIELETRICA ROCOL",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "HIDR. 32 LUBRAX",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  1700
                                  },
                                  {
                                      "nome":  "hidr. 46",
@@ -51950,27 +51950,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  24604144,
-                      "nome":  "Lead #24604144",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  533,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-02-19T10:15:03-03:00",
-                      "atualizadoEm":  "2026-07-08T14:30:02-03:00",
-                      "fechadoEm":  "2026-02-19T11:23:46-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  14653294,
                       "nome":  "Lead #14653294",
                       "pipelineId":  "9473539",
@@ -71459,27 +71438,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26874316,
-                      "nome":  "Lead #26874316",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  701,
-                      "cliente":  "Arnaldo Postos Comercio, Servicos E Representacoes Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo ac 150 vr lub",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-02T09:05:39-03:00",
-                      "atualizadoEm":  "2026-10-05T16:17:46-03:00",
-                      "fechadoEm":  "2026-10-05T10:11:29-03:00",
-                      "reconciliacaoHistorica":  "SEM_VENDA_JANELA",
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  23686057,
                       "nome":  "Lead #23686057",
                       "pipelineId":  "9334023",
@@ -78326,27 +78284,6 @@
                       "vendaShop9":  438582
                   },
                   {
-                      "id":  20375982,
-                      "nome":  "Autolead: Lead #18818337",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  1480,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-06-02T10:40:34-03:00",
-                      "atualizadoEm":  "2026-10-28T07:28:02-03:00",
-                      "fechadoEm":  "2026-07-07T08:28:48-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  25551638,
                       "nome":  "Lead #25551638",
                       "pipelineId":  "9334023",
@@ -79835,6 +79772,69 @@
                       "atualizadoEm":  "2026-11-03T07:15:30-03:00",
                       "fechadoEm":  "2026-02-02T14:59:10-03:00",
                       "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  20375982,
+                      "nome":  "Autolead: Lead #18818337",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  1480,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-06-02T10:40:34-03:00",
+                      "atualizadoEm":  "2026-11-03T08:04:54-03:00",
+                      "fechadoEm":  "2026-07-07T08:28:48-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24604144,
+                      "nome":  "Lead #24604144",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  533,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-02-19T10:15:03-03:00",
+                      "atualizadoEm":  "2026-11-03T08:11:22-03:00",
+                      "fechadoEm":  "2026-02-19T11:23:46-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26874316,
+                      "nome":  "Lead #26874316",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  701,
+                      "cliente":  "Arnaldo Postos Comercio, Servicos E Representacoes Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo ac 150 vr lub",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-02T09:05:39-03:00",
+                      "atualizadoEm":  "2026-11-03T08:20:00-03:00",
+                      "fechadoEm":  "2026-10-05T10:11:29-03:00",
+                      "reconciliacaoHistorica":  "SEM_VENDA_JANELA",
                       "vendaShop9":  null
                   }
               ]
