@@ -1005,6 +1005,21 @@
         "unidade":  "LT"
     },
     {
+        "produto_id":  1342,
+        "codigo":  "HATF500V",
+        "produto":  "ATF TIPO A 500ML HEXXLUB",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  15,
+        "grupo":  "45%",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  10038,
+        "fabricante":  "HEXXLUB",
+        "unidade_id":  10031,
+        "unidade":  "UND"
+    },
+    {
         "produto_id":  1357,
         "codigo":  "1091001",
         "produto":  "GRAXA CHASSIS NGLI2 VR LUB 10KG",
@@ -1228,6 +1243,21 @@
         "fabricante":  "KARTER",
         "unidade_id":  10002,
         "unidade":  "BD"
+    },
+    {
+        "produto_id":  1925,
+        "codigo":  "RX-230V",
+        "produto":  "ADITI.RADIADOR  RADIBRAS ORGANIC PLUS ROSA01LT",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  22,
+        "grupo":  "80%",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  18406,
+        "fabricante":  "RADIBRAS",
+        "unidade_id":  10015,
+        "unidade":  "LT"
     },
     {
         "produto_id":  1931,
@@ -3433,6 +3463,21 @@
         "fabricante":  "LuBRax",
         "unidade_id":  10002,
         "unidade":  "BD"
+    },
+    {
+        "produto_id":  51753,
+        "codigo":  "1053V",
+        "produto":  "15W40 CI4 1L TURBO MAX EVORA",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  13,
+        "grupo":  "35%",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  10021,
+        "fabricante":  "EVORA",
+        "unidade_id":  10030,
+        "unidade":  "UN"
     },
     {
         "produto_id":  51760,
