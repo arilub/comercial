@@ -132,6 +132,17 @@
         "data_cadastro":  "2004-03-26"
     },
     {
+        "cliente_id":  429,
+        "codigo_shop9":  426,
+        "cliente_nome":  "RAFAEL BRASILEIRO CAMINHA ",
+        "fantasia":  "ARCOMP",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2004-04-01"
+    },
+    {
         "cliente_id":  517,
         "codigo_shop9":  514,
         "cliente_nome":  "ASSEF MANUTENCAO E REPARACAO DE AUTOMOVEIS LTDA",
@@ -8776,5 +8787,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-10-30"
+    },
+    {
+        "cliente_id":  93335,
+        "codigo_shop9":  4993,
+        "cliente_nome":  "R. N. Araujo E Mourao Ltda - Me",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-03"
     }
 ]
