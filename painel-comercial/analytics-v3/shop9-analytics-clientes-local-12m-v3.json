@@ -8776,5 +8776,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-03"
+    },
+    {
+        "cliente_id":  93336,
+        "codigo_shop9":  4994,
+        "cliente_nome":  "29.014.989 Joao Nisael Da Silva",
+        "fantasia":  "",
+        "cidade":  "Guaiúba",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-04"
     }
 ]
