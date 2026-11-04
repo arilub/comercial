@@ -4059,28 +4059,6 @@
         "data_cadastro":  "2025-10-29"
     },
     {
-        "cliente_id":  92767,
-        "codigo_shop9":  4506,
-        "cliente_nome":  "A S Auto Locadora Ltda",
-        "fantasia":  "Atlantica Rent A Car",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-03"
-    },
-    {
-        "cliente_id":  92768,
-        "codigo_shop9":  4507,
-        "cliente_nome":  "M. Costa Macedo Gomes",
-        "fantasia":  "",
-        "cidade":  "Beberibe",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-03"
-    },
-    {
         "cliente_id":  92769,
         "codigo_shop9":  4508,
         "cliente_nome":  "Phoenix Do Brasil Servicos Industriais E Siderurgicos Ltda",
