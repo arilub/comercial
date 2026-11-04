@@ -2,19 +2,19 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-04T13:24:06-03:00",
+                 "geradoEm":  "2026-11-04T14:24:08-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3762,
+    "totalLeads":  3763,
     "porEtapa":  {
                      "Venda perdida":  1333,
                      "Venda ganha":  960,
                      "Cliente Ativo":  586,
                      "NegociaÃ§Ã£o":  552,
-                     "Chegada do Lead":  169,
+                     "Chegada do Lead":  170,
                      "Nova Sondagem":  156,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
@@ -24,7 +24,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2071,
+                          "leads":  2072,
                           "ganhos":  454,
                           "perdidos":  1014
                       },
@@ -227,11 +227,11 @@
                                      "taxaConversao":  0.3927
                                  },
                   "vendas":  {
-                                 "total":  63040,
-                                 "valorTotal":  42603433.96,
-                                 "ticketMedio":  675.82,
-                                 "semOrc":  60625,
-                                 "valorSemOrc":  38176950.07
+                                 "total":  63042,
+                                 "valorTotal":  42604678.96,
+                                 "ticketMedio":  675.81,
+                                 "semOrc":  60627,
+                                 "valorSemOrc":  38178195.07
                              }
               },
     "integracao":  {
@@ -79978,27 +79978,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27075580,
-                      "nome":  "Dynamica SoluÃ§Ãµes Industriais",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  3393,
-                      "cliente":  "Dynamica Solucoes Industriais Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "hidr. 68 aw valvoline 20l",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-03T15:33:19-03:00",
-                      "atualizadoEm":  "2026-11-04T12:49:03-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  23109969,
                       "nome":  "Lead #23109969",
                       "pipelineId":  "9334023",
@@ -80146,6 +80125,48 @@
                       "vendaShop9":  438459
                   },
                   {
+                      "id":  27075580,
+                      "nome":  "Dynamica SoluÃ§Ãµes Industriais",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  3393,
+                      "cliente":  "Dynamica Solucoes Industriais Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "hidr. 68 aw valvoline 20l",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-03T15:33:19-03:00",
+                      "atualizadoEm":  "2026-11-04T14:01:23-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27085438,
+                      "nome":  "Lead #27085438",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-04T13:41:28-03:00",
+                      "atualizadoEm":  "2026-11-04T14:02:27-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
                       "id":  26897244,
                       "nome":  "Lead #26897244",
                       "pipelineId":  "9334023",
@@ -80161,7 +80182,7 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-10-06T07:40:56-03:00",
-                      "atualizadoEm":  "2026-11-04T13:08:53-03:00",
+                      "atualizadoEm":  "2026-11-04T14:09:08-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -80182,7 +80203,7 @@
                       "origem":  "WhatsApp",
                       "numeroCoep":  null,
                       "criadoEm":  "2026-04-08T17:15:34-03:00",
-                      "atualizadoEm":  "2026-11-04T13:10:13-03:00",
+                      "atualizadoEm":  "2026-11-04T14:11:10-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
