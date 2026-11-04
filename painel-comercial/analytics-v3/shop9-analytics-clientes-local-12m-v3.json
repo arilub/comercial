@@ -8787,5 +8787,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-04"
+    },
+    {
+        "cliente_id":  93337,
+        "codigo_shop9":  4995,
+        "cliente_nome":  "Dynamica Solucoes Industriais Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-04"
     }
 ]
