@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-04T11:24:03-03:00",
+                 "geradoEm":  "2026-11-04T12:24:35-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -11,11 +11,11 @@
     "totalLeads":  3762,
     "porEtapa":  {
                      "Venda perdida":  1333,
-                     "Venda ganha":  961,
-                     "Cliente Ativo":  588,
-                     "NegociaÃ§Ã£o":  549,
-                     "Chegada do Lead":  170,
-                     "Nova Sondagem":  155,
+                     "Venda ganha":  960,
+                     "Cliente Ativo":  587,
+                     "NegociaÃ§Ã£o":  551,
+                     "Chegada do Lead":  169,
+                     "Nova Sondagem":  156,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
                      "Contato Inicial":  1
@@ -25,7 +25,7 @@
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
                           "leads":  2071,
-                          "ganhos":  455,
+                          "ganhos":  454,
                           "perdidos":  1014
                       },
                       {
@@ -44,14 +44,14 @@
                       }
                   ],
     "vendas":  {
-                   "ganhosQtd":  961,
-                   "ganhosValor":  2508685,
+                   "ganhosQtd":  960,
+                   "ganhosValor":  2504052,
                    "perdidosQtd":  1333,
                    "perdidosValor":  5133211,
-                   "ticketMedio":  2610.49,
+                   "ticketMedio":  2608.39,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  324,
+                                                        "totalLeads":  326,
                                                         "ganhosQtd":  106,
                                                         "perdidosQtd":  8,
                                                         "ganhosValor":  298221
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  138,
+                      "WhatsApp":  140,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
@@ -75,7 +75,7 @@
                                                  "ganhosValor":  52458
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  221,
+                                                  "totalLeads":  223,
                                                   "ganhosQtd":  70,
                                                   "ganhosValor":  202231
                                               },
@@ -99,10 +99,16 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "OLEO 68 ECONOLINE",
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  798
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
+                                 },
+                                 {
+                                     "nome":  "GRAXA AZUL 10KG",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo ectron 68 vr lub bd 20 litros",
@@ -117,40 +123,16 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
-                                 },
-                                 {
                                      "nome":  "ROLAMENTOS",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
+                                     "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "SOLVENTE 90 ML 34 UN D",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "GRAXA LITHIPLUS EP LUBRAX 20KG",
-                                     "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  3914
-                                 },
-                                 {
-                                     "nome":  "0w20 vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosValor":  798
                                  },
                                  {
                                      "nome":  "OLEO 250 LITRO 20",
@@ -159,13 +141,25 @@
                                      "ganhosValor":  537
                                  },
                                  {
+                                     "nome":  "GRAXA LITHIPLUS EP LUBRAX 20KG",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  3914
+                                 },
+                                 {
                                      "nome":  "GRAXA EVORA NGLI 0 20 KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO VALVOLINE CVT MAXLIFE",
+                                     "nome":  "FILTROS E O OLEO 15W40 MAX TURBO 20L",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "0w20 vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -177,10 +171,10 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "15W40 CI4 VALVOLINE BD 20 LITROS",
+                                     "nome":  "oleo gl4 90 e 140 bd 20l vr lub",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1080
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo atf 20l vr lub",
@@ -189,7 +183,7 @@
                                      "ganhosValor":  2685
                                  },
                                  {
-                                     "nome":  "HIDRAULICO 46 VR LUB BD 20L",
+                                     "nome":  "OLEO VALVOLINE CVT MAXLIFE",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -201,7 +195,7 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo gl4 90 e 140 bd 20l vr lub",
+                                     "nome":  "SOLVENTE 90 ML 34 UN D",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -211,20 +205,26 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "HIDRAULICO 46 VR LUB BD 20L",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6146,
-                                     "valorTotal":  22703506.80,
+                                     "total":  6148,
+                                     "valorTotal":  22704756.69,
                                      "convertidos":  2414,
                                      "cancelados":  381,
-                                     "recente":  27,
+                                     "recente":  29,
                                      "acompanhamento":  30,
                                      "atencao":  47,
                                      "envelhecido":  3034,
-                                     "taxaConversao":  0.3928
+                                     "taxaConversao":  0.3926
                                  },
                   "vendas":  {
                                  "total":  63037,
@@ -1142,20 +1142,6 @@
                                   "diferencaPct":  0.0453
                               },
                               {
-                                  "leadId":  24279830,
-                                  "pipelineId":  "9334023",
-                                  "funil":  "Funil Fabiana",
-                                  "classificacao":  "PROVAVEL",
-                                  "clienteShop9":  "FRANCISCO CASTRO DE SOUSA LTDA",
-                                  "vendaOrdem":  438656,
-                                  "fechamentoKommo":  "2026-11-04",
-                                  "dataVenda":  "2026-11-04",
-                                  "diasDiferenca":  0,
-                                  "valorKommo":  321,
-                                  "valorShop9":  320.88,
-                                  "diferencaPct":  0.0374
-                              },
-                              {
                                   "leadId":  26754438,
                                   "pipelineId":  "9473539",
                                   "funil":  "PositivaÃ§Ã£o - Fabiana",
@@ -1182,6 +1168,20 @@
                                   "valorKommo":  935,
                                   "valorShop9":  934.90,
                                   "diferencaPct":  0.0107
+                              },
+                              {
+                                  "leadId":  24279830,
+                                  "pipelineId":  "9334023",
+                                  "funil":  "Funil Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "FRANCISCO CASTRO DE SOUSA LTDA",
+                                  "vendaOrdem":  438656,
+                                  "fechamentoKommo":  "2026-11-04",
+                                  "dataVenda":  "2026-11-04",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  321,
+                                  "valorShop9":  320.88,
+                                  "diferencaPct":  0.0374
                               }
                           ],
     "leads":  [
@@ -62548,27 +62548,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  15180612,
-                      "nome":  "CL 4600 L C GRESS",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  4633,
-                      "cliente":  "L C Gress Ltda - Me",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-10T09:46:56-03:00",
-                      "atualizadoEm":  "2026-09-10T14:14:25-03:00",
-                      "fechadoEm":  "2025-01-10T16:40:06-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  15204464,
                       "nome":  "Autolead: CL 4600 L C GRESS",
                       "pipelineId":  "9473539",
@@ -77500,27 +77479,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  15802088,
-                      "nome":  "ARNOLDO CL 4600",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  7726,
-                      "cliente":  "L C Gress Ltda - Me",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo 220 vr lub",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-25T10:26:08-03:00",
-                      "atualizadoEm":  "2026-10-28T16:14:09-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26996388,
                       "nome":  "Lead #26996388",
                       "pipelineId":  "9334023",
@@ -79117,27 +79075,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26997088,
-                      "nome":  "Lead #26997088",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-21T10:58:22-03:00",
-                      "atualizadoEm":  "2026-11-03T14:20:11-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27072360,
                       "nome":  "Lead #27072360",
                       "pipelineId":  "9334023",
@@ -79537,27 +79474,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27074586,
-                      "nome":  "Lead #27074586",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-03T14:03:59-03:00",
-                      "atualizadoEm":  "2026-11-03T20:09:12-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  19782031,
                       "nome":  "Autolead: Lead #19485775",
                       "pipelineId":  "9473539",
@@ -79617,48 +79533,6 @@
                       "criadoEm":  "2024-09-05T13:56:37-03:00",
                       "atualizadoEm":  "2026-11-04T08:13:42-03:00",
                       "fechadoEm":  "2026-01-28T09:35:28-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  24279830,
-                      "nome":  "FRANCISCO CASTRO DE SOUSA LTDA DUDA",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  321,
-                      "cliente":  "FRANCISCO CASTRO DE SOUSA LTDA",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO ATF VR LUB LITRO",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-01-21T08:56:15-03:00",
-                      "atualizadoEm":  "2026-11-04T09:37:05-03:00",
-                      "fechadoEm":  "2026-11-04T09:37:03-03:00",
-                      "reconciliacaoHistorica":  "PROVAVEL",
-                      "vendaShop9":  438656
-                  },
-                  {
-                      "id":  27083552,
-                      "nome":  "Autolead: FRANCISCO CASTRO DE SOUSA LTDA DUDA",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206567",
-                      "etapa":  "Cliente Ativo",
-                      "valor":  0,
-                      "cliente":  "FRANCISCO CASTRO DE SOUSA LTDA",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-04T09:37:06-03:00",
-                      "atualizadoEm":  "2026-11-04T09:37:06-03:00",
-                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
@@ -79805,27 +79679,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2025-12-11T16:38:13-03:00",
                       "atualizadoEm":  "2026-11-04T10:30:59-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26916624,
-                      "nome":  "Lead #26916624",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  4947,
-                      "cliente":  "SOBRAL \u0026 PALACIO PETROLEO LTDA",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO GL4 140 VR LUB",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-08T15:15:05-03:00",
-                      "atualizadoEm":  "2026-11-04T10:34:13-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -80182,8 +80035,155 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2025-06-10T15:23:11-03:00",
-                      "atualizadoEm":  "2026-11-04T11:19:06-03:00",
+                      "atualizadoEm":  "2026-11-04T11:25:13-03:00",
                       "fechadoEm":  "2026-01-22T09:16:22-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26997088,
+                      "nome":  "Lead #26997088",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-21T10:58:22-03:00",
+                      "atualizadoEm":  "2026-11-04T11:29:06-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26916624,
+                      "nome":  "Lead #26916624",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  4947,
+                      "cliente":  "SOBRAL \u0026 PALACIO PETROLEO LTDA",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO GL4 140 VR LUB",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-08T15:15:05-03:00",
+                      "atualizadoEm":  "2026-11-04T11:35:09-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27083552,
+                      "nome":  "Autolead: FRANCISCO CASTRO DE SOUSA LTDA DUDA",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206571",
+                      "etapa":  "Nova Sondagem",
+                      "valor":  0,
+                      "cliente":  "FRANCISCO CASTRO DE SOUSA LTDA",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-04T09:37:06-03:00",
+                      "atualizadoEm":  "2026-11-04T11:35:40-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27074586,
+                      "nome":  "29.014.989 Joao Nisael Da Silva",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  565,
+                      "cliente":  "29.014.989 Joao Nisael Da Silva",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "MOTO 4T 20W50 VR LUB",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-03T14:03:59-03:00",
+                      "atualizadoEm":  "2026-11-04T11:40:40-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24279830,
+                      "nome":  "FRANCISCO CASTRO DE SOUSA LTDA DUDA",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  321,
+                      "cliente":  "FRANCISCO CASTRO DE SOUSA LTDA",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO ATF VR LUB LITRO",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-01-21T08:56:15-03:00",
+                      "atualizadoEm":  "2026-11-04T11:57:44-03:00",
+                      "fechadoEm":  "2026-11-04T09:37:03-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438656
+                  },
+                  {
+                      "id":  15180612,
+                      "nome":  "CL 4600 L C GRESS",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  684,
+                      "cliente":  "L C Gress Ltda - Me",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "gear 460 vr lub",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-10T09:46:56-03:00",
+                      "atualizadoEm":  "2026-11-04T12:17:09-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15802088,
+                      "nome":  "ARNOLDO CL 4600",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  7726,
+                      "cliente":  "L C Gress Ltda - Me",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo 220 vr lub",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-25T10:26:08-03:00",
+                      "atualizadoEm":  "2026-11-04T12:17:10-03:00",
+                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
