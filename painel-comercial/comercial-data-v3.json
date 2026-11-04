@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-04T14:24:08-03:00",
+                 "geradoEm":  "2026-11-04T15:24:10-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -51,7 +51,7 @@
                    "ticketMedio":  2608.39,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  328,
+                                                        "totalLeads":  329,
                                                         "ganhosQtd":  106,
                                                         "perdidosQtd":  8,
                                                         "ganhosValor":  298221
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  142,
+                      "WhatsApp":  143,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
@@ -75,7 +75,7 @@
                                                  "ganhosValor":  52458
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  225,
+                                                  "totalLeads":  226,
                                                   "ganhosQtd":  70,
                                                   "ganhosValor":  202231
                                               },
@@ -99,22 +99,16 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  411
-                                 },
-                                 {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
-                                 },
-                                 {
                                      "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  411
                                  },
                                  {
                                      "nome":  "graxa azul karter 20 kg",
@@ -129,25 +123,19 @@
                                      "ganhosValor":  798
                                  },
                                  {
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
+                                 },
+                                 {
                                      "nome":  "ROLAMENTOS",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "OLEO HIDR, 46 VR LUB BD 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1695
-                                 },
-                                 {
-                                     "nome":  "0w20 vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "FILTRO DE POLPA, BATERIA 60 AMPERES",
+                                     "nome":  "GRAXA EVORA NGLI 0 20 KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -159,16 +147,34 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA EVORA NGLI 0 20 KG",
+                                     "nome":  "OLEO HIDR, 46 VR LUB BD 20L",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  1695
+                                 },
+                                 {
+                                     "nome":  "oleo 68 vr lub, graxa AZUL 20 kg",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  1690
+                                 },
+                                 {
+                                     "nome":  "FILTRO DE POLPA, BATERIA 60 AMPERES",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA LITHIPLUS EP LUBRAX 20KG",
+                                     "nome":  "HIDRAULICO 46 VR LUB BD 20L",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  3914
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "15w40 ci4  tb 200 litros lubrax top turbo",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo gl4 90 e 140 bd 20l vr lub",
@@ -183,13 +189,13 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "FLUIDO PARA RADIADOR LUBRAX BD 20L",
+                                     "nome":  "GRAXA LITHIPLUS EP LUBRAX 20KG",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  3914
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 20KG KARTER",
+                                     "nome":  "0w20 vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -205,37 +211,31 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  537
-                                 },
-                                 {
-                                     "nome":  "HIDRAULICO 46 VR LUB BD 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6150,
-                                     "valorTotal":  22708621.49,
+                                     "total":  6151,
+                                     "valorTotal":  22709465.21,
                                      "convertidos":  2415,
                                      "cancelados":  381,
-                                     "recente":  30,
+                                     "recente":  31,
                                      "acompanhamento":  30,
                                      "atencao":  47,
                                      "envelhecido":  3034,
-                                     "taxaConversao":  0.3927
+                                     "taxaConversao":  0.3926
                                  },
                   "vendas":  {
-                                 "total":  63042,
-                                 "valorTotal":  42604678.96,
-                                 "ticketMedio":  675.81,
-                                 "semOrc":  60627,
-                                 "valorSemOrc":  38178195.07
+                                 "total":  63043,
+                                 "valorTotal":  42625979.86,
+                                 "ticketMedio":  676.14,
+                                 "semOrc":  60628,
+                                 "valorSemOrc":  38199495.97
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  1,
+                       "vinculoDefinitivoLeadId":  2,
                        "reconciliacaoHistorica":  66,
                        "forteProvisorio":  13,
                        "provavel":  53,
@@ -80125,48 +80125,6 @@
                       "vendaShop9":  438459
                   },
                   {
-                      "id":  27075580,
-                      "nome":  "Dynamica SoluÃ§Ãµes Industriais",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  3393,
-                      "cliente":  "Dynamica Solucoes Industriais Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "hidr. 68 aw valvoline 20l",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-03T15:33:19-03:00",
-                      "atualizadoEm":  "2026-11-04T14:01:23-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27085438,
-                      "nome":  "Lead #27085438",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-04T13:41:28-03:00",
-                      "atualizadoEm":  "2026-11-04T14:02:27-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26897244,
                       "nome":  "Lead #26897244",
                       "pipelineId":  "9334023",
@@ -80204,6 +80162,48 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-04-08T17:15:34-03:00",
                       "atualizadoEm":  "2026-11-04T14:11:10-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27075580,
+                      "nome":  "Dynamica SoluÃ§Ãµes Industriais",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  3393,
+                      "cliente":  "Dynamica Solucoes Industriais Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "hidr. 68 aw valvoline 20l",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-03T15:33:19-03:00",
+                      "atualizadoEm":  "2026-11-04T14:48:35-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27085438,
+                      "nome":  "A Fabrica Das Casas Ltda. - Me",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  844,
+                      "cliente":  "A Fabrica Das Casas Ltda. - Me",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "GL5 80W90 VALVOLINE BD 20L",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-04T13:41:28-03:00",
+                      "atualizadoEm":  "2026-11-04T15:19:53-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
