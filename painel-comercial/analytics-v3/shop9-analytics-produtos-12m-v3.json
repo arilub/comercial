@@ -9838,5 +9838,20 @@
         "fabricante":  "TECFIL ",
         "unidade_id":  10030,
         "unidade":  "UN"
+    },
+    {
+        "produto_id":  65947,
+        "codigo":  "43045140-0",
+        "produto":  "CJ FECHAD 517 TUB IN EX T ST2-55 ROS 357 IN INL SM",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  41047,
+        "fabricante":  "LA FONTE",
+        "unidade_id":  10030,
+        "unidade":  "UN"
     }
 ]
