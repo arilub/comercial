@@ -8798,5 +8798,27 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-04"
+    },
+    {
+        "cliente_id":  93338,
+        "codigo_shop9":  4996,
+        "cliente_nome":  "ANTONIO VITOR PASSOS MENDES",
+        "fantasia":  "",
+        "cidade":  "São Luís",
+        "uf":  "MA",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-04"
+    },
+    {
+        "cliente_id":  93339,
+        "codigo_shop9":  4997,
+        "cliente_nome":  "A Fabrica Das Casas Ltda. - Me",
+        "fantasia":  "",
+        "cidade":  "São Gonçalo Do Amarante",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-04"
     }
 ]
