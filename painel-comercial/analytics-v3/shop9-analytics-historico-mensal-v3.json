@@ -9579,14 +9579,14 @@
         "mes":  "2026-11",
         "tipo_operacao":  "ORC",
         "vendedor_id":  17,
-        "quantidade_documentos":  14,
-        "valor_total":  71055.1200
+        "quantidade_documentos":  16,
+        "valor_total":  72395.9200
     },
     {
         "mes":  "2026-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  4,
-        "valor_total":  2694.7200
+        "quantidade_documentos":  6,
+        "valor_total":  3970.7000
     }
 ]
