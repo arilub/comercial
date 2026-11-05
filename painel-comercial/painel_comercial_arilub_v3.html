@@ -1300,6 +1300,45 @@ preencherVendedoresAnalise();document.querySelectorAll('.period-btn').forEach(x=
         }).join('');
 
         // ====================================================
+        // MVP META GERAL ONLY
+        // Remove da interface qualquer distribuicao individual
+        // ou proporcional. Mantem apenas Mes + Meta Geral.
+        // ====================================================
+
+        document.querySelectorAll('.admin-meta-card').forEach(card=>{
+
+            const modo = card.querySelector('.admin-meta-modo');
+
+            if(modo){
+                const blocoModo = modo.closest('label');
+                if(blocoModo) blocoModo.remove();
+            }
+
+            card.querySelectorAll(
+                '.admin-meta-proporcional,' +
+                '.admin-meta-individual,' +
+                '.admin-meta-nao-definida'
+            ).forEach(el=>el.remove());
+
+            card.querySelectorAll(
+                '[data-meta-percentual],' +
+                '[data-meta-individual]'
+            ).forEach(el=>el.remove());
+        });
+
+        // Remove participaMeta da tabela de vendedores.
+        document.querySelectorAll('.admin-participa-meta').forEach(el=>{
+
+            const td = el.closest('td');
+            if(td) td.remove();
+        });
+
+        document.querySelectorAll('th').forEach(th=>{
+            if(th.textContent.trim()==='Meta'){
+                th.remove();
+            }
+        });
+        // ====================================================
         // ALTERNA VISUALMENTE MODO DA META
         // ====================================================
 
@@ -1425,10 +1464,11 @@ function coletarConfigAdmin(){
         m.metaGeral=
             Number(card.querySelector('.admin-meta-geral')?.value||0);
 
-        m.modoDistribuicao=
-            card.querySelector('.admin-meta-modo')?.value||'NAO_DEFINIDO';
+        m.modoDistribuicao='NAO_DEFINIDO';
+        m.distribuicao=[];
+        m.metasIndividuais=[];
 
-        if(m.modoDistribuicao==='PROPORCIONAL'){
+        if(false && m.modoDistribuicao==='PROPORCIONAL'){
 
             m.distribuicao=[
                 ...card.querySelectorAll('[data-meta-percentual]')
@@ -1441,7 +1481,7 @@ function coletarConfigAdmin(){
 
             m.metasIndividuais=[];
         }
-        else if(m.modoDistribuicao==='INDIVIDUAL'){
+        else if(false && m.modoDistribuicao==='INDIVIDUAL'){
 
             m.metasIndividuais=[
                 ...card.querySelectorAll('[data-meta-individual]')
