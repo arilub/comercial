@@ -6405,21 +6405,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  65602,
-        "codigo":  "KNL3000",
-        "produto":  "BALANÇA DE PRECISÃO - 3.000GX0,01G KN WAAGEN",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  40995,
-        "fabricante":  "KN WAAGEN",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  65603,
         "codigo":  "520.33.3V",
         "produto":  "5W30 SL 1L COMPETITION SYNTHETIC BLEND VALVOLINE",
