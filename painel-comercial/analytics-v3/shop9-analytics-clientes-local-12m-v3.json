@@ -8820,5 +8820,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-05"
+    },
+    {
+        "cliente_id":  93341,
+        "codigo_shop9":  4999,
+        "cliente_nome":  "FRANCISCO NOBRE DE ALBUQUERQUE NETO",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-05"
     }
 ]
