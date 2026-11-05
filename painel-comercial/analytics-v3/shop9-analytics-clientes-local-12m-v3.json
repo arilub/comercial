@@ -4059,17 +4059,6 @@
         "data_cadastro":  "2025-10-29"
     },
     {
-        "cliente_id":  92769,
-        "codigo_shop9":  4508,
-        "cliente_nome":  "Phoenix Do Brasil Servicos Industriais E Siderurgicos Ltda",
-        "fantasia":  "",
-        "cidade":  "Maracanaú",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-04"
-    },
-    {
         "cliente_id":  92770,
         "codigo_shop9":  4509,
         "cliente_nome":  "Varejao Da Sucata Ltda",
@@ -8820,5 +8809,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-04"
+    },
+    {
+        "cliente_id":  93340,
+        "codigo_shop9":  4998,
+        "cliente_nome":  "Engsafety Engenharia E Seguranca Do Trabalho Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-05"
     }
 ]
