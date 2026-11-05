@@ -17,7 +17,7 @@
                            "ordemExibicao":  1,
                            "participaMeta":  true,
                            "regraAtiva":  true,
-                           "observacao":  ""
+                           "observacao":  "teste-index"
                        },
                        {
                            "vendedorId":  1114,
@@ -57,13 +57,20 @@
     "metasMensais":  [
                          {
                              "mes":  "2026-11",
-                             "metaGeral":  300000,
-                             "modoDistribuicao":  "NAO_DEFINIDO",
+                             "metaGeral":  400000,
+                             "modoDistribuicao":  "INDIVIDUAL",
                              "distribuicao":  [
 
                                               ],
                              "metasIndividuais":  [
-
+                                                      {
+                                                          "vendedorId":  17,
+                                                          "valor":  300000
+                                                      },
+                                                      {
+                                                          "vendedorId":  1114,
+                                                          "valor":  200000
+                                                      }
                                                   ]
                          }
                      ]
