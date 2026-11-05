@@ -1,4 +1,4 @@
-﻿{
+{
     "versao":  1,
     "regraPadrao":  "NAO_CLASSIFICADO",
     "vendedores":  [
@@ -17,7 +17,7 @@
                            "ordemExibicao":  1,
                            "participaMeta":  true,
                            "regraAtiva":  true,
-                           "observacao":  null
+                           "observacao":  ""
                        },
                        {
                            "vendedorId":  1114,
@@ -34,7 +34,7 @@
                            "ordemExibicao":  2,
                            "participaMeta":  true,
                            "regraAtiva":  true,
-                           "observacao":  null
+                           "observacao":  ""
                        },
                        {
                            "vendedorId":  1101,
@@ -44,8 +44,8 @@
                            "vigenciaFim":  null,
                            "habilitado":  true,
                            "nomeExibicao":  "Aglailton",
-                           "responsavelKommo":  null,
-                           "pipelineKommo":  null,
+                           "responsavelKommo":  "",
+                           "pipelineKommo":  "",
                            "exibirNoPainel":  false,
                            "exibirNoFarol":  false,
                            "ordemExibicao":  3,
