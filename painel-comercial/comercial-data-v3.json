@@ -2,19 +2,19 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-05T09:24:54-03:00",
+                 "geradoEm":  "2026-11-05T10:24:11-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3765,
+    "totalLeads":  3769,
     "porEtapa":  {
-                     "Venda perdida":  1333,
-                     "Venda ganha":  959,
+                     "Venda perdida":  1334,
+                     "Venda ganha":  960,
                      "Cliente Ativo":  585,
-                     "NegociaÃ§Ã£o":  554,
-                     "Chegada do Lead":  171,
+                     "NegociaÃ§Ã£o":  555,
+                     "Chegada do Lead":  172,
                      "Nova Sondagem":  157,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
@@ -24,16 +24,16 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2074,
-                          "ganhos":  453,
+                          "leads":  2077,
+                          "ganhos":  454,
                           "perdidos":  1014
                       },
                       {
                           "pipelineId":  "9473539",
                           "funil":  "PositivaÃ§Ã£o - Fabiana",
-                          "leads":  1656,
+                          "leads":  1657,
                           "ganhos":  485,
-                          "perdidos":  310
+                          "perdidos":  311
                       },
                       {
                           "pipelineId":  "9564435",
@@ -44,17 +44,17 @@
                       }
                   ],
     "vendas":  {
-                   "ganhosQtd":  959,
-                   "ganhosValor":  2503411,
-                   "perdidosQtd":  1333,
-                   "perdidosValor":  5133211,
-                   "ticketMedio":  2610.44,
+                   "ganhosQtd":  960,
+                   "ganhosValor":  2503648,
+                   "perdidosQtd":  1334,
+                   "perdidosValor":  5138651,
+                   "ticketMedio":  2607.97,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  330,
-                                                        "ganhosQtd":  106,
-                                                        "perdidosQtd":  8,
-                                                        "ganhosValor":  298221
+                                                        "totalLeads":  332,
+                                                        "ganhosQtd":  107,
+                                                        "perdidosQtd":  9,
+                                                        "ganhosValor":  298458
                                                     },
                                         "Erico-Inativo":  {
                                                               "totalLeads":  7,
@@ -65,17 +65,18 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  144,
-                      "Telefone":  2
+                      "WhatsApp":  146,
+                      "Telefone":  2,
+                      "E-mail":  1
                   },
     "porLinhaProduto":  {
                             "Geral/Outros":  {
-                                                 "totalLeads":  48,
-                                                 "ganhosQtd":  15,
-                                                 "ganhosValor":  52458
+                                                 "totalLeads":  49,
+                                                 "ganhosQtd":  16,
+                                                 "ganhosValor":  52695
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  226,
+                                                  "totalLeads":  228,
                                                   "ganhosQtd":  70,
                                                   "ganhosValor":  202231
                                               },
@@ -105,12 +106,6 @@
                                      "ganhosValor":  737
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  411
-                                 },
-                                 {
                                      "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
@@ -123,10 +118,10 @@
                                      "ganhosValor":  798
                                  },
                                  {
-                                     "nome":  "ROLAMENTOS",
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  14659
+                                     "ganhosValor":  411
                                  },
                                  {
                                      "nome":  "graxa azul karter 20 kg",
@@ -135,7 +130,25 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "FILTROS E O OLEO 15W40 MAX TURBO 20L",
+                                     "nome":  "ROLAMENTOS",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  14659
+                                 },
+                                 {
+                                     "nome":  "OLEO HIDR, 46 VR LUB BD 20L",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  1695
+                                 },
+                                 {
+                                     "nome":  "MOBIL 4T 20W50 24X01 LITRO",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "FILTRO DE POLPA, BATERIA 60 AMPERES",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -147,25 +160,31 @@
                                      "ganhosValor":  1690
                                  },
                                  {
+                                     "nome":  "OLEO DEXRON VI VALVOLINE E FILTRO DE CAMBIO AUTOMATICO",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "5w30 suv vr lub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO HIDR, 46 VR LUB BD 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  1695
-                                 },
-                                 {
-                                     "nome":  "FILTRO DE POLPA, BATERIA 60 AMPERES",
+                                     "nome":  "OLEO 68 ECTRON E SUV 5W30 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA EVORA NGLI 0 20 KG",
+                                     "nome":  "FILTROS E O OLEO 15W40 MAX TURBO 20L",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "SOLVENTE 90 ML 34 UN D",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -177,37 +196,19 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "15w40 ci4  tb 200 litros lubrax top turbo",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo gl4 90 e 140 bd 20l vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "graxa molycote BR-2",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "GRAXA LITHIPLUS EP LUBRAX 20KG",
+                                     "nome":  "ECTRON 68 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  3914
+                                     "ganhosValor":  787
                                  },
                                  {
-                                     "nome":  "0w20 vr lub",
+                                     "nome":  "OLEO 250 LITRO 20",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  537
                                  },
                                  {
-                                     "nome":  "SOLVENTE 90 ML 34 UN D",
+                                     "nome":  "GRAXA EVORA NGLI 0 20 KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -216,29 +217,29 @@
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6153,
-                                     "valorTotal":  22712328.24,
-                                     "convertidos":  2415,
+                                     "total":  6155,
+                                     "valorTotal":  22714007.60,
+                                     "convertidos":  2417,
                                      "cancelados":  381,
-                                     "recente":  26,
+                                     "recente":  27,
                                      "acompanhamento":  31,
                                      "atencao":  49,
                                      "envelhecido":  3037,
-                                     "taxaConversao":  0.3925
+                                     "taxaConversao":  0.3927
                                  },
                   "vendas":  {
-                                 "total":  63044,
-                                 "valorTotal":  42650129.86,
+                                 "total":  63046,
+                                 "valorTotal":  42651051.86,
                                  "ticketMedio":  676.51,
                                  "semOrc":  60629,
                                  "valorSemOrc":  38223645.97
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  2,
-                       "reconciliacaoHistorica":  66,
+                       "vinculoDefinitivoLeadId":  4,
+                       "reconciliacaoHistorica":  67,
                        "forteProvisorio":  13,
-                       "provavel":  53,
+                       "provavel":  54,
                        "ambiguo":  1,
                        "documentoAmbiguo":  0,
                        "semClienteShop9":  10,
@@ -1182,6 +1183,20 @@
                                   "valorKommo":  706,
                                   "valorShop9":  706.20,
                                   "diferencaPct":  0.0283
+                              },
+                              {
+                                  "leadId":  27089902,
+                                  "pipelineId":  "9334023",
+                                  "funil":  "Funil Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "FRANCISCO NOBRE DE ALBUQUERQUE NETO",
+                                  "vendaOrdem":  438682,
+                                  "fechamentoKommo":  "2026-11-05",
+                                  "dataVenda":  "2026-11-05",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  237,
+                                  "valorShop9":  237.50,
+                                  "diferencaPct":  0.211
                               }
                           ],
     "leads":  [
@@ -58054,27 +58069,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25497554,
-                      "nome":  "Lead #25497554",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  7087,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-05-14T13:56:13-03:00",
-                      "atualizadoEm":  "2026-08-31T14:00:16-03:00",
-                      "fechadoEm":  "2026-08-31T14:00:14-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  25891132,
                       "nome":  "Lead #25891132",
                       "pipelineId":  "9334023",
@@ -60486,27 +60480,6 @@
                       "criadoEm":  "2026-05-29T14:56:43-03:00",
                       "atualizadoEm":  "2026-09-08T12:31:53-03:00",
                       "fechadoEm":  "2026-09-02T10:30:49-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26294030,
-                      "nome":  "Autolead: Lead #25470418",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206567",
-                      "etapa":  "Cliente Ativo",
-                      "valor":  0,
-                      "cliente":  "Paraipaba Agroindustrial Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-08-04T10:39:51-03:00",
-                      "atualizadoEm":  "2026-09-08T12:31:53-03:00",
-                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
@@ -74665,27 +74638,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26696522,
-                      "nome":  "Autolead: Lead #25470418",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206575",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  5440,
-                      "cliente":  "Paraipaba Agroindustrial Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "15w40 ci4  tb 200 litros lubrax top turbo",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-09-09T14:47:59-03:00",
-                      "atualizadoEm":  "2026-10-20T12:47:52-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  11476566,
                       "nome":  "Lead #11476566",
                       "pipelineId":  "9334023",
@@ -79537,48 +79489,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  15180612,
-                      "nome":  "CL 4600 L C GRESS",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  684,
-                      "cliente":  "L C Gress Ltda - Me",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "gear 460 vr lub",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-10T09:46:56-03:00",
-                      "atualizadoEm":  "2026-11-04T12:17:09-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  15802088,
-                      "nome":  "ARNOLDO CL 4600",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  7726,
-                      "cliente":  "L C Gress Ltda - Me",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo 220 vr lub",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-25T10:26:08-03:00",
-                      "atualizadoEm":  "2026-11-04T12:17:10-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24279830,
                       "nome":  "FRANCISCO CASTRO DE SOUSA LTDA DUDA",
                       "pipelineId":  "9334023",
@@ -80062,27 +79972,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27089432,
-                      "nome":  "Lead #27089432",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-05T08:36:28-03:00",
-                      "atualizadoEm":  "2026-11-05T08:38:14-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  21201969,
                       "nome":  "Lead #21201969",
                       "pipelineId":  "9334023",
@@ -80188,27 +80077,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25470418,
-                      "nome":  "Lead #25470418",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  2313,
-                      "cliente":  "Paraipaba Agroindustrial Ltda",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-05-11T14:27:20-03:00",
-                      "atualizadoEm":  "2026-11-05T09:08:03-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26960776,
                       "nome":  "Lead #26960776",
                       "pipelineId":  "9334023",
@@ -80230,6 +80098,237 @@
                       "vendaShop9":  438601
                   },
                   {
+                      "id":  27089432,
+                      "nome":  "Lead #27089432",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-05T08:36:28-03:00",
+                      "atualizadoEm":  "2026-11-05T09:39:28-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27089702,
+                      "nome":  "Engsafety Engenharia E Seguranca Do Trabalho Ltda Leonardo",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  2014,
+                      "cliente":  "Engsafety Engenharia E Seguranca Do Trabalho Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO SOLUVEL ALL 15 E 211 BD 20L",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-05T09:21:02-03:00",
+                      "atualizadoEm":  "2026-11-05T09:46:59-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  25497554,
+                      "nome":  "Lead #25497554",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  7087,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-05-14T13:56:13-03:00",
+                      "atualizadoEm":  "2026-11-05T09:49:15-03:00",
+                      "fechadoEm":  "2026-08-31T14:00:14-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27089902,
+                      "nome":  "FRANCISCO NOBRE",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  237,
+                      "cliente":  "FRANCISCO NOBRE DE ALBUQUERQUE NETO",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "GRAXA CHASSIS 1KG 05 LATAS DE 1KG",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-05T09:50:31-03:00",
+                      "atualizadoEm":  "2026-11-05T09:54:44-03:00",
+                      "fechadoEm":  "2026-11-05T09:54:43-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438682
+                  },
+                  {
+                      "id":  27089926,
+                      "nome":  "Autolead: FRANCISCO NOBRE",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206567",
+                      "etapa":  "Cliente Ativo",
+                      "valor":  0,
+                      "cliente":  "FRANCISCO NOBRE DE ALBUQUERQUE NETO",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-05T09:54:45-03:00",
+                      "atualizadoEm":  "2026-11-05T09:54:45-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15180612,
+                      "nome":  "CL 4600 L C GRESS",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  684,
+                      "cliente":  "L C Gress Ltda - Me",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "gear 460 vr lub",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-10T09:46:56-03:00",
+                      "atualizadoEm":  "2026-11-05T09:57:06-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15802088,
+                      "nome":  "ARNOLDO CL 4600",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  7726,
+                      "cliente":  "L C Gress Ltda - Me",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo 220 vr lub",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-25T10:26:08-03:00",
+                      "atualizadoEm":  "2026-11-05T09:57:06-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26696522,
+                      "nome":  "Autolead: Lead #25470418",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  5440,
+                      "cliente":  "Paraipaba Agroindustrial Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "15w40 ci4  tb 200 litros lubrax top turbo",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-09-09T14:47:59-03:00",
+                      "atualizadoEm":  "2026-11-05T10:05:14-03:00",
+                      "fechadoEm":  "2026-11-05T10:05:12-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  25470418,
+                      "nome":  "Lead #25470418",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  2313,
+                      "cliente":  "Paraipaba Agroindustrial Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-05-11T14:27:20-03:00",
+                      "atualizadoEm":  "2026-11-05T10:11:05-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26294030,
+                      "nome":  "Paraipaba Agroindustrial LtdaAutolead: Lead #25470418",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1442,
+                      "cliente":  "Paraipaba Agroindustrial Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "20w50 mobil flex e atf 24x01 litro",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "E-mail",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-08-04T10:39:51-03:00",
+                      "atualizadoEm":  "2026-11-05T10:12:56-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27090056,
+                      "nome":  "Lead #27090056",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-05T10:13:25-03:00",
+                      "atualizadoEm":  "2026-11-05T10:13:27-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
                       "id":  26954074,
                       "nome":  "Lead #26954074",
                       "pipelineId":  "9334023",
@@ -80245,7 +80344,7 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-10-14T15:08:17-03:00",
-                      "atualizadoEm":  "2026-11-05T09:15:33-03:00",
+                      "atualizadoEm":  "2026-11-05T10:15:16-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
