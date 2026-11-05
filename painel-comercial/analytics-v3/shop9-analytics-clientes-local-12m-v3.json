@@ -8831,5 +8831,16 @@
         "fisica_juridica":  "F",
         "inativo":  false,
         "data_cadastro":  "2026-11-05"
+    },
+    {
+        "cliente_id":  93342,
+        "codigo_shop9":  5000,
+        "cliente_nome":  "Agropecuaria Kunde Ltda",
+        "fantasia":  "Agropecuaria Kunde",
+        "cidade":  "Minaçu",
+        "uf":  "GO",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-05"
     }
 ]
