@@ -4092,6 +4092,17 @@
         "data_cadastro":  "2025-11-07"
     },
     {
+        "cliente_id":  92775,
+        "codigo_shop9":  11145,
+        "cliente_nome":  "SOTREQ S/A",
+        "fantasia":  "SOTREQ S/A",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2025-11-10"
+    },
+    {
         "cliente_id":  92776,
         "codigo_shop9":  4513,
         "cliente_nome":  "Fornecedora Engelog Locacoes E Servicos Ltda",
@@ -8827,6 +8838,28 @@
         "cliente_nome":  "FRANCISCO NOBRE DE ALBUQUERQUE NETO",
         "fantasia":  "",
         "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-05"
+    },
+    {
+        "cliente_id":  93342,
+        "codigo_shop9":  5000,
+        "cliente_nome":  "Agropecuaria Kunde Ltda",
+        "fantasia":  "Agropecuaria Kunde",
+        "cidade":  "Minaçu",
+        "uf":  "GO",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-05"
+    },
+    {
+        "cliente_id":  93343,
+        "codigo_shop9":  5001,
+        "cliente_nome":  "MAURO FERREIRA DA SILVA JUNIOR",
+        "fantasia":  "",
+        "cidade":  "EUSEBIO",
         "uf":  "CE",
         "fisica_juridica":  "F",
         "inativo":  false,
