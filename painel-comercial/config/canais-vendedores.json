@@ -15,9 +15,9 @@
                            "exibirNoPainel":  true,
                            "exibirNoFarol":  true,
                            "ordemExibicao":  1,
-                           "participaMeta":  true,
+                           "participaMeta":  false,
                            "regraAtiva":  true,
-                           "observacao":  "teste-index"
+                           "observacao":  ""
                        },
                        {
                            "vendedorId":  1114,
@@ -32,7 +32,7 @@
                            "exibirNoPainel":  true,
                            "exibirNoFarol":  true,
                            "ordemExibicao":  2,
-                           "participaMeta":  true,
+                           "participaMeta":  false,
                            "regraAtiva":  true,
                            "observacao":  ""
                        },
@@ -57,20 +57,13 @@
     "metasMensais":  [
                          {
                              "mes":  "2026-11",
-                             "metaGeral":  400000,
-                             "modoDistribuicao":  "INDIVIDUAL",
+                             "metaGeral":  300000,
+                             "modoDistribuicao":  "NAO_DEFINIDO",
                              "distribuicao":  [
 
                                               ],
                              "metasIndividuais":  [
-                                                      {
-                                                          "vendedorId":  17,
-                                                          "valor":  300000
-                                                      },
-                                                      {
-                                                          "vendedorId":  1114,
-                                                          "valor":  200000
-                                                      }
+
                                                   ]
                          }
                      ]
