@@ -9,7 +9,15 @@
                            "vigenciaInicio":  null,
                            "vigenciaFim":  null,
                            "habilitado":  true,
-                           "nomeExibicao":  "Fabiana"
+                           "nomeExibicao":  "Fabiana",
+                           "responsavelKommo":  "Fabiana",
+                           "pipelineKommo":  "9334023",
+                           "exibirNoPainel":  true,
+                           "exibirNoFarol":  true,
+                           "ordemExibicao":  1,
+                           "participaMeta":  true,
+                           "regraAtiva":  true,
+                           "observacao":  null
                        },
                        {
                            "vendedorId":  1114,
@@ -18,7 +26,15 @@
                            "vigenciaInicio":  null,
                            "vigenciaFim":  null,
                            "habilitado":  true,
-                           "nomeExibicao":  "Edvaldo"
+                           "nomeExibicao":  "Edvaldo",
+                           "responsavelKommo":  "Edvaldo",
+                           "pipelineKommo":  "9564435",
+                           "exibirNoPainel":  true,
+                           "exibirNoFarol":  true,
+                           "ordemExibicao":  2,
+                           "participaMeta":  true,
+                           "regraAtiva":  true,
+                           "observacao":  null
                        },
                        {
                            "vendedorId":  1101,
@@ -27,7 +43,28 @@
                            "vigenciaInicio":  null,
                            "vigenciaFim":  null,
                            "habilitado":  true,
-                           "nomeExibicao":  "Aglailton"
+                           "nomeExibicao":  "Aglailton",
+                           "responsavelKommo":  null,
+                           "pipelineKommo":  null,
+                           "exibirNoPainel":  false,
+                           "exibirNoFarol":  false,
+                           "ordemExibicao":  3,
+                           "participaMeta":  false,
+                           "regraAtiva":  true,
+                           "observacao":  "Mantido para classificacao historica."
                        }
-                   ]
+                   ],
+    "metasMensais":  [
+                         {
+                             "mes":  "2026-11",
+                             "metaGeral":  300000,
+                             "modoDistribuicao":  "NAO_DEFINIDO",
+                             "distribuicao":  [
+
+                                              ],
+                             "metasIndividuais":  [
+
+                                                  ]
+                         }
+                     ]
 }
