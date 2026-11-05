@@ -189,11 +189,11 @@
 <section id="dashboard" class="sec on"><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select id="mes" class="monthSel"></select><span id="pnote" class="small pnote"></span></div><div id="status" class="alert">Carregando…</div>
 <div class="channel-head"><div class="title">Venda Direta</div><span class="tag">resultado Shop9</span></div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="dReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="dQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket médio</div><div id="dTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="dProj" class="val">—</div><div id="dProjN" class="small"></div></div></div><div class="g5"><div class="k compact"><div class="lab">ORCs emitidos no período</div><div id="dOrcQ" class="val">—</div></div><div class="k compact"><div class="lab">Valor orçado</div><div id="dOrcV" class="val">—</div></div><div class="k compact"><div class="lab">Em aberto</div><div id="dOrcA" class="val">—</div><div id="dOrcAN" class="note"></div></div><div class="k compact ok"><div class="lab">ORCs emitidos já convertidos</div><div id="dConvQ" class="val">—</div></div><div class="k compact ok"><div class="lab">Conversão dos ORCs emitidos</div><div id="dConvP" class="val">—</div></div></div>
 <div class="channel-head"><div class="title">Licitação</div><span class="tag">resultado Shop9 · processo Kommo</span></div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="lReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="lQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket médio</div><div id="lTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="lProj" class="val">—</div><div id="lProjN" class="small"></div></div></div><div class="g5"><div class="k compact"><div class="lab">ORCs emitidos</div><div id="lOrcQ" class="val">—</div></div><div class="k compact"><div class="lab">Valor orçado</div><div id="lOrcV" class="val">—</div></div><div class="k compact"><div class="lab">Em aberto</div><div id="lOrcA" class="val">—</div><div id="lOrcAN" class="note"></div></div><div class="k compact ok"><div class="lab">Vendas realizadas</div><div id="lConvQ" class="val">—</div></div><div class="k compact ok"><div class="lab">Conversão ORC → VND</div><div id="lConvP" class="val">—</div></div></div>
-<div class="bt">Meta geral · R$ 300 mil</div><div class="g4"><div class="k"><div class="lab">Realizado geral</div><div id="mReal" class="val">—</div></div><div class="k"><div class="lab">Meta atingida</div><div id="mPct" class="val">—</div></div><div class="k wa"><div class="lab">Projeção geral</div><div id="mProj" class="val">—</div><div id="mProjPct" class="small"></div></div><div class="k"><div class="lab">Vs. mês anterior</div><div id="mPrev" class="val">—</div><div id="mPrevN" class="small"></div></div></div>
+<div class="bt" id="tituloMetaGeral">Meta geral</div><div class="g4"><div class="k"><div class="lab">Realizado geral</div><div id="mReal" class="val">—</div></div><div class="k"><div class="lab">Meta atingida</div><div id="mPct" class="val">—</div></div><div class="k wa"><div class="lab">Projeção geral</div><div id="mProj" class="val">—</div><div id="mProjPct" class="small"></div></div><div class="k"><div class="lab">Vs. mês anterior</div><div id="mPrev" class="val">—</div><div id="mPrevN" class="small"></div></div></div>
 <div class="g2"><div class="card"><div class="h">Ritmo comercial · Venda Direta</div><div class="hint">Semanas seg–sex; feriados ainda não parametrizados.</div><table style="margin-top:9px"><thead><tr><th>Semana</th><th>Faixa</th><th class="r">Vendas</th><th class="r">Realizado</th></tr></thead><tbody id="dWeeks"></tbody></table></div><div class="card"><div class="h">Ritmo comercial · Licitação</div><div class="hint">Mesma régua temporal; resultado realizado no Shop9.</div><table style="margin-top:9px"><thead><tr><th>Semana</th><th>Faixa</th><th class="r">Vendas</th><th class="r">Realizado</th></tr></thead><tbody id="lWeeks"></tbody></table></div></div>
-<div class="bt">Farol de gestão</div><div class="card"><table><thead><tr><th>Vendedor</th><th>Canal</th><th>Status</th></tr></thead><tbody id="farol"></tbody></table><div class="note">Dashboard mostra apenas o farol executivo. O detalhamento das pendências fica na aba de cada canal. Verde = sem pendência crítica; amarelo = pendência de preenchimento; vermelho = pendência + oportunidade parada há 15+ dias. Aglailton não compõe a visão de vendedor.</div></div>
+<div class="bt">Farol de gestão</div><div class="card"><table><thead><tr><th>Vendedor</th><th>Canal</th><th>Status</th></tr></thead><tbody id="farol"></tbody></table><div class="note">Dashboard mostra apenas o farol executivo. O detalhamento das pendências fica na aba de cada canal. Verde = sem pendência crítica; amarelo = pendência de preenchimento; vermelho = pendência + oportunidade parada há 15+ dias. A composição do farol segue a configuração administrativa.</div></div>
 <div class="bt">Panorama comercial do período</div><div class="card"><table><thead><tr><th>Canal</th><th class="r">Vendas</th><th class="r">Realizado</th><th class="r">Participação</th></tr></thead><tbody id="pan"></tbody></table></div></section>
-<section id="direta" class="sec"><div class="bt">Venda Direta</div><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select class="monthSel"></select><span class="small pnote"></span></div><div class="alert"><b>Resultado:</b> Shop9. <b>Processo comercial:</b> Kommo · pipeline Venda Direta. O funil abaixo apresenta a coorte de leads criados no período selecionado e sua situação atual. Encerramentos ocorridos no período são informados separadamente para não misturar coortes diferentes.</div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="vdReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="vdQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket</div><div id="vdTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="vdProj" class="val">—</div></div></div><div class="g2"><div class="card"><div class="h">Coorte do período · Venda Direta · Kommo</div><canvas id="vdFun"></canvas><table><thead><tr><th>Etapa</th><th class="r">Qtd.</th><th class="r">%</th></tr></thead><tbody id="vdFunT"></tbody></table></div><div class="card"><div class="h">Responsável · Fabiana · coorte do período</div><table><thead><tr><th>Responsável</th><th class="r">Entradas</th><th class="r">Em aberto</th><th class="r">Ganhas</th><th class="r">Perdidas</th><th class="r">Êxito coorte</th></tr></thead><tbody id="vdResp"></tbody></table><div id="vdAging" class="src"></div></div></div>
+<section id="direta" class="sec"><div class="bt">Venda Direta</div><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select class="monthSel"></select><span class="small pnote"></span></div><div class="alert"><b>Resultado:</b> Shop9. <b>Processo comercial:</b> Kommo · pipeline Venda Direta. O funil abaixo apresenta a coorte de leads criados no período selecionado e sua situação atual. Encerramentos ocorridos no período são informados separadamente para não misturar coortes diferentes.</div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="vdReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="vdQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket</div><div id="vdTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="vdProj" class="val">—</div></div></div><div class="g2"><div class="card"><div class="h">Coorte do período · Venda Direta · Kommo</div><canvas id="vdFun"></canvas><table><thead><tr><th>Etapa</th><th class="r">Qtd.</th><th class="r">%</th></tr></thead><tbody id="vdFunT"></tbody></table></div><div class="card"><div class="h" id="tituloResponsavelDireta">Responsável · coorte do período</div><table><thead><tr><th>Responsável</th><th class="r">Entradas</th><th class="r">Em aberto</th><th class="r">Ganhas</th><th class="r">Perdidas</th><th class="r">Êxito coorte</th></tr></thead><tbody id="vdResp"></tbody></table><div id="vdAging" class="src"></div></div></div>
 <div class="card"><div class="h">Alertas de preenchimento e gestão · Venda Direta</div><div id="vdAlertas" class="src"></div></div>
 <div class="card"><div class="h">Orçamentos e conversão · Shop9</div><table><thead><tr><th>Métrica</th><th class="r">Quantidade</th><th class="r">Valor orçado</th></tr></thead><tbody id="vdOrcT"></tbody></table></div></section>
 <section id="licitacao" class="sec"><div class="bt">Licitação</div><div class="bar timebar"><b>Visão:</b><button class="btn period-btn" data-p="hoje">Hoje</button><button class="btn period-btn" data-p="semana">Semana</button><button class="btn period-btn on" data-p="mes">Mês</button><select class="monthSel"></select><span class="small pnote"></span></div><div class="alert"><b>Resultado:</b> Shop9. <b>Processo comercial:</b> Kommo · pipeline Licitações. A base disponível no Kommo não possui alimentação operacional recente e, por isso, seus indicadores atuais estão suspensos neste painel. Os registros históricos permanecem preservados na origem.</div><div class="g4"><div class="k ok"><div class="lab">Realizado</div><div id="licReal" class="val">—</div></div><div class="k compact"><div class="lab">Vendas</div><div id="licQtd" class="val">—</div></div><div class="k compact"><div class="lab">Ticket</div><div id="licTicket" class="val">—</div></div><div class="k wa"><div class="lab">Projeção mensal</div><div id="licProj" class="val">—</div></div></div><div class="g2"><div class="card"><div class="h">Kommo · Licitações · base sem alimentação recente</div><canvas id="licFun"></canvas><table><thead><tr><th>Etapa</th><th class="r">Qtd.</th><th class="r">%</th></tr></thead><tbody id="licFunT"></tbody></table></div><div class="card"><div class="h">Responsável operacional · Edvaldo</div><table><thead><tr><th>Responsável</th><th class="r">Total</th><th class="r">Abertas</th><th class="r">Ganhas</th><th class="r">Perdidas</th><th class="r">Conversão</th></tr></thead><tbody id="licResp"></tbody></table><div id="licAging" class="src"></div></div></div>
@@ -205,7 +205,9 @@
 <div id="analyticsStatus" class="alert analytics-status"><b>Camada analítica Shop9:</b><span>verificando arquivos de 12 meses…</span></div>
 <div class="bar filterbar"><b>Filtros Shop9:</b>
 <select id="canalAnalise"><option value="TODOS">Canal · Todos</option><option value="VENDA_DIRETA">Canal · Venda Direta</option><option value="LICITACAO">Canal · Licitação</option><option value="NAO_CLASSIFICADO">Canal · Não classificado</option></select>
-<select id="vendedorAnalise" disabled><option value="TODOS">Vendedor · Todos</option><option value="Fabiana">Vendedor · Fabiana</option><option value="Edvaldo">Vendedor · Edvaldo</option></select>
+<select id="vendedorAnalise" disabled>
+    <option value="TODOS">Vendedor · Todos</option>
+</select>
 <select id="clienteAnalise" disabled><option value="TODOS">Cliente · Todos</option></select>
 <select id="produtoAnalise" disabled><option value="TODOS">Produto · Todos</option></select>
 <select id="situacaoAnalise" disabled><option value="TODOS">Situação ORC · Todas</option><option value="CONVERTIDO">ORC · Convertido</option><option value="ABERTO">ORC · Aberto</option><option value="CANCELADO">ORC · Cancelado</option><option value="APAGADO">ORC · Apagado</option><option value="INVALIDO">ORC · Inválido</option></select>
@@ -318,7 +320,7 @@
 </section>
 </main><footer>ARILUB · Painel Comercial · V3 HOMOLOG · Shop9 12 meses detalhados + histórico agregado · Kommo gestão de oportunidades</footer><script>
 'use strict';
-const D='./comercial-data-v3.json',C='./shop9-series-canal-v3.json',META=300000,PIPE_D='9334023',PIPE_L='9564435';
+const D='./comercial-data-v3.json',C='./shop9-series-canal-v3.json',CFG_URL='./config/canais-vendedores.json';
 const AX={
  movimentos:'./analytics-v3/shop9-analytics-movimentos-12m-v3.json',
  itens:'./analytics-v3/shop9-analytics-itens-12m-v3.json',
@@ -329,12 +331,223 @@ const AX={
  historico:'./analytics-v3/shop9-analytics-historico-mensal-v3.json',
  manifesto:'./analytics-v3/shop9-analytics-manifesto-v3.json'
 };
-let B=null,S=null,A=null,p='mes',mr='',charts={};const $=x=>document.getElementById(x),brl=x=>(+x||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}),num=x=>(+x||0).toLocaleString('pt-BR'),pct=x=>Number.isFinite(x)?x.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1})+'%':'—',dbr=x=>x?x.split('-').reverse().join('/'):'—';function ml(x){let[y,m]=x.split('-');return new Intl.DateTimeFormat('pt-BR',{month:'short',year:'2-digit'}).format(new Date(+y,+m-1,1)).replace('.','')}function addm(x,n){let[y,m]=x.split('-').map(Number),d=new Date(y,m-1+n,1);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')}function latest(){if(A?.ready&&A.movimentos?.length)return A.movimentos.map(x=>String(x.data_movimento||'').slice(0,10)).filter(Boolean).sort().at(-1)||'';return(S?.diasCanal||[]).map(x=>x.data).sort().at(-1)||''}function months(){return[...new Set((S?.mesesCanal||[]).map(x=>x.mes))].sort().slice(-12)}function agg(a,cs){let z={vendasQtd:0,vendasValor:0,orcEmitidosQtd:0,orcEmitidosValor:0,orcConvertidosQtd:0,orcConvertidosValor:0};for(const r of a)if(!cs||cs.includes(r.canalComercial))for(const k in z)z[k]+=+r[k]||0;return z}function ma(m,cs){return agg((S?.mesesCanal||[]).filter(x=>x.mes===m),cs)}function wr(ds){let d=new Date(ds+'T12:00:00'),y=d.getFullYear(),m=d.getMonth(),n=d.getDate(),w=d.getDay(),a=n-(w===0?6:w-1),b=a+4;a=Math.max(1,a);b=Math.min(new Date(y,m+1,0).getDate(),b);let mm=String(m+1).padStart(2,'0');return[y+'-'+mm+'-'+String(a).padStart(2,'0'),y+'-'+mm+'-'+String(b).padStart(2,'0')]}function rows(a,b){return(S?.diasCanal||[]).filter(x=>x.data>=a&&x.data<=b)}function iso(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}function pa(cs){if(A?.ready){let[a,b]=periodBounds(),z={vendasQtd:0,vendasValor:0,orcEmitidosQtd:0,orcEmitidosValor:0,orcConvertidosQtd:0,orcConvertidosValor:0,orcAbertosQtd:0,orcAbertosValor:0};for(const x of A.movimentos){let d=String(x.data_movimento||'').slice(0,10),c=canalMov(x);if(d<a||d>b||(cs&& !cs.includes(c)))continue;if(x.tipo_operacao==='VND'&&x.venda_realizada_valida===true){z.vendasQtd++;z.vendasValor+=+x.valor_documento||0}else if(x.tipo_operacao==='ORC'){z.orcEmitidosQtd++;z.orcEmitidosValor+=+x.valor_documento||0;let st=orcSituacao(x);if(st==='CONVERTIDO'){z.orcConvertidosQtd++;z.orcConvertidosValor+=+x.valor_documento||0}else if(st==='ABERTO'){z.orcAbertosQtd++;z.orcAbertosValor+=+x.valor_documento||0}}}return z}let l=latest();if(p==='hoje')return agg(rows(l,l),cs);if(p==='semana'){let[a,b]=wr(l);return agg(rows(a,l<b?l:b),cs)}return ma(mr,cs)}function bd(m,cut){let[y,mm]=m.split('-').map(Number),last=new Date(y,mm,0).getDate(),n=0;for(let i=1;i<=last;i++){let d=new Date(y,mm-1,i);if(d.getDay()&&d.getDay()!=6&&(!cut||d<=cut))n++}return n}function monthAgg(cs){let l=latest(),m=mr||l.slice(0,7),end=m===l.slice(0,7)?l:(m+'-'+String(new Date(+m.slice(0,4),+m.slice(5,7),0).getDate()).padStart(2,'0'));if(A?.ready){let z={vendasQtd:0,vendasValor:0,orcEmitidosQtd:0,orcEmitidosValor:0,orcConvertidosQtd:0,orcConvertidosValor:0,orcAbertosQtd:0,orcAbertosValor:0};for(const x of A.movimentos){let d=String(x.data_movimento||'').slice(0,10),c=canalMov(x);if(d<m+'-01'||d>end||(cs&&!cs.includes(c)))continue;if(x.tipo_operacao==='VND'&&x.venda_realizada_valida===true){z.vendasQtd++;z.vendasValor+=+x.valor_documento||0}else if(x.tipo_operacao==='ORC'){z.orcEmitidosQtd++;z.orcEmitidosValor+=+x.valor_documento||0;let st=orcSituacao(x);if(st==='CONVERTIDO'){z.orcConvertidosQtd++;z.orcConvertidosValor+=+x.valor_documento||0}else if(st==='ABERTO'){z.orcAbertosQtd++;z.orcAbertosValor+=+x.valor_documento||0}}}return z}return ma(m,cs)}function projectionMonthly(cs){let l=latest(),z=monthAgg(cs),m=mr||l.slice(0,7);if(m!==l.slice(0,7))return z.vendasValor;let e=bd(m,new Date(l+'T12:00:00')),t=bd(m);return e?z.vendasValor/e*t:z.vendasValor}function prevChannel(cs){return ma(addm(mr,-1),cs)}function fill(){let a=months();mr=latest().slice(0,7)||a.at(-1);document.querySelectorAll('.monthSel').forEach(s=>{s.innerHTML='';a.slice().reverse().forEach(m=>s.add(new Option(ml(m),m)));s.value=mr})}function period(){let l=latest();if(p==='hoje')return'Hoje · '+dbr(l);if(p==='semana'){let[a,b]=wr(l);return'Semana comercial · '+dbr(a)+' a '+dbr(b)+' · dados até '+dbr(l)}return ml(mr)+(mr===l.slice(0,7)?' · até '+dbr(l):' · mês fechado')}function stage(x){return String(x.etapa||'').trim()||'Sem etapa'}function resp(x){return String(x.atendente||x.responsavelKommo||'').trim()||'Não informado'}function dt(x){let s=x.atualizadoEm||x.criadoEm;if(!s)return null;let d=new Date(s);return isNaN(d)?null:d}function leads(pipe){return(B?.leads||[]).filter(x=>String(x.pipelineId||'')===String(pipe))}function cpr(){return[new Date('2000-01-01T00:00:00'),new Date('2100-01-01T00:00:00')]}function canon(n){let s=String(n||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase();if(s.includes('FABIANA'))return'Fabiana';if(s.includes('EDVALDO')||s.includes('ERIVALDO'))return'Edvaldo';return n||'Não informado'}function outcome(pipe){let all=leads(pipe),rg=cpr(),a=all.filter(x=>{let d=dt(x);return d&&d>=rg[0]&&d<=rg[1]}),ab=a.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),ga=a.filter(x=>stage(x)==='Venda ganha'),pe=a.filter(x=>stage(x)==='Venda perdida');return{all,a,ab,ga,pe}}function missDirect(x){if(!['Negociação','Venda ganha','Venda perdida'].includes(stage(x)))return 0;let linha=String(x.linhaProduto||'').trim(),cnpj=String(x.cnpjCpf||x.cnpjCPF||x.cnpj||'').trim();return(!linha?1:0)+(!cnpj?1:0)}function missLic(x){let c=String(x.numeroCoep||x.numeroCOEP||x.coep||'').trim(),pr=String(x.produtoDemanda||x.produto||x.demanda||'').trim();return(!c?1:0)+(!pr?1:0)}function aging15(arr){let lim=new Date(latest()+'T23:59:59');lim.setDate(lim.getDate()-15);return arr.filter(x=>{let d=dt(x);return d&&d<lim}).length}function sellerStats(pipe,seller,missFn){let allOwn=leads(pipe).filter(x=>canon(resp(x))===seller),ab=allOwn.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),ga=allOwn.filter(x=>stage(x)==='Venda ganha'),pe=allOwn.filter(x=>stage(x)==='Venda perdida'),pend=ab.reduce((s,x)=>s+missFn(x),0),old=aging15(ab),closed=ga.length+pe.length;return{t:allOwn.length,a:ab.length,g:ga.length,p:pe.length,conv:closed?ga.length/closed*100:NaN,pend,old,all:allOwn}}function farolClass(x){if(x.pend>0&&x.old>0)return'red';if(x.pend>0)return'yellow';return'green'}function renderFarol(){let fs=sellerStats(PIPE_D,'Fabiana',missDirect),es=sellerStats(PIPE_L,'Edvaldo',missLic),rows=[['Fabiana','Venda Direta',fs],['Edvaldo','Licitação',es]];$('farol').innerHTML=rows.map(([n,c,x])=>`<tr><td>${n}</td><td>${c}</td><td><span class="farol ${farolClass(x)}"></span>${farolClass(x)==='green'?'OK':farolClass(x)==='yellow'?'Atenção':'Crítico'}</td></tr>`).join('')}function weekly(tbId,cs){let tb=$(tbId);tb.innerHTML='';if(p!=='mes'){tb.innerHTML='<tr><td colspan="4">Selecione Mês para visualizar o ritmo semanal.</td></tr>';return}let[y,m]=mr.split('-').map(Number),last=new Date(y,m,0).getDate(),d=1,i=0,l=latest();while(d<=last){let x=new Date(y,m-1,d),w=x.getDay();if(w===0){d++;continue}if(w===6){d+=2;continue}let a=d,b=Math.min(last,d+5-w),aa=mr+'-'+String(a).padStart(2,'0'),bb=mr+'-'+String(b).padStart(2,'0'),z={vendasQtd:0,vendasValor:0};if(A?.ready){for(const q of A.movimentos){let dd=String(q.data_movimento||'').slice(0,10);if(dd>=aa&&dd<=bb&&q.tipo_operacao==='VND'&&q.venda_realizada_valida===true&&cs.includes(canalMov(q))){z.vendasQtd++;z.vendasValor+=+q.valor_documento||0}}}else z=agg(rows(aa,bb),cs);let future=aa>l;tb.innerHTML+=`<tr><td>S${++i}</td><td>${String(a).padStart(2,'0')}–${String(b).padStart(2,'0')}</td><td class="r">${future?'—':num(z.vendasQtd)}</td><td class="r">${future?'—':brl(z.vendasValor)}</td></tr>`;d=b+1}}function setChannel(prefix,z,proj){$ (prefix+'Real').textContent=brl(z.vendasValor);$(prefix+'Qtd').textContent=num(z.vendasQtd);$(prefix+'Ticket').textContent=brl(z.vendasQtd?z.vendasValor/z.vendasQtd:0);$(prefix+'Proj').textContent=brl(proj)}function orcSummary(prefix,z){$(prefix+'OrcQ').textContent=num(z.orcEmitidosQtd);$(prefix+'OrcV').textContent=brl(z.orcEmitidosValor);$(prefix+'ConvQ').textContent=num(z.orcConvertidosQtd);$(prefix+'ConvP').textContent=z.orcEmitidosQtd?pct(z.orcConvertidosQtd/z.orcEmitidosQtd*100):'—'}function dashboard(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']),nc=pa(['NAO_CLASSIFICADO']),dp=projectionMonthly(['VENDA_DIRETA']),lp=projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']),np=projectionMonthly(['NAO_CLASSIFICADO']),tot=vd.vendasValor+li.vendasValor+nc.vendasValor,proj=dp+lp+np,prvD=prevChannel(['VENDA_DIRETA']),prvL=prevChannel(['LICITACAO','LICITACAO_HISTORICA']),prvN=prevChannel(['NAO_CLASSIFICADO']),prv=prvD.vendasValor+prvL.vendasValor+prvN.vendasValor,vr=prv?(tot/prv-1)*100:NaN;document.querySelectorAll('.pnote').forEach(x=>x.textContent=period());setChannel('d',vd,dp);setChannel('l',li,lp);$('dProjN').textContent=mr===latest().slice(0,7)?'mês corrente · run rate seg–sex · sem feriados':'mês fechado';$('lProjN').textContent=mr===latest().slice(0,7)?'mês corrente · run rate seg–sex · sem feriados':'mês fechado';orcSummary('d',vd);$('dOrcA').textContent=num(vd.orcAbertosQtd||0);$('dOrcAN').textContent=brl(vd.orcAbertosValor||0);$('lOrcQ').textContent=num(li.orcEmitidosQtd);
+let B=null,S=null,A=null,CFG=null,p='mes',mr='',charts={};const $=x=>document.getElementById(x),brl=x=>(+x||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}),num=x=>(+x||0).toLocaleString('pt-BR'),pct=x=>Number.isFinite(x)?x.toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1})+'%':'—',dbr=x=>x?x.split('-').reverse().join('/'):'—';function ml(x){let[y,m]=x.split('-');return new Intl.DateTimeFormat('pt-BR',{month:'short',year:'2-digit'}).format(new Date(+y,+m-1,1)).replace('.','')}function addm(x,n){let[y,m]=x.split('-').map(Number),d=new Date(y,m-1+n,1);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')}function latest(){if(A?.ready&&A.movimentos?.length)return A.movimentos.map(x=>String(x.data_movimento||'').slice(0,10)).filter(Boolean).sort().at(-1)||'';return(S?.diasCanal||[]).map(x=>x.data).sort().at(-1)||''}function months(){return[...new Set((S?.mesesCanal||[]).map(x=>x.mes))].sort().slice(-12)}function agg(a,cs){let z={vendasQtd:0,vendasValor:0,orcEmitidosQtd:0,orcEmitidosValor:0,orcConvertidosQtd:0,orcConvertidosValor:0};for(const r of a)if(!cs||cs.includes(r.canalComercial))for(const k in z)z[k]+=+r[k]||0;return z}function ma(m,cs){return agg((S?.mesesCanal||[]).filter(x=>x.mes===m),cs)}function wr(ds){let d=new Date(ds+'T12:00:00'),y=d.getFullYear(),m=d.getMonth(),n=d.getDate(),w=d.getDay(),a=n-(w===0?6:w-1),b=a+4;a=Math.max(1,a);b=Math.min(new Date(y,m+1,0).getDate(),b);let mm=String(m+1).padStart(2,'0');return[y+'-'+mm+'-'+String(a).padStart(2,'0'),y+'-'+mm+'-'+String(b).padStart(2,'0')]}function rows(a,b){return(S?.diasCanal||[]).filter(x=>x.data>=a&&x.data<=b)}function iso(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}function pa(cs){if(A?.ready){let[a,b]=periodBounds(),z={vendasQtd:0,vendasValor:0,orcEmitidosQtd:0,orcEmitidosValor:0,orcConvertidosQtd:0,orcConvertidosValor:0,orcAbertosQtd:0,orcAbertosValor:0};for(const x of A.movimentos){let d=String(x.data_movimento||'').slice(0,10),c=canalMov(x);if(d<a||d>b||(cs&& !cs.includes(c)))continue;if(x.tipo_operacao==='VND'&&x.venda_realizada_valida===true){z.vendasQtd++;z.vendasValor+=+x.valor_documento||0}else if(x.tipo_operacao==='ORC'){z.orcEmitidosQtd++;z.orcEmitidosValor+=+x.valor_documento||0;let st=orcSituacao(x);if(st==='CONVERTIDO'){z.orcConvertidosQtd++;z.orcConvertidosValor+=+x.valor_documento||0}else if(st==='ABERTO'){z.orcAbertosQtd++;z.orcAbertosValor+=+x.valor_documento||0}}}return z}let l=latest();if(p==='hoje')return agg(rows(l,l),cs);if(p==='semana'){let[a,b]=wr(l);return agg(rows(a,l<b?l:b),cs)}return ma(mr,cs)}function bd(m,cut){let[y,mm]=m.split('-').map(Number),last=new Date(y,mm,0).getDate(),n=0;for(let i=1;i<=last;i++){let d=new Date(y,mm-1,i);if(d.getDay()&&d.getDay()!=6&&(!cut||d<=cut))n++}return n}function monthAgg(cs){let l=latest(),m=mr||l.slice(0,7),end=m===l.slice(0,7)?l:(m+'-'+String(new Date(+m.slice(0,4),+m.slice(5,7),0).getDate()).padStart(2,'0'));if(A?.ready){let z={vendasQtd:0,vendasValor:0,orcEmitidosQtd:0,orcEmitidosValor:0,orcConvertidosQtd:0,orcConvertidosValor:0,orcAbertosQtd:0,orcAbertosValor:0};for(const x of A.movimentos){let d=String(x.data_movimento||'').slice(0,10),c=canalMov(x);if(d<m+'-01'||d>end||(cs&&!cs.includes(c)))continue;if(x.tipo_operacao==='VND'&&x.venda_realizada_valida===true){z.vendasQtd++;z.vendasValor+=+x.valor_documento||0}else if(x.tipo_operacao==='ORC'){z.orcEmitidosQtd++;z.orcEmitidosValor+=+x.valor_documento||0;let st=orcSituacao(x);if(st==='CONVERTIDO'){z.orcConvertidosQtd++;z.orcConvertidosValor+=+x.valor_documento||0}else if(st==='ABERTO'){z.orcAbertosQtd++;z.orcAbertosValor+=+x.valor_documento||0}}}return z}return ma(m,cs)}function projectionMonthly(cs){let l=latest(),z=monthAgg(cs),m=mr||l.slice(0,7);if(m!==l.slice(0,7))return z.vendasValor;let e=bd(m,new Date(l+'T12:00:00')),t=bd(m);return e?z.vendasValor/e*t:z.vendasValor}function prevChannel(cs){return ma(addm(mr,-1),cs)}function fill(){let a=months();mr=latest().slice(0,7)||a.at(-1);document.querySelectorAll('.monthSel').forEach(s=>{s.innerHTML='';a.slice().reverse().forEach(m=>s.add(new Option(ml(m),m)));s.value=mr})}function period(){let l=latest();if(p==='hoje')return'Hoje · '+dbr(l);if(p==='semana'){let[a,b]=wr(l);return'Semana comercial · '+dbr(a)+' a '+dbr(b)+' · dados até '+dbr(l)}return ml(mr)+(mr===l.slice(0,7)?' · até '+dbr(l):' · mês fechado')}function stage(x){return String(x.etapa||'').trim()||'Sem etapa'}function resp(x){return String(x.atendente||x.responsavelKommo||'').trim()||'Não informado'}function dt(x){let s=x.atualizadoEm||x.criadoEm;if(!s)return null;let d=new Date(s);return isNaN(d)?null:d}function leads(pipe){return(B?.leads||[]).filter(x=>String(x.pipelineId||'')===String(pipe))}function cpr(){return[new Date('2000-01-01T00:00:00'),new Date('2100-01-01T00:00:00')]}function cfgVendedores(){
+    return Array.isArray(CFG?.vendedores)?CFG.vendedores:[];
+}
+
+function cfgMetaMes(mes){
+    const metas=Array.isArray(CFG?.metasMensais)?CFG.metasMensais:[];
+    return metas.find(x=>String(x.mes||'')===String(mes||''))||null;
+}
+
+function metaMesAtual(){
+    const m=cfgMetaMes(mr||latest().slice(0,7));
+    const valor=Number(m?.metaGeral);
+    return Number.isFinite(valor)&&valor>0?valor:0;
+}
+
+function cfgVendedorPorCanal(canal){
+    return cfgVendedores()
+        .filter(v=>
+            v.regraAtiva!==false &&
+            String(v.canal||'')===String(canal||'')
+        )
+        .sort((a,b)=>
+            (+a.ordemExibicao||999)-(+b.ordemExibicao||999)
+        )[0]||null;
+}
+
+function cfgPipelineCanal(canal){
+    const v=cfgVendedorPorCanal(canal);
+    return String(v?.pipelineKommo||'');
+}
+
+function cfgResponsavelCanal(canal){
+    const v=cfgVendedorPorCanal(canal);
+    return String(v?.responsavelKommo||v?.nomeExibicao||v?.nome||'');
+}
+function cfgVendedoresPainel(){
+    return cfgVendedores()
+        .filter(v=>v.regraAtiva!==false && v.exibirNoPainel!==false)
+        .sort((a,b)=>(+a.ordemExibicao||999)-(+b.ordemExibicao||999));
+}
+
+function cfgVendedoresFarol(){
+    return cfgVendedores()
+        .filter(v=>v.regraAtiva!==false && v.exibirNoFarol===true)
+        .sort((a,b)=>(+a.ordemExibicao||999)-(+b.ordemExibicao||999));
+}
+
+function cfgVendedorPorId(id){
+    return cfgVendedores().find(v=>
+        String(v.vendedorId)===String(id)
+    )||null;
+}
+
+function nomeCfgVendedor(v){
+    return String(v?.nomeExibicao||v?.nome||'Não informado');
+}
+
+function normalizaNome(n){
+    return String(n||'')
+        .normalize('NFD')
+        .replace(/[̀-ͯ]/g,'')
+        .trim()
+        .toUpperCase();
+}
+
+function canon(n){
+
+    const original=String(n||'').trim();
+
+    if(!original)return 'Não informado';
+
+    const normalizado=normalizaNome(original);
+
+    for(const v of cfgVendedores()){
+
+        const candidatos=[
+            v.responsavelKommo,
+            v.nomeExibicao,
+            v.nome
+        ]
+        .filter(Boolean)
+        .map(normalizaNome);
+
+        if(candidatos.some(x=>
+            normalizado===x ||
+            normalizado.includes(x) ||
+            x.includes(normalizado)
+        )){
+            return nomeCfgVendedor(v);
+        }
+    }
+
+    return original;
+}
+
+function missFnCanal(canal){
+    return String(canal||'').startsWith('LICITACAO')
+        ? missLic
+        : missDirect;
+}
+
+function nomeCanal(canal){
+
+    if(canal==='VENDA_DIRETA')
+        return 'Venda Direta';
+
+    if(canal==='LICITACAO')
+        return 'Licitação';
+
+    if(canal==='LICITACAO_HISTORICA')
+        return 'Licitação histórica';
+
+    return 'Não classificado';
+}
+
+function atualizarRotulosConfig(){
+
+    const meta=metaMesAtual();
+
+    const tituloMeta=$('tituloMetaGeral');
+
+    if(tituloMeta){
+        tituloMeta.textContent=
+            meta
+                ?'Meta geral · '+brl(meta)
+                :'Meta geral · não definida';
+    }
+
+    const vd=cfgVendedorPorCanal('VENDA_DIRETA');
+
+    const tituloVD=$('tituloResponsavelDireta');
+
+    if(tituloVD){
+        tituloVD.textContent=
+            vd
+                ?'Responsável · '+nomeCfgVendedor(vd)+' · coorte do período'
+                :'Responsável · não parametrizado';
+    }
+}
+function preencherVendedoresAnalise(){
+
+    const sel=$('vendedorAnalise');
+
+    if(!sel)return;
+
+    const atual=sel.value;
+
+    sel.innerHTML='';
+
+    sel.add(new Option('Vendedor · Todos','TODOS'));
+
+    cfgVendedoresPainel().forEach(v=>{
+
+        const nome=nomeCfgVendedor(v);
+
+        sel.add(
+            new Option(
+                'Vendedor · '+nome,
+                nome
+            )
+        );
+
+    });
+
+    if([...sel.options].some(o=>o.value===atual))
+        sel.value=atual;
+    else
+        sel.value='TODOS';
+}
+function outcome(pipe){let all=leads(pipe),rg=cpr(),a=all.filter(x=>{let d=dt(x);return d&&d>=rg[0]&&d<=rg[1]}),ab=a.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),ga=a.filter(x=>stage(x)==='Venda ganha'),pe=a.filter(x=>stage(x)==='Venda perdida');return{all,a,ab,ga,pe}}function missDirect(x){if(!['Negociação','Venda ganha','Venda perdida'].includes(stage(x)))return 0;let linha=String(x.linhaProduto||'').trim(),cnpj=String(x.cnpjCpf||x.cnpjCPF||x.cnpj||'').trim();return(!linha?1:0)+(!cnpj?1:0)}function missLic(x){let c=String(x.numeroCoep||x.numeroCOEP||x.coep||'').trim(),pr=String(x.produtoDemanda||x.produto||x.demanda||'').trim();return(!c?1:0)+(!pr?1:0)}function aging15(arr){let lim=new Date(latest()+'T23:59:59');lim.setDate(lim.getDate()-15);return arr.filter(x=>{let d=dt(x);return d&&d<lim}).length}function sellerStats(pipe,seller,missFn){let allOwn=leads(pipe).filter(x=>canon(resp(x))===seller),ab=allOwn.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),ga=allOwn.filter(x=>stage(x)==='Venda ganha'),pe=allOwn.filter(x=>stage(x)==='Venda perdida'),pend=ab.reduce((s,x)=>s+missFn(x),0),old=aging15(ab),closed=ga.length+pe.length;return{t:allOwn.length,a:ab.length,g:ga.length,p:pe.length,conv:closed?ga.length/closed*100:NaN,pend,old,all:allOwn}}function farolClass(x){if(x.pend>0&&x.old>0)return'red';if(x.pend>0)return'yellow';return'green'}function renderFarol(){
+
+    const vendedores=cfgVendedoresFarol();
+
+    const rows=vendedores.map(v=>{
+
+        const pipe=String(v.pipelineKommo||'');
+        const seller=String(v.responsavelKommo||v.nomeExibicao||v.nome||'');
+        const fn=missFnCanal(v.canal);
+
+        const st=(pipe&&seller)
+            ? sellerStats(pipe,seller,fn)
+            : {pend:0,old:0};
+
+        return [
+            nomeCfgVendedor(v),
+            nomeCanal(v.canal),
+            st
+        ];
+
+    });
+
+    $('farol').innerHTML=rows.length
+        ? rows.map(([n,c,x])=>`
+            <tr>
+                <td>${n}</td>
+                <td>${c}</td>
+                <td>
+                    <span class="farol ${farolClass(x)}"></span>
+                    ${
+                        farolClass(x)==='green'
+                            ?'OK'
+                            :farolClass(x)==='yellow'
+                                ?'Atenção'
+                                :'Crítico'
+                    }
+                </td>
+            </tr>
+        `).join('')
+        : '<tr><td colspan="3">Nenhum vendedor configurado para o farol.</td></tr>';
+}
+
+function weekly(tbId,cs){let tb=$(tbId);tb.innerHTML='';if(p!=='mes'){tb.innerHTML='<tr><td colspan="4">Selecione Mês para visualizar o ritmo semanal.</td></tr>';return}let[y,m]=mr.split('-').map(Number),last=new Date(y,m,0).getDate(),d=1,i=0,l=latest();while(d<=last){let x=new Date(y,m-1,d),w=x.getDay();if(w===0){d++;continue}if(w===6){d+=2;continue}let a=d,b=Math.min(last,d+5-w),aa=mr+'-'+String(a).padStart(2,'0'),bb=mr+'-'+String(b).padStart(2,'0'),z={vendasQtd:0,vendasValor:0};if(A?.ready){for(const q of A.movimentos){let dd=String(q.data_movimento||'').slice(0,10);if(dd>=aa&&dd<=bb&&q.tipo_operacao==='VND'&&q.venda_realizada_valida===true&&cs.includes(canalMov(q))){z.vendasQtd++;z.vendasValor+=+q.valor_documento||0}}}else z=agg(rows(aa,bb),cs);let future=aa>l;tb.innerHTML+=`<tr><td>S${++i}</td><td>${String(a).padStart(2,'0')}–${String(b).padStart(2,'0')}</td><td class="r">${future?'—':num(z.vendasQtd)}</td><td class="r">${future?'—':brl(z.vendasValor)}</td></tr>`;d=b+1}}function setChannel(prefix,z,proj){$ (prefix+'Real').textContent=brl(z.vendasValor);$(prefix+'Qtd').textContent=num(z.vendasQtd);$(prefix+'Ticket').textContent=brl(z.vendasQtd?z.vendasValor/z.vendasQtd:0);$(prefix+'Proj').textContent=brl(proj)}function orcSummary(prefix,z){$(prefix+'OrcQ').textContent=num(z.orcEmitidosQtd);$(prefix+'OrcV').textContent=brl(z.orcEmitidosValor);$(prefix+'ConvQ').textContent=num(z.orcConvertidosQtd);$(prefix+'ConvP').textContent=z.orcEmitidosQtd?pct(z.orcConvertidosQtd/z.orcEmitidosQtd*100):'—'}function dashboard(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']),nc=pa(['NAO_CLASSIFICADO']),dp=projectionMonthly(['VENDA_DIRETA']),lp=projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']),np=projectionMonthly(['NAO_CLASSIFICADO']),tot=vd.vendasValor+li.vendasValor+nc.vendasValor,proj=dp+lp+np,prvD=prevChannel(['VENDA_DIRETA']),prvL=prevChannel(['LICITACAO','LICITACAO_HISTORICA']),prvN=prevChannel(['NAO_CLASSIFICADO']),prv=prvD.vendasValor+prvL.vendasValor+prvN.vendasValor,vr=prv?(tot/prv-1)*100:NaN;document.querySelectorAll('.pnote').forEach(x=>x.textContent=period());setChannel('d',vd,dp);setChannel('l',li,lp);$('dProjN').textContent=mr===latest().slice(0,7)?'mês corrente · run rate seg–sex · sem feriados':'mês fechado';$('lProjN').textContent=mr===latest().slice(0,7)?'mês corrente · run rate seg–sex · sem feriados':'mês fechado';orcSummary('d',vd);$('dOrcA').textContent=num(vd.orcAbertosQtd||0);$('dOrcAN').textContent=brl(vd.orcAbertosValor||0);$('lOrcQ').textContent=num(li.orcEmitidosQtd);
 $('lOrcV').textContent=brl(li.orcEmitidosValor);
 $('lOrcA').textContent=num(li.orcAbertosQtd||0);
 $('lOrcAN').textContent=brl(li.orcAbertosValor||0);
 $('lConvQ').textContent=num(li.vendasQtd);
-$('lConvP').textContent=li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—';$('mReal').textContent=brl(tot);$('mPct').textContent=pct(tot/META*100);$('mProj').textContent=brl(proj);$('mProjPct').textContent='projeção: '+pct(proj/META*100);$('mPrev').textContent=pct(vr);$('mPrevN').textContent=prv?'base: '+ml(addm(mr,-1))+' fechado · '+brl(prv):'sem base comparável';let den=tot;$('pan').innerHTML=[['Venda Direta',vd],['Licitação',li],['Não classificado',nc]].map(([n,x])=>`<tr><td>${n}</td><td class="r">${num(x.vendasQtd)}</td><td class="r">${brl(x.vendasValor)}</td><td class="r">${den?pct(x.vendasValor/den*100):'—'}</td></tr>`).join('');weekly('dWeeks',['VENDA_DIRETA']);weekly('lWeeks',['LICITACAO','LICITACAO_HISTORICA']);renderFarol()}function alertDetail(pipe,seller,missFn,target){let st=sellerStats(pipe,seller,missFn),open=st.all.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),bad=open.filter(x=>missFn(x)>0||aging15([x])>0).slice(0,15);if(!bad.length){$(target).innerHTML='<span class="pill ok">Sem pendência crítica identificada</span>';return}$(target).innerHTML='<table><thead><tr><th>Oportunidade</th><th>Etapa</th><th>Pendência</th><th>Última atualização</th></tr></thead><tbody>'+bad.map(x=>{let nm=String(x.nome||x.leadNome||x.titulo||x.id||x.leadId||'Oportunidade'),m=missFn(x),old=aging15([x])>0,pend=m?m+' campo(s)':'',txt=[pend,old?'15+ dias sem evolução':''].filter(Boolean).join(' · '),d=dt(x);return`<tr><td>${nm}</td><td>${stage(x)}</td><td>${txt||'—'}</td><td>${d?d.toLocaleDateString('pt-BR'):'—'}</td></tr>`}).join('')+'</tbody></table>'}
+$('lConvP').textContent=li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—';$('mReal').textContent=brl(tot);$('mPct').textContent=metaMesAtual()?pct(tot/metaMesAtual()*100):'—';$('mProj').textContent=brl(proj);$('mProjPct').textContent=metaMesAtual()?'projeção: '+pct(proj/metaMesAtual()*100):'projeção: —';$('mPrev').textContent=pct(vr);$('mPrevN').textContent=prv?'base: '+ml(addm(mr,-1))+' fechado · '+brl(prv):'sem base comparável';let den=tot;$('pan').innerHTML=[['Venda Direta',vd],['Licitação',li],['Não classificado',nc]].map(([n,x])=>`<tr><td>${n}</td><td class="r">${num(x.vendasQtd)}</td><td class="r">${brl(x.vendasValor)}</td><td class="r">${den?pct(x.vendasValor/den*100):'—'}</td></tr>`).join('');weekly('dWeeks',['VENDA_DIRETA']);weekly('lWeeks',['LICITACAO','LICITACAO_HISTORICA']);renderFarol()}function alertDetail(pipe,seller,missFn,target){let st=sellerStats(pipe,seller,missFn),open=st.all.filter(x=>!['Venda ganha','Venda perdida'].includes(stage(x))),bad=open.filter(x=>missFn(x)>0||aging15([x])>0).slice(0,15);if(!bad.length){$(target).innerHTML='<span class="pill ok">Sem pendência crítica identificada</span>';return}$(target).innerHTML='<table><thead><tr><th>Oportunidade</th><th>Etapa</th><th>Pendência</th><th>Última atualização</th></tr></thead><tbody>'+bad.map(x=>{let nm=String(x.nome||x.leadNome||x.titulo||x.id||x.leadId||'Oportunidade'),m=missFn(x),old=aging15([x])>0,pend=m?m+' campo(s)':'',txt=[pend,old?'15+ dias sem evolução':''].filter(Boolean).join(' · '),d=dt(x);return`<tr><td>${nm}</td><td>${stage(x)}</td><td>${txt||'—'}</td><td>${d?d.toLocaleDateString('pt-BR'):'—'}</td></tr>`}).join('')+'</tbody></table>'}
 function leadInPeriod(x,field){
     let[a,b]=periodBounds(),
         d=String(x?.[field]||'').slice(0,10);
@@ -349,7 +562,7 @@ function funil(pipe,tableId,chartId,seller,missFn,respId,agingId,alertId){
 
     let all=leads(pipe);
 
-    if(pipe===PIPE_D){
+    if(String(pipe)===String(cfgPipelineCanal('VENDA_DIRETA'))){
 
         let cohort=all.filter(x=>leadInPeriod(x,'criadoEm')),
             own=cohort.filter(x=>canon(resp(x))===seller),
@@ -493,7 +706,7 @@ function funil(pipe,tableId,chartId,seller,missFn,respId,agingId,alertId){
 
     a.forEach(x=>ss[stage(x)]=(ss[stage(x)]||0)+1);
 
-    let ord=pipe===PIPE_L
+    let ord=String(pipe)===String(cfgPipelineCanal('LICITACAO'))
         ?['Classificado','Vencedor - OF','Venda ganha','Venda perdida']
         :['Chegada do Lead','Contato Inicial','Nova Sondagem','Cliente Ativo','Negociação','Venda ganha','Venda perdida'],
         sr=[
@@ -546,11 +759,59 @@ function funil(pipe,tableId,chartId,seller,missFn,respId,agingId,alertId){
 
     alertDetail(pipe,seller,missFn,alertId)
 }
-function channelTabs(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']);setChannel('vd',vd,projectionMonthly(['VENDA_DIRETA']));setChannel('lic',li,projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']));$('vdOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(vd.orcEmitidosQtd)}</td><td class="r">${brl(vd.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(vd.orcConvertidosQtd)}</td><td class="r">${brl(vd.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${vd.orcEmitidosQtd?pct(vd.orcConvertidosQtd/vd.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(vd.vendasQtd)}</td><td class="r">${brl(vd.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${vd.orcEmitidosValor?pct(vd.vendasValor/vd.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(vd.orcAbertosQtd||0)}</td><td class="r">${brl(vd.orcAbertosValor||0)}</td></tr>`;$('licOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(li.orcEmitidosQtd)}</td><td class="r">${brl(li.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(li.orcConvertidosQtd)}</td><td class="r">${brl(li.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(li.vendasQtd)}</td><td class="r">${brl(li.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${li.orcEmitidosValor?pct(li.vendasValor/li.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(li.orcAbertosQtd||0)}</td><td class="r">${brl(li.orcAbertosValor||0)}</td></tr>`;funil(PIPE_D,'vdFunT','vdFun','Fabiana',missDirect,'vdResp','vdAging','vdAlertas');$('licFunT').innerHTML='<tr><td colspan="3">Indicadores Kommo suspensos · pipeline sem alimentação operacional recente</td></tr>';
-$('licResp').innerHTML='<tr><td>Edvaldo</td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td><td class="r">—</td></tr>';
+function channelTabs(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']);setChannel('vd',vd,projectionMonthly(['VENDA_DIRETA']));setChannel('lic',li,projectionMonthly(['LICITACAO','LICITACAO_HISTORICA']));$('vdOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(vd.orcEmitidosQtd)}</td><td class="r">${brl(vd.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(vd.orcConvertidosQtd)}</td><td class="r">${brl(vd.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${vd.orcEmitidosQtd?pct(vd.orcConvertidosQtd/vd.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(vd.vendasQtd)}</td><td class="r">${brl(vd.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${vd.orcEmitidosValor?pct(vd.vendasValor/vd.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(vd.orcAbertosQtd||0)}</td><td class="r">${brl(vd.orcAbertosValor||0)}</td></tr>`;$('licOrcT').innerHTML=`<tr><td>ORCs emitidos no período</td><td class="r">${num(li.orcEmitidosQtd)}</td><td class="r">${brl(li.orcEmitidosValor)}</td></tr><tr><td>ORCs emitidos no período já convertidos</td><td class="r">${num(li.orcConvertidosQtd)}</td><td class="r">${brl(li.orcConvertidosValor)}</td></tr><tr><td>Conversão da coorte de ORCs</td><td class="r">—</td><td class="r">${li.orcEmitidosQtd?pct(li.orcConvertidosQtd/li.orcEmitidosQtd*100):'—'}</td></tr><tr><td>Vendas realizadas no período</td><td class="r">${num(li.vendasQtd)}</td><td class="r">${brl(li.vendasValor)}</td></tr><tr><td>Faturamento / valor orçado</td><td class="r">—</td><td class="r">${li.orcEmitidosValor?pct(li.vendasValor/li.orcEmitidosValor*100):'—'}</td></tr><tr><td>Em aberto</td><td class="r">${num(li.orcAbertosQtd||0)}</td><td class="r">${brl(li.orcAbertosValor||0)}</td></tr>`;{
+    const vdCfg=cfgVendedorPorCanal('VENDA_DIRETA');
+    const vdPipe=String(vdCfg?.pipelineKommo||'');
+    const vdSeller=String(
+        vdCfg?.responsavelKommo||
+        vdCfg?.nomeExibicao||
+        vdCfg?.nome||
+        ''
+    );
+
+    if(vdPipe&&vdSeller){
+        funil(
+            vdPipe,
+            'vdFunT',
+            'vdFun',
+            vdSeller,
+            missDirect,
+            'vdResp',
+            'vdAging',
+            'vdAlertas'
+        );
+    }else{
+        $('vdFunT').innerHTML=
+            '<tr><td colspan="3">Pipeline/responsável não parametrizado.</td></tr>';
+    }
+}$('licFunT').innerHTML='<tr><td colspan="3">Indicadores Kommo suspensos · pipeline sem alimentação operacional recente</td></tr>';
+{
+    const licCfg=cfgVendedorPorCanal('LICITACAO');
+    const licNome=licCfg?nomeCfgVendedor(licCfg):'Não parametrizado';
+
+    $('licResp').innerHTML=
+        '<tr><td>'+licNome+'</td>'+
+        '<td class="r">—</td>'+
+        '<td class="r">—</td>'+
+        '<td class="r">—</td>'+
+        '<td class="r">—</td>'+
+        '<td class="r">—</td></tr>';
+}
 $('licAging').textContent='Base Kommo de Licitações sem alimentação operacional recente.';
 $('licAlertas').innerHTML='<span class="pill">Sem base Kommo atual para alertas operacionais</span>'}function canalMov(x){let id=+x.vendedor_id||0;if(id===17)return'VENDA_DIRETA';if(id===1114)return'LICITACAO';if(id===1101)return'LICITACAO_HISTORICA';return'NAO_CLASSIFICADO'}
-function vendedorMov(x){let id=+x.vendedor_id||0;if(id===17)return'Fabiana';if(id===1114)return'Edvaldo';return String(x.vendedor_origem||'Não classificado')}
+function vendedorMov(x){
+
+    const id=+x.vendedor_id||0;
+    const cfg=cfgVendedorPorId(id);
+
+    if(cfg)
+        return nomeCfgVendedor(cfg);
+
+    return String(
+        x.vendedor_origem||
+        'Não classificado'
+    );
+}
 function periodBounds(){let l=latest();if(p==='hoje')return[l,l];if(p==='semana'){let[a,b]=wr(l);return[a,l<b?l:b]}let y=+mr.slice(0,4),m=+mr.slice(5,7);return[mr+'-01',mr+'-'+String(new Date(y,m,0).getDate()).padStart(2,'0')]}function inDetailPeriod(x){let[a,b]=periodBounds(),d=String(x.data_movimento||'').slice(0,10);return d>=a&&d<=b}
 function orcSituacao(x){let id=String(x.movimento_id),link=A?.linkSet?.has(id);if(link)return'CONVERTIDO';if(+x.motivo_cancelamento_orcamento>0)return'CANCELADO';if(x.apagado===true||x.apagado===1)return'APAGADO';if(x.invalido===true||x.invalido===1)return'INVALIDO';return'ABERTO'}
 function detailFilterBase(x){if(!inDetailPeriod(x))return false;let canal=$('canalAnalise').value,vend=$('vendedorAnalise').value,cli=$('clienteAnalise').value;if(canal==='LICITACAO'){if(!['LICITACAO','LICITACAO_HISTORICA'].includes(canalMov(x)))return false}else if(canal!=='TODOS'&&canalMov(x)!==canal)return false;if(vend!=='TODOS'&&vendedorMov(x)!==vend)return false;if(cli!=='TODOS'&&String(x.cliente_id)!==cli)return false;return true}
@@ -562,7 +823,146 @@ let cg={VENDA_DIRETA:[0,0],LICITACAO:[0,0],LICITACAO_HISTORICA:[0,0],NAO_CLASSIF
 let cm=new Map();for(const x of sales){let id=String(x.cliente_id),r=cm.get(id)||{id,q:0,valor:0};r.q++;r.valor+=+x.valor_documento||0;cm.set(id,r)}let cr=[...cm.values()].sort((a,b)=>b.valor-a.valor);cr=abcRows(cr);$('aClientes').innerHTML=cr.slice(0,10).map(r=>{let c=A.cliMap.get(r.id)||{};return`<tr><td>${c.cliente_nome||('Cliente '+r.id)}</td><td class="r">${num(r.q)}</td><td class="r">${brl(r.valor)}</td><td class="r">${brl(r.q?r.valor/r.q:0)}</td><td class="r">${r.abc}</td></tr>`}).join('')||'<tr><td colspan="5">Sem clientes no recorte.</td></tr>';
 let saleIds=new Set(sales.map(x=>String(x.movimento_id))),pm=new Map();for(const i of A.itens){if(!saleIds.has(String(i.movimento_id)))continue;let id=String(i.produto_id),r=pm.get(id)||{id,q:0,valor:0};r.q+=+i.quantidade||0;r.valor+=+i.valor_item||0;pm.set(id,r)}let pr=[...pm.values()].sort((a,b)=>b.valor-a.valor);$('aProdutos').innerHTML=pr.slice(0,10).map(r=>{let q=A.prodMap.get(r.id)||{};return`<tr><td>${q.produto||('Produto '+r.id)}</td><td>${q.familia||'Não classificado'}</td><td>${q.fabricante||'Não classificado'}</td><td class="r">${num(r.q)}</td><td class="r">${brl(r.valor)}</td></tr>`}).join('')||'<tr><td colspan="5">Sem produtos no recorte.</td></tr>';return true}
 function analise(){if(renderAnalitico())return;let sel=$('canalAnalise').value,cs=sel==='VENDA_DIRETA'?['VENDA_DIRETA']:sel==='LICITACAO'?['LICITACAO','LICITACAO_HISTORICA']:sel==='NAO_CLASSIFICADO'?['NAO_CLASSIFICADO']:['VENDA_DIRETA','LICITACAO','LICITACAO_HISTORICA'],z=pa(cs);$('aQtd').textContent=num(z.vendasQtd);$('aVal').textContent=brl(z.vendasValor);$('aTicket').textContent=brl(z.vendasQtd?z.vendasValor/z.vendasQtd:0);$('aOrcV').textContent=brl(z.orcEmitidosValor);$('aOrcQ').textContent=num(z.orcEmitidosQtd)+' orçamento(s)';$('aOrcT').innerHTML=`<tr><td>Emitidos</td><td class="r">${num(z.orcEmitidosQtd)}</td><td class="r">${brl(z.orcEmitidosValor)}</td></tr><tr><td>Vendas realizadas</td><td class="r">${num(z.vendasQtd)}</td><td class="r">${brl(z.vendasValor)}</td></tr><tr><td>Venda / Orçado</td><td class="r">—</td><td class="r">${z.orcEmitidosValor?pct(z.vendasValor/z.orcEmitidosValor*100):'—'}</td></tr>`;let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']),nc=pa(['NAO_CLASSIFICADO']);$('aVendas').innerHTML=[['Venda Direta',vd],['Licitação',li],['Não classificado',nc]].filter(([n])=>sel==='TODOS'||(sel==='VENDA_DIRETA'&&n==='Venda Direta')||(sel==='LICITACAO'&&n==='Licitação')||(sel==='NAO_CLASSIFICADO'&&n==='Não classificado')).map(([n,x])=>`<tr><td>${n}</td><td class="r">${num(x.vendasQtd)}</td><td class="r">${brl(x.vendasValor)}</td><td class="r">${brl(x.vendasQtd?x.vendasValor/x.vendasQtd:0)}</td></tr>`).join('')}
-function insights(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HISTORICA']),nc=pa(['NAO_CLASSIFICADO']),tot=vd.vendasValor+li.vendasValor+nc.vendasValor,proj=projectionMonthly(['VENDA_DIRETA'])+projectionMonthly(['LICITACAO','LICITACAO_HISTORICA'])+projectionMonthly(['NAO_CLASSIFICADO']),gap=META-proj,fs=sellerStats(PIPE_D,'Fabiana',missDirect),es=sellerStats(PIPE_L,'Edvaldo',missLic),arr=[];arr.push(['Meta e projeção',proj>=META?'ok':'wa',proj>=META?'Projeção atual acima/igual à meta geral.':'Projeção atual abaixo da meta geral em '+brl(Math.max(0,gap))+'.']);let share=tot?Math.max(vd.vendasValor,li.vendasValor,nc.vendasValor)/tot*100:0;arr.push(['Composição dos canais',share>80?'wa':'',tot?'Maior canal representa '+pct(share)+' do realizado geral.':'Sem realizado no período.']);arr.push(['Saúde da carteira · Venda Direta',fs.old>0?'bad':'ok',num(fs.old)+' oportunidade(s) aberta(s) sem evolução há 15+ dias; '+num(fs.pend)+' pendência(s) de campo.']);arr.push(['Saúde da carteira · Licitação',es.old>0?'bad':'ok',num(es.old)+' oportunidade(s) aberta(s) sem evolução há 15+ dias; '+num(es.pend)+' pendência(s) de campo.']);if(A?.ready){let sales=A.movimentos.filter(x=>x.tipo_operacao==='VND'&&x.venda_realizada_valida===true&&inDetailPeriod(x));let totalA=sales.reduce((s,x)=>s+(+x.valor_documento||0),0),cm=new Map();for(const x of sales){let id=String(x.cliente_id);cm.set(id,(cm.get(id)||0)+(+x.valor_documento||0))}let top=[...cm.values()].sort((a,b)=>b-a)[0]||0,shareC=totalA?top/totalA*100:0;arr.push(['Concentração de clientes',shareC>25?'wa':'ok',sales.length?'Maior cliente representa '+pct(shareC)+' do faturamento detalhado no recorte.':'Sem vendas detalhadas no recorte.']);arr.push(['Camada analítica Shop9','ok','Detalhe de 12 meses carregado. Clientes, produtos e ORCs usam fatos do Shop9; ajustes documentais não são rateados.'])}else arr.push(['Camada analítica Shop9','wa','Arquivos detalhados de 12 meses ainda não carregados. A aba Análise Comercial permanece em modo agregado.']);$('insightGrid').innerHTML=arr.map(([t,c,b])=>`<div class="card insight ${c}"><div class="h">${t}</div><div>${b}</div></div>`).join('')}function render(){document.querySelectorAll('.period-btn').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.monthSel').forEach(x=>{x.disabled=p!=='mes';x.value=mr});dashboard();channelTabs();analise();insights()}async function carregarAdminVendedores(){
+function insights(){
+
+    let vd=pa(['VENDA_DIRETA']),
+        li=pa(['LICITACAO','LICITACAO_HISTORICA']),
+        nc=pa(['NAO_CLASSIFICADO']),
+        tot=vd.vendasValor+li.vendasValor+nc.vendasValor,
+        proj=
+            projectionMonthly(['VENDA_DIRETA'])+
+            projectionMonthly(['LICITACAO','LICITACAO_HISTORICA'])+
+            projectionMonthly(['NAO_CLASSIFICADO']),
+        meta=metaMesAtual(),
+        gap=meta-proj,
+        arr=[];
+
+    arr.push([
+        'Meta e projeção',
+        meta&&proj>=meta?'ok':'wa',
+        meta
+            ?(
+                proj>=meta
+                    ?'Projeção atual acima/igual à meta geral.'
+                    :'Projeção atual abaixo da meta geral em '+
+                        brl(Math.max(0,gap))+'.'
+            )
+            :'Meta geral não definida para o mês.'
+    ]);
+
+    let share=tot
+        ?Math.max(
+            vd.vendasValor,
+            li.vendasValor,
+            nc.vendasValor
+        )/tot*100
+        :0;
+
+    arr.push([
+        'Composição dos canais',
+        share>80?'wa':'',
+        tot
+            ?'Maior canal representa '+pct(share)+' do realizado geral.'
+            :'Sem realizado no período.'
+    ]);
+
+    cfgVendedoresFarol().forEach(v=>{
+
+        const pipe=String(v.pipelineKommo||'');
+        const seller=String(
+            v.responsavelKommo||
+            v.nomeExibicao||
+            v.nome||
+            ''
+        );
+
+        if(!pipe||!seller)return;
+
+        const st=sellerStats(
+            pipe,
+            seller,
+            missFnCanal(v.canal)
+        );
+
+        arr.push([
+            'Saúde da carteira · '+nomeCanal(v.canal),
+            st.old>0?'bad':'ok',
+            num(st.old)+
+            ' oportunidade(s) aberta(s) sem evolução há 15+ dias; '+
+            num(st.pend)+
+            ' pendência(s) de campo.'
+        ]);
+
+    });
+
+    if(A?.ready){
+
+        let sales=A.movimentos.filter(x=>
+            x.tipo_operacao==='VND' &&
+            x.venda_realizada_valida===true &&
+            inDetailPeriod(x)
+        );
+
+        let totalA=sales.reduce(
+            (s,x)=>s+(+x.valor_documento||0),
+            0
+        );
+
+        let cm=new Map();
+
+        for(const x of sales){
+
+            let id=String(x.cliente_id);
+
+            cm.set(
+                id,
+                (cm.get(id)||0)+(+x.valor_documento||0)
+            );
+
+        }
+
+        let top=[...cm.values()]
+            .sort((a,b)=>b-a)[0]||0;
+
+        let shareC=totalA
+            ?top/totalA*100
+            :0;
+
+        arr.push([
+            'Concentração de clientes',
+            shareC>25?'wa':'ok',
+            sales.length
+                ?'Maior cliente representa '+pct(shareC)+
+                    ' do faturamento detalhado no recorte.'
+                :'Sem vendas detalhadas no recorte.'
+        ]);
+
+        arr.push([
+            'Camada analítica Shop9',
+            'ok',
+            'Detalhe de 12 meses carregado. Clientes, produtos e ORCs usam fatos do Shop9; ajustes documentais não são rateados.'
+        ]);
+
+    }else{
+
+        arr.push([
+            'Camada analítica Shop9',
+            'wa',
+            'Arquivos detalhados de 12 meses ainda não carregados. A aba Análise Comercial permanece em modo agregado.'
+        ]);
+
+    }
+
+    $('insightGrid').innerHTML=arr.map(
+        ([t,c,b])=>
+            `<div class="card insight ${c}">
+                <div class="h">${t}</div>
+                <div>${b}</div>
+            </div>`
+    ).join('');
+}
+
+function render(){atualizarRotulosConfig();document.querySelectorAll('.period-btn').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.monthSel').forEach(x=>{x.disabled=p!=='mes';x.value=mr});dashboard();channelTabs();analise();insights()}async function carregarAdminVendedores(){
 
     const tbody=$('adminVendedores');
     const metasBox=$('adminMetas');
@@ -579,11 +979,9 @@ function insights(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HI
 
     try{
 
-        const r=await fetch('./config/canais-vendedores.json',{cache:'no-store'});
+        const cfg=CFG;
 
-        if(!r.ok)throw new Error('HTTP '+r.status);
-
-        const cfg=await r.json();
+        if(!cfg)throw new Error('Configuracao administrativa nao carregada');
 
         const vendedores=Array.isArray(cfg.vendedores)
             ? cfg.vendedores.slice().sort((a,b)=>
@@ -953,7 +1351,6 @@ function insights(){let vd=pa(['VENDA_DIRETA']),li=pa(['LICITACAO','LICITACAO_HI
     }
 }
 
-carregarAdminVendedores();
 function wire(){document.querySelectorAll('.nb').forEach(b=>b.onclick=()=>{document.querySelectorAll('.nb,.sec').forEach(x=>x.classList.remove('on'));b.classList.add('on');$(b.dataset.sec).classList.add('on')});document.querySelectorAll('.period-btn').forEach(b=>b.onclick=()=>{p=b.dataset.p;if(p!=='mes')mr=latest().slice(0,7);render()});document.querySelectorAll('.monthSel').forEach(s=>s.onchange=()=>{mr=s.value;p='mes';render()});['canalAnalise','vendedorAnalise','clienteAnalise','produtoAnalise','situacaoAnalise'].forEach(id=>$(id).onchange=()=>{analise();insights()})}
 async function jf(u){let r=await fetch(u,{cache:'no-store'});if(!r.ok)throw Error(u+' HTTP '+r.status);return r.json()}
 async function loadAnalytics(){try{let[mov,it,pr,cl,ln,aj,hist,man]=await Promise.all([jf(AX.movimentos),jf(AX.itens),jf(AX.produtos),jf(AX.clientes),jf(AX.links),jf(AX.ajustes),jf(AX.historico),jf(AX.manifesto)]);A={ready:true,movimentos:mov,itens:it,produtos:pr,clientes:cl,links:ln,ajustes:aj,historico:hist,manifesto:man};
@@ -979,8 +1376,65 @@ async function loadUpdateStatus(){
         console.warn('Status de atualizacao indisponivel:',e.message);
     }
 }
-async function init(){wire();await loadUpdateStatus();try{let[db,ds]=await Promise.all([fetch(D,{cache:'no-store'}),fetch(C,{cache:'no-store'})]);if(!ds.ok)throw Error('Canal HTTP '+ds.status);S=await ds.json();B=db.ok?await db.json():null;if(!Array.isArray(S.diasCanal)||!Array.isArray(S.mesesCanal))throw Error('Payload de canal inválido');fill();$('status').innerHTML='<b>Fonte de resultado:</b> Shop9 por canal homologado · até '+dbr(latest())+' · <span class="pill">HOMOLOG V3</span>';await loadAnalytics();render()}catch(e){$('status').textContent='Falha ao carregar V3 HOMOLOG: '+e.message}}init();
+async function init(){
+    wire();
+    await loadUpdateStatus();
+
+    try{
+
+        let[db,ds,cfgResp]=await Promise.all([
+            fetch(D,{cache:'no-store'}),
+            fetch(C,{cache:'no-store'}),
+            fetch(CFG_URL,{cache:'no-store'})
+        ]);
+
+        if(!ds.ok)
+            throw Error('Canal HTTP '+ds.status);
+
+        if(!cfgResp.ok)
+            throw Error('Config HTTP '+cfgResp.status);
+
+        S=await ds.json();
+        B=db.ok?await db.json():null;
+        CFG=await cfgResp.json();
+
+        if(!Array.isArray(S.diasCanal)||
+           !Array.isArray(S.mesesCanal))
+            throw Error('Payload de canal inválido');
+
+        if(!CFG||
+           !Array.isArray(CFG.vendedores))
+            throw Error('Payload de configuracao inválido');
+
+        fill();
+
+        $('status').innerHTML=
+            '<b>Fonte de resultado:</b> Shop9 por canal homologado · até '+
+            dbr(latest())+
+            ' · <span class="pill">HOMOLOG V3</span>';
+
+        await loadAnalytics();
+
+        await carregarAdminVendedores();
+
+        render();
+
+    }
+    catch(e){
+
+        $('status').textContent=
+            'Falha ao carregar V3 HOMOLOG: '+e.message;
+
+        console.error('Init:',e);
+
+    }
+}
+
+init();
 </script></body></html>
+
+
+
 
 
 
