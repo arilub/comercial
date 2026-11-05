@@ -495,6 +495,8 @@ function preencherVendedoresAnalise(){
 
     });
 
+    sel.disabled=false;
+
     if([...sel.options].some(o=>o.value===atual))
         sel.value=atual;
     else
@@ -962,7 +964,8 @@ function insights(){
     ).join('');
 }
 
-function render(){atualizarRotulosConfig();document.querySelectorAll('.period-btn').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.monthSel').forEach(x=>{x.disabled=p!=='mes';x.value=mr});dashboard();channelTabs();analise();insights()}async function carregarAdminVendedores(){
+function render(){atualizarRotulosConfig();
+preencherVendedoresAnalise();document.querySelectorAll('.period-btn').forEach(x=>x.classList.toggle('on',x.dataset.p===p));document.querySelectorAll('.monthSel').forEach(x=>{x.disabled=p!=='mes';x.value=mr});dashboard();channelTabs();analise();insights()}async function carregarAdminVendedores(){
 
     const tbody=$('adminVendedores');
     const metasBox=$('adminMetas');
@@ -1432,6 +1435,8 @@ async function init(){
 
 init();
 </script></body></html>
+
+
 
 
 
