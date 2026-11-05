@@ -1,0 +1,33 @@
+﻿{
+    "versao":  1,
+    "regraPadrao":  "NAO_CLASSIFICADO",
+    "vendedores":  [
+                       {
+                           "vendedorId":  17,
+                           "nome":  "Maritza Fabiana Lima e Silva",
+                           "canal":  "VENDA_DIRETA",
+                           "vigenciaInicio":  null,
+                           "vigenciaFim":  null,
+                           "habilitado":  true,
+                           "nomeExibicao":  "Fabiana"
+                       },
+                       {
+                           "vendedorId":  1114,
+                           "nome":  "Edvaldo da Silva Bezerra",
+                           "canal":  "LICITACAO",
+                           "vigenciaInicio":  null,
+                           "vigenciaFim":  null,
+                           "habilitado":  true,
+                           "nomeExibicao":  "Edvaldo"
+                       },
+                       {
+                           "vendedorId":  1101,
+                           "nome":  "Aglailton Machado dos Santos",
+                           "canal":  "LICITACAO_HISTORICA",
+                           "vigenciaInicio":  null,
+                           "vigenciaFim":  null,
+                           "habilitado":  true,
+                           "nomeExibicao":  "Aglailton"
+                       }
+                   ]
+}
