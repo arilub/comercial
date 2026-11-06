@@ -3014,6 +3014,17 @@
         "data_cadastro":  "2024-06-10"
     },
     {
+        "cliente_id":  79032,
+        "codigo_shop9":  2631,
+        "cliente_nome":  "FRANCISCO JEFFERSON SILVA ROCHA",
+        "fantasia":  "FRANCISCO JEFFERSON SILVA ROCHA",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2024-06-10"
+    },
+    {
         "cliente_id":  79042,
         "codigo_shop9":  2624,
         "cliente_nome":  "NTEC MANUTENCAO LTDA",
