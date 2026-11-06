@@ -4485,21 +4485,6 @@
         "unidade":  "TB"
     },
     {
-        "produto_id":  55204,
-        "codigo":  "8085000293",
-        "produto":  "ESCADA ALUMIN ARTICULADA 4X4 16DG BOTAFOGO ESC0293",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  18452,
-        "fabricante":  "BOTAFOGO",
-        "unidade_id":  10020,
-        "unidade":  "PC"
-    },
-    {
         "produto_id":  55214,
         "codigo":  "466.12.3",
         "produto":  "HIDR. 68 20L AW VALVOLINE",
@@ -6375,21 +6360,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  65600,
-        "codigo":  "831168356",
-        "produto":  "OLEO SINTETICO VSC 100 1LT BUSCH",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  40994,
-        "fabricante":  "BUSCH",
-        "unidade_id":  10015,
-        "unidade":  "LT"
-    },
-    {
         "produto_id":  65601,
         "codigo":  "ESC0064",
         "produto":  "ESCADA ALUMINIO DOMESTICA 120KG 5DEGR BOTAFOGO",
@@ -6418,21 +6388,6 @@
         "fabricante":  "VALVOLINE",
         "unidade_id":  10015,
         "unidade":  "LT"
-    },
-    {
-        "produto_id":  65605,
-        "codigo":  "48359980",
-        "produto":  "ARRUELA LISA INOX A304 MA 12MM",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  0,
-        "fabricante":  "Não Cadastrado",
-        "unidade_id":  10030,
-        "unidade":  "UN"
     },
     {
         "produto_id":  65606,
