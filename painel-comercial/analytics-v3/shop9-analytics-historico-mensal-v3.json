@@ -9579,15 +9579,15 @@
         "mes":  "2026-11",
         "tipo_operacao":  "ORC",
         "vendedor_id":  17,
-        "quantidade_documentos":  37,
-        "valor_total":  139799.4800
+        "quantidade_documentos":  38,
+        "valor_total":  152067.2300
     },
     {
         "mes":  "2026-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  16,
-        "valor_total":  13183.4900
+        "quantidade_documentos":  17,
+        "valor_total":  14344.7100
     },
     {
         "mes":  "2026-11",
