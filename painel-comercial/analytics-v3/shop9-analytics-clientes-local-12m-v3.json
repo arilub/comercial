@@ -4070,17 +4070,6 @@
         "data_cadastro":  "2025-11-05"
     },
     {
-        "cliente_id":  92771,
-        "codigo_shop9":  4510,
-        "cliente_nome":  "Metalpel Comercio De Materiais Reciclaveis Ltda Me",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-05"
-    },
-    {
         "cliente_id":  92774,
         "codigo_shop9":  4512,
         "cliente_nome":  "Associacao Jardins Do Lago",
