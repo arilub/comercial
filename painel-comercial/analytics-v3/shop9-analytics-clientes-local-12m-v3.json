@@ -8853,5 +8853,16 @@
         "fisica_juridica":  "F",
         "inativo":  false,
         "data_cadastro":  "2026-11-05"
+    },
+    {
+        "cliente_id":  93346,
+        "codigo_shop9":  5004,
+        "cliente_nome":  "Alucel Suprimentos Industriais Ltda",
+        "fantasia":  "Comercial Alucel",
+        "cidade":  "Piracicaba",
+        "uf":  "SP",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-09"
     }
 ]
