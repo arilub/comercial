@@ -6420,21 +6420,6 @@
         "unidade":  "BD"
     },
     {
-        "produto_id":  65607,
-        "codigo":  "117834",
-        "produto":  "GRAXA POLYREX EM GREASE - 16KG MOBIL ",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  10005,
-        "fabricante":  "MOBIL",
-        "unidade_id":  10002,
-        "unidade":  "BD"
-    },
-    {
         "produto_id":  65608,
         "codigo":  "1R0726.000",
         "produto":  "FILTRO OLEO LUBRIFICANTE 1R0726.000 CAT",
