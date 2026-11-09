@@ -420,8 +420,8 @@
     {
         "cliente_id":  1827,
         "codigo_shop9":  1853,
-        "cliente_nome":  "FRANCISCO PACHECO FILHO ",
-        "fantasia":  "FRANCISCO PACHECO FILHO ",
+        "cliente_nome":  "Francisco Pacheco Filho Me",
+        "fantasia":  "",
         "cidade":  "Cascavel",
         "uf":  "CE",
         "fisica_juridica":  "F",
@@ -8861,6 +8861,17 @@
         "fantasia":  "Comercial Alucel",
         "cidade":  "Piracicaba",
         "uf":  "SP",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-09"
+    },
+    {
+        "cliente_id":  93347,
+        "codigo_shop9":  5005,
+        "cliente_nome":  "Edinaldo Lima Da Silva 42154405304",
+        "fantasia":  "Madu variedades",
+        "cidade":  "Cascavel",
+        "uf":  "CE",
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-09"
