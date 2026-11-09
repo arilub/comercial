@@ -2783,6 +2783,17 @@
         "data_cadastro":  "2024-03-20"
     },
     {
+        "cliente_id":  78896,
+        "codigo_shop9":  2748,
+        "cliente_nome":  "ASA SUL PARTICIPACOES LTDA",
+        "fantasia":  "ASA SUL PARTICIPACOES",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2024-03-20"
+    },
+    {
         "cliente_id":  78900,
         "codigo_shop9":  2744,
         "cliente_nome":  "HIDROJATO COM. ASSIST. TEC. E LOCACAO DE MAQUINA LTDA",
