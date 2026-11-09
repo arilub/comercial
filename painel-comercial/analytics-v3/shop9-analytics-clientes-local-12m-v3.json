@@ -385,6 +385,17 @@
         "data_cadastro":  "2010-08-06"
     },
     {
+        "cliente_id":  1601,
+        "codigo_shop9":  1614,
+        "cliente_nome":  "J W Saraiva E Cia Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2011-05-13"
+    },
+    {
         "cliente_id":  1606,
         "codigo_shop9":  1619,
         "cliente_nome":  "Rei Das Linhas Comercio Varejista Ltda Me",
