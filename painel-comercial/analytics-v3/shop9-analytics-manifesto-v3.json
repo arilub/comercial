@@ -1,6 +1,6 @@
 {
     "versao":  "shop9-analytics-v3.0.0-homolog-local",
-    "gerado_em":  "2026-11-09T06:29:26",
+    "gerado_em":  "2026-11-09T07:29:38",
     "fonte":  "Snapshots locais da aquisicao central Shop9 V3",
     "modo":  "processamento_local_zero_sql_zero_rede",
     "janela_detalhada":  {
@@ -53,7 +53,7 @@
                                        "arquivo":  "shop9-analytics-historico-mensal-v3.json",
                                        "registros":  1373,
                                        "tamanho_mb":  0.24,
-                                       "duracao_seg":  0.03
+                                       "duracao_seg":  0.04
                                    }
                  },
     "regras":  {
