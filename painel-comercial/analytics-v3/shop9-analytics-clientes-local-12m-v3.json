@@ -2860,17 +2860,6 @@
         "data_cadastro":  "2024-04-25"
     },
     {
-        "cliente_id":  78952,
-        "codigo_shop9":  10187,
-        "cliente_nome":  "Cenarcom Central De Ar Comprimido Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2024-04-29"
-    },
-    {
         "cliente_id":  78955,
         "codigo_shop9":  2698,
         "cliente_nome":  "Copel Industria Comercio De Embalagens E Cordoes Ltda",
