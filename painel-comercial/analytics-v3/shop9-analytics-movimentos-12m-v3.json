@@ -107676,7 +107676,7 @@
         "apagado":  false,
         "invalido":  false,
         "orcamento_mantido":  false,
-        "motivo_cancelamento_orcamento":  0,
+        "motivo_cancelamento_orcamento":  4,
         "referencia_interna":  "27090580"
     },
     {
