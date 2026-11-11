@@ -1023,6 +1023,17 @@
         "data_cadastro":  "2017-06-08"
     },
     {
+        "cliente_id":  20326,
+        "codigo_shop9":  3402,
+        "cliente_nome":  "LIMA EMPREENDIMENTOS IMOBILIARIOS LTDA ",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  true,
+        "data_cadastro":  "2017-06-19"
+    },
+    {
         "cliente_id":  21337,
         "codigo_shop9":  3413,
         "cliente_nome":  "EXPEDITO PEREIRA FROTA",
