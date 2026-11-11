@@ -442,8 +442,8 @@
     {
         "cliente_id":  1850,
         "codigo_shop9":  1877,
-        "cliente_nome":  "COFEMIL-COMERCIO DE FERRAMENTAS E MATERIAL INDUSTRIAL LTDA",
-        "fantasia":  "COFEMIL",
+        "cliente_nome":  "Cofemil Comercio De Ferragens E Material Industrial Ltda",
+        "fantasia":  "",
         "cidade":  "Fortaleza",
         "uf":  "CE",
         "fisica_juridica":  "J",
@@ -1784,11 +1784,11 @@
     {
         "cliente_id":  77367,
         "codigo_shop9":  4090,
-        "cliente_nome":  "Basalto Pedreira E Pavimentação Ltda",
+        "cliente_nome":  "ROBERTO HIGINO DE SOUZ",
         "fantasia":  "",
         "cidade":  "Eusébio",
         "uf":  "CE",
-        "fisica_juridica":  "J",
+        "fisica_juridica":  "F",
         "inativo":  false,
         "data_cadastro":  "2022-09-06"
     },
@@ -8897,5 +8897,27 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-09"
+    },
+    {
+        "cliente_id":  93348,
+        "codigo_shop9":  5006,
+        "cliente_nome":  "Casa Forte Material De Construcao Ltda",
+        "fantasia":  "",
+        "cidade":  "Caucaia",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-11"
+    },
+    {
+        "cliente_id":  93349,
+        "codigo_shop9":  5007,
+        "cliente_nome":  "Sol Do Norte Locacao De Equipamentos Ltda.",
+        "fantasia":  "",
+        "cidade":  "Trairi",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-11"
     }
 ]
