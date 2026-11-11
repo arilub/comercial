@@ -1025,8 +1025,8 @@
         "mes":  "2006-03",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  158,
-        "valor_total":  34769.3200
+        "quantidade_documentos":  157,
+        "valor_total":  34757.8200
     },
     {
         "mes":  "2006-03",
@@ -1046,8 +1046,8 @@
         "mes":  "2006-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  129,
-        "valor_total":  9596.7000
+        "quantidade_documentos":  130,
+        "valor_total":  9608.2000
     },
     {
         "mes":  "2006-04",
@@ -1151,8 +1151,8 @@
         "mes":  "2006-07",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  147,
-        "valor_total":  35788.6800
+        "quantidade_documentos":  146,
+        "valor_total":  35784.6800
     },
     {
         "mes":  "2006-07",
@@ -1186,8 +1186,8 @@
         "mes":  "2006-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  154,
-        "valor_total":  52580.7700
+        "quantidade_documentos":  155,
+        "valor_total":  52584.7700
     },
     {
         "mes":  "2006-08",
@@ -1312,8 +1312,8 @@
         "mes":  "2006-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  91,
-        "valor_total":  36703.7200
+        "quantidade_documentos":  92,
+        "valor_total":  36723.4800
     },
     {
         "mes":  "2006-10",
@@ -1648,8 +1648,8 @@
         "mes":  "2007-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  94,
-        "valor_total":  47901.0400
+        "quantidade_documentos":  93,
+        "valor_total":  47139.0400
     },
     {
         "mes":  "2007-05",
@@ -1683,8 +1683,8 @@
         "mes":  "2007-06",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  100,
-        "valor_total":  50381.3000
+        "quantidade_documentos":  99,
+        "valor_total":  49746.3000
     },
     {
         "mes":  "2007-06",
@@ -1697,8 +1697,8 @@
         "mes":  "2007-06",
         "tipo_operacao":  "VND",
         "vendedor_id":  10,
-        "quantidade_documentos":  3,
-        "valor_total":  1787.8900
+        "quantidade_documentos":  2,
+        "valor_total":  1573.0000
     },
     {
         "mes":  "2007-06",
@@ -1719,7 +1719,7 @@
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
         "quantidade_documentos":  117,
-        "valor_total":  23210.9300
+        "valor_total":  24596.4300
     },
     {
         "mes":  "2007-07",
@@ -1732,8 +1732,8 @@
         "mes":  "2007-07",
         "tipo_operacao":  "VND",
         "vendedor_id":  10,
-        "quantidade_documentos":  3,
-        "valor_total":  324.2000
+        "quantidade_documentos":  4,
+        "valor_total":  539.0900
     },
     {
         "mes":  "2007-07",
@@ -1753,8 +1753,8 @@
         "mes":  "2007-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  108,
-        "valor_total":  26511.5900
+        "quantidade_documentos":  109,
+        "valor_total":  26488.0900
     },
     {
         "mes":  "2007-08",
@@ -1774,15 +1774,15 @@
         "mes":  "2007-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  110,
-        "valor_total":  72856.2800
+        "quantidade_documentos":  108,
+        "valor_total":  68469.5600
     },
     {
         "mes":  "2007-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  148,
-        "valor_total":  68326.3000
+        "quantidade_documentos":  145,
+        "valor_total":  65775.4900
     },
     {
         "mes":  "2007-08",
@@ -1795,8 +1795,8 @@
         "mes":  "2007-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  70,
-        "valor_total":  5312.8100
+        "quantidade_documentos":  71,
+        "valor_total":  5347.8100
     },
     {
         "mes":  "2007-09",
@@ -1816,15 +1816,15 @@
         "mes":  "2007-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  73,
-        "valor_total":  49414.3800
+        "quantidade_documentos":  75,
+        "valor_total":  53801.1000
     },
     {
         "mes":  "2007-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  103,
-        "valor_total":  54631.0400
+        "quantidade_documentos":  104,
+        "valor_total":  55689.4500
     },
     {
         "mes":  "2007-09",
@@ -1844,8 +1844,8 @@
         "mes":  "2007-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  52,
-        "quantidade_documentos":  23,
-        "valor_total":  11034.7400
+        "quantidade_documentos":  22,
+        "valor_total":  10421.0300
     },
     {
         "mes":  "2007-10",
@@ -1865,15 +1865,15 @@
         "mes":  "2007-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  127,
-        "valor_total":  61124.8200
+        "quantidade_documentos":  126,
+        "valor_total":  60624.8400
     },
     {
         "mes":  "2007-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
         "quantidade_documentos":  168,
-        "valor_total":  67342.5500
+        "valor_total":  68808.1900
     },
     {
         "mes":  "2007-10",
@@ -1886,8 +1886,8 @@
         "mes":  "2007-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  52,
-        "quantidade_documentos":  13,
-        "valor_total":  7754.7300
+        "quantidade_documentos":  14,
+        "valor_total":  8368.4400
     },
     {
         "mes":  "2007-10",
@@ -1922,21 +1922,21 @@
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
         "quantidade_documentos":  112,
-        "valor_total":  38821.3500
+        "valor_total":  39309.3300
     },
     {
         "mes":  "2007-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  155,
-        "valor_total":  54169.4000
+        "quantidade_documentos":  156,
+        "valor_total":  54176.4000
     },
     {
         "mes":  "2007-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  52,
-        "quantidade_documentos":  14,
-        "valor_total":  7528.6800
+        "quantidade_documentos":  13,
+        "valor_total":  7297.7300
     },
     {
         "mes":  "2007-11",
@@ -1984,8 +1984,8 @@
         "mes":  "2007-12",
         "tipo_operacao":  "VND",
         "vendedor_id":  52,
-        "quantidade_documentos":  14,
-        "valor_total":  6191.3200
+        "quantidade_documentos":  15,
+        "valor_total":  6422.2700
     },
     {
         "mes":  "2007-12",
@@ -2012,8 +2012,8 @@
         "mes":  "2008-01",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  210,
-        "valor_total":  104385.2100
+        "quantidade_documentos":  208,
+        "valor_total":  101926.2100
     },
     {
         "mes":  "2008-01",
@@ -2054,8 +2054,8 @@
         "mes":  "2008-02",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  130,
-        "valor_total":  65535.0600
+        "quantidade_documentos":  131,
+        "valor_total":  67604.0600
     },
     {
         "mes":  "2008-02",
@@ -2089,15 +2089,15 @@
         "mes":  "2008-03",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  113,
-        "valor_total":  59960.5300
+        "quantidade_documentos":  112,
+        "valor_total":  59950.5300
     },
     {
         "mes":  "2008-03",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  158,
-        "valor_total":  52615.1400
+        "quantidade_documentos":  154,
+        "valor_total":  50354.4100
     },
     {
         "mes":  "2008-03",
@@ -2117,15 +2117,15 @@
         "mes":  "2008-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  115,
-        "valor_total":  38896.5100
+        "quantidade_documentos":  111,
+        "valor_total":  38364.5100
     },
     {
         "mes":  "2008-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  188,
-        "valor_total":  47488.7100
+        "quantidade_documentos":  191,
+        "valor_total":  48626.0400
     },
     {
         "mes":  "2008-04",
@@ -2145,15 +2145,15 @@
         "mes":  "2008-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  108,
-        "valor_total":  54259.1100
+        "quantidade_documentos":  112,
+        "valor_total":  54876.1100
     },
     {
         "mes":  "2008-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  201,
-        "valor_total":  78288.3000
+        "quantidade_documentos":  202,
+        "valor_total":  79411.7000
     },
     {
         "mes":  "2008-05",
@@ -2173,8 +2173,8 @@
         "mes":  "2008-06",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  87,
-        "valor_total":  37035.5500
+        "quantidade_documentos":  89,
+        "valor_total":  37350.5500
     },
     {
         "mes":  "2008-06",
@@ -2236,8 +2236,8 @@
         "mes":  "2008-07",
         "tipo_operacao":  "VND",
         "vendedor_id":  57,
-        "quantidade_documentos":  37,
-        "valor_total":  4141.9100
+        "quantidade_documentos":  36,
+        "valor_total":  3873.7400
     },
     {
         "mes":  "2008-07",
@@ -2264,8 +2264,8 @@
         "mes":  "2008-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  57,
-        "quantidade_documentos":  21,
-        "valor_total":  8861.8900
+        "quantidade_documentos":  22,
+        "valor_total":  9130.0600
     },
     {
         "mes":  "2008-08",
@@ -2285,8 +2285,8 @@
         "mes":  "2008-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  68,
-        "valor_total":  64126.7600
+        "quantidade_documentos":  67,
+        "valor_total":  64119.7600
     },
     {
         "mes":  "2008-09",
@@ -2320,8 +2320,8 @@
         "mes":  "2008-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  75,
-        "valor_total":  53311.3300
+        "quantidade_documentos":  77,
+        "valor_total":  53330.3300
     },
     {
         "mes":  "2008-10",
@@ -2670,8 +2670,8 @@
         "mes":  "2009-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  112,
-        "valor_total":  44227.7300
+        "quantidade_documentos":  111,
+        "valor_total":  42972.7300
     },
     {
         "mes":  "2009-08",
@@ -2705,8 +2705,8 @@
         "mes":  "2009-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  14,
-        "quantidade_documentos":  98,
-        "valor_total":  68153.2000
+        "quantidade_documentos":  99,
+        "valor_total":  69408.2000
     },
     {
         "mes":  "2009-09",
@@ -2831,8 +2831,8 @@
         "mes":  "2010-02",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  192,
-        "valor_total":  95676.7600
+        "quantidade_documentos":  191,
+        "valor_total":  95626.5000
     },
     {
         "mes":  "2010-02",
@@ -2852,8 +2852,8 @@
         "mes":  "2010-03",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  218,
-        "valor_total":  117587.8400
+        "quantidade_documentos":  219,
+        "valor_total":  117638.1000
     },
     {
         "mes":  "2010-03",
@@ -2908,8 +2908,8 @@
         "mes":  "2010-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  220,
-        "valor_total":  118242.4000
+        "quantidade_documentos":  219,
+        "valor_total":  116899.4000
     },
     {
         "mes":  "2010-05",
@@ -2936,8 +2936,8 @@
         "mes":  "2010-06",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  213,
-        "valor_total":  115540.3900
+        "quantidade_documentos":  214,
+        "valor_total":  116883.3900
     },
     {
         "mes":  "2010-06",
@@ -2978,15 +2978,15 @@
         "mes":  "2010-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  262,
-        "valor_total":  121278.7400
+        "quantidade_documentos":  258,
+        "valor_total":  118812.4700
     },
     {
         "mes":  "2010-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  21,
-        "quantidade_documentos":  144,
-        "valor_total":  30835.4200
+        "quantidade_documentos":  143,
+        "valor_total":  30005.6800
     },
     {
         "mes":  "2010-09",
@@ -2999,15 +2999,15 @@
         "mes":  "2010-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  240,
-        "valor_total":  112145.9700
+        "quantidade_documentos":  241,
+        "valor_total":  113097.7400
     },
     {
         "mes":  "2010-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  21,
-        "quantidade_documentos":  162,
-        "valor_total":  49548.1300
+        "quantidade_documentos":  161,
+        "valor_total":  50011.9300
     },
     {
         "mes":  "2010-09",
@@ -3020,43 +3020,43 @@
         "mes":  "2010-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  11,
-        "valor_total":  12164.9000
+        "quantidade_documentos":  10,
+        "valor_total":  11717.0000
     },
     {
         "mes":  "2010-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  241,
-        "valor_total":  112256.1900
+        "quantidade_documentos":  243,
+        "valor_total":  113019.2500
     },
     {
         "mes":  "2010-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  21,
-        "quantidade_documentos":  138,
-        "valor_total":  40744.7900
+        "quantidade_documentos":  137,
+        "valor_total":  40087.3200
     },
     {
         "mes":  "2010-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  2,
-        "quantidade_documentos":  8,
-        "valor_total":  3343.4900
+        "quantidade_documentos":  9,
+        "valor_total":  3791.3900
     },
     {
         "mes":  "2010-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
         "quantidade_documentos":  260,
-        "valor_total":  137906.4500
+        "valor_total":  137824.6100
     },
     {
         "mes":  "2010-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  21,
-        "quantidade_documentos":  142,
-        "valor_total":  54138.4600
+        "quantidade_documentos":  145,
+        "valor_total":  55161.8700
     },
     {
         "mes":  "2010-12",
@@ -3069,15 +3069,15 @@
         "mes":  "2010-12",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  233,
-        "valor_total":  115947.4900
+        "quantidade_documentos":  234,
+        "valor_total":  116780.7700
     },
     {
         "mes":  "2010-12",
         "tipo_operacao":  "VND",
         "vendedor_id":  21,
-        "quantidade_documentos":  138,
-        "valor_total":  46230.9900
+        "quantidade_documentos":  136,
+        "valor_total":  44550.9900
     },
     {
         "mes":  "2011-01",
@@ -3097,8 +3097,8 @@
         "mes":  "2011-01",
         "tipo_operacao":  "VND",
         "vendedor_id":  21,
-        "quantidade_documentos":  142,
-        "valor_total":  38803.1900
+        "quantidade_documentos":  144,
+        "valor_total":  40483.1900
     },
     {
         "mes":  "2011-02",
@@ -3503,8 +3503,8 @@
         "mes":  "2012-03",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  230,
-        "valor_total":  134168.8100
+        "quantidade_documentos":  228,
+        "valor_total":  132937.1300
     },
     {
         "mes":  "2012-03",
@@ -3531,8 +3531,8 @@
         "mes":  "2012-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  189,
-        "valor_total":  95685.8800
+        "quantidade_documentos":  191,
+        "valor_total":  96917.5600
     },
     {
         "mes":  "2012-04",
@@ -5722,8 +5722,8 @@
         "mes":  "2018-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  94,
-        "quantidade_documentos":  15,
-        "valor_total":  32175.1100
+        "quantidade_documentos":  14,
+        "valor_total":  17799.2500
     },
     {
         "mes":  "2018-09",
@@ -5757,8 +5757,8 @@
         "mes":  "2018-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  94,
-        "quantidade_documentos":  9,
-        "valor_total":  47133.2600
+        "quantidade_documentos":  10,
+        "valor_total":  61509.1200
     },
     {
         "mes":  "2018-10",
@@ -7395,8 +7395,8 @@
         "mes":  "2023-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  81,
-        "valor_total":  77236.8400
+        "quantidade_documentos":  80,
+        "valor_total":  77058.2400
     },
     {
         "mes":  "2023-04",
@@ -7444,8 +7444,8 @@
         "mes":  "2023-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  108,
-        "valor_total":  174901.8200
+        "quantidade_documentos":  109,
+        "valor_total":  175080.4200
     },
     {
         "mes":  "2023-05",
@@ -8158,8 +8158,8 @@
         "mes":  "2024-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  103,
-        "valor_total":  114393.8800
+        "quantidade_documentos":  102,
+        "valor_total":  114069.8800
     },
     {
         "mes":  "2024-05",
@@ -8249,8 +8249,8 @@
         "mes":  "2024-06",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  111,
-        "valor_total":  91172.6600
+        "quantidade_documentos":  112,
+        "valor_total":  91496.6600
     },
     {
         "mes":  "2024-06",
@@ -8305,8 +8305,8 @@
         "mes":  "2024-07",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  115,
-        "valor_total":  98606.6800
+        "quantidade_documentos":  114,
+        "valor_total":  98306.6800
     },
     {
         "mes":  "2024-07",
@@ -8361,8 +8361,8 @@
         "mes":  "2024-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  103,
-        "valor_total":  105646.4300
+        "quantidade_documentos":  104,
+        "valor_total":  105946.4300
     },
     {
         "mes":  "2024-08",
@@ -8375,8 +8375,8 @@
         "mes":  "2024-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  1101,
-        "quantidade_documentos":  6,
-        "valor_total":  135442.8600
+        "quantidade_documentos":  5,
+        "valor_total":  135417.8600
     },
     {
         "mes":  "2024-08",
@@ -8410,8 +8410,8 @@
         "mes":  "2024-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  99,
-        "valor_total":  148701.4400
+        "quantidade_documentos":  98,
+        "valor_total":  145925.0500
     },
     {
         "mes":  "2024-09",
@@ -8424,8 +8424,8 @@
         "mes":  "2024-09",
         "tipo_operacao":  "VND",
         "vendedor_id":  1101,
-        "quantidade_documentos":  7,
-        "valor_total":  16923.6000
+        "quantidade_documentos":  8,
+        "valor_total":  16948.6000
     },
     {
         "mes":  "2024-09",
@@ -8481,7 +8481,7 @@
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
         "quantidade_documentos":  100,
-        "valor_total":  126227.1000
+        "valor_total":  127019.7700
     },
     {
         "mes":  "2024-10",
@@ -8557,8 +8557,8 @@
         "mes":  "2024-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  91,
-        "valor_total":  115011.3200
+        "quantidade_documentos":  92,
+        "valor_total":  116995.0400
     },
     {
         "mes":  "2024-11",
@@ -8641,8 +8641,8 @@
         "mes":  "2024-12",
         "tipo_operacao":  "VND",
         "vendedor_id":  1101,
-        "quantidade_documentos":  11,
-        "valor_total":  51231.4000
+        "quantidade_documentos":  9,
+        "valor_total":  51206.4000
     },
     {
         "mes":  "2024-12",
@@ -8711,8 +8711,8 @@
         "mes":  "2025-01",
         "tipo_operacao":  "VND",
         "vendedor_id":  1101,
-        "quantidade_documentos":  3,
-        "valor_total":  52639.0000
+        "quantidade_documentos":  5,
+        "valor_total":  52664.0000
     },
     {
         "mes":  "2025-01",
@@ -8886,8 +8886,8 @@
         "mes":  "2025-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  101,
-        "valor_total":  119131.3000
+        "quantidade_documentos":  100,
+        "valor_total":  118412.9700
     },
     {
         "mes":  "2025-04",
@@ -8942,8 +8942,8 @@
         "mes":  "2025-05",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  98,
-        "valor_total":  98026.6800
+        "quantidade_documentos":  99,
+        "valor_total":  98745.0100
     },
     {
         "mes":  "2025-05",
@@ -9019,8 +9019,8 @@
         "mes":  "2025-07",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  124,
-        "valor_total":  174239.8100
+        "quantidade_documentos":  122,
+        "valor_total":  174034.3100
     },
     {
         "mes":  "2025-07",
@@ -9054,8 +9054,8 @@
         "mes":  "2025-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  104,
-        "valor_total":  82787.0600
+        "quantidade_documentos":  106,
+        "valor_total":  82992.5600
     },
     {
         "mes":  "2025-08",
@@ -9292,8 +9292,8 @@
         "mes":  "2026-03",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  88,
-        "valor_total":  128283.5300
+        "quantidade_documentos":  87,
+        "valor_total":  128193.5300
     },
     {
         "mes":  "2026-03",
@@ -9327,8 +9327,8 @@
         "mes":  "2026-04",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  96,
-        "valor_total":  100531.2000
+        "quantidade_documentos":  97,
+        "valor_total":  100621.2000
     },
     {
         "mes":  "2026-04",
@@ -9425,8 +9425,8 @@
         "mes":  "2026-07",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  107,
-        "valor_total":  149432.9100
+        "quantidade_documentos":  106,
+        "valor_total":  149253.9100
     },
     {
         "mes":  "2026-07",
@@ -9481,8 +9481,8 @@
         "mes":  "2026-08",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  81,
-        "valor_total":  106419.0400
+        "quantidade_documentos":  82,
+        "valor_total":  106598.0400
     },
     {
         "mes":  "2026-08",
@@ -9565,8 +9565,8 @@
         "mes":  "2026-10",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  79,
-        "valor_total":  122867.9000
+        "quantidade_documentos":  78,
+        "valor_total":  99639.9000
     },
     {
         "mes":  "2026-10",
@@ -9586,8 +9586,8 @@
         "mes":  "2026-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
-        "quantidade_documentos":  24,
-        "valor_total":  26624.6200
+        "quantidade_documentos":  25,
+        "valor_total":  49852.6200
     },
     {
         "mes":  "2026-11",
