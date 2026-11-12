@@ -1380,6 +1380,21 @@
         "unidade":  "UN"
     },
     {
+        "produto_id":  2088,
+        "codigo":  "MENZE09",
+        "produto":  "0W40 SM 1L SINT. RACE ONE MENZOL",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  13,
+        "grupo":  "35%",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  10041,
+        "fabricante":  "MENZELUB",
+        "unidade_id":  10015,
+        "unidade":  "LT"
+    },
+    {
         "produto_id":  2105,
         "codigo":  "OB0023",
         "produto":  "FILTRO BOSCH OLEO RENAULT (PSL78)",
