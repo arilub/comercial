@@ -85780,5 +85780,22 @@
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
         "valor_item":  4139.2900
+    },
+    {
+        "item_id":  614657,
+        "movimento_id":  438762,
+        "tipo_operacao":  "VND",
+        "data_movimento":  "2026-11-12",
+        "cliente_id":  93309,
+        "vendedor_id":  17,
+        "numero_linha":  1,
+        "produto_id":  140,
+        "quantidade":  4.0000,
+        "preco_unitario":  353.1000,
+        "preco_total_sem_desconto":  1412.4000,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "valor_item":  1412.4000
     }
 ]
