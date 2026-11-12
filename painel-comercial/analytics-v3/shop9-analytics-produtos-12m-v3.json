@@ -4425,21 +4425,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  55197,
-        "codigo":  "3067",
-        "produto":  "FORRO MODULAR PVC 1.243 x 0.618",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  36889,
-        "fabricante":  "PERSEU",
-        "unidade_id":  10039,
-        "unidade":  "M2"
-    },
-    {
         "produto_id":  55201,
         "codigo":  "225020",
         "produto":  "HIDR. 46 20L PETRONAS ",
@@ -9793,5 +9778,20 @@
         "fabricante":  "LA FONTE",
         "unidade_id":  10030,
         "unidade":  "UN"
+    },
+    {
+        "produto_id":  65949,
+        "codigo":  "LX191",
+        "produto":  "LIXEIRA 30L C/ PEDAL BRANCA INJEPLASTEC",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  41048,
+        "fabricante":  "INJEPLASTEC",
+        "unidade_id":  10020,
+        "unidade":  "PC"
     }
 ]
