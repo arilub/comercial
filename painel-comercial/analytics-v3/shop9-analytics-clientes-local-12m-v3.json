@@ -8864,5 +8864,27 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-11"
+    },
+    {
+        "cliente_id":  93350,
+        "codigo_shop9":  5008,
+        "cliente_nome":  "LUCIANO ALVES RAMOS",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-12"
+    },
+    {
+        "cliente_id":  93351,
+        "codigo_shop9":  5009,
+        "cliente_nome":  "LUCAS DE OLIVEIRA VITORIANO",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-12"
     }
 ]
