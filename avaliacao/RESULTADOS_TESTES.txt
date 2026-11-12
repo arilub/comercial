@@ -1,0 +1,26 @@
+OK — salvamento parcial antes do prazo e alternativa canônica
+OK — edição sem duplicação e resposta apagada não conta
+OK — ID fora do bloco rejeitado sem escrita parcial
+OK — alternativa inválida e ID duplicado rejeitados
+OK — cliente antigo: saveBlock exige bloco completo
+OK — timeout com 0, 10 e 20 respostas não executa motor
+OK — 30 respostas antes do prazo concluem e executam motor uma vez
+OK — 30 respostas já gravadas antes da expiração não são invalidadas
+OK — timeout prematuro não encerra
+OK — salvamento após prazo rejeitado
+OK — finish incompleto antes do prazo não encerra
+OK — timeout repetido preserva status e não reprocessa
+OK — motor real bloqueia teste parcial antes de gravar análise
+OK — ficha manual não é apagada por reprocessamento
+OK — migração identifica e reclassifica legado sem alterar respostas ou decisão
+OK — painel API exclui rodapé e mascara parcial histórico
+OK — reconciliação de prazo atrasado mantém fim efetivo de 25 min
+OK — API saveProgress retorna recibo de contagem
+TOTAL: 18 testes aprovados
+OK — salvamento automático por questão e confirmação real
+OK — edição/limpeza refletida na contagem
+OK — retomada após recarregar sem perder bloco confirmado
+OK — navegação e conclusão de 30 questões
+OK — falha de rede no timeout não exibe falso sucesso; nova tentativa confirma parcial
+OK — painel distingue completo, expirado, em andamento e não iniciado
+TOTAL: 6 testes de navegador aprovados
