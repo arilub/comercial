@@ -1551,17 +1551,6 @@
         "data_cadastro":  "2021-04-12"
     },
     {
-        "cliente_id":  69152,
-        "codigo_shop9":  3906,
-        "cliente_nome":  "CENTRO DE FORMACAO DE CONDUTORES AUTO ESCOLA ELOHIM LTDA",
-        "fantasia":  "CENTRO DE FORMACAO DE CONDUTORES AUTO ESCOLA ELOHIM LTDA",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2021-05-17"
-    },
-    {
         "cliente_id":  70165,
         "codigo_shop9":  3917,
         "cliente_nome":  "TATIANA MAIA SENA 94860564391",
@@ -1890,17 +1879,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2022-10-27"
-    },
-    {
-        "cliente_id":  77419,
-        "codigo_shop9":  4141,
-        "cliente_nome":  "ISMAR SERAGI CUNHA",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "F",
-        "inativo":  false,
-        "data_cadastro":  "2022-11-23"
     },
     {
         "cliente_id":  77426,
@@ -2926,17 +2904,6 @@
         "data_cadastro":  "2024-05-03"
     },
     {
-        "cliente_id":  78973,
-        "codigo_shop9":  2685,
-        "cliente_nome":  "Spe 01 Eusebio Monte Olimpo 3 Ltda.",
-        "fantasia":  "",
-        "cidade":  "Eusébio",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2024-05-07"
-    },
-    {
         "cliente_id":  78975,
         "codigo_shop9":  2683,
         "cliente_nome":  "Golube Lubrificantes Ltda",
@@ -3938,17 +3905,6 @@
         "data_cadastro":  "2025-08-29"
     },
     {
-        "cliente_id":  88708,
-        "codigo_shop9":  4459,
-        "cliente_nome":  "Alves Freitas Construcoes E Empreendimentos Ltda Epp",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-09-03"
-    },
-    {
         "cliente_id":  88709,
         "codigo_shop9":  4460,
         "cliente_nome":  "3Z Movimentacao Inteligente Ltda",
@@ -4123,28 +4079,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2025-11-10"
-    },
-    {
-        "cliente_id":  92776,
-        "codigo_shop9":  4513,
-        "cliente_nome":  "Fornecedora Engelog Locacoes E Servicos Ltda",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-11"
-    },
-    {
-        "cliente_id":  92777,
-        "codigo_shop9":  4514,
-        "cliente_nome":  "Ednardo Braga Ferreira",
-        "fantasia":  "",
-        "cidade":  "Itaitinga",
-        "uf":  "CE",
-        "fisica_juridica":  "F",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-11"
     },
     {
         "cliente_id":  92779,
