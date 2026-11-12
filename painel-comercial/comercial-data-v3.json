@@ -2,19 +2,19 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-12T11:29:47-03:00",
+                 "geradoEm":  "2026-11-12T12:33:14-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3830,
+    "totalLeads":  3832,
     "porEtapa":  {
-                     "Venda perdida":  1326,
+                     "Venda perdida":  1325,
                      "Venda ganha":  975,
                      "Cliente Ativo":  593,
-                     "NegociaÃ§Ã£o":  569,
-                     "Chegada do Lead":  198,
+                     "NegociaÃ§Ã£o":  570,
+                     "Chegada do Lead":  200,
                      "Nova Sondagem":  163,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
@@ -24,9 +24,9 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2119,
+                          "leads":  2121,
                           "ganhos":  466,
-                          "perdidos":  1009
+                          "perdidos":  1008
                       },
                       {
                           "pipelineId":  "9473539",
@@ -46,12 +46,12 @@
     "vendas":  {
                    "ganhosQtd":  975,
                    "ganhosValor":  2523066,
-                   "perdidosQtd":  1326,
-                   "perdidosValor":  5105208,
+                   "perdidosQtd":  1325,
+                   "perdidosValor":  5098148,
                    "ticketMedio":  2587.76,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  365,
+                                                        "totalLeads":  366,
                                                         "ganhosQtd":  124,
                                                         "perdidosQtd":  10,
                                                         "ganhosValor":  318052
@@ -65,7 +65,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  180,
+                      "WhatsApp":  181,
                       "Telefone":  2,
                       "E-mail":  1
                   },
@@ -76,7 +76,7 @@
                                                  "ganhosValor":  57369
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  259,
+                                                  "totalLeads":  260,
                                                   "ganhosQtd":  86,
                                                   "ganhosValor":  220393
                                               },
@@ -154,12 +154,6 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "OLEO MOBIL 20W50 SL  LITRO",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
                                      "nome":  "GRAXA LUBRAX LITHPLUS EP2 BD 20KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
@@ -167,6 +161,18 @@
                                  },
                                  {
                                      "nome":  "CH4 20W50 BD 20L UNI",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo hidraulico 32 uni bd 20l",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "FILTRO DE COMBUSTIVEL TECFIL",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -184,25 +190,19 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo hidraulico 32 uni bd 20l",
+                                     "nome":  "BD DE OLEO 68 ECONOLINE",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  4219
+                                 },
+                                 {
+                                     "nome":  "MOBIL 4T 20W50 24X01 LITRO",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo lubrax ci4 10w40",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO MOBIL 4T E GRAXA CHASSIS",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "MOBIL 4T 20W50 24X01 LITRO",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -217,15 +217,15 @@
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6198,
-                                     "valorTotal":  22924810.80,
+                                     "total":  6199,
+                                     "valorTotal":  22928950.09,
                                      "convertidos":  2438,
                                      "cancelados":  382,
-                                     "recente":  29,
+                                     "recente":  30,
                                      "acompanhamento":  25,
                                      "atencao":  57,
                                      "envelhecido":  3054,
-                                     "taxaConversao":  0.3934
+                                     "taxaConversao":  0.3933
                                  },
                   "vendas":  {
                                  "total":  63070,
@@ -236,7 +236,7 @@
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  29,
+                       "vinculoDefinitivoLeadId":  30,
                        "reconciliacaoHistorica":  82,
                        "forteProvisorio":  15,
                        "provavel":  67,
@@ -81400,27 +81400,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  25891132,
-                      "nome":  "Lead #25891132",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  7060,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-06-23T15:18:11-03:00",
-                      "atualizadoEm":  "2026-11-12T09:28:52-03:00",
-                      "fechadoEm":  "2026-08-31T14:01:01-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27048894,
                       "nome":  "Lead #27048894",
                       "pipelineId":  "9334023",
@@ -81589,48 +81568,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  23885935,
-                      "nome":  "Autolead: Lead #23833547",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  1739,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-12-12T11:40:53-03:00",
-                      "atualizadoEm":  "2026-11-12T10:24:49-03:00",
-                      "fechadoEm":  "2026-02-02T14:59:10-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27166692,
-                      "nome":  "Lead #27166692",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-12T09:11:35-03:00",
-                      "atualizadoEm":  "2026-11-12T10:28:25-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26901522,
                       "nome":  "Lead #26901522",
                       "pipelineId":  "9334023",
@@ -81649,27 +81586,6 @@
                       "atualizadoEm":  "2026-11-12T10:33:02-03:00",
                       "fechadoEm":  "2026-10-21T16:51:33-03:00",
                       "reconciliacaoHistorica":  "SEM_CLIENTE_SHOP9",
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27166868,
-                      "nome":  "Lead #27166868",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-12T09:29:43-03:00",
-                      "atualizadoEm":  "2026-11-12T10:38:21-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
                   {
@@ -81710,27 +81626,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-11-12T10:47:41-03:00",
                       "atualizadoEm":  "2026-11-12T10:47:41-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27167316,
-                      "nome":  "Lead #27167316",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-12T10:25:36-03:00",
-                      "atualizadoEm":  "2026-11-12T10:52:44-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -81836,6 +81731,153 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-11-12T11:16:27-03:00",
                       "atualizadoEm":  "2026-11-12T11:16:27-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27167958,
+                      "nome":  "Lead #27167958",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T11:30:28-03:00",
+                      "atualizadoEm":  "2026-11-12T11:34:48-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27167316,
+                      "nome":  "Lead #27167316",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T10:25:36-03:00",
+                      "atualizadoEm":  "2026-11-12T11:53:28-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27168046,
+                      "nome":  "Lead #27168046",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T11:40:34-03:00",
+                      "atualizadoEm":  "2026-11-12T11:54:24-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  25891132,
+                      "nome":  "Boltbras Fixadores Ltda",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  10345,
+                      "cliente":  "Boltbras Fixadores Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO SHELL TELLUS SV 32 TB 209",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-06-23T15:18:11-03:00",
+                      "atualizadoEm":  "2026-11-12T12:05:48-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  23885935,
+                      "nome":  "Autolead: Lead #23833547",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  1739,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-12-12T11:40:53-03:00",
+                      "atualizadoEm":  "2026-11-12T12:06:08-03:00",
+                      "fechadoEm":  "2026-02-02T14:59:10-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27167996,
+                      "nome":  "Lead #27167996",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T11:35:17-03:00",
+                      "atualizadoEm":  "2026-11-12T12:09:17-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27168290,
+                      "nome":  "Lead #27168290",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T12:08:28-03:00",
+                      "atualizadoEm":  "2026-11-12T12:14:24-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
