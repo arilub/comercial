@@ -390,6 +390,21 @@
         "unidade":  "BD"
     },
     {
+        "produto_id":  130,
+        "codigo":  "1001967V",
+        "produto":  "GL5 85W140 1L LUBRAX",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  15,
+        "grupo":  "45%",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  10003,
+        "fabricante":  "LuBRax",
+        "unidade_id":  10015,
+        "unidade":  "LT"
+    },
+    {
         "produto_id":  135,
         "codigo":  "1001992",
         "produto":  "GL5 90 20L LUBRAX",
