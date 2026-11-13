@@ -8875,5 +8875,16 @@
         "fisica_juridica":  "F",
         "inativo":  false,
         "data_cadastro":  "2026-11-12"
+    },
+    {
+        "cliente_id":  93352,
+        "codigo_shop9":  5010,
+        "cliente_nome":  "Marfaloc Express Locacao De Maquinas E Equipamentos Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-13"
     }
 ]
