@@ -105692,7 +105692,7 @@
         "apagado":  false,
         "invalido":  false,
         "orcamento_mantido":  false,
-        "motivo_cancelamento_orcamento":  0,
+        "motivo_cancelamento_orcamento":  1,
         "referencia_interna":  null
     },
     {
@@ -106460,7 +106460,7 @@
         "apagado":  false,
         "invalido":  false,
         "orcamento_mantido":  false,
-        "motivo_cancelamento_orcamento":  0,
+        "motivo_cancelamento_orcamento":  4,
         "referencia_interna":  null
     },
     {
@@ -109192,8 +109192,8 @@
         "cliente_id":  93352,
         "vendedor_id":  17,
         "vendedor_origem":  "MARITZA FABIANA LIMA E SILVA ",
-        "valor_documento":  711.5300,
-        "valor_sem_desconto":  711.5300,
+        "valor_documento":  175.0000,
+        "valor_sem_desconto":  175.0000,
         "desconto_valor":  0.0000,
         "acrescimo_valor":  0.0000,
         "frete_valor":  0.0000,
