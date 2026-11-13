@@ -8886,5 +8886,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-13"
+    },
+    {
+        "cliente_id":  93353,
+        "codigo_shop9":  5011,
+        "cliente_nome":  "Cw Mult Service E Comercio Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-13"
     }
 ]
