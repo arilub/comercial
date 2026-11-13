@@ -9587,7 +9587,7 @@
         "tipo_operacao":  "VND",
         "vendedor_id":  17,
         "quantidade_documentos":  40,
-        "valor_total":  62622.1500
+        "valor_total":  63073.4900
     },
     {
         "mes":  "2026-11",
@@ -9600,8 +9600,8 @@
         "mes":  "2026-11",
         "tipo_operacao":  "VND",
         "vendedor_id":  1114,
-        "quantidade_documentos":  3,
-        "valor_total":  73612.0000
+        "quantidade_documentos":  4,
+        "valor_total":  75277.7000
     },
     {
         "mes":  "2026-11",
