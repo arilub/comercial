@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-13T07:29:37-03:00",
+                 "geradoEm":  "2026-11-13T08:30:10-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -10,11 +10,11 @@
              },
     "totalLeads":  3837,
     "porEtapa":  {
-                     "Venda perdida":  1325,
-                     "Venda ganha":  978,
+                     "Venda perdida":  1326,
+                     "Venda ganha":  977,
                      "Cliente Ativo":  596,
-                     "NegociaÃ§Ã£o":  567,
-                     "Chegada do Lead":  202,
+                     "NegociaÃ§Ã£o":  568,
+                     "Chegada do Lead":  201,
                      "Nova Sondagem":  163,
                      "Vencedor - OF":  3,
                      "Classificado":  2,
@@ -26,13 +26,13 @@
                           "funil":  "Funil Fabiana",
                           "leads":  2123,
                           "ganhos":  467,
-                          "perdidos":  1008
+                          "perdidos":  1009
                       },
                       {
                           "pipelineId":  "9473539",
                           "funil":  "PositivaÃ§Ã£o - Fabiana",
                           "leads":  1679,
-                          "ganhos":  490,
+                          "ganhos":  489,
                           "perdidos":  308
                       },
                       {
@@ -44,17 +44,17 @@
                       }
                   ],
     "vendas":  {
-                   "ganhosQtd":  978,
-                   "ganhosValor":  2525535,
-                   "perdidosQtd":  1325,
+                   "ganhosQtd":  977,
+                   "ganhosValor":  2522850,
+                   "perdidosQtd":  1326,
                    "perdidosValor":  5084486,
-                   "ticketMedio":  2582.35,
+                   "ticketMedio":  2582.24,
                    "porAtendente":  {
                                         "Fabiana":  {
                                                         "totalLeads":  368,
-                                                        "ganhosQtd":  127,
+                                                        "ganhosQtd":  126,
                                                         "perdidosQtd":  11,
-                                                        "ganhosValor":  320521
+                                                        "ganhosValor":  317836
                                                     },
                                         "Erico-Inativo":  {
                                                               "totalLeads":  7,
@@ -77,8 +77,8 @@
                                              },
                             "Lubrificantes":  {
                                                   "totalLeads":  261,
-                                                  "ganhosQtd":  89,
-                                                  "ganhosValor":  222862
+                                                  "ganhosQtd":  88,
+                                                  "ganhosValor":  220177
                                               },
                             "Polipropileno":  {
                                                   "totalLeads":  1,
@@ -100,10 +100,10 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "OLEO 68 ECONOLINE",
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  798
+                                     "ganhosValor":  411
                                  },
                                  {
                                      "nome":  "gear 220 vr lub",
@@ -112,10 +112,10 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  411
+                                     "ganhosValor":  798
                                  },
                                  {
                                      "nome":  "graxa azul karter 20 kg",
@@ -154,31 +154,19 @@
                                      "ganhosValor":  0
                                  },
                                  {
+                                     "nome":  "GRAXA AZUL 1KG",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "FILTRO DE COMBUSTIVEL TECFIL",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo 68 vr lub, 250 e graxa 20 kg vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  3332
-                                 },
-                                 {
-                                     "nome":  "MOBIL 4T 20W50 24X01 LITRO",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo aw68 vr lub e aditivo valvoline roseo",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  5406
-                                 },
-                                 {
-                                     "nome":  "GRAXA AZUL 1KG",
+                                     "nome":  "aw 68 e comsor ac 150 vr luub",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -190,19 +178,19 @@
                                      "ganhosValor":  937
                                  },
                                  {
-                                     "nome":  "CH4 20W50 BD 20L UNI",
+                                     "nome":  "oleo aw68 vr lub e aditivo valvoline roseo",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  5406
+                                 },
+                                 {
+                                     "nome":  "GRAXA AZUL 20 KG KARTER E OLEO 46 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "BD DE OLEO 68 ECONOLINE",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  4219
-                                 },
-                                 {
-                                     "nome":  "FILTROS MANN FILTER/TECFIL",
+                                     "nome":  "oleo hidraulico 32 uni bd 20l",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -212,34 +200,46 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "FILTROS MANN FILTER/TECFIL",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "CH4 20W50 BD 20L UNI",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6203,
-                                     "valorTotal":  22931851.97,
+                                     "total":  6204,
+                                     "valorTotal":  22933680.47,
                                      "convertidos":  2440,
                                      "cancelados":  382,
-                                     "recente":  25,
+                                     "recente":  26,
                                      "acompanhamento":  25,
                                      "atencao":  58,
                                      "envelhecido":  3059,
-                                     "taxaConversao":  0.3934
+                                     "taxaConversao":  0.3933
                                  },
                   "vendas":  {
-                                 "total":  63073,
-                                 "valorTotal":  42696180.44,
-                                 "ticketMedio":  676.93,
-                                 "semOrc":  60633,
-                                 "valorSemOrc":  38237454.93
+                                 "total":  63074,
+                                 "valorTotal":  42696320.44,
+                                 "ticketMedio":  676.92,
+                                 "semOrc":  60634,
+                                 "valorSemOrc":  38237594.93
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  31,
-                       "reconciliacaoHistorica":  85,
+                       "vinculoDefinitivoLeadId":  32,
+                       "reconciliacaoHistorica":  84,
                        "forteProvisorio":  16,
-                       "provavel":  69,
+                       "provavel":  68,
                        "ambiguo":  1,
                        "documentoAmbiguo":  1,
                        "semClienteShop9":  12,
@@ -847,20 +847,6 @@
                                   "valorKommo":  1080,
                                   "valorShop9":  1080.00,
                                   "diferencaPct":  0
-                              },
-                              {
-                                  "leadId":  26481794,
-                                  "pipelineId":  "9473539",
-                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
-                                  "classificacao":  "PROVAVEL",
-                                  "clienteShop9":  "Fortlog Comercio E Servicos De Pecas Para Maquinas Ltda",
-                                  "vendaOrdem":  438490,
-                                  "fechamentoKommo":  "2026-10-19",
-                                  "dataVenda":  "2026-10-19",
-                                  "diasDiferenca":  0,
-                                  "valorKommo":  2685,
-                                  "valorShop9":  2685.20,
-                                  "diferencaPct":  0.0074
                               },
                               {
                                   "leadId":  26740492,
@@ -73420,27 +73406,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26481794,
-                      "nome":  "Autolead: Lead #26433428",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  2685,
-                      "cliente":  "Fortlog Comercio E Servicos De Pecas Para Maquinas Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo atf 20l vr lub",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-08-21T10:39:35-03:00",
-                      "atualizadoEm":  "2026-10-19T13:30:21-03:00",
-                      "fechadoEm":  "2026-10-19T13:30:21-03:00",
-                      "reconciliacaoHistorica":  "PROVAVEL",
-                      "vendaShop9":  438490
-                  },
-                  {
                       "id":  16040286,
                       "nome":  "Lead #16040286",
                       "pipelineId":  "9334023",
@@ -81799,27 +81764,6 @@
                       "vendaShop9":  438197
                   },
                   {
-                      "id":  27169782,
-                      "nome":  "Lead #27169782",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-12T15:00:09-03:00",
-                      "atualizadoEm":  "2026-11-12T16:04:29-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  21516291,
                       "nome":  "Autolead: Lead #18346761",
                       "pipelineId":  "9473539",
@@ -81925,48 +81869,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26433428,
-                      "nome":  "Lead #26433428",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  1074,
-                      "cliente":  "Fortlog Comercio E Servicos De Pecas Para Maquinas Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-08-17T17:30:33-03:00",
-                      "atualizadoEm":  "2026-11-12T17:18:08-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27166568,
-                      "nome":  "Lead #27166568",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-12T08:52:54-03:00",
-                      "atualizadoEm":  "2026-11-12T17:34:16-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  26315796,
                       "nome":  "Residencial Lagoa I Spe Ltda",
                       "pipelineId":  "9334023",
@@ -82009,6 +81911,48 @@
                       "vendaShop9":  null
                   },
                   {
+                      "id":  26433428,
+                      "nome":  "Lead #26433428",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1074,
+                      "cliente":  "Fortlog Comercio E Servicos De Pecas Para Maquinas Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-08-17T17:30:33-03:00",
+                      "atualizadoEm":  "2026-11-13T08:03:05-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26481794,
+                      "nome":  "Fortlog Comercio E Servicos De Pecas Para Maquinas LtdaAutolead: Lead #26433428",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1828,
+                      "cliente":  "Fortlog Comercio E Servicos De Pecas Para Maquinas Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO GL4 10W30 VR LUB",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-08-21T10:39:35-03:00",
+                      "atualizadoEm":  "2026-11-13T08:04:35-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
                       "id":  23885935,
                       "nome":  "Autolead: Lead #23833547",
                       "pipelineId":  "9473539",
@@ -82024,8 +81968,50 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2025-12-12T11:40:53-03:00",
-                      "atualizadoEm":  "2026-11-13T07:12:31-03:00",
+                      "atualizadoEm":  "2026-11-13T08:08:07-03:00",
                       "fechadoEm":  "2026-02-02T14:59:10-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27169782,
+                      "nome":  "Lead #27169782",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T15:00:09-03:00",
+                      "atualizadoEm":  "2026-11-13T08:10:05-03:00",
+                      "fechadoEm":  "2026-11-13T08:10:04-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27166568,
+                      "nome":  "Lead #27166568",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T08:52:54-03:00",
+                      "atualizadoEm":  "2026-11-13T08:19:21-03:00",
+                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
