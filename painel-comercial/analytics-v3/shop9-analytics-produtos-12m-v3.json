@@ -3600,6 +3600,21 @@
         "unidade":  "UND"
     },
     {
+        "produto_id":  51806,
+        "codigo":  "1002048",
+        "produto":  "LUBRAX TRM 4 90 - BD 20 L",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  39,
+        "grupo":  "V65",
+        "familia_id":  11,
+        "familia":  "VENDA CASADA",
+        "fabricante_id":  10003,
+        "fabricante":  "LuBRax",
+        "unidade_id":  10002,
+        "unidade":  "BD"
+    },
+    {
         "produto_id":  51807,
         "codigo":  "WK723",
         "produto":  "FILTRO COMB BLIND AGRALE/CUMMINS/MWM (PSC72/2)",
