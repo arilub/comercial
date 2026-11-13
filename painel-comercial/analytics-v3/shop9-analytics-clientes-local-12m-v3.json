@@ -3322,17 +3322,6 @@
         "data_cadastro":  "2024-11-06"
     },
     {
-        "cliente_id":  82229,
-        "codigo_shop9":  2463,
-        "cliente_nome":  "FASF SERVICOS E INSTALACOES LTDA",
-        "fantasia":  "F A INSTALACOES",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2024-11-18"
-    },
-    {
         "cliente_id":  82230,
         "codigo_shop9":  2462,
         "cliente_nome":  "ANTONIO VANDEILTON COSTA OLIVEIRA",
