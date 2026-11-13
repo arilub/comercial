@@ -2,18 +2,18 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-13T08:30:10-03:00",
+                 "geradoEm":  "2026-11-13T09:29:44-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3837,
+    "totalLeads":  3838,
     "porEtapa":  {
                      "Venda perdida":  1326,
                      "Venda ganha":  977,
                      "Cliente Ativo":  596,
-                     "NegociaÃ§Ã£o":  568,
+                     "NegociaÃ§Ã£o":  569,
                      "Chegada do Lead":  201,
                      "Nova Sondagem":  163,
                      "Vencedor - OF":  3,
@@ -24,7 +24,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2123,
+                          "leads":  2124,
                           "ganhos":  467,
                           "perdidos":  1009
                       },
@@ -51,7 +51,7 @@
                    "ticketMedio":  2582.24,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  368,
+                                                        "totalLeads":  369,
                                                         "ganhosQtd":  126,
                                                         "perdidosQtd":  11,
                                                         "ganhosValor":  317836
@@ -66,8 +66,8 @@
                },
     "porOrigem":  {
                       "WhatsApp":  183,
-                      "Telefone":  2,
-                      "E-mail":  1
+                      "E-mail":  2,
+                      "Telefone":  2
                   },
     "porLinhaProduto":  {
                             "Geral/Outros":  {
@@ -76,7 +76,7 @@
                                                  "ganhosValor":  57369
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  261,
+                                                  "totalLeads":  262,
                                                   "ganhosQtd":  88,
                                                   "ganhosValor":  220177
                                               },
@@ -100,10 +100,10 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  411
+                                     "ganhosValor":  798
                                  },
                                  {
                                      "nome":  "gear 220 vr lub",
@@ -112,19 +112,19 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO 68 ECONOLINE",
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  798
+                                     "ganhosValor":  411
                                  },
                                  {
-                                     "nome":  "graxa azul karter 20 kg",
+                                     "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
+                                     "nome":  "graxa azul karter 20 kg",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -154,13 +154,13 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 1KG",
+                                     "nome":  "oleo lubrax ci4 10w40",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "FILTRO DE COMBUSTIVEL TECFIL",
+                                     "nome":  "GRAXA AZUL 1KG",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -190,16 +190,16 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo hidraulico 32 uni bd 20l",
+                                     "nome":  "oleo all pm 20 bd 20 litros",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo all pm 20 bd 20 litros",
+                                     "nome":  "BD DE OLEO 68 ECONOLINE",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  4219
                                  },
                                  {
                                      "nome":  "FILTROS MANN FILTER/TECFIL",
@@ -217,26 +217,26 @@
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6204,
-                                     "valorTotal":  22933680.47,
+                                     "total":  6205,
+                                     "valorTotal":  22934404.39,
                                      "convertidos":  2440,
-                                     "cancelados":  382,
-                                     "recente":  26,
-                                     "acompanhamento":  25,
+                                     "cancelados":  383,
+                                     "recente":  27,
+                                     "acompanhamento":  24,
                                      "atencao":  58,
                                      "envelhecido":  3059,
-                                     "taxaConversao":  0.3933
+                                     "taxaConversao":  0.3932
                                  },
                   "vendas":  {
-                                 "total":  63074,
-                                 "valorTotal":  42696320.44,
-                                 "ticketMedio":  676.92,
-                                 "semOrc":  60634,
-                                 "valorSemOrc":  38237594.93
+                                 "total":  63075,
+                                 "valorTotal":  42732462.44,
+                                 "ticketMedio":  677.49,
+                                 "semOrc":  60635,
+                                 "valorSemOrc":  38273736.93
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  32,
+                       "vinculoDefinitivoLeadId":  33,
                        "reconciliacaoHistorica":  84,
                        "forteProvisorio":  16,
                        "provavel":  68,
@@ -81953,27 +81953,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  23885935,
-                      "nome":  "Autolead: Lead #23833547",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  1739,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-12-12T11:40:53-03:00",
-                      "atualizadoEm":  "2026-11-13T08:08:07-03:00",
-                      "fechadoEm":  "2026-02-02T14:59:10-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27169782,
                       "nome":  "Lead #27169782",
                       "pipelineId":  "9334023",
@@ -81995,8 +81974,8 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27166568,
-                      "nome":  "Lead #27166568",
+                      "id":  27173126,
+                      "nome":  "Lead #27173126",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
                       "statusId":  "72324135",
@@ -82009,9 +81988,51 @@
                       "linhaProduto":  null,
                       "origem":  null,
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-11-12T08:52:54-03:00",
-                      "atualizadoEm":  "2026-11-13T08:19:21-03:00",
+                      "criadoEm":  "2026-11-13T08:37:12-03:00",
+                      "atualizadoEm":  "2026-11-13T08:37:12-03:00",
                       "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27166568,
+                      "nome":  "NEUTAC SOLUCOES INDUSTRIAIS LTDA",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  724,
+                      "cliente":  null,
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "91563",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "E-mail",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-12T08:52:54-03:00",
+                      "atualizadoEm":  "2026-11-13T09:06:34-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  23885935,
+                      "nome":  "Autolead: Lead #23833547",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  1739,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-12-12T11:40:53-03:00",
+                      "atualizadoEm":  "2026-11-13T09:18:27-03:00",
+                      "fechadoEm":  "2026-02-02T14:59:10-03:00",
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
