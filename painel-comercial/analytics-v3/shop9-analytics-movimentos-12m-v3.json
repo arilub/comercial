@@ -105308,7 +105308,7 @@
         "apagado":  false,
         "invalido":  false,
         "orcamento_mantido":  false,
-        "motivo_cancelamento_orcamento":  0,
+        "motivo_cancelamento_orcamento":  1,
         "referencia_interna":  null
     },
     {
@@ -105340,7 +105340,7 @@
         "apagado":  false,
         "invalido":  false,
         "orcamento_mantido":  false,
-        "motivo_cancelamento_orcamento":  0,
+        "motivo_cancelamento_orcamento":  11,
         "referencia_interna":  null
     },
     {
@@ -105532,7 +105532,7 @@
         "apagado":  false,
         "invalido":  false,
         "orcamento_mantido":  false,
-        "motivo_cancelamento_orcamento":  0,
+        "motivo_cancelamento_orcamento":  4,
         "referencia_interna":  null
     },
     {
@@ -106073,7 +106073,7 @@
         "data_passou_efetivacao_estoque":  null,
         "data_passou_desefetivacao_estoque":  null,
         "funcionario_desefetivacao_id":  null,
-        "apagado":  false,
+        "apagado":  true,
         "invalido":  false,
         "orcamento_mantido":  false,
         "motivo_cancelamento_orcamento":  0,
@@ -108958,5 +108958,37 @@
         "orcamento_mantido":  false,
         "motivo_cancelamento_orcamento":  0,
         "referencia_interna":  null
+    },
+    {
+        "movimento_id":  438784,
+        "tipo_operacao":  "VND",
+        "venda_realizada_valida":  true,
+        "data_movimento":  "2026-11-13",
+        "data_criacao":  "2026-11-13 10:14:59",
+        "cliente_id":  93339,
+        "vendedor_id":  17,
+        "vendedor_origem":  "MARITZA FABIANA LIMA E SILVA ",
+        "valor_documento":  843.7200,
+        "valor_sem_desconto":  843.7200,
+        "desconto_valor":  0.0000,
+        "acrescimo_valor":  0.0000,
+        "frete_valor":  0.0000,
+        "despesa_acessoria":  0.0000,
+        "ordem_operacao":  252,
+        "ordem_filial":  1,
+        "efetivado_estoque":  true,
+        "efetivado_financeiro":  true,
+        "data_efetivado_estoque":  "2026-11-13T10:15:31",
+        "data_efetivado_financeiro":  "2026-11-13T10:15:31",
+        "data_desefetivado_estoque":  null,
+        "data_desefetivado_financeiro":  null,
+        "data_passou_efetivacao_estoque":  "2026-11-13T10:15:31",
+        "data_passou_desefetivacao_estoque":  null,
+        "funcionario_desefetivacao_id":  null,
+        "apagado":  false,
+        "invalido":  false,
+        "orcamento_mantido":  false,
+        "motivo_cancelamento_orcamento":  0,
+        "referencia_interna":  "27085438"
     }
 ]
