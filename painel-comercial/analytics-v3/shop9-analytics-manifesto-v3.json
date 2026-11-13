@@ -1,6 +1,6 @@
 {
     "versao":  "shop9-analytics-v3.0.0-homolog-local",
-    "gerado_em":  "2026-11-13T11:29:52",
+    "gerado_em":  "2026-11-13T12:29:37",
     "fonte":  "Snapshots locais da aquisicao central Shop9 V3",
     "modo":  "processamento_local_zero_sql_zero_rede",
     "janela_detalhada":  {
@@ -15,13 +15,13 @@
     "arquivos":  {
                      "movimentos":  {
                                         "arquivo":  "shop9-analytics-movimentos-12m-v3.json",
-                                        "registros":  3413,
+                                        "registros":  3414,
                                         "tamanho_mb":  4.02,
                                         "duracao_seg":  0.21
                                     },
                      "itens":  {
                                    "arquivo":  "shop9-analytics-itens-12m-v3.json",
-                                   "registros":  5050,
+                                   "registros":  5051,
                                    "tamanho_mb":  2.56,
                                    "duracao_seg":  0.16
                                },
@@ -39,7 +39,7 @@
                                   },
                      "links":  {
                                    "arquivo":  "shop9-analytics-orc-vnd-12m-v3.json",
-                                   "registros":  761,
+                                   "registros":  762,
                                    "tamanho_mb":  0.11,
                                    "duracao_seg":  0.01
                                },
@@ -53,7 +53,7 @@
                                        "arquivo":  "shop9-analytics-historico-mensal-v3.json",
                                        "registros":  1373,
                                        "tamanho_mb":  0.24,
-                                       "duracao_seg":  0.04
+                                       "duracao_seg":  0.03
                                    }
                  },
     "regras":  {
