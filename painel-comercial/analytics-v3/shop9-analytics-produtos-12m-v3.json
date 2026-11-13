@@ -2370,6 +2370,21 @@
         "unidade":  "BD"
     },
     {
+        "produto_id":  20540,
+        "codigo":  "1FFS01",
+        "produto":  "RELE F.F S/NEUTRO 0,5S 220-380V 60HZ ALTRONIC",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  24711,
+        "fabricante":  "ALTRONIC",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  26636,
         "codigo":  "LV0001",
         "produto":  "ADITIVO OLEO MASTER OIL VR LUB 12X500ML",
@@ -9806,6 +9821,21 @@
         "familia":  "LICITACAO",
         "fabricante_id":  41047,
         "fabricante":  "LA FONTE",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
+        "produto_id":  65948,
+        "codigo":  "1RN01",
+        "produto":  "RELE CONTROLADOR DE NIVEL 220VCA 60HZ ALTRONIC",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  24711,
+        "fabricante":  "ALTRONIC",
         "unidade_id":  10030,
         "unidade":  "UN"
     },
