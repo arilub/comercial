@@ -880,6 +880,17 @@
         "data_cadastro":  "2015-08-04"
     },
     {
+        "cliente_id":  12960,
+        "codigo_shop9":  3176,
+        "cliente_nome":  "FUNDACAO CEARENSE DE APOIO AO DESENV CIENTIFICO E TECNOLOGIC",
+        "fantasia":  "FUCAP",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  true,
+        "data_cadastro":  "2015-08-11"
+    },
+    {
         "cliente_id":  13979,
         "codigo_shop9":  3188,
         "cliente_nome":  "Agencia De Desenvolvimento Do Estado Do Ceara Sa Adece",
@@ -8893,6 +8904,17 @@
         "cliente_nome":  "M \u0026 S Distribuidora De Alimentos Ltda",
         "fantasia":  "",
         "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-16"
+    },
+    {
+        "cliente_id":  93356,
+        "codigo_shop9":  5013,
+        "cliente_nome":  "17.010.023 Antonio Valderi De Lima",
+        "fantasia":  "",
+        "cidade":  "Solonópole",
         "uf":  "CE",
         "fisica_juridica":  "J",
         "inativo":  false,
