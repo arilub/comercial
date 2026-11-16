@@ -8886,5 +8886,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-13"
+    },
+    {
+        "cliente_id":  93354,
+        "codigo_shop9":  5012,
+        "cliente_nome":  "M \u0026 S Distribuidora De Alimentos Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-16"
     }
 ]
