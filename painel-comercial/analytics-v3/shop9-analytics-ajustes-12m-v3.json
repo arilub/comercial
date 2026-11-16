@@ -28,15 +28,5 @@
         "valor_itens":  1862.4000,
         "ajuste_documental":  186.2400,
         "tipo_ajuste":  "AJUSTE_NAO_ATRIBUIDO"
-    },
-    {
-        "movimento_id":  438807,
-        "tipo_operacao":  "ORC",
-        "venda_realizada_valida":  false,
-        "data_movimento":  "2026-11-16",
-        "valor_documento":  565.3900,
-        "valor_itens":  1313.6300,
-        "ajuste_documental":  -748.2400,
-        "tipo_ajuste":  "AJUSTE_NAO_ATRIBUIDO"
     }
 ]
