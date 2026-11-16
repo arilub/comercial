@@ -8919,5 +8919,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-16"
+    },
+    {
+        "cliente_id":  93357,
+        "codigo_shop9":  5014,
+        "cliente_nome":  "Ducoco Produtos Alimenticios S/A Em",
+        "fantasia":  "",
+        "cidade":  "Itapipoca",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-16"
     }
 ]
