@@ -3480,6 +3480,21 @@
         "unidade":  "UN"
     },
     {
+        "produto_id":  51727,
+        "codigo":  "WEB1080P",
+        "produto":  "WEBCAM FULL HD 1080P USB COM MICROFONE INTEGRADO",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  0,
+        "fabricante":  "Não Cadastrado",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  51732,
         "codigo":  "WOE626",
         "produto":  "FILTRO OLEO REFIL (PEL727)",
@@ -9748,6 +9763,21 @@
         "fabricante":  "TECFIL ",
         "unidade_id":  10030,
         "unidade":  "UN"
+    },
+    {
+        "produto_id":  65946,
+        "codigo":  "1520000001",
+        "produto":  "IMPRESSORA DE ETIQUETA ZEBRA ZD230  ",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  8,
+        "grupo":  "SEM MARGEM DEFINIDA",
+        "familia_id":  4,
+        "familia":  "LICITACAO",
+        "fabricante_id":  35867,
+        "fabricante":  "ZEBRA",
+        "unidade_id":  10031,
+        "unidade":  "UND"
     },
     {
         "produto_id":  65947,
