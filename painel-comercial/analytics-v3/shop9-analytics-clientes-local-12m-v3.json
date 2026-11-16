@@ -3443,6 +3443,17 @@
         "data_cadastro":  "2025-01-14"
     },
     {
+        "cliente_id":  86293,
+        "codigo_shop9":  2398,
+        "cliente_nome":  "Fernando R De Figueiredo Auto Center",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2025-01-15"
+    },
+    {
         "cliente_id":  86296,
         "codigo_shop9":  2396,
         "cliente_nome":  "Industria E Metalurgica Aurorense Ltda",
