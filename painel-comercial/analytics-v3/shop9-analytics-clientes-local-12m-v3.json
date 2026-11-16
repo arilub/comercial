@@ -4092,17 +4092,6 @@
         "data_cadastro":  "2025-11-13"
     },
     {
-        "cliente_id":  92781,
-        "codigo_shop9":  4518,
-        "cliente_nome":  "Jose Nilton Barbosa De Abreu Filho 61371429308",
-        "fantasia":  "",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-14"
-    },
-    {
         "cliente_id":  92783,
         "codigo_shop9":  4519,
         "cliente_nome":  "C B Locacoes Ltda",
