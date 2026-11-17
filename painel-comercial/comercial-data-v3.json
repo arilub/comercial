@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-17T14:30:28-03:00",
+                 "geradoEm":  "2026-11-17T15:32:07-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -10,12 +10,12 @@
              },
     "totalLeads":  3860,
     "porEtapa":  {
-                     "Venda perdida":  1331,
+                     "Venda perdida":  1330,
                      "Venda ganha":  983,
                      "Cliente Ativo":  597,
-                     "NegociaÃ§Ã£o":  568,
+                     "NegociaÃ§Ã£o":  570,
                      "Chegada do Lead":  209,
-                     "Nova Sondagem":  163,
+                     "Nova Sondagem":  162,
                      "Vencedor - OF":  3,
                      "Contato Inicial":  3,
                      "Classificado":  2,
@@ -27,7 +27,7 @@
                           "funil":  "Funil Fabiana",
                           "leads":  2142,
                           "ganhos":  470,
-                          "perdidos":  1013
+                          "perdidos":  1012
                       },
                       {
                           "pipelineId":  "9473539",
@@ -47,12 +47,12 @@
     "vendas":  {
                    "ganhosQtd":  983,
                    "ganhosValor":  2530538,
-                   "perdidosQtd":  1331,
-                   "perdidosValor":  5106989,
+                   "perdidosQtd":  1330,
+                   "perdidosValor":  5099156,
                    "ticketMedio":  2574.30,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  383,
+                                                        "totalLeads":  385,
                                                         "ganhosQtd":  133,
                                                         "perdidosQtd":  16,
                                                         "ganhosValor":  325611
@@ -60,7 +60,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  197,
+                      "WhatsApp":  199,
                       "E-mail":  2,
                       "Telefone":  2
                   },
@@ -71,7 +71,7 @@
                                                  "ganhosValor":  57369
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  273,
+                                                  "totalLeads":  275,
                                                   "ganhosQtd":  95,
                                                   "ganhosValor":  227952
                                               },
@@ -95,46 +95,10 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  2,
-                                     "ganhosValor":  737
-                                 },
-                                 {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  411
-                                 },
-                                 {
-                                     "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
                                      "nome":  "oleo ectron 68 bd 20l",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  753
-                                 },
-                                 {
-                                     "nome":  "gear 220 vr lub",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "ROLAMENTOS",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  14659
-                                 },
-                                 {
-                                     "nome":  "graxa azul karter 20 kg",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "GRAXA GRAFITADA",
@@ -143,37 +107,49 @@
                                      "ganhosValor":  0
                                  },
                                  {
+                                     "nome":  "GRAXA AZUL 10KG",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "gear 220 vr lub",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "graxa azul karter 20 kg",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  411
+                                 },
+                                 {
+                                     "nome":  "ROLAMENTOS",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  14659
+                                 },
+                                 {
                                      "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  798
                                  },
                                  {
-                                     "nome":  "OLEO AG 220 E GRAXA BARDAHL/ graxa chassis 170kg",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "nome":  "GRAXA CHASSIS 10KG VR LUB",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  2,
+                                     "ganhosValor":  737
                                  },
                                  {
                                      "nome":  "shell tellus s2 68 tb 209 litros",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "ECTRO 68 BD 20L",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "GRAXA AZUL 1KG",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo 15w40",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -185,13 +161,25 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "ECTRON 68 VR LUN 20L",
+                                     "nome":  "ECTRO 68 BD 20L",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 20 KG KARTER E OLEO 46 VR LUB",
+                                     "nome":  "oleo 5w30 sl, 5w40 sn WO545 E PSL 55",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "oleo ac 150 vr lub",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  701
+                                 },
+                                 {
+                                     "nome":  "oleo 15w40",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -203,42 +191,54 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "oleo aw68 vr lub e aditivo valvoline roseo",
+                                     "nome":  "gear 220 e atf bd 20l",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  5406
+                                     "ganhosValor":  1111
+                                 },
+                                 {
+                                     "nome":  "graxa azul 20 kg karter",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  937
+                                 },
+                                 {
+                                     "nome":  "GRAXA AZUL 20 KG KARTER E OLEO 46 VR LUB",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6223,
-                                     "valorTotal":  22969291.65,
-                                     "convertidos":  2448,
+                                     "total":  6224,
+                                     "valorTotal":  22969668.05,
+                                     "convertidos":  2447,
                                      "cancelados":  388,
                                      "recente":  26,
                                      "acompanhamento":  19,
                                      "atencao":  50,
                                      "envelhecido":  3076,
-                                     "taxaConversao":  0.3934
+                                     "taxaConversao":  0.3932
                                  },
                   "vendas":  {
-                                 "total":  63098,
-                                 "valorTotal":  42754641.85,
-                                 "ticketMedio":  677.59,
+                                 "total":  63097,
+                                 "valorTotal":  42753292.53,
+                                 "ticketMedio":  677.58,
                                  "semOrc":  60650,
                                  "valorSemOrc":  38287515.71
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  40,
-                       "reconciliacaoHistorica":  90,
+                       "vinculoDefinitivoLeadId":  42,
+                       "reconciliacaoHistorica":  89,
                        "forteProvisorio":  17,
-                       "provavel":  73,
+                       "provavel":  72,
                        "ambiguo":  1,
                        "documentoAmbiguo":  1,
                        "semClienteShop9":  12,
-                       "semVendaJanela":  7,
+                       "semVendaJanela":  8,
                        "valorNaoCompativel":  2
                    },
     "licitacoes":  {
@@ -1500,20 +1500,6 @@
                                   "valorKommo":  641,
                                   "valorShop9":  640.70,
                                   "diferencaPct":  0.0468
-                              },
-                              {
-                                  "leadId":  27199100,
-                                  "pipelineId":  "9334023",
-                                  "funil":  "Funil Fabiana",
-                                  "classificacao":  "PROVAVEL",
-                                  "clienteShop9":  "Mulher Talentosa Confeccao Ltda",
-                                  "vendaOrdem":  438829,
-                                  "fechamentoKommo":  "2026-11-17",
-                                  "dataVenda":  "2026-11-17",
-                                  "diasDiferenca":  0,
-                                  "valorKommo":  1349,
-                                  "valorShop9":  1349.32,
-                                  "diferencaPct":  0.0237
                               }
                           ],
     "leads":  [
@@ -4185,27 +4171,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  15980978,
-                      "nome":  "Autolead: MARCOM CL 4459",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  1128,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-29T16:01:48-03:00",
-                      "atualizadoEm":  "2025-02-27T14:17:54-03:00",
-                      "fechadoEm":  "2025-02-27T14:17:54-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  14543320,
                       "nome":  "Autolead: KAIC OCS",
                       "pipelineId":  "9473539",
@@ -4937,27 +4902,6 @@
                       "criadoEm":  "2025-04-02T14:45:36-03:00",
                       "atualizadoEm":  "2025-05-28T09:26:20-03:00",
                       "fechadoEm":  "2025-05-28T09:26:20-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  19935405,
-                      "nome":  "Autolead: MARCOM CL 4459",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  641,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-05-20T10:27:05-03:00",
-                      "atualizadoEm":  "2025-05-28T13:05:32-03:00",
-                      "fechadoEm":  "2025-05-28T13:05:32-03:00",
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
@@ -12648,27 +12592,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  11761828,
-                      "nome":  "Lead #11761828",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  1070,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2024-10-18T14:18:02-03:00",
-                      "atualizadoEm":  "2025-10-27T16:30:15-03:00",
-                      "fechadoEm":  "2024-10-25T15:14:48-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  11765184,
                       "nome":  "Lead #11765184",
                       "pipelineId":  "9334023",
@@ -19347,27 +19270,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  20227859,
-                      "nome":  "Autolead: MARCOM CL 4459",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  934,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-05-28T13:05:35-03:00",
-                      "atualizadoEm":  "2025-11-27T11:12:42-03:00",
-                      "fechadoEm":  "2025-11-27T11:12:42-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  20219185,
                       "nome":  "Autolead: Lead #18127024",
                       "pipelineId":  "9473539",
@@ -24530,27 +24432,6 @@
                       "criadoEm":  "2025-01-28T10:39:29-03:00",
                       "atualizadoEm":  "2025-12-02T08:40:30-03:00",
                       "fechadoEm":  "2025-11-27T09:24:24-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  15912562,
-                      "nome":  "MARCOM CL 4459",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  961,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-01-28T11:27:08-03:00",
-                      "atualizadoEm":  "2025-12-02T08:40:30-03:00",
-                      "fechadoEm":  "2025-05-20T10:27:01-03:00",
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
@@ -48784,27 +48665,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-02-19T12:16:32-03:00",
                       "atualizadoEm":  "2026-05-14T13:53:50-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  23861331,
-                      "nome":  "Lead #23861331",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206571",
-                      "etapa":  "Nova Sondagem",
-                      "valor":  915,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-12-10T10:57:08-03:00",
-                      "atualizadoEm":  "2026-05-14T14:17:21-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -82032,27 +81892,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  24926344,
-                      "nome":  "Lead #24926344",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  1146,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-03-17T14:29:12-03:00",
-                      "atualizadoEm":  "2026-11-16T16:39:10-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  22805393,
                       "nome":  "MAKRO ELEVADORES ELAINE",
                       "pipelineId":  "9473539",
@@ -82431,27 +82270,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27199032,
-                      "nome":  "Lead #27199032",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-17T10:43:13-03:00",
-                      "atualizadoEm":  "2026-11-17T11:45:39-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  27178804,
                       "nome":  "Lead #27178804",
                       "pipelineId":  "9334023",
@@ -82468,27 +82286,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-11-13T19:33:41-03:00",
                       "atualizadoEm":  "2026-11-17T11:56:20-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27199268,
-                      "nome":  "Lead #27199268",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-17T11:09:56-03:00",
-                      "atualizadoEm":  "2026-11-17T12:10:43-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -82511,8 +82308,8 @@
                       "criadoEm":  "2026-11-17T10:50:38-03:00",
                       "atualizadoEm":  "2026-11-17T13:48:45-03:00",
                       "fechadoEm":  "2026-11-17T13:06:51-03:00",
-                      "reconciliacaoHistorica":  "PROVAVEL",
-                      "vendaShop9":  438829
+                      "reconciliacaoHistorica":  "SEM_VENDA_JANELA",
+                      "vendaShop9":  null
                   },
                   {
                       "id":  27200238,
@@ -82561,9 +82358,135 @@
                       "nome":  "RODRIGO ALVES SS\u0026B CONSTRUTORA",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1687,
+                      "cliente":  "Sseb Construtora Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "olo 80w90 bd 20l valvoline",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-02-26T07:14:56-03:00",
+                      "atualizadoEm":  "2026-11-17T14:21:29-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  11761828,
+                      "nome":  "Lead #11761828",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
                       "statusId":  "143",
                       "etapa":  "Venda perdida",
-                      "valor":  7833,
+                      "valor":  1070,
+                      "cliente":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2024-10-18T14:18:02-03:00",
+                      "atualizadoEm":  "2026-11-17T14:50:56-03:00",
+                      "fechadoEm":  "2024-10-25T15:14:48-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15912562,
+                      "nome":  "MARCOM CL 4459",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  961,
+                      "cliente":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-28T11:27:08-03:00",
+                      "atualizadoEm":  "2026-11-17T14:50:56-03:00",
+                      "fechadoEm":  "2025-05-20T10:27:01-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  15980978,
+                      "nome":  "Autolead: MARCOM CL 4459",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  1128,
+                      "cliente":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-01-29T16:01:48-03:00",
+                      "atualizadoEm":  "2026-11-17T14:50:56-03:00",
+                      "fechadoEm":  "2025-02-27T14:17:54-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  19935405,
+                      "nome":  "Autolead: MARCOM CL 4459",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  641,
+                      "cliente":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-05-20T10:27:05-03:00",
+                      "atualizadoEm":  "2026-11-17T14:50:56-03:00",
+                      "fechadoEm":  "2025-05-28T13:05:32-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  20227859,
+                      "nome":  "Autolead: MARCOM CL 4459",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  934,
+                      "cliente":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-05-28T13:05:35-03:00",
+                      "atualizadoEm":  "2026-11-17T14:50:56-03:00",
+                      "fechadoEm":  "2025-11-27T11:12:42-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24926344,
+                      "nome":  "Lead #24926344",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1146,
                       "cliente":  null,
                       "atendente":  null,
                       "responsavelKommo":  "Fabiana",
@@ -82571,9 +82494,72 @@
                       "linhaProduto":  null,
                       "origem":  null,
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-02-26T07:14:56-03:00",
-                      "atualizadoEm":  "2026-11-17T14:18:29-03:00",
-                      "fechadoEm":  "2026-08-28T14:52:21-03:00",
+                      "criadoEm":  "2026-03-17T14:29:12-03:00",
+                      "atualizadoEm":  "2026-11-17T14:55:07-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27199032,
+                      "nome":  "Lead #27199032",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-17T10:43:13-03:00",
+                      "atualizadoEm":  "2026-11-17T14:58:51-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  23861331,
+                      "nome":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  376,
+                      "cliente":  "Marcom Comercio De Epis E Ferramentas Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "OLEO ECTRON 68 20L",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-12-10T10:57:08-03:00",
+                      "atualizadoEm":  "2026-11-17T14:59:16-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27199268,
+                      "nome":  "Lead #27199268",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-17T11:09:56-03:00",
+                      "atualizadoEm":  "2026-11-17T15:06:13-03:00",
+                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
