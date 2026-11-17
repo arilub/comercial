@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-17T13:30:56-03:00",
+                 "geradoEm":  "2026-11-17T14:30:28-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -12,10 +12,10 @@
     "porEtapa":  {
                      "Venda perdida":  1331,
                      "Venda ganha":  983,
-                     "Cliente Ativo":  598,
+                     "Cliente Ativo":  597,
                      "NegociaÃ§Ã£o":  568,
                      "Chegada do Lead":  209,
-                     "Nova Sondagem":  162,
+                     "Nova Sondagem":  163,
                      "Vencedor - OF":  3,
                      "Contato Inicial":  3,
                      "Classificado":  2,
@@ -46,16 +46,16 @@
                   ],
     "vendas":  {
                    "ganhosQtd":  983,
-                   "ganhosValor":  2530597,
+                   "ganhosValor":  2530538,
                    "perdidosQtd":  1331,
                    "perdidosValor":  5106989,
-                   "ticketMedio":  2574.36,
+                   "ticketMedio":  2574.30,
                    "porAtendente":  {
                                         "Fabiana":  {
                                                         "totalLeads":  383,
                                                         "ganhosQtd":  133,
                                                         "perdidosQtd":  16,
-                                                        "ganhosValor":  325670
+                                                        "ganhosValor":  325611
                                                     }
                                     }
                },
@@ -73,7 +73,7 @@
                             "Lubrificantes":  {
                                                   "totalLeads":  273,
                                                   "ganhosQtd":  95,
-                                                  "ganhosValor":  228011
+                                                  "ganhosValor":  227952
                                               },
                             "Polipropileno":  {
                                                   "totalLeads":  1,
@@ -212,33 +212,33 @@
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6222,
-                                     "valorTotal":  22967604.21,
-                                     "convertidos":  2447,
+                                     "total":  6223,
+                                     "valorTotal":  22969291.65,
+                                     "convertidos":  2448,
                                      "cancelados":  388,
-                                     "recente":  25,
+                                     "recente":  26,
                                      "acompanhamento":  19,
                                      "atencao":  50,
                                      "envelhecido":  3076,
-                                     "taxaConversao":  0.3933
+                                     "taxaConversao":  0.3934
                                  },
                   "vendas":  {
-                                 "total":  63097,
-                                 "valorTotal":  42753292.53,
-                                 "ticketMedio":  677.58,
+                                 "total":  63098,
+                                 "valorTotal":  42754641.85,
+                                 "ticketMedio":  677.59,
                                  "semOrc":  60650,
                                  "valorSemOrc":  38287515.71
                              }
               },
     "integracao":  {
                        "vinculoDefinitivoLeadId":  40,
-                       "reconciliacaoHistorica":  89,
+                       "reconciliacaoHistorica":  90,
                        "forteProvisorio":  17,
-                       "provavel":  72,
+                       "provavel":  73,
                        "ambiguo":  1,
                        "documentoAmbiguo":  1,
                        "semClienteShop9":  12,
-                       "semVendaJanela":  8,
+                       "semVendaJanela":  7,
                        "valorNaoCompativel":  2
                    },
     "licitacoes":  {
@@ -1500,6 +1500,20 @@
                                   "valorKommo":  641,
                                   "valorShop9":  640.70,
                                   "diferencaPct":  0.0468
+                              },
+                              {
+                                  "leadId":  27199100,
+                                  "pipelineId":  "9334023",
+                                  "funil":  "Funil Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Mulher Talentosa Confeccao Ltda",
+                                  "vendaOrdem":  438829,
+                                  "fechamentoKommo":  "2026-11-17",
+                                  "dataVenda":  "2026-11-17",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  1349,
+                                  "valorShop9":  1349.32,
+                                  "diferencaPct":  0.0237
                               }
                           ],
     "leads":  [
@@ -55789,27 +55803,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  24679222,
-                      "nome":  "RODRIGO ALVES SS\u0026B CONSTRUTORA",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "143",
-                      "etapa":  "Venda perdida",
-                      "valor":  7833,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-02-26T07:14:56-03:00",
-                      "atualizadoEm":  "2026-08-28T14:52:22-03:00",
-                      "fechadoEm":  "2026-08-28T14:52:21-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24731186,
                       "nome":  "Lead #24731186",
                       "pipelineId":  "9334023",
@@ -82417,27 +82410,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26012574,
-                      "nome":  "Patricia Sabino",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324139",
-                      "etapa":  "Contato Inicial",
-                      "valor":  673,
-                      "cliente":  null,
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-07-06T08:23:22-03:00",
-                      "atualizadoEm":  "2026-11-17T11:36:32-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24493824,
                       "nome":  "Lead #24493824",
                       "pipelineId":  "9473539",
@@ -82522,12 +82494,33 @@
                       "vendaShop9":  null
                   },
                   {
+                      "id":  27199100,
+                      "nome":  "Mulher Talentosa Confeccao Ltda",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  1349,
+                      "cliente":  "Mulher Talentosa Confeccao Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "dexron 3 valvoline litro",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-17T10:50:38-03:00",
+                      "atualizadoEm":  "2026-11-17T13:48:45-03:00",
+                      "fechadoEm":  "2026-11-17T13:06:51-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438829
+                  },
+                  {
                       "id":  27200238,
                       "nome":  "Autolead: Lead #27199100",
                       "pipelineId":  "9473539",
                       "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206567",
-                      "etapa":  "Cliente Ativo",
+                      "statusId":  "73206571",
+                      "etapa":  "Nova Sondagem",
                       "valor":  0,
                       "cliente":  "Mulher Talentosa Confeccao Ltda",
                       "atendente":  null,
@@ -82537,30 +82530,51 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-11-17T13:06:54-03:00",
-                      "atualizadoEm":  "2026-11-17T13:07:23-03:00",
+                      "atualizadoEm":  "2026-11-17T13:48:46-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27199100,
-                      "nome":  "Mulher Talentosa Confeccao Ltda",
+                      "id":  26012574,
+                      "nome":  "Patricia Sabino",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  1408,
-                      "cliente":  "Mulher Talentosa Confeccao Ltda",
+                      "statusId":  "72324139",
+                      "etapa":  "Contato Inicial",
+                      "valor":  673,
+                      "cliente":  null,
                       "atendente":  "Fabiana",
                       "responsavelKommo":  "Fabiana",
-                      "produto":  "dexron 3 valvoline litro",
-                      "linhaProduto":  "Lubrificantes",
+                      "produto":  null,
+                      "linhaProduto":  null,
                       "origem":  "WhatsApp",
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-11-17T10:50:38-03:00",
-                      "atualizadoEm":  "2026-11-17T13:07:51-03:00",
-                      "fechadoEm":  "2026-11-17T13:06:51-03:00",
-                      "reconciliacaoHistorica":  "SEM_VENDA_JANELA",
+                      "criadoEm":  "2026-07-06T08:23:22-03:00",
+                      "atualizadoEm":  "2026-11-17T14:06:57-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  24679222,
+                      "nome":  "RODRIGO ALVES SS\u0026B CONSTRUTORA",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "143",
+                      "etapa":  "Venda perdida",
+                      "valor":  7833,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-02-26T07:14:56-03:00",
+                      "atualizadoEm":  "2026-11-17T14:18:29-03:00",
+                      "fechadoEm":  "2026-08-28T14:52:21-03:00",
+                      "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
               ]
