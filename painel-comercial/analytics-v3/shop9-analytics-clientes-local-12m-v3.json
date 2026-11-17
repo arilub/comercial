@@ -8941,5 +8941,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-16"
+    },
+    {
+        "cliente_id":  93359,
+        "codigo_shop9":  5015,
+        "cliente_nome":  "Mulher Talentosa Confeccao Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-17"
     }
 ]
