@@ -2068,6 +2068,17 @@
         "data_cadastro":  "2023-05-18"
     },
     {
+        "cliente_id":  78497,
+        "codigo_shop9":  21049,
+        "cliente_nome":  "FRANCISCO HAMILTON DA SILVA MONTEIRO",
+        "fantasia":  "PIAUI SERVICOS E ENTREGAS",
+        "cidade":  "Caucaia",
+        "uf":  "CE",
+        "fisica_juridica":  "F",
+        "inativo":  false,
+        "data_cadastro":  "2023-05-24"
+    },
+    {
         "cliente_id":  78501,
         "codigo_shop9":  4205,
         "cliente_nome":  "F N Crespo Neto E Cia Ltda",
@@ -8941,5 +8952,38 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-17"
+    },
+    {
+        "cliente_id":  93362,
+        "codigo_shop9":  5018,
+        "cliente_nome":  "Gc Pneus E Acessorios Ltda",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-18"
+    },
+    {
+        "cliente_id":  93363,
+        "codigo_shop9":  5019,
+        "cliente_nome":  "Kmz Solution Ltda",
+        "fantasia":  "",
+        "cidade":  "Maracanaú",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-18"
+    },
+    {
+        "cliente_id":  93364,
+        "codigo_shop9":  5020,
+        "cliente_nome":  "63.706.408 Jailson Gomes Bezerra",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-18"
     }
 ]
