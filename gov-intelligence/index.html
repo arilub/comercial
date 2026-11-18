@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ARILUB · GOV Intelligence V0.6</title>
+<title>ARILUB · GOV Intelligence V0.7</title>
 <style>
 html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#F4F6F8}
 #app{border:0;width:100%;height:100%;display:block}
@@ -18,7 +18,7 @@ app.addEventListener('load',()=>{
   if(!d||d.getElementById('v04patched')) return;
 
   const mark=d.createElement('meta'); mark.id='v04patched'; d.head.appendChild(mark);
-  d.title='ARILUB · GOV Intelligence V0.6';
+  d.title='ARILUB · GOV Intelligence V0.7';
 
   const css=d.createElement('style');
   css.textContent=`
@@ -44,15 +44,16 @@ app.addEventListener('load',()=>{
   .confidence{display:inline-flex;align-items:center;gap:5px;font-size:9px;font-weight:800;padding:3px 7px;border-radius:10px;background:#eaf6ef;color:#176b40}
   .confidence.mid{background:#fff4d8;color:#875300}.confidence.low{background:#fdebec;color:#9b2525}
   .swot-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.swot-card{border:1px solid var(--ln);border-radius:10px;background:#fff;padding:14px}.swot-card h3{margin:0 0 8px;font-size:15px}.swot-card ul{margin:0;padding-left:18px}.swot-card li{margin:6px 0;font-size:12px;line-height:1.35}.swot-card.strength h3{color:#167447}.swot-card.weakness h3{color:#a35a00}.swot-card.opportunity h3{color:#245a91}.swot-card.threat h3{color:#a12b2b}.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.insight-card{background:#f8fbfe;border:1px solid var(--ln);border-radius:9px;padding:12px}.insight-card b{display:block;color:var(--n);margin-bottom:5px}.insight-card span{font-size:11px;color:var(--g);line-height:1.35;display:block}
-  @media(max-width:980px){.engineboard{grid-template-columns:repeat(2,1fr)}.hist-kpis,.risk-kpis{grid-template-columns:repeat(2,1fr)}.source-map{grid-template-columns:1fr}.insight-grid{grid-template-columns:1fr}}
-  @media(max-width:620px){.engineboard,.hist-kpis,.risk-kpis,.swot-grid{grid-template-columns:1fr}}
+  .risk-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.risk-card{border:1px solid var(--ln);background:#fff;border-radius:10px;padding:12px}.risk-card strong{font-size:13px}.risk-score{font-size:27px;font-weight:800;line-height:1;margin:8px 0 4px}.risk-note{font-size:10px;color:var(--g);line-height:1.3}.risk-pill{display:inline-block;font-size:9px;font-weight:800;padding:3px 7px;border-radius:10px}.risk-pill.low{background:#eaf6ef;color:#176b40}.risk-pill.mid{background:#fff4d8;color:#875300}.risk-pill.high{background:#fdebec;color:#9b2525}.risk-summary{display:grid;grid-template-columns:160px 1fr;gap:14px;align-items:center}.risk-total{border:1px solid var(--ln);border-radius:12px;padding:15px;text-align:center;background:#f8fbfe}.risk-total .n{font-size:44px;font-weight:800;color:var(--n)}
+  @media(max-width:980px){.engineboard{grid-template-columns:repeat(2,1fr)}.hist-kpis,.risk-kpis{grid-template-columns:repeat(2,1fr)}.source-map{grid-template-columns:1fr}.insight-grid{grid-template-columns:1fr}.risk-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:620px){.engineboard,.hist-kpis,.risk-kpis,.swot-grid,.risk-grid,.risk-summary{grid-template-columns:1fr}}
   `;
   d.head.appendChild(css);
 
   const badges=[...d.querySelectorAll('.header-badges .badge')];
   const vb=badges.find(x=>x.textContent.includes('V0.3'));
-  if(vb) vb.textContent='V0.6 · SIMULADO';
-  if(d.querySelector('footer')) d.querySelector('footer').textContent='ARILUB · GOV Intelligence · Protótipo V0.6 · SWOT Executiva + Insights + Risco de Recebimento';
+  if(vb) vb.textContent='V0.7 · SIMULADO';
+  if(d.querySelector('footer')) d.querySelector('footer').textContent='ARILUB · GOV Intelligence · Protótipo V0.7 · Cockpit de Risco + SWOT + Insights';
 
   const detailNav=d.querySelector('.nav button[data-v="detail"]');
   if(detailNav&&!d.querySelector('.nav button[data-v="history"]')){
@@ -64,8 +65,12 @@ app.addEventListener('load',()=>{
     const b=d.createElement('button'); b.dataset.v='paymentrisk'; b.textContent='Risco de Recebimento'; historyNav.after(b);
   }
   const paymentNav=d.querySelector('.nav button[data-v="paymentrisk"]');
-  if(paymentNav&&!d.querySelector('.nav button[data-v="swot"]')){
-    const b=d.createElement('button'); b.dataset.v='swot'; b.textContent='SWOT & Insights'; paymentNav.after(b);
+  if(paymentNav&&!d.querySelector('.nav button[data-v="riskcockpit"]')){
+    const b=d.createElement('button'); b.dataset.v='riskcockpit'; b.textContent='Cockpit de Risco'; paymentNav.after(b);
+  }
+  const riskNav=d.querySelector('.nav button[data-v="riskcockpit"]');
+  if(riskNav&&!d.querySelector('.nav button[data-v="swot"]')){
+    const b=d.createElement('button'); b.dataset.v='swot'; b.textContent='SWOT & Insights'; riskNav.after(b);
   }
 
   const detail=d.getElementById('detail');
@@ -144,7 +149,8 @@ app.addEventListener('load',()=>{
         <div class="meter"><span>Sourcing</span><div class="track"><div class="fill" style="width:93%"></div></div><b>93</b></div>
         <div class="meter"><span>Logística</span><div class="track"><div class="fill" style="width:88%"></div></div><b>88</b></div>
         <div class="meter"><span>Financeiro</span><div class="track"><div class="fill" style="width:79%"></div></div><b>79</b></div>
-        <div class="meter"><span>Risco</span><div class="track"><div class="fill" style="width:84%"></div></div><b>84</b></div>
+        <div class="meter"><span>Risco geral</span><div class="track"><div class="fill" style="width:76%"></div></div><b>76</b></div>
+        <button class="mini-btn goRiskCockpit">Abrir composição do risco →</button>
       </div>
       <div class="card section"><span class="badge mock">RISCO DE RECEBIMENTO · SIMULADO</span><h3 style="margin:8px 0 4px">Prazo histórico estimado: <span class="risk-low">27 dias</span></h3><div class="muted">Prazo do edital: 30 dias após aceite · confiança da amostra: alta</div><div class="meter"><span>Recebimento</span><div class="track"><div class="fill" style="width:88%"></div></div><b>88</b></div><div class="sourcebox">Motor cruza empenho → liquidação → pagamento e mede o prazo efetivo quando a fonte pública oferece essas datas.</div><button class="mini-btn goPaymentRisk">Abrir análise de recebimento →</button></div>
       <div class="card section"><b>Como chegamos aqui?</b><div class="sourcebox">Source Collector → Opportunity Scanner → Catalog Normalizer → Capability Matcher → Historical Intelligence → Payment Risk Engine → Edital AI → Price & Risk Engine → Opportunity Score.</div></div>
@@ -234,6 +240,44 @@ app.addEventListener('load',()=>{
   d.getElementById('robots').before(paymentrisk);
 
 
+
+  const riskcockpit=d.createElement('section'); riskcockpit.id='riskcockpit'; riskcockpit.className='view';
+  riskcockpit.innerHTML=`
+    <div class="card">
+      <div class="page-head" style="margin-bottom:12px">
+        <div><h3>Cockpit de Risco da Oportunidade</h3><div class="muted">Leitura simples dos riscos do dia a dia antes de decidir participar.</div></div>
+        <span class="badge mock">SIMULAÇÃO</span>
+      </div>
+      <div class="risk-summary">
+        <div class="risk-total"><span class="muted">RISCO GERAL</span><div class="n">76</div><span class="risk-pill mid">ATENÇÃO</span></div>
+        <div>
+          <div class="alert"><b>Leitura executiva:</b> oportunidade boa, mas exige atenção ao caixa e ao fornecedor. Não há alerta jurídico relevante nesta simulação.</div>
+          <div class="sourcebox">Escala: 90–100 muito seguro · 75–89 atenção controlada · 60–74 risco relevante · abaixo de 60 recomendação de revisão/NO-GO.</div>
+        </div>
+      </div>
+    </div>
+    <div class="section risk-grid">
+      <div class="risk-card"><span class="risk-pill low">BAIXO</span><strong>Comercial</strong><div class="risk-score risk-low">90</div><div class="risk-note">Boa aderência do produto, histórico comparável e preço de mercado conhecido.</div></div>
+      <div class="risk-card"><span class="risk-pill mid">ATENÇÃO</span><strong>Financeiro</strong><div class="risk-score risk-mid">72</div><div class="risk-note">Compra antecipada relevante e recebimento estimado em cerca de 30 dias.</div></div>
+      <div class="risk-card"><span class="risk-pill mid">ATENÇÃO</span><strong>Fornecedor</strong><div class="risk-score risk-mid">68</div><div class="risk-note">Confirmar estoque, validade da cotação, limite de crédito e prazo real de reposição.</div></div>
+      <div class="risk-card"><span class="risk-pill low">BAIXO</span><strong>Execução</strong><div class="risk-score risk-low">84</div><div class="risk-note">Logística viável, mas prazo de entrega de 10 dias exige confirmação antes do lance.</div></div>
+      <div class="risk-card"><span class="risk-pill low">BAIXO</span><strong>Jurídico</strong><div class="risk-score risk-low">92</div><div class="risk-note">Sem exigência especial aparente; documentação e cláusulas críticas devem ser conferidas.</div></div>
+    </div>
+    <div class="section card">
+      <h3>Sinais que o motor deve observar</h3>
+      <table class="table"><thead><tr><th>Bloco</th><th>Sinais principais</th><th>Ação</th></tr></thead><tbody>
+        <tr><td>Comercial</td><td>Preço histórico, concorrência, margem e aderência</td><td>Definir preço-alvo e limite de abandono</td></tr>
+        <tr><td>Financeiro</td><td>Desembolso, prazo de recebimento, custo financeiro e exposição</td><td>Validar capital de giro antes de aprovar</td></tr>
+        <tr><td>Fornecedor</td><td>Estoque, cotação, crédito, prazo e dependência</td><td>Confirmar fornecedor antes da disputa</td></tr>
+        <tr><td>Execução</td><td>Prazo, frete, instalação, garantia e logística</td><td>Bloquear oportunidade inviável operacionalmente</td></tr>
+        <tr><td>Jurídico</td><td>Habilitação, sanções, exigências e cláusulas críticas</td><td>Revisão humana nos alertas relevantes</td></tr>
+      </tbody></table>
+    </div>
+    <div class="section card">
+      <div class="alert good"><b>Princípio do motor:</b> oportunidade com bom preço não será automaticamente boa. Ela precisa fechar comercialmente, financeiramente e operacionalmente ao mesmo tempo.</div>
+    </div>`;
+  d.getElementById('swot').before(riskcockpit);
+
   const swot=d.createElement('section'); swot.id='swot'; swot.className='view';
   swot.innerHTML=`
     <div class="card">
@@ -322,7 +366,7 @@ app.addEventListener('load',()=>{
     filtersView.appendChild(rf);
   }
 
-  const names={home:'Central de Inteligência em Negócios Públicos',radar:'Radar de Oportunidades GOV',detail:'Raio-X da Oportunidade',history:'Histórico Competitivo',paymentrisk:'Risco de Recebimento',swot:'SWOT & Insights',robots:'Robôs & Integrações',filters:'Estratégia & Filtros',live:'Sala de Disputa Assistida',post:'Pós-certame & Aprendizado'};
+  const names={home:'Central de Inteligência em Negócios Públicos',radar:'Radar de Oportunidades GOV',detail:'Raio-X da Oportunidade',history:'Histórico Competitivo',paymentrisk:'Risco de Recebimento',riskcockpit:'Cockpit de Risco',swot:'SWOT & Insights',robots:'Robôs & Integrações',filters:'Estratégia & Filtros',live:'Sala de Disputa Assistida',post:'Pós-certame & Aprendizado'};
   function showV4(id){
     d.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
     const el=d.getElementById(id); if(el) el.classList.add('active');
@@ -334,6 +378,7 @@ app.addEventListener('load',()=>{
   d.querySelectorAll('.goDetail').forEach(b=>b.onclick=()=>showV4('detail'));
   d.querySelectorAll('.goHistory').forEach(b=>b.onclick=()=>showV4('history'));
   d.querySelectorAll('.goPaymentRisk').forEach(b=>b.onclick=()=>showV4('paymentrisk'));
+  d.querySelectorAll('.goRiskCockpit').forEach(b=>b.onclick=()=>showV4('riskcockpit'));
   d.querySelectorAll('.detail-tabs button').forEach(b=>b.onclick=()=>{
     d.querySelectorAll('.detail-tabs button').forEach(x=>x.classList.remove('on'));
     d.querySelectorAll('#detail .tabpane').forEach(x=>x.classList.remove('on'));
