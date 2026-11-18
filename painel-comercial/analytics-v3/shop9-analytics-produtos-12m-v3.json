@@ -1230,6 +1230,21 @@
         "unidade":  "UN"
     },
     {
+        "produto_id":  1876,
+        "codigo":  "ARS7109",
+        "produto":  "FILTRO AR MF265/MF275 C/MTR PERKINGS 4 CIL 9",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  17,
+        "grupo":  "55%",
+        "familia_id":  2,
+        "familia":  "ATACADO",
+        "fabricante_id":  10022,
+        "fabricante":  "TECFIL ",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  1879,
         "codigo":  "AS820",
         "produto":  "FILTRO AR SECUNDARIO MB 710/12C/ MT OM364 97/",
@@ -2115,21 +2130,6 @@
         "unidade":  "LT"
     },
     {
-        "produto_id":  8766,
-        "codigo":  "1018305",
-        "produto":  "20W50 SL 40X500L ESSENCIAL LUBRAX",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  13,
-        "grupo":  "35%",
-        "familia_id":  2,
-        "familia":  "ATACADO",
-        "fabricante_id":  10003,
-        "fabricante":  "LuBRax",
-        "unidade_id":  10006,
-        "unidade":  "CX"
-    },
-    {
         "produto_id":  9805,
         "codigo":  "1001092",
         "produto":  "GEAR 68 20L LUBRAX",
@@ -2853,21 +2853,6 @@
         "produto_id":  43082,
         "codigo":  "PLG1002",
         "produto":  "COTOVELO MACHO 90º 1/4X10mm BSP",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  31,
-        "grupo":  "150%",
-        "familia_id":  3,
-        "familia":  "VAREJO",
-        "fabricante_id":  31767,
-        "fabricante":  "CONECFIT",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
-        "produto_id":  43087,
-        "codigo":  "PUC06",
-        "produto":  "UNIÃO RETA 6mm",
         "tipo":  "N",
         "inativo":  false,
         "grupo_id":  31,
@@ -4363,21 +4348,6 @@
         "fabricante":  "ORTOBOM",
         "unidade_id":  10030,
         "unidade":  "UN"
-    },
-    {
-        "produto_id":  55162,
-        "codigo":  "1844988",
-        "produto":  "SOLVENTE THINNER SAYERLACK",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  0,
-        "fabricante":  "Não Cadastrado",
-        "unidade_id":  10015,
-        "unidade":  "LT"
     },
     {
         "produto_id":  55164,
