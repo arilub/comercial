@@ -2,20 +2,20 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-18T15:30:46-03:00",
+                 "geradoEm":  "2026-11-18T16:30:22-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3870,
+    "totalLeads":  3868,
     "porEtapa":  {
                      "Venda perdida":  1328,
                      "Venda ganha":  983,
                      "Cliente Ativo":  595,
-                     "NegociaÃ§Ã£o":  578,
-                     "Chegada do Lead":  214,
-                     "Nova Sondagem":  163,
+                     "NegociaÃ§Ã£o":  579,
+                     "Chegada do Lead":  212,
+                     "Nova Sondagem":  162,
                      "Vencedor - OF":  3,
                      "Contato Inicial":  3,
                      "Classificado":  2,
@@ -25,7 +25,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2152,
+                          "leads":  2150,
                           "ganhos":  470,
                           "perdidos":  1010
                       },
@@ -52,7 +52,7 @@
                    "ticketMedio":  2574.30,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  394,
+                                                        "totalLeads":  395,
                                                         "ganhosQtd":  133,
                                                         "perdidosQtd":  16,
                                                         "ganhosValor":  325611
@@ -60,13 +60,13 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  210,
+                      "WhatsApp":  211,
                       "E-mail":  2,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
                             "Geral/Outros":  {
-                                                 "totalLeads":  58,
+                                                 "totalLeads":  59,
                                                  "ganhosQtd":  18,
                                                  "ganhosValor":  57369
                                              },
@@ -95,7 +95,13 @@
                                      "ganhosValor":  6892
                                  },
                                  {
-                                     "nome":  "graxa azul karter 20 kg",
+                                     "nome":  "gear 220 vr lub",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "GRAXA GRAFITADA",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -107,13 +113,7 @@
                                      "ganhosValor":  753
                                  },
                                  {
-                                     "nome":  "GRAXA GRAFITADA",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "GRAXA AZUL 10KG",
+                                     "nome":  "graxa azul karter 20 kg",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -125,10 +125,10 @@
                                      "ganhosValor":  737
                                  },
                                  {
-                                     "nome":  "ROLAMENTOS",
+                                     "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  14659
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "oleo ectron 68 vr lub bd 20 litros",
@@ -137,14 +137,20 @@
                                      "ganhosValor":  411
                                  },
                                  {
+                                     "nome":  "ROLAMENTOS",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  14659
+                                 },
+                                 {
                                      "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  798
                                  },
                                  {
-                                     "nome":  "gear 220 vr lub",
-                                     "totalLeads":  2,
+                                     "nome":  "moto 4t 24x01 litro vr lub e aditivo valvoline 12x01 litro",
+                                     "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
@@ -155,10 +161,16 @@
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
+                                     "nome":  "MOBIL 20W50 FLEX 24X01LITRO",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  955
+                                 },
+                                 {
+                                     "nome":  "OLEO COMPSOR AC 150 VR LUB",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  120
                                  },
                                  {
                                      "nome":  "OLEO 5W30, 5W40 E FILTRO W0120",
@@ -167,22 +179,16 @@
                                      "ganhosValor":  397
                                  },
                                  {
-                                     "nome":  "MOBIL 20W50 FLEX 24X01LITRO",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  955
-                                 },
-                                 {
                                      "nome":  "graxa chassis 18 kg vr lub 03 BDS",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
                                      "ganhosValor":  1059
                                  },
                                  {
-                                     "nome":  "OLEO COMPSOR AC 150 VR LUB",
+                                     "nome":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  120
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
                                      "nome":  "ECTRO 68 BD 20L",
@@ -201,26 +207,20 @@
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "68 ECONOLINE 15W40 MOBIL MODERN",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6233,
-                                     "valorTotal":  22982191.69,
+                                     "total":  6234,
+                                     "valorTotal":  22980646.65,
                                      "convertidos":  2449,
                                      "cancelados":  389,
-                                     "recente":  30,
+                                     "recente":  31,
                                      "acompanhamento":  22,
                                      "atencao":  50,
                                      "envelhecido":  3076,
-                                     "taxaConversao":  0.3929
+                                     "taxaConversao":  0.3928
                                  },
                   "vendas":  {
                                  "total":  63100,
@@ -231,7 +231,7 @@
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  49,
+                       "vinculoDefinitivoLeadId":  50,
                        "reconciliacaoHistorica":  89,
                        "forteProvisorio":  17,
                        "provavel":  72,
@@ -82291,27 +82291,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27206058,
-                      "nome":  "Lead #27206058",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-18T09:50:43-03:00",
-                      "atualizadoEm":  "2026-11-18T10:51:29-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  25568040,
                       "nome":  "Kmz Solution Ltda",
                       "pipelineId":  "9334023",
@@ -82480,48 +82459,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26637368,
-                      "nome":  "Autolead: Lead #26217256",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206571",
-                      "etapa":  "Nova Sondagem",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-09-02T10:54:57-03:00",
-                      "atualizadoEm":  "2026-11-18T13:55:03-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26217256,
-                      "nome":  "Lead #26217256",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  2219,
-                      "cliente":  null,
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-07-27T09:25:57-03:00",
-                      "atualizadoEm":  "2026-11-18T13:59:45-03:00",
-                      "fechadoEm":  "2026-09-02T10:54:55-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24926344,
                       "nome":  "Lead #24926344",
                       "pipelineId":  "9334023",
@@ -82538,48 +82475,6 @@
                       "numeroCoep":  null,
                       "criadoEm":  "2026-03-17T14:29:12-03:00",
                       "atualizadoEm":  "2026-11-18T14:12:54-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26894406,
-                      "nome":  "Lead #26894406",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  2289,
-                      "cliente":  "Geofix Engenharia Fundacoes E Estaqueamento Sociedade Empres",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "oleo lubrax ci4 10w40",
-                      "linhaProduto":  "Lubrificantes",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-10-05T16:47:48-03:00",
-                      "atualizadoEm":  "2026-11-18T14:21:06-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  26843774,
-                      "nome":  "Lead #26843774",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-09-28T15:22:30-03:00",
-                      "atualizadoEm":  "2026-11-18T14:29:24-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -82602,48 +82497,6 @@
                       "criadoEm":  "2025-12-12T11:40:53-03:00",
                       "atualizadoEm":  "2026-11-18T14:34:56-03:00",
                       "fechadoEm":  "2026-02-02T14:59:10-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  23686057,
-                      "nome":  "Prefabrick Engenharia Ltda - Me",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  1500,
-                      "cliente":  "Prefabrick Engenharia Ltda - Me",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "GRAXA MARFAX 20KG",
-                      "linhaProduto":  "Geral/Outros",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-11-25T09:55:59-03:00",
-                      "atualizadoEm":  "2026-11-18T14:35:20-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27206264,
-                      "nome":  "Lead #27206264",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-18T10:16:47-03:00",
-                      "atualizadoEm":  "2026-11-18T14:39:02-03:00",
-                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
@@ -82732,8 +82585,29 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27099646,
-                      "nome":  "Lead #27099646",
+                      "id":  26894406,
+                      "nome":  "Lead #26894406",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  2289,
+                      "cliente":  "Geofix Engenharia Fundacoes E Estaqueamento Sociedade Empres",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "oleo lubrax ci4 10w40",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-10-05T16:47:48-03:00",
+                      "atualizadoEm":  "2026-11-18T15:21:11-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26843774,
+                      "nome":  "Lead #26843774",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
                       "statusId":  "72324135",
@@ -82746,8 +82620,29 @@
                       "linhaProduto":  null,
                       "origem":  null,
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-11-06T16:13:36-03:00",
-                      "atualizadoEm":  "2026-11-18T15:14:52-03:00",
+                      "criadoEm":  "2026-09-28T15:22:30-03:00",
+                      "atualizadoEm":  "2026-11-18T15:29:11-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  23686057,
+                      "nome":  "Prefabrick Engenharia Ltda - Me",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1500,
+                      "cliente":  "Prefabrick Engenharia Ltda - Me",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "GRAXA MARFAX 20KG",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-11-25T09:55:59-03:00",
+                      "atualizadoEm":  "2026-11-18T15:36:22-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -82768,10 +82663,73 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-01-13T07:58:50-03:00",
-                      "atualizadoEm":  "2026-11-18T15:15:24-03:00",
+                      "atualizadoEm":  "2026-11-18T15:38:30-03:00",
                       "fechadoEm":  "2026-09-28T16:42:41-03:00",
                       "reconciliacaoHistorica":  "PROVAVEL",
                       "vendaShop9":  438285
+                  },
+                  {
+                      "id":  26637368,
+                      "nome":  "Ceramica Caucaia LtdaAutolead: Lead",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  2219,
+                      "cliente":  "Ceramica Caucaia Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "GRAXA CHASSIS KARTER 18 KG 01 BALDES",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-09-02T10:54:57-03:00",
+                      "atualizadoEm":  "2026-11-18T15:53:54-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26217256,
+                      "nome":  "Lead #26217256",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  2219,
+                      "cliente":  "Ceramica Caucaia Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-07-27T09:25:57-03:00",
+                      "atualizadoEm":  "2026-11-18T16:04:20-03:00",
+                      "fechadoEm":  "2026-09-02T10:54:55-03:00",
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  27099646,
+                      "nome":  "Lead #27099646",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-06T16:13:36-03:00",
+                      "atualizadoEm":  "2026-11-18T16:15:17-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
                   }
               ]
 }
