@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ARILUB · GOV Intelligence V0.4</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#F4F6F8}
+#app{border:0;width:100%;height:100%;display:block}
+</style>
+</head>
+<body>
+<iframe id="app" src="./base-v03.html" title="ARILUB GOV Intelligence"></iframe>
+<script>
+const app=document.getElementById('app');
+app.addEventListener('load',()=>{
+  const w=app.contentWindow,d=app.contentDocument;
+  if(!d||d.getElementById('v04patched')) return;
+
+  const mark=d.createElement('meta'); mark.id='v04patched'; d.head.appendChild(mark);
+  d.title='ARILUB · GOV Intelligence V0.4';
+
+  const css=d.createElement('style');
+  css.textContent=`
+  .engineboard{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+  .engineitem{border:1px solid var(--ln);border-radius:8px;background:#fafcfe;padding:9px 10px;min-height:60px}
+  .engineitem .estate{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--g);margin-top:5px}
+  .edot{width:8px;height:8px;border-radius:50%;background:#a8b3bd;display:inline-block}
+  .engineitem.active{border-color:#8ec8e8;background:var(--soft)}
+  .engineitem.active .edot{background:var(--b);box-shadow:0 0 0 5px rgba(32,152,213,.12)}
+  .engineitem.done .edot{background:var(--ok)}
+  .engineitem b{font-size:11px;color:var(--n)}
+  .tabpane{display:none}.tabpane.on{display:block}
+  .mini-btn{border:1px solid var(--ln);background:#fff;color:var(--n);border-radius:6px;padding:5px 7px;font-size:10px;font-weight:700;cursor:pointer;margin-top:8px}
+  .mini-btn:hover{background:var(--soft)}
+  .history-detail{margin-top:12px}
+  .source-flag{font-size:9px;padding:2px 6px;border-radius:9px;background:#eef5fb;color:#245a91;white-space:nowrap}
+  .source-flag.ata{background:#fff4d8;color:#875300}
+  .engine-output{min-height:142px}.engine-output h3{margin-top:4px}
+  .source-map{display:grid;grid-template-columns:1fr 1fr;gap:10px}.source-map .card{margin-bottom:0}
+  .hist-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.hist-kpis .kpi{margin-bottom:0}
+  @media(max-width:980px){.engineboard{grid-template-columns:repeat(2,1fr)}.hist-kpis{grid-template-columns:repeat(2,1fr)}.source-map{grid-template-columns:1fr}}
+  @media(max-width:620px){.engineboard,.hist-kpis{grid-template-columns:1fr}}
+  `;
+  d.head.appendChild(css);
+
+  const badges=[...d.querySelectorAll('.header-badges .badge')];
+  const vb=badges.find(x=>x.textContent.includes('V0.3'));
+  if(vb) vb.textContent='V0.4 · SIMULADO';
+  if(d.querySelector('footer')) d.querySelector('footer').textContent='ARILUB · GOV Intelligence · Protótipo V0.4 · Histórico Competitivo + Ecossistema de Motores';
+
+  const detailNav=d.querySelector('.nav button[data-v="detail"]');
+  if(detailNav&&!d.querySelector('.nav button[data-v="history"]')){
+    const b=d.createElement('button'); b.dataset.v='history'; b.textContent='Histórico Competitivo';
+    detailNav.after(b);
+  }
+
+  const detail=d.getElementById('detail');
+  detail.innerHTML=`
+  <div class="cols">
+    <div class="card">
+      <span class="badge mock">OPORTUNIDADE SIMULADA</span>
+      <h2 style="margin-bottom:5px">Pregão 90042/2026</h2>
+      <div class="muted">Aquisição de equipamentos de climatização • abertura 23/11/2026</div>
+      <div class="tabs detail-tabs">
+        <button class="on" data-tab="overview">Visão geral</button>
+        <button data-tab="items">Itens</button>
+        <button data-tab="prices">Preços</button>
+        <button data-tab="competition">Concorrência</button>
+        <button data-tab="edital">Edital IA</button>
+      </div>
+      <div class="tabpane on" id="tab-overview">
+        <div class="alert good"><b>Recomendação: PARTICIPAR.</b> Boa compatibilidade comercial, sourcing viável e logística favorável.</div>
+        <div class="alert"><b>Atenção:</b> prazo de entrega de 10 dias e pagamento previsto em 30 dias após aceite.</div>
+        <h3>Leitura estruturada da oportunidade</h3>
+        <table class="table"><tbody>
+          <tr><td>Objeto</td><td>Equipamentos de climatização</td></tr>
+          <tr><td>Valor estimado</td><td>R$ 184.500</td></tr>
+          <tr><td>Entrega</td><td>Fortaleza/CE</td></tr>
+          <tr><td>SRP</td><td>Sim</td></tr>
+          <tr><td>Equivalente</td><td>Permitido, mediante especificações</td></tr>
+          <tr><td>Pagamento</td><td>30 dias</td></tr>
+        </tbody></table>
+      </div>
+      <div class="tabpane" id="tab-items">
+        <h3>Itens mapeados</h3>
+        <table class="table"><thead><tr><th>Item</th><th>Descrição</th><th>Qtd.</th><th>Estimado</th><th>Aderência</th></tr></thead><tbody>
+          <tr><td>01</td><td>Equipamento 18.000 BTU</td><td>28</td><td>R$ 3.180/un.</td><td class="score">96</td></tr>
+          <tr><td>02</td><td>Equipamento 24.000 BTU</td><td>16</td><td>R$ 4.380/un.</td><td class="score">91</td></tr>
+          <tr><td>03</td><td>Acessórios de instalação</td><td>44</td><td>R$ 580/un.</td><td class="score">78</td></tr>
+        </tbody></table>
+      </div>
+      <div class="tabpane" id="tab-prices">
+        <div class="alert good"><b>Price Intelligence:</b> 37 resultados históricos comparáveis foram usados nesta simulação.</div>
+        <table class="table"><thead><tr><th>Indicador</th><th>Valor</th><th>Fonte prevista</th></tr></thead><tbody>
+          <tr><td>Estimativa atual</td><td>R$ 3.180</td><td>Edital/PNCP</td></tr>
+          <tr><td>Mediana histórica</td><td>R$ 3.042</td><td>Pesquisa de Preços / Resultados</td></tr>
+          <tr><td>Menor vencedor observado</td><td>R$ 2.890</td><td>Compras.gov</td></tr>
+          <tr><td>Último valor homologado</td><td>R$ 2.974</td><td>Resultado do item</td></tr>
+          <tr><td>Limite ARILUB simulado</td><td><b>R$ 2.790</b></td><td>Motor interno</td></tr>
+        </tbody></table>
+        <button class="mini-btn goHistory">Abrir histórico competitivo →</button>
+      </div>
+      <div class="tabpane" id="tab-competition">
+        <h3>Mapa competitivo simulado</h3>
+        <table class="table"><thead><tr><th>Fornecedor</th><th>Vitórias</th><th>Faixa vencedora</th><th>Último resultado</th></tr></thead><tbody>
+          <tr><td>Fornecedor Alfa</td><td>8</td><td>R$ 2.890–3.060</td><td>R$ 2.974</td></tr>
+          <tr><td>Fornecedor Beta</td><td>5</td><td>R$ 2.940–3.140</td><td>R$ 3.020</td></tr>
+          <tr><td>Fornecedor Gama</td><td>4</td><td>R$ 3.000–3.190</td><td>R$ 3.085</td></tr>
+        </tbody></table>
+        <div class="sourcebox"><span class="source-flag">API estruturada</span> vencedor, menor lance, valor negociado/homologado quando disponíveis. <span class="source-flag ata">Ata/Lance Reader</span> sequência de propostas e lances quando houver ata pública acessível.</div>
+        <button class="mini-btn goHistory">Explorar histórico completo →</button>
+      </div>
+      <div class="tabpane" id="tab-edital">
+        <h3>Edital AI</h3>
+        <div class="alert"><b>Risco principal:</b> prazo de entrega de 10 dias.</div>
+        <table class="table"><tbody>
+          <tr><td>Habilitação</td><td>Sem exigência especial identificada</td></tr>
+          <tr><td>Marca de referência</td><td>Equivalente permitido</td></tr>
+          <tr><td>Garantia</td><td>12 meses</td></tr>
+          <tr><td>Multa por atraso</td><td>Cláusula localizada para revisão humana</td></tr>
+          <tr><td>Trechos críticos</td><td>6 trechos sinalizados</td></tr>
+        </tbody></table>
+      </div>
+      <div class="decision"><button class="approve">Aprovar participação</button><button class="review">Revisão humana</button><button class="reject">Descartar</button></div>
+    </div>
+    <div>
+      <div class="card">
+        <span class="muted">ADERÊNCIA</span><div class="bigscore">94</div>
+        <div class="meter"><span>Produto</span><div class="track"><div class="fill" style="width:96%"></div></div><b>96</b></div>
+        <div class="meter"><span>Sourcing</span><div class="track"><div class="fill" style="width:93%"></div></div><b>93</b></div>
+        <div class="meter"><span>Logística</span><div class="track"><div class="fill" style="width:88%"></div></div><b>88</b></div>
+        <div class="meter"><span>Financeiro</span><div class="track"><div class="fill" style="width:79%"></div></div><b>79</b></div>
+        <div class="meter"><span>Risco</span><div class="track"><div class="fill" style="width:84%"></div></div><b>84</b></div>
+      </div>
+      <div class="card section"><b>Como chegamos aqui?</b><div class="sourcebox">Source Collector → Opportunity Scanner → Catalog Normalizer → Capability Matcher → Historical Intelligence → Edital AI → Price & Risk Engine → Opportunity Score.</div></div>
+    </div>
+  </div>`;
+
+  const hist=d.createElement('section'); hist.id='history'; hist.className='view';
+  hist.innerHTML=`
+    <div class="hist-kpis">
+      <div class="kpi"><span>Pregões comparáveis</span><strong>128</strong></div>
+      <div class="kpi"><span>Itens/resultados</span><strong>684</strong></div>
+      <div class="kpi"><span>Fornecedores mapeados</span><strong>73</strong></div>
+      <div class="kpi"><span>Mediana de desconto</span><strong>8,7%</strong></div>
+      <div class="kpi"><span>Período</span><strong>24 meses</strong></div>
+    </div>
+    <div class="section card">
+      <div class="page-head" style="margin-bottom:10px"><div><h3>Histórico Competitivo</h3><div class="muted">Resultados anteriores para apoiar preço, concorrência e estratégia.</div></div><span class="badge mock">DADOS DEMONSTRATIVOS</span></div>
+      <div class="filtergrid">
+        <div><label>Família / item</label><input value="Climatização"></div>
+        <div><label>Órgão / UASG</label><input placeholder="Todos"></div>
+        <div><label>Fornecedor</label><input placeholder="Todos"></div>
+        <div><label>Período</label><select><option>Últimos 24 meses</option><option>12 meses</option><option>36 meses</option></select></div>
+        <div><label>UF</label><select><option>Brasil</option><option>CE</option><option>Nordeste</option></select></div>
+        <div><label>Resultado</label><select><option>Homologados + adjudicados</option><option>Todos</option></select></div>
+      </div>
+    </div>
+    <div class="section card">
+      <table class="table"><thead><tr><th>Data</th><th>Órgão</th><th>Item</th><th>Vencedor</th><th>Estimado</th><th>Melhor lance</th><th>Homologado</th><th>Fonte</th><th></th></tr></thead><tbody>
+        <tr><td>04/11/26</td><td>Órgão Federal A</td><td>18.000 BTU</td><td>Fornecedor Alfa</td><td>R$ 3.240</td><td>R$ 2.974</td><td>R$ 2.974</td><td><span class="source-flag">API</span></td><td><button class="mini-btn histDetail">Detalhar</button></td></tr>
+        <tr><td>18/10/26</td><td>Órgão Federal B</td><td>18.000 BTU</td><td>Fornecedor Beta</td><td>R$ 3.190</td><td>R$ 3.020</td><td>R$ 3.020</td><td><span class="source-flag">API</span></td><td><button class="mini-btn histDetail">Detalhar</button></td></tr>
+        <tr><td>29/09/26</td><td>Autarquia Federal C</td><td>24.000 BTU</td><td>Fornecedor Gama</td><td>R$ 4.520</td><td>R$ 4.110</td><td>R$ 4.090</td><td><span class="source-flag ata">ATA + API</span></td><td><button class="mini-btn histDetail">Detalhar</button></td></tr>
+        <tr><td>11/08/26</td><td>Instituto Federal D</td><td>18.000 BTU</td><td>Fornecedor Alfa</td><td>R$ 3.300</td><td>R$ 2.890</td><td>R$ 2.920</td><td><span class="source-flag ata">ATA + API</span></td><td><button class="mini-btn histDetail">Detalhar</button></td></tr>
+      </tbody></table>
+    </div>
+    <div class="history-detail card" id="historyDetail">
+      <div class="cols">
+        <div><span class="badge mock">SIMULAÇÃO HISTÓRICA</span><h3>Pregão histórico · Item 01 — 18.000 BTU</h3>
+          <table class="table"><tbody><tr><td>Estimado</td><td>R$ 3.240,00</td></tr><tr><td>Melhor lance</td><td><b>R$ 2.974,00</b></td></tr><tr><td>Negociado</td><td>R$ 2.974,00</td></tr><tr><td>Homologado</td><td>R$ 2.974,00</td></tr><tr><td>Vencedor</td><td>Fornecedor Alfa</td></tr><tr><td>Economia vs. estimado</td><td>8,2%</td></tr></tbody></table>
+        </div>
+        <div><h3>Linha de disputa</h3>
+          <div class="meter"><span>Abertura</span><div class="track"><div class="fill" style="width:100%"></div></div><b>3.240</b></div>
+          <div class="meter"><span>1º corte</span><div class="track"><div class="fill" style="width:94%"></div></div><b>3.060</b></div>
+          <div class="meter"><span>2º corte</span><div class="track"><div class="fill" style="width:92%"></div></div><b>2.990</b></div>
+          <div class="meter"><span>Vencedor</span><div class="track"><div class="fill" style="width:91%"></div></div><b>2.974</b></div>
+          <div class="sourcebox"><span class="source-flag">API</span> campos estruturados de resultado. <span class="source-flag ata">ATA</span> sequência detalhada de lances, quando disponível.</div>
+        </div>
+      </div>
+    </div>
+    <div class="section source-map"><div class="card"><h3>O que o robô consolida por item</h3><p class="muted">Órgão/UASG · descrição · CATMAT/CATSER · quantidade · estimativa · vencedor · melhor lance · negociado · homologado · data · classificação · desconto.</p></div><div class="card"><h3>O que o leitor de ata acrescenta</h3><p class="muted">Propostas iniciais · sequência de lances · horários/eventos · negociação · mensagens relevantes · comportamento competitivo, quando o documento público permitir extração.</p></div></div>
+  `;
+  d.getElementById('robots').before(hist);
+
+  const robots=d.getElementById('robots');
+  const engine=(name,out,badge='MOTOR')=>`<div class="card"><span class="badge ${badge==='CONECTOR'?'real':'mock'}">${badge}</span><strong>${name}</strong><span class="muted">${out}</span><button class="mini-btn engineShow" data-name="${name}" data-out="${out}">Ver saída</button></div>`;
+  robots.innerHTML=`
+    <div class="robot">
+      ${engine('PNCP Connector','Contratações, itens, resultados, atas, contratos e PCA.','CONECTOR')}
+      ${engine('Compras.gov Open Data','Pregões, itens, preços praticados, fornecedores e resultados.','CONECTOR')}
+      ${engine('Opportunity Scanner','Varre, deduplica e classifica novas oportunidades.')}
+      ${engine('Catalog Normalizer','Relaciona descrições a CATMAT/CATSER e famílias comerciais.')}
+      ${engine('Capability Matcher','Cruza capacidade histórica, sourcing e viabilidade operacional.')}
+      ${engine('Historical Intelligence','Consolida vencedores, preços, homologações e recorrência.')}
+      ${engine('Ata / Lance Reader','Reconstrói dinâmica de disputa a partir de atas públicas acessíveis.')}
+      ${engine('Edital AI','Extrai requisitos, riscos, prazos e obrigações.')}
+      ${engine('Price & Risk Engine','Calcula referência, margem, capital e limite de disputa.')}
+      ${engine('Competitor Intelligence','Mapeia frequência de vitórias e faixas vencedoras.')}
+      ${engine('Opportunity Score','Consolida aderência, margem, prazo e risco.')}
+      ${engine('Alert & Learning Engine','Monitora prazos, retificações e retroalimenta o motor.')}
+    </div>
+    <div class="section cols">
+      <div class="card"><h3>Orquestração</h3><div class="flow"><span class="node">Fontes</span><span class="arrow">→</span><span class="node">Scanner</span><span class="arrow">→</span><span class="node">Catálogo</span><span class="arrow">→</span><span class="node">Capacidade</span><span class="arrow">→</span><span class="node">Histórico</span><span class="arrow">→</span><span class="node">Ata/Lances</span><span class="arrow">→</span><span class="node">Edital</span><span class="arrow">→</span><span class="node">Preço/Risco</span><span class="arrow">→</span><span class="node">Score</span><span class="arrow">→</span><span class="node">Humano</span></div><div class="sourcebox">Os motores são etapas independentes, com entrada, saída e rastreabilidade próprias.</div></div>
+      <div class="card engine-output" id="engineOutput"><span class="badge mock">MAPA DE MOTORES</span><h3>Clique em “Ver saída”</h3><p class="muted">O painel mostrará o papel e o produto de dados de cada motor.</p></div>
+    </div>`;
+
+  const scan=d.getElementById('scan');
+  const srcbox=scan.querySelector('.sourcebox');
+  const eb=d.createElement('div'); eb.className='engineboard'; eb.id='engineboard';
+  const engineNames=['Source Collector','Opportunity Scanner','Catalog Normalizer','Capability Matcher','Historical Intelligence','Edital AI','Price & Risk Engine','Opportunity Score'];
+  eb.innerHTML=engineNames.map((n,i)=>`<div class="engineitem" data-engine="${i}"><b>${String(i+1).padStart(2,'0')} · ${n}</b><div class="estate"><span class="edot"></span><span>Aguardando</span></div></div>`).join('');
+  srcbox.before(eb);
+
+  const homeCards=d.querySelector('#home .section .robot');
+  if(homeCards) homeCards.innerHTML='<div class="card"><span class="badge real">CAMADA 1</span><strong>Descoberta & Coleta</strong><span class="muted">PNCP, Compras.gov, PCA, catálogos e documentos.</span></div><div class="card"><span class="badge mock">CAMADA 2</span><strong>Inteligência Histórica</strong><span class="muted">Preços, vencedores, resultados e leitura de atas/lances.</span></div><div class="card"><span class="badge mock">CAMADA 3</span><strong>Decisão Assistida</strong><span class="muted">Aderência, edital, margem, risco e score.</span></div>';
+
+  const names={home:'Central de Inteligência em Negócios Públicos',radar:'Radar de Oportunidades GOV',detail:'Raio-X da Oportunidade',history:'Histórico Competitivo',robots:'Robôs & Integrações',filters:'Estratégia & Filtros',live:'Sala de Disputa Assistida',post:'Pós-certame & Aprendizado'};
+  function showV4(id){
+    d.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
+    const el=d.getElementById(id); if(el) el.classList.add('active');
+    d.querySelectorAll('.nav button').forEach(x=>x.classList.toggle('active',x.dataset.v===id));
+    d.getElementById('title').textContent=names[id]||'ARILUB GOV Intelligence';
+    w.scrollTo(0,0);
+  }
+  d.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>showV4(b.dataset.v));
+  d.querySelectorAll('.goDetail').forEach(b=>b.onclick=()=>showV4('detail'));
+  d.querySelectorAll('.goHistory').forEach(b=>b.onclick=()=>showV4('history'));
+  d.querySelectorAll('.detail-tabs button').forEach(b=>b.onclick=()=>{
+    d.querySelectorAll('.detail-tabs button').forEach(x=>x.classList.remove('on'));
+    d.querySelectorAll('#detail .tabpane').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); d.getElementById('tab-'+b.dataset.tab).classList.add('on');
+  });
+  d.querySelectorAll('.histDetail').forEach(b=>b.onclick=()=>d.getElementById('historyDetail').scrollIntoView({behavior:'smooth',block:'start'}));
+  d.querySelectorAll('.engineShow').forEach(b=>b.onclick=()=>{
+    d.getElementById('engineOutput').innerHTML='<span class="badge mock">SAÍDA DO MOTOR</span><h3>'+b.dataset.name+'</h3><p>'+b.dataset.out+'</p><div class="sourcebox">Cada saída será armazenada com fonte, horário, identificador da contratação/item e versão do motor, permitindo auditoria e reprocessamento.</div>';
+  });
+
+  const steps=[
+    ['Source Collector conectando PNCP, Compras.gov, PCA e Dados Abertos...',12,684120,731,1842,0,0],
+    ['Opportunity Scanner pesquisando contratações, itens e novas publicações...',27,2198360,2184,18420,34,1],
+    ['Catalog Normalizer padronizando CATMAT/CATSER, descrições e sinônimos...',41,4124822,4823,52610,91,2],
+    ['Capability Matcher cruzando linhas de fornecimento com capacidade ARILUB...',55,5489314,4823,52610,184,3],
+    ['Historical Intelligence consultando preços, vencedores e homologações...',68,6350921,4823,52610,226,4],
+    ['Edital AI lendo requisitos, prazos, habilitação e riscos...',79,7126440,4823,52610,63,5],
+    ['Price & Risk Engine calculando referências, margem e limite estratégico...',91,8249732,4823,52610,21,6],
+    ['Opportunity Score priorizando as melhores oportunidades para revisão humana...',100,8912450,4823,52610,11,7]
+  ];
+  const fmt=n=>new Intl.NumberFormat('pt-BR').format(Math.round(n));
+  function tween(el,a,b,dur=700,formatter=fmt){const st=performance.now();function f(now){const q=Math.min(1,(now-st)/dur),e=1-Math.pow(1-q,3);el.textContent=formatter(a+(b-a)*e);if(q<1)w.requestAnimationFrame(f)}w.requestAnimationFrame(f)}
+  d.getElementById('start').onclick=()=>{
+    const s=d.getElementById('scan'),bar=d.getElementById('scanbar'),log=d.getElementById('log'),pct=d.getElementById('pct'),ring=d.getElementById('ring'),phase=d.getElementById('phase'),records=d.getElementById('records'),m1=d.getElementById('m1'),m2=d.getElementById('m2'),m3=d.getElementById('m3');
+    s.style.display='block';log.innerHTML='';bar.style.width='0';pct.textContent='0%';records.textContent='0';m1.textContent=m2.textContent=m3.textContent='0';d.querySelectorAll('.engineitem').forEach(e=>e.classList.remove('active','done'));
+    let i=0,prev=[0,0,0,0,0];
+    const run=()=>{
+      if(i>=steps.length){d.querySelectorAll('.engineitem').forEach(e=>{e.classList.remove('active');e.classList.add('done')});setTimeout(()=>showV4('radar'),1300);return}
+      const x=steps[i++],p=x[1],ei=x[6];
+      d.querySelectorAll('.engineitem').forEach((e,idx)=>{e.classList.toggle('done',idx<ei);e.classList.toggle('active',idx===ei)});
+      phase.textContent=x[0];bar.style.width=p+'%';ring.style.background='conic-gradient(var(--b) '+(p*3.6)+'deg,#e4edf5 0deg)';
+      tween(pct,prev[0],p,700,v=>Math.round(v)+'%');tween(records,prev[1],x[2]);tween(m1,prev[2],x[3]);tween(m2,prev[3],x[4]);tween(m3,prev[4],x[5]);
+      log.innerHTML='<div><b>MOTOR '+String(ei+1).padStart(2,'0')+' · ETAPA '+i+'/'+steps.length+'</b> &nbsp;●&nbsp; '+x[0]+'</div>';
+      prev=[p,x[2],x[3],x[4],x[5]];setTimeout(run,1000);
+    };run();
+  };
+});
+</script>
+</body>
+</html>
