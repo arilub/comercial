@@ -1936,6 +1936,17 @@
         "data_cadastro":  "2023-02-28"
     },
     {
+        "cliente_id":  77457,
+        "codigo_shop9":  4169,
+        "cliente_nome":  "TECNORD TRANSFOR FUNDACOES LTDA",
+        "fantasia":  "TECNORD TRANSFOR",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2023-03-07"
+    },
+    {
         "cliente_id":  77459,
         "codigo_shop9":  4171,
         "cliente_nome":  "MARCELO SILVA DE ALBUQUERQUE 74700847387",
@@ -4112,28 +4123,6 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2025-11-13"
-    },
-    {
-        "cliente_id":  92783,
-        "codigo_shop9":  4519,
-        "cliente_nome":  "C B Locacoes Ltda",
-        "fantasia":  "",
-        "cidade":  "Eusébio",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-17"
-    },
-    {
-        "cliente_id":  92784,
-        "codigo_shop9":  4520,
-        "cliente_nome":  "Amsn Servicos Automotivos Ltda",
-        "fantasia":  "As Invest",
-        "cidade":  "Fortaleza",
-        "uf":  "CE",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2025-11-17"
     },
     {
         "cliente_id":  92786,
