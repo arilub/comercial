@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ARILUB · GOV Intelligence V0.4</title>
+<title>ARILUB · GOV Intelligence V0.5</title>
 <style>
 html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#F4F6F8}
 #app{border:0;width:100%;height:100%;display:block}
@@ -39,20 +39,28 @@ app.addEventListener('load',()=>{
   .engine-output{min-height:142px}.engine-output h3{margin-top:4px}
   .source-map{display:grid;grid-template-columns:1fr 1fr;gap:10px}.source-map .card{margin-bottom:0}
   .hist-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.hist-kpis .kpi{margin-bottom:0}
-  @media(max-width:980px){.engineboard{grid-template-columns:repeat(2,1fr)}.hist-kpis{grid-template-columns:repeat(2,1fr)}.source-map{grid-template-columns:1fr}}
-  @media(max-width:620px){.engineboard,.hist-kpis{grid-template-columns:1fr}}
+  .risk-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.risk-kpis .kpi{margin-bottom:0}
+  .risk-low{color:#16834a}.risk-mid{color:#b26a00}.risk-high{color:#b52b2b}
+  .confidence{display:inline-flex;align-items:center;gap:5px;font-size:9px;font-weight:800;padding:3px 7px;border-radius:10px;background:#eaf6ef;color:#176b40}
+  .confidence.mid{background:#fff4d8;color:#875300}.confidence.low{background:#fdebec;color:#9b2525}
+  @media(max-width:980px){.engineboard{grid-template-columns:repeat(2,1fr)}.hist-kpis,.risk-kpis{grid-template-columns:repeat(2,1fr)}.source-map{grid-template-columns:1fr}}
+  @media(max-width:620px){.engineboard,.hist-kpis,.risk-kpis{grid-template-columns:1fr}}
   `;
   d.head.appendChild(css);
 
   const badges=[...d.querySelectorAll('.header-badges .badge')];
   const vb=badges.find(x=>x.textContent.includes('V0.3'));
-  if(vb) vb.textContent='V0.4 · SIMULADO';
-  if(d.querySelector('footer')) d.querySelector('footer').textContent='ARILUB · GOV Intelligence · Protótipo V0.4 · Histórico Competitivo + Ecossistema de Motores';
+  if(vb) vb.textContent='V0.5 · SIMULADO';
+  if(d.querySelector('footer')) d.querySelector('footer').textContent='ARILUB · GOV Intelligence · Protótipo V0.5 · Histórico Competitivo + Risco de Recebimento + Ecossistema de Motores';
 
   const detailNav=d.querySelector('.nav button[data-v="detail"]');
   if(detailNav&&!d.querySelector('.nav button[data-v="history"]')){
     const b=d.createElement('button'); b.dataset.v='history'; b.textContent='Histórico Competitivo';
     detailNav.after(b);
+  }
+  const historyNav=d.querySelector('.nav button[data-v="history"]');
+  if(historyNav&&!d.querySelector('.nav button[data-v="paymentrisk"]')){
+    const b=d.createElement('button'); b.dataset.v='paymentrisk'; b.textContent='Risco de Recebimento'; historyNav.after(b);
   }
 
   const detail=d.getElementById('detail');
@@ -133,7 +141,8 @@ app.addEventListener('load',()=>{
         <div class="meter"><span>Financeiro</span><div class="track"><div class="fill" style="width:79%"></div></div><b>79</b></div>
         <div class="meter"><span>Risco</span><div class="track"><div class="fill" style="width:84%"></div></div><b>84</b></div>
       </div>
-      <div class="card section"><b>Como chegamos aqui?</b><div class="sourcebox">Source Collector → Opportunity Scanner → Catalog Normalizer → Capability Matcher → Historical Intelligence → Edital AI → Price & Risk Engine → Opportunity Score.</div></div>
+      <div class="card section"><span class="badge mock">RISCO DE RECEBIMENTO · SIMULADO</span><h3 style="margin:8px 0 4px">Prazo histórico estimado: <span class="risk-low">27 dias</span></h3><div class="muted">Prazo do edital: 30 dias após aceite · confiança da amostra: alta</div><div class="meter"><span>Recebimento</span><div class="track"><div class="fill" style="width:88%"></div></div><b>88</b></div><div class="sourcebox">Motor cruza empenho → liquidação → pagamento e mede o prazo efetivo quando a fonte pública oferece essas datas.</div><button class="mini-btn goPaymentRisk">Abrir análise de recebimento →</button></div>
+      <div class="card section"><b>Como chegamos aqui?</b><div class="sourcebox">Source Collector → Opportunity Scanner → Catalog Normalizer → Capability Matcher → Historical Intelligence → Payment Risk Engine → Edital AI → Price & Risk Engine → Opportunity Score.</div></div>
     </div>
   </div>`;
 
@@ -183,6 +192,42 @@ app.addEventListener('load',()=>{
   `;
   d.getElementById('robots').before(hist);
 
+
+  const paymentrisk=d.createElement('section'); paymentrisk.id='paymentrisk'; paymentrisk.className='view';
+  paymentrisk.innerHTML=`
+    <div class="risk-kpis">
+      <div class="kpi"><span>Prazo médio efetivo</span><strong>34 dias</strong></div>
+      <div class="kpi"><span>Mediana</span><strong>29 dias</strong></div>
+      <div class="kpi"><span>P90</span><strong>61 dias</strong></div>
+      <div class="kpi"><span>Pagamentos no prazo</span><strong>78%</strong></div>
+      <div class="kpi"><span>Cobertura da amostra</span><strong>82%</strong></div>
+    </div>
+    <div class="section card">
+      <div class="page-head" style="margin-bottom:10px"><div><h3>Risco de Recebimento</h3><div class="muted">Prazo real entre liquidação/atesto e pagamento, conforme disponibilidade das fontes públicas.</div></div><span class="badge mock">DADOS DEMONSTRATIVOS</span></div>
+      <div class="filtergrid">
+        <div><label>Prazo histórico</label><select><option>Todos</option><option>Até 30 dias</option><option>31–45 dias</option><option>46–60 dias</option><option>61–90 dias</option><option>Acima de 90 dias</option></select></div>
+        <div><label>Nível de risco</label><select><option>Todos</option><option>Baixo</option><option>Médio</option><option>Alto</option></select></div>
+        <div><label>Esfera</label><select><option>Todas</option><option>Federal</option><option>Estadual</option><option>Municipal</option></select></div>
+        <div><label>UF</label><select><option>Brasil</option><option>CE</option><option>Nordeste</option></select></div>
+        <div><label>Confiança mínima</label><select><option>Média ou alta</option><option>Somente alta</option><option>Qualquer</option></select></div>
+        <div><label>Período histórico</label><select><option>24 meses</option><option>12 meses</option><option>36 meses</option></select></div>
+      </div>
+    </div>
+    <div class="section card">
+      <table class="table"><thead><tr><th>Órgão / unidade</th><th>Esfera</th><th>Prazo edital</th><th>Média efetiva</th><th>P90</th><th>No prazo</th><th>Risco</th><th>Confiança</th></tr></thead><tbody>
+        <tr><td>Órgão Federal A</td><td>Federal</td><td>30 dias</td><td>24 dias</td><td>38 dias</td><td>91%</td><td><b class="risk-low">Baixo</b></td><td><span class="confidence">ALTA</span></td></tr>
+        <tr><td>Autarquia Federal B</td><td>Federal</td><td>30 dias</td><td>37 dias</td><td>56 dias</td><td>74%</td><td><b class="risk-mid">Médio</b></td><td><span class="confidence">ALTA</span></td></tr>
+        <tr><td>Órgão Estadual C</td><td>Estadual</td><td>30 dias</td><td>48 dias</td><td>79 dias</td><td>62%</td><td><b class="risk-mid">Médio</b></td><td><span class="confidence mid">MÉDIA</span></td></tr>
+        <tr><td>Município D</td><td>Municipal</td><td>30 dias</td><td>—</td><td>—</td><td>—</td><td><b>Sem evidência</b></td><td><span class="confidence low">BAIXA</span></td></tr>
+      </tbody></table>
+      <div class="sourcebox"><b>Regra:</b> ausência de dado não será convertida em risco baixo. O motor exibirá <b>SEM EVIDÊNCIA SUFICIENTE</b> e reduzirá a confiança do score.</div>
+    </div>
+    <div class="section cols">
+      <div class="card"><h3>Como o indicador é calculado</h3><p class="muted">Contratação/empenho → data de atesto/liquidação → data de pagamento → dias efetivos. O motor calcula média, mediana, P75/P90, percentual pago no prazo, dispersão e recorrência de atrasos.</p></div>
+      <div class="card"><h3>Fontes previstas</h3><p class="muted">PNCP/Compras.gov para contratação e empenho; execução da despesa e Portais da Transparência para liquidação/pagamento; bases estaduais/municipais quando houver dados estruturados e auditáveis.</p></div>
+    </div>`;
+  d.getElementById('robots').before(paymentrisk);
+
   const robots=d.getElementById('robots');
   const engine=(name,out,badge='MOTOR')=>`<div class="card"><span class="badge ${badge==='CONECTOR'?'real':'mock'}">${badge}</span><strong>${name}</strong><span class="muted">${out}</span><button class="mini-btn engineShow" data-name="${name}" data-out="${out}">Ver saída</button></div>`;
   robots.innerHTML=`
@@ -193,6 +238,8 @@ app.addEventListener('load',()=>{
       ${engine('Catalog Normalizer','Relaciona descrições a CATMAT/CATSER e famílias comerciais.')}
       ${engine('Capability Matcher','Cruza capacidade histórica, sourcing e viabilidade operacional.')}
       ${engine('Historical Intelligence','Consolida vencedores, preços, homologações e recorrência.')}
+      ${engine('Public Expenditure Connector','Coleta empenho, liquidação e pagamento em bases públicas estruturadas.','CONECTOR')}
+      ${engine('Payment Risk Engine','Calcula prazo efetivo, dispersão, atrasos e confiança por órgão/unidade.')}
       ${engine('Ata / Lance Reader','Reconstrói dinâmica de disputa a partir de atas públicas acessíveis.')}
       ${engine('Edital AI','Extrai requisitos, riscos, prazos e obrigações.')}
       ${engine('Price & Risk Engine','Calcula referência, margem, capital e limite de disputa.')}
@@ -201,21 +248,28 @@ app.addEventListener('load',()=>{
       ${engine('Alert & Learning Engine','Monitora prazos, retificações e retroalimenta o motor.')}
     </div>
     <div class="section cols">
-      <div class="card"><h3>Orquestração</h3><div class="flow"><span class="node">Fontes</span><span class="arrow">→</span><span class="node">Scanner</span><span class="arrow">→</span><span class="node">Catálogo</span><span class="arrow">→</span><span class="node">Capacidade</span><span class="arrow">→</span><span class="node">Histórico</span><span class="arrow">→</span><span class="node">Ata/Lances</span><span class="arrow">→</span><span class="node">Edital</span><span class="arrow">→</span><span class="node">Preço/Risco</span><span class="arrow">→</span><span class="node">Score</span><span class="arrow">→</span><span class="node">Humano</span></div><div class="sourcebox">Os motores são etapas independentes, com entrada, saída e rastreabilidade próprias.</div></div>
+      <div class="card"><h3>Orquestração</h3><div class="flow"><span class="node">Fontes</span><span class="arrow">→</span><span class="node">Scanner</span><span class="arrow">→</span><span class="node">Catálogo</span><span class="arrow">→</span><span class="node">Capacidade</span><span class="arrow">→</span><span class="node">Histórico</span><span class="arrow">→</span><span class="node">Recebimento</span><span class="arrow">→</span><span class="node">Ata/Lances</span><span class="arrow">→</span><span class="node">Edital</span><span class="arrow">→</span><span class="node">Preço/Risco</span><span class="arrow">→</span><span class="node">Score</span><span class="arrow">→</span><span class="node">Humano</span></div><div class="sourcebox">Os motores são etapas independentes, com entrada, saída e rastreabilidade próprias.</div></div>
       <div class="card engine-output" id="engineOutput"><span class="badge mock">MAPA DE MOTORES</span><h3>Clique em “Ver saída”</h3><p class="muted">O painel mostrará o papel e o produto de dados de cada motor.</p></div>
     </div>`;
 
   const scan=d.getElementById('scan');
   const srcbox=scan.querySelector('.sourcebox');
   const eb=d.createElement('div'); eb.className='engineboard'; eb.id='engineboard';
-  const engineNames=['Source Collector','Opportunity Scanner','Catalog Normalizer','Capability Matcher','Historical Intelligence','Edital AI','Price & Risk Engine','Opportunity Score'];
+  const engineNames=['Source Collector','Opportunity Scanner','Catalog Normalizer','Capability Matcher','Historical Intelligence','Payment Risk Engine','Edital AI','Price & Risk Engine','Opportunity Score'];
   eb.innerHTML=engineNames.map((n,i)=>`<div class="engineitem" data-engine="${i}"><b>${String(i+1).padStart(2,'0')} · ${n}</b><div class="estate"><span class="edot"></span><span>Aguardando</span></div></div>`).join('');
   srcbox.before(eb);
 
   const homeCards=d.querySelector('#home .section .robot');
   if(homeCards) homeCards.innerHTML='<div class="card"><span class="badge real">CAMADA 1</span><strong>Descoberta & Coleta</strong><span class="muted">PNCP, Compras.gov, PCA, catálogos e documentos.</span></div><div class="card"><span class="badge mock">CAMADA 2</span><strong>Inteligência Histórica</strong><span class="muted">Preços, vencedores, resultados e leitura de atas/lances.</span></div><div class="card"><span class="badge mock">CAMADA 3</span><strong>Decisão Assistida</strong><span class="muted">Aderência, edital, margem, risco e score.</span></div>';
 
-  const names={home:'Central de Inteligência em Negócios Públicos',radar:'Radar de Oportunidades GOV',detail:'Raio-X da Oportunidade',history:'Histórico Competitivo',robots:'Robôs & Integrações',filters:'Estratégia & Filtros',live:'Sala de Disputa Assistida',post:'Pós-certame & Aprendizado'};
+  const filtersView=d.getElementById('filters');
+  if(filtersView){
+    const rf=d.createElement('div'); rf.className='section card';
+    rf.innerHTML='<span class="badge mock">NOVO FILTRO</span><h3>Prazo histórico de recebimento</h3><div class="filtergrid"><div><label>Prazo máximo aceitável</label><select><option>Sem limite</option><option>Até 30 dias</option><option>Até 45 dias</option><option>Até 60 dias</option><option>Até 90 dias</option></select></div><div><label>Risco máximo</label><select><option>Qualquer</option><option>Baixo</option><option>Baixo ou médio</option></select></div><div><label>Confiança mínima</label><select><option>Média</option><option>Alta</option><option>Qualquer</option></select></div></div><div class="sourcebox">Esse filtro usará prazo <b>efetivamente observado</b>, e não apenas o prazo escrito no edital. Quando não houver dados suficientes, a oportunidade permanece visível com aviso de baixa confiança.</div>';
+    filtersView.appendChild(rf);
+  }
+
+  const names={home:'Central de Inteligência em Negócios Públicos',radar:'Radar de Oportunidades GOV',detail:'Raio-X da Oportunidade',history:'Histórico Competitivo',paymentrisk:'Risco de Recebimento',robots:'Robôs & Integrações',filters:'Estratégia & Filtros',live:'Sala de Disputa Assistida',post:'Pós-certame & Aprendizado'};
   function showV4(id){
     d.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
     const el=d.getElementById(id); if(el) el.classList.add('active');
@@ -226,6 +280,7 @@ app.addEventListener('load',()=>{
   d.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>showV4(b.dataset.v));
   d.querySelectorAll('.goDetail').forEach(b=>b.onclick=()=>showV4('detail'));
   d.querySelectorAll('.goHistory').forEach(b=>b.onclick=()=>showV4('history'));
+  d.querySelectorAll('.goPaymentRisk').forEach(b=>b.onclick=()=>showV4('paymentrisk'));
   d.querySelectorAll('.detail-tabs button').forEach(b=>b.onclick=()=>{
     d.querySelectorAll('.detail-tabs button').forEach(x=>x.classList.remove('on'));
     d.querySelectorAll('#detail .tabpane').forEach(x=>x.classList.remove('on'));
@@ -241,10 +296,11 @@ app.addEventListener('load',()=>{
     ['Opportunity Scanner pesquisando contratações, itens e novas publicações...',27,2198360,2184,18420,34,1],
     ['Catalog Normalizer padronizando CATMAT/CATSER, descrições e sinônimos...',41,4124822,4823,52610,91,2],
     ['Capability Matcher cruzando linhas de fornecimento com capacidade ARILUB...',55,5489314,4823,52610,184,3],
-    ['Historical Intelligence consultando preços, vencedores e homologações...',68,6350921,4823,52610,226,4],
-    ['Edital AI lendo requisitos, prazos, habilitação e riscos...',79,7126440,4823,52610,63,5],
-    ['Price & Risk Engine calculando referências, margem e limite estratégico...',91,8249732,4823,52610,21,6],
-    ['Opportunity Score priorizando as melhores oportunidades para revisão humana...',100,8912450,4823,52610,11,7]
+    ['Historical Intelligence consultando preços, vencedores e homologações...',66,6350921,4823,52610,226,4],
+    ['Payment Risk Engine cruzando empenhos, liquidações, pagamentos e prazos efetivos...',75,6814330,4823,52610,119,5],
+    ['Edital AI lendo requisitos, prazos, habilitação e riscos...',83,7126440,4823,52610,63,6],
+    ['Price & Risk Engine calculando referências, margem e limite estratégico...',92,8249732,4823,52610,21,7],
+    ['Opportunity Score priorizando as melhores oportunidades para revisão humana...',100,8912450,4823,52610,11,8]
   ];
   const fmt=n=>new Intl.NumberFormat('pt-BR').format(Math.round(n));
   function tween(el,a,b,dur=700,formatter=fmt){const st=performance.now();function f(now){const q=Math.min(1,(now-st)/dur),e=1-Math.pow(1-q,3);el.textContent=formatter(a+(b-a)*e);if(q<1)w.requestAnimationFrame(f)}w.requestAnimationFrame(f)}
