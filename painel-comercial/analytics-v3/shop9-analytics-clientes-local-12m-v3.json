@@ -220,6 +220,17 @@
         "data_cadastro":  "2004-10-05"
     },
     {
+        "cliente_id":  768,
+        "codigo_shop9":  766,
+        "cliente_nome":  "LOQUICENTER LOCADORA COMERCIAL LTDA",
+        "fantasia":  "LOCADORA DE EQUIPAMENTOS",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2006-02-15"
+    },
+    {
         "cliente_id":  983,
         "codigo_shop9":  983,
         "cliente_nome":  "Pardal Industria E Comercio De Sorvetes Ltda.",
