@@ -1,0 +1,9 @@
+# Dados coletados e configurações locais — não publicar
+saida/
+*.jsonl
+*.sqlite
+*.db
+.env
+.env.*
+__pycache__/
+*.pyc
