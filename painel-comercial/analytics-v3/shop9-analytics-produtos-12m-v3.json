@@ -6450,21 +6450,6 @@
         "unidade":  "UN"
     },
     {
-        "produto_id":  65613,
-        "codigo":  "200075",
-        "produto":  "BORRACHA LENCOL LONADO 3,00mm x 1000mm LBOR",
-        "tipo":  "N",
-        "inativo":  false,
-        "grupo_id":  8,
-        "grupo":  "SEM MARGEM DEFINIDA",
-        "familia_id":  4,
-        "familia":  "LICITACAO",
-        "fabricante_id":  40997,
-        "fabricante":  "LBOR",
-        "unidade_id":  10030,
-        "unidade":  "UN"
-    },
-    {
         "produto_id":  65616,
         "codigo":  "101018000628",
         "produto":  "CANTONEIRA 1 x 1/8 6mt",
