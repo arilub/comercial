@@ -2,7 +2,7 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-19T08:31:08-03:00",
+                 "geradoEm":  "2026-11-19T09:30:58-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
@@ -13,9 +13,9 @@
                      "Venda perdida":  1328,
                      "Venda ganha":  983,
                      "Cliente Ativo":  595,
-                     "NegociaÃ§Ã£o":  579,
-                     "Chegada do Lead":  213,
-                     "Nova Sondagem":  162,
+                     "NegociaÃ§Ã£o":  581,
+                     "Chegada do Lead":  212,
+                     "Nova Sondagem":  161,
                      "Vencedor - OF":  3,
                      "Contato Inicial":  3,
                      "Classificado":  2,
@@ -52,7 +52,7 @@
                    "ticketMedio":  2574.30,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  395,
+                                                        "totalLeads":  397,
                                                         "ganhosQtd":  133,
                                                         "perdidosQtd":  16,
                                                         "ganhosValor":  325611
@@ -60,18 +60,18 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  211,
+                      "WhatsApp":  213,
                       "E-mail":  2,
                       "Telefone":  2
                   },
     "porLinhaProduto":  {
                             "Geral/Outros":  {
-                                                 "totalLeads":  59,
+                                                 "totalLeads":  60,
                                                  "ganhosQtd":  18,
                                                  "ganhosValor":  57369
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  282,
+                                                  "totalLeads":  283,
                                                   "ganhosQtd":  95,
                                                   "ganhosValor":  227952
                                               },
@@ -101,6 +101,18 @@
                                      "ganhosValor":  0
                                  },
                                  {
+                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  411
+                                 },
+                                 {
+                                     "nome":  "graxa azul karter 20 kg",
+                                     "totalLeads":  2,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
                                      "nome":  "GRAXA GRAFITADA",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
@@ -113,7 +125,7 @@
                                      "ganhosValor":  753
                                  },
                                  {
-                                     "nome":  "graxa azul karter 20 kg",
+                                     "nome":  "GRAXA AZUL 10KG",
                                      "totalLeads":  2,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -125,16 +137,10 @@
                                      "ganhosValor":  737
                                  },
                                  {
-                                     "nome":  "GRAXA AZUL 10KG",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo ectron 68 vr lub bd 20 litros",
+                                     "nome":  "OLEO 68 ECONOLINE",
                                      "totalLeads":  2,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  411
+                                     "ganhosValor":  798
                                  },
                                  {
                                      "nome":  "ROLAMENTOS",
@@ -143,28 +149,10 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "OLEO 68 ECONOLINE",
-                                     "totalLeads":  2,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  798
-                                 },
-                                 {
                                      "nome":  "moto 4t 24x01 litro vr lub e aditivo valvoline 12x01 litro",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO 5W30 VR LUB E VALVOLINE E FILTROS AUTOMOTIVOS",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "MOBIL 20W50 FLEX 24X01LITRO",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  955
                                  },
                                  {
                                      "nome":  "OLEO COMPSOR AC 150 VR LUB",
@@ -179,48 +167,60 @@
                                      "ganhosValor":  397
                                  },
                                  {
-                                     "nome":  "graxa chassis 18 kg vr lub 03 BDS",
+                                     "nome":  "MOBIL 20W50 FLEX 24X01LITRO",
                                      "totalLeads":  1,
                                      "ganhosQtd":  1,
-                                     "ganhosValor":  1059
+                                     "ganhosValor":  955
                                  },
                                  {
-                                     "nome":  "OLEO 68,15W40,80W90,10W40, SAE 40 ADITIVO FLEETGUARD",
+                                     "nome":  "OLEO PARA COMPRESOR AC 150",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  472
+                                 },
+                                 {
+                                     "nome":  "OLEO SOLUVEL ALL 15 E 211 BD 20L",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "ECTRO 68 BD 20L",
+                                     "nome":  "COMSOR 150 LITRO",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "shell tellus s2 68 tb 209 litros",
+                                     "nome":  "OLEO ATF VR LUB LITRO",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  321
+                                 },
+                                 {
+                                     "nome":  "MOTO 4T 20W50 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "OLEO AG 220 E GRAXA BARDAHL/ graxa chassis 170kg",
+                                     "nome":  "oleo ac 150 vr lub",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  701
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6234,
-                                     "valorTotal":  22980646.65,
+                                     "total":  6235,
+                                     "valorTotal":  22981559.31,
                                      "convertidos":  2450,
                                      "cancelados":  389,
-                                     "recente":  26,
+                                     "recente":  27,
                                      "acompanhamento":  25,
                                      "atencao":  46,
                                      "envelhecido":  3081,
-                                     "taxaConversao":  0.393
+                                     "taxaConversao":  0.3929
                                  },
                   "vendas":  {
                                  "total":  63101,
@@ -231,7 +231,7 @@
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  50,
+                       "vinculoDefinitivoLeadId":  51,
                        "reconciliacaoHistorica":  89,
                        "forteProvisorio":  17,
                        "provavel":  72,
@@ -74500,27 +74500,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26760342,
-                      "nome":  "Autolead: Lead #25054676",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "73206571",
-                      "etapa":  "Nova Sondagem",
-                      "valor":  0,
-                      "cliente":  "Rolitec Comercio Rocha Lima Ltda",
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-09-18T08:12:46-03:00",
-                      "atualizadoEm":  "2026-10-23T14:27:59-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
                       "id":  24197564,
                       "nome":  "Lead #24197564",
                       "pipelineId":  "9334023",
@@ -82711,6 +82690,48 @@
                       "vendaShop9":  null
                   },
                   {
+                      "id":  27212726,
+                      "nome":  "LGM CONSTRUTORA LTDA GILMARIO LGM",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  912,
+                      "cliente":  "LGM CONSTRUTORA LTDA",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "15w40 ci4 vr lub 20l",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-19T08:36:42-03:00",
+                      "atualizadoEm":  "2026-11-19T08:40:12-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26760342,
+                      "nome":  "Rolitec Comercio Rocha Lima LtdaAutolead:",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "73206575",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  1106,
+                      "cliente":  "Rolitec Comercio Rocha Lima Ltda",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "GRAXA 20 KG KARTER",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-09-18T08:12:46-03:00",
+                      "atualizadoEm":  "2026-11-19T08:51:11-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
                       "id":  23885935,
                       "nome":  "Autolead: Lead #23833547",
                       "pipelineId":  "9473539",
@@ -82726,29 +82747,8 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2025-12-12T11:40:53-03:00",
-                      "atualizadoEm":  "2026-11-19T07:51:56-03:00",
+                      "atualizadoEm":  "2026-11-19T09:04:00-03:00",
                       "fechadoEm":  "2026-02-02T14:59:10-03:00",
-                      "reconciliacaoHistorica":  null,
-                      "vendaShop9":  null
-                  },
-                  {
-                      "id":  27212526,
-                      "nome":  "Lead #27212526",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
-                      "numeroCoep":  null,
-                      "criadoEm":  "2026-11-19T07:41:28-03:00",
-                      "atualizadoEm":  "2026-11-19T08:20:26-03:00",
-                      "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   }
