@@ -2130,6 +2130,21 @@
         "unidade":  "LT"
     },
     {
+        "produto_id":  9769,
+        "codigo":  "386115V",
+        "produto":  "20W50 SL 1L PETROL",
+        "tipo":  "N",
+        "inativo":  false,
+        "grupo_id":  13,
+        "grupo":  "35%",
+        "familia_id":  3,
+        "familia":  "VAREJO",
+        "fabricante_id":  19568,
+        "fabricante":  "PETROL",
+        "unidade_id":  10030,
+        "unidade":  "UN"
+    },
+    {
         "produto_id":  9805,
         "codigo":  "1001092",
         "produto":  "GEAR 68 20L LUBRAX",
