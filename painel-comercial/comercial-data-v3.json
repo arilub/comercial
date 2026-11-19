@@ -2,18 +2,18 @@
     "meta":  {
                  "sistema":  "ARILUB Comercial",
                  "versao":  "3.0.0-homolog-local",
-                 "geradoEm":  "2026-11-19T14:30:34-03:00",
+                 "geradoEm":  "2026-11-19T15:30:40-03:00",
                  "publicacao":  "HOMOLOGACAO_LOCAL",
                  "seguranca":  "DADOS_OPERACIONAIS_NAO_PUBLICADOS",
                  "cpfCnpj":  "NAO_PUBLICADO",
                  "regraHistorica":  "CPF/CNPJ exato + cliente unico + Kommo ganho + VND D-1/D0 + diferenca de valor \u003c= 1%"
              },
-    "totalLeads":  3876,
+    "totalLeads":  3877,
     "porEtapa":  {
                      "Venda perdida":  1328,
                      "Venda ganha":  984,
                      "Cliente Ativo":  596,
-                     "NegociaÃ§Ã£o":  581,
+                     "NegociaÃ§Ã£o":  582,
                      "Chegada do Lead":  217,
                      "Nova Sondagem":  161,
                      "Vencedor - OF":  3,
@@ -25,7 +25,7 @@
                       {
                           "pipelineId":  "9334023",
                           "funil":  "Funil Fabiana",
-                          "leads":  2156,
+                          "leads":  2157,
                           "ganhos":  470,
                           "perdidos":  1010
                       },
@@ -52,7 +52,7 @@
                    "ticketMedio":  2573.33,
                    "porAtendente":  {
                                         "Fabiana":  {
-                                                        "totalLeads":  399,
+                                                        "totalLeads":  400,
                                                         "ganhosQtd":  134,
                                                         "perdidosQtd":  16,
                                                         "ganhosValor":  327232
@@ -60,7 +60,7 @@
                                     }
                },
     "porOrigem":  {
-                      "WhatsApp":  215,
+                      "WhatsApp":  216,
                       "E-mail":  2,
                       "Telefone":  2
                   },
@@ -71,7 +71,7 @@
                                                  "ganhosValor":  58475
                                              },
                             "Lubrificantes":  {
-                                                  "totalLeads":  285,
+                                                  "totalLeads":  286,
                                                   "ganhosQtd":  95,
                                                   "ganhosValor":  228467
                                               },
@@ -149,37 +149,19 @@
                                      "ganhosValor":  14659
                                  },
                                  {
-                                     "nome":  "MOTO 4T 20W50 VR LUB",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "0w20 vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  0,
-                                     "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "OLEO ATF VR LUB LITRO",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  321
-                                 },
-                                 {
                                      "nome":  "COMSOR 150 LITRO",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "GRAXA CHASSIS 1KG 05 LATAS DE 1KG",
+                                     "nome":  "GRAXA EVORA NGLI 0 20 KG",
                                      "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  237
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "15w40 ci4  tb 200 litros lubrax top turbo",
+                                     "nome":  "MOTO 4T 20W50 VR LUB",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
@@ -191,36 +173,54 @@
                                      "ganhosValor":  472
                                  },
                                  {
+                                     "nome":  "15w40 ci4  tb 200 litros lubrax top turbo",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  0,
+                                     "ganhosValor":  0
+                                 },
+                                 {
+                                     "nome":  "gear 460 vr lub",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  684
+                                 },
+                                 {
                                      "nome":  "OLEO SOLUVEL ALL 15 E 211 BD 20L",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
                                  },
                                  {
-                                     "nome":  "moto 4t 24x01 litro vr lub e aditivo valvoline 12x01 litro",
+                                     "nome":  "GRAXA CHASSIS 1KG 05 LATAS DE 1KG",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  237
+                                 },
+                                 {
+                                     "nome":  "OLEO ATF VR LUB LITRO",
+                                     "totalLeads":  1,
+                                     "ganhosQtd":  1,
+                                     "ganhosValor":  321
+                                 },
+                                 {
+                                     "nome":  "oleo 5w30 sl, 5w40 sn WO545 E PSL 55",
                                      "totalLeads":  1,
                                      "ganhosQtd":  0,
                                      "ganhosValor":  0
-                                 },
-                                 {
-                                     "nome":  "oleo ac 150 vr lub",
-                                     "totalLeads":  1,
-                                     "ganhosQtd":  1,
-                                     "ganhosValor":  701
                                  }
                              ]
                  },
     "shop9":  {
                   "orcamentos":  {
-                                     "total":  6240,
-                                     "valorTotal":  23024901.30,
+                                     "total":  6242,
+                                     "valorTotal":  23033259.90,
                                      "convertidos":  2455,
                                      "cancelados":  389,
-                                     "recente":  27,
+                                     "recente":  29,
                                      "acompanhamento":  25,
                                      "atencao":  46,
                                      "envelhecido":  3081,
-                                     "taxaConversao":  0.3934
+                                     "taxaConversao":  0.3933
                                  },
                   "vendas":  {
                                  "total":  63106,
@@ -231,7 +231,7 @@
                              }
               },
     "integracao":  {
-                       "vinculoDefinitivoLeadId":  55,
+                       "vinculoDefinitivoLeadId":  56,
                        "reconciliacaoHistorica":  90,
                        "forteProvisorio":  17,
                        "provavel":  73,
@@ -1488,20 +1488,6 @@
                                   "diferencaPct":  0.0724
                               },
                               {
-                                  "leadId":  21863077,
-                                  "pipelineId":  "9473539",
-                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
-                                  "classificacao":  "PROVAVEL",
-                                  "clienteShop9":  "Marfa Locacoes De Maquinas E Equipamentos Ltda",
-                                  "vendaOrdem":  438475,
-                                  "fechamentoKommo":  "2026-10-16",
-                                  "dataVenda":  "2026-10-16",
-                                  "diasDiferenca":  0,
-                                  "valorKommo":  353,
-                                  "valorShop9":  353.10,
-                                  "diferencaPct":  0.0283
-                              },
-                              {
                                   "leadId":  26760342,
                                   "pipelineId":  "9473539",
                                   "funil":  "PositivaÃ§Ã£o - Fabiana",
@@ -1514,6 +1500,20 @@
                                   "valorKommo":  1106,
                                   "valorShop9":  1105.59,
                                   "diferencaPct":  0.0371
+                              },
+                              {
+                                  "leadId":  21863077,
+                                  "pipelineId":  "9473539",
+                                  "funil":  "PositivaÃ§Ã£o - Fabiana",
+                                  "classificacao":  "PROVAVEL",
+                                  "clienteShop9":  "Marfa Locacoes De Maquinas E Equipamentos Ltda",
+                                  "vendaOrdem":  438475,
+                                  "fechamentoKommo":  "2026-10-16",
+                                  "dataVenda":  "2026-10-16",
+                                  "diasDiferenca":  0,
+                                  "valorKommo":  353,
+                                  "valorShop9":  353.10,
+                                  "diferencaPct":  0.0283
                               }
                           ],
     "leads":  [
@@ -82641,27 +82641,6 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  21863077,
-                      "nome":  "Autolead: Lead #6551816",
-                      "pipelineId":  "9473539",
-                      "funil":  "PositivaÃ§Ã£o - Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  353,
-                      "cliente":  "Marfa Locacoes De Maquinas E Equipamentos Ltda",
-                      "atendente":  "Fabiana",
-                      "responsavelKommo":  "Fabiana",
-                      "produto":  "91278",
-                      "linhaProduto":  "Geral/Outros",
-                      "origem":  "WhatsApp",
-                      "numeroCoep":  null,
-                      "criadoEm":  "2025-07-29T16:25:08-03:00",
-                      "atualizadoEm":  "2026-11-19T12:16:48-03:00",
-                      "fechadoEm":  "2026-10-16T13:17:09-03:00",
-                      "reconciliacaoHistorica":  "PROVAVEL",
-                      "vendaShop9":  438475
-                  },
-                  {
                       "id":  26760342,
                       "nome":  "Rolitec Comercio Rocha Lima LtdaAutolead:",
                       "pipelineId":  "9473539",
@@ -82830,43 +82809,43 @@
                       "vendaShop9":  null
                   },
                   {
-                      "id":  26901522,
-                      "nome":  "Lead #26901522",
+                      "id":  27076670,
+                      "nome":  "JOSE EVANDRO",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
-                      "statusId":  "142",
-                      "etapa":  "Venda ganha",
-                      "valor":  2748,
-                      "cliente":  "NAILTON ALVES DA SILVA JUNIOR",
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  363,
+                      "cliente":  "JOSE EVANDRO",
                       "atendente":  "Fabiana",
                       "responsavelKommo":  "Fabiana",
-                      "produto":  "gl4 140 vr lub",
+                      "produto":  "OLEO 5W30, 5W40 VR LUB LITRO",
                       "linhaProduto":  "Lubrificantes",
                       "origem":  "WhatsApp",
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-10-06T16:14:12-03:00",
-                      "atualizadoEm":  "2026-11-19T13:35:33-03:00",
-                      "fechadoEm":  "2026-10-21T16:51:33-03:00",
-                      "reconciliacaoHistorica":  "SEM_CLIENTE_SHOP9",
+                      "criadoEm":  "2026-11-03T16:22:38-03:00",
+                      "atualizadoEm":  "2026-11-19T14:18:30-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
                   {
                       "id":  27215110,
-                      "nome":  "Lead #27215110",
+                      "nome":  "Construtora Conita Ltda Me",
                       "pipelineId":  "9334023",
                       "funil":  "Funil Fabiana",
-                      "statusId":  "72324135",
-                      "etapa":  "Chegada do Lead",
-                      "valor":  0,
-                      "cliente":  null,
-                      "atendente":  null,
+                      "statusId":  "72324147",
+                      "etapa":  "NegociaÃ§Ã£o",
+                      "valor":  3250,
+                      "cliente":  "Construtora Conita Ltda Me",
+                      "atendente":  "Fabiana",
                       "responsavelKommo":  "Fabiana",
-                      "produto":  null,
-                      "linhaProduto":  null,
-                      "origem":  null,
+                      "produto":  "GRAXA CHASSIS 170 KG",
+                      "linhaProduto":  "Lubrificantes",
+                      "origem":  "WhatsApp",
                       "numeroCoep":  null,
                       "criadoEm":  "2026-11-19T13:32:55-03:00",
-                      "atualizadoEm":  "2026-11-19T13:36:21-03:00",
+                      "atualizadoEm":  "2026-11-19T14:46:46-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
@@ -82887,30 +82866,72 @@
                       "origem":  null,
                       "numeroCoep":  null,
                       "criadoEm":  "2026-10-21T10:58:22-03:00",
-                      "atualizadoEm":  "2026-11-19T13:52:28-03:00",
+                      "atualizadoEm":  "2026-11-19T14:53:10-03:00",
                       "fechadoEm":  null,
                       "reconciliacaoHistorica":  null,
                       "vendaShop9":  null
                   },
                   {
-                      "id":  27076670,
-                      "nome":  "JOSE EVANDRO",
-                      "pipelineId":  "9334023",
-                      "funil":  "Funil Fabiana",
-                      "statusId":  "72324147",
-                      "etapa":  "NegociaÃ§Ã£o",
-                      "valor":  363,
-                      "cliente":  "JOSE EVANDRO",
+                      "id":  21863077,
+                      "nome":  "Autolead: Lead #6551816",
+                      "pipelineId":  "9473539",
+                      "funil":  "PositivaÃ§Ã£o - Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  353,
+                      "cliente":  "Marfa Locacoes De Maquinas E Equipamentos Ltda",
                       "atendente":  "Fabiana",
                       "responsavelKommo":  "Fabiana",
-                      "produto":  "OLEO 5W30, 5W40 VR LUB LITRO",
+                      "produto":  "91278",
+                      "linhaProduto":  "Geral/Outros",
+                      "origem":  "WhatsApp",
+                      "numeroCoep":  null,
+                      "criadoEm":  "2025-07-29T16:25:08-03:00",
+                      "atualizadoEm":  "2026-11-19T15:15:21-03:00",
+                      "fechadoEm":  "2026-10-16T13:17:09-03:00",
+                      "reconciliacaoHistorica":  "PROVAVEL",
+                      "vendaShop9":  438475
+                  },
+                  {
+                      "id":  27215586,
+                      "nome":  "Lead #27215586",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "72324135",
+                      "etapa":  "Chegada do Lead",
+                      "valor":  0,
+                      "cliente":  null,
+                      "atendente":  null,
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  null,
+                      "linhaProduto":  null,
+                      "origem":  null,
+                      "numeroCoep":  null,
+                      "criadoEm":  "2026-11-19T14:28:43-03:00",
+                      "atualizadoEm":  "2026-11-19T15:16:31-03:00",
+                      "fechadoEm":  null,
+                      "reconciliacaoHistorica":  null,
+                      "vendaShop9":  null
+                  },
+                  {
+                      "id":  26901522,
+                      "nome":  "Lead #26901522",
+                      "pipelineId":  "9334023",
+                      "funil":  "Funil Fabiana",
+                      "statusId":  "142",
+                      "etapa":  "Venda ganha",
+                      "valor":  2748,
+                      "cliente":  "NAILTON ALVES DA SILVA JUNIOR",
+                      "atendente":  "Fabiana",
+                      "responsavelKommo":  "Fabiana",
+                      "produto":  "gl4 140 vr lub",
                       "linhaProduto":  "Lubrificantes",
                       "origem":  "WhatsApp",
                       "numeroCoep":  null,
-                      "criadoEm":  "2026-11-03T16:22:38-03:00",
-                      "atualizadoEm":  "2026-11-19T14:18:30-03:00",
-                      "fechadoEm":  null,
-                      "reconciliacaoHistorica":  null,
+                      "criadoEm":  "2026-10-06T16:14:12-03:00",
+                      "atualizadoEm":  "2026-11-19T15:20:02-03:00",
+                      "fechadoEm":  "2026-10-21T16:51:33-03:00",
+                      "reconciliacaoHistorica":  "SEM_CLIENTE_SHOP9",
                       "vendaShop9":  null
                   }
               ]
