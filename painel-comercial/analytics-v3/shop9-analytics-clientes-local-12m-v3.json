@@ -8985,5 +8985,16 @@
         "fisica_juridica":  "J",
         "inativo":  false,
         "data_cadastro":  "2026-11-18"
+    },
+    {
+        "cliente_id":  93365,
+        "codigo_shop9":  5021,
+        "cliente_nome":  "Construtora Conita Ltda Me",
+        "fantasia":  "",
+        "cidade":  "Fortaleza",
+        "uf":  "CE",
+        "fisica_juridica":  "J",
+        "inativo":  false,
+        "data_cadastro":  "2026-11-19"
     }
 ]
