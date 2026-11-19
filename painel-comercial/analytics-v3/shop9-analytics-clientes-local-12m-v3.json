@@ -2860,17 +2860,6 @@
         "data_cadastro":  "2024-04-11"
     },
     {
-        "cliente_id":  78935,
-        "codigo_shop9":  2716,
-        "cliente_nome":  "Ellca 2 Servicos \u0026 Locacoes Ltda",
-        "fantasia":  "ELLCA",
-        "cidade":  "Rio De Janeiro",
-        "uf":  "RJ",
-        "fisica_juridica":  "J",
-        "inativo":  false,
-        "data_cadastro":  "2024-04-17"
-    },
-    {
         "cliente_id":  78938,
         "codigo_shop9":  2713,
         "cliente_nome":  "JCM SUCATA E SERVICOS ELETRICOS LTDA",
