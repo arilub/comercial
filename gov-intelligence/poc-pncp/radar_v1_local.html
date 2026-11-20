@@ -2,28 +2,30 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ARILUB GOV Intelligence | Radar V1.3.1</title>
+<title>ARILUB GOV Intelligence | Radar V1.4</title>
 <style>
 :root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#18283b;background:#f3f6f9}
 *{box-sizing:border-box}body{margin:0}header{background:#122b44;color:white;padding:22px max(22px,calc((100vw - 1260px)/2))}header h1{margin:3px 0 8px;font-size:22px}header small{color:#c2d4e2}
 main{max-width:1260px;margin:24px auto;padding:0 18px}.panel{background:white;border:1px solid #dce5ec;border-radius:13px;padding:18px;margin-bottom:16px;box-shadow:0 4px 18px #1e34500b}
 h2{font-size:16px;margin:0 0 12px}.intro{color:#455970;line-height:1.5}.tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.file{padding:10px;border:1px solid #a6b8c7;border-radius:8px;background:#f7fafc;max-width:100%}
-.stats{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:12px;margin:16px 0}.stat{background:white;padding:14px 16px;border:1px solid #dce5ec;border-radius:10px}.stat strong{display:block;font-size:24px}.stat span{font-size:12px;color:#5a6f82}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(150px,1fr));gap:12px;margin:16px 0}.stat{background:white;padding:14px 16px;border:1px solid #dce5ec;border-radius:10px}.stat strong{display:block;font-size:24px}.stat span{font-size:12px;color:#5a6f82}
 .filters{display:grid;grid-template-columns:minmax(200px,2fr) repeat(3,minmax(140px,1fr));gap:10px}input[type=search],select,input[type=date]{width:100%;border:1px solid #b6c6d3;border-radius:8px;padding:11px;font:inherit;background:white;color:inherit}
 .actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:13px 0}.actions button,button.action,.details-close{border:1px solid #abbfce;border-radius:8px;padding:9px 12px;background:#f0f5f9;color:#143d5d;cursor:pointer;font:inherit}.actions button:disabled{opacity:.45;cursor:not-allowed}.scroll{overflow:auto;max-height:660px}table{width:100%;border-collapse:collapse;min-width:1050px;font-size:13px}th,td{padding:12px 10px;border-bottom:1px solid #e8edf1;text-align:left;vertical-align:top}th{position:sticky;top:0;background:#eaf0f5;color:#334a60;z-index:1}td.object{min-width:330px;max-width:450px;line-height:1.45}td.org{min-width:155px;max-width:250px}tbody tr:hover{background:#f7fafc}
 small.muted,.muted{color:#667c90}.pill{display:inline-block;border:1px solid #d2dde5;border-radius:30px;padding:3px 8px;color:#385165;background:#f5f8fa;font-size:11px}a{color:#115c9b}a:focus,input:focus,select:focus{outline:2px solid #2c7cb0;outline-offset:2px}dialog{border:1px solid #c4d2dd;border-radius:14px;box-shadow:0 18px 80px #102c4566;max-width:760px;width:calc(100% - 24px);max-height:85vh;overflow:auto;padding:22px;color:#1c3248}dialog::backdrop{background:#122a4399}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.detail-grid dt{color:#63788a;font-size:12px}.detail-grid dd{margin:4px 0 0;overflow-wrap:anywhere}dialog h3{font-size:15px}dialog p{line-height:1.55;white-space:pre-wrap}.close-row{display:flex;justify-content:space-between;align-items:center;gap:15px}.detail-links{margin-top:14px}.status-expired{color:#a35b17;font-weight:600}footer{font-size:12px;color:#64798d;margin:28px 0 32px}.notice{border-left:3px solid #8b9baa;padding-left:12px;color:#425970}
 [hidden]{display:none!important}@media(max-width:840px){.stats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr}}@media(max-width:500px){.filters{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}header{padding:20px}}
 </style></head><body>
-<header><small>ARILUB • GOV INTELLIGENCE</small><h1>Radar de Licitações — V1.3.1</h1><small>Consulta local de dados oficiais PNCP • abrangência CE • modalidade pregão</small></header>
+<header><small>ARILUB • GOV INTELLIGENCE</small><h1>Radar de Licitações — V1.4</h1><small>Consulta local de dados oficiais PNCP • abrangência CE • modalidade pregão</small></header>
 <main>
 <section class="panel">
-<h2>Carregar base de oportunidades</h2>
-<p class="intro">Selecione preferencialmente <code>radar_v1_candidatos_itens_poc57.json</code> (POC-57). A versão POC-52 continua compatível, mas não contém itens. O arquivo é lido no próprio navegador: esta interface não transmite informações pela internet.</p>
+<h2>Fonte de dados e atualização</h2>
+<p class="intro">Na apresentação, os dados podem ser incorporados ao HTML. Para atualizar manualmente, selecione preferencialmente <code>radar_v1_candidatos_itens_poc57.json</code> (POC-57). A versão POC-52 continua compatível, mas não contém itens. O arquivo é lido no próprio navegador: esta interface não transmite informações pela internet.</p>
 <div class="tools"><input class="file" type="file" id="file" accept=".json,application/json" aria-label="Selecionar base JSON"><span id="status" role="status" class="muted">Nenhum arquivo carregado</span></div>
 <p class="notice"><strong>Critério:</strong> cada resultado é um <strong>candidato preliminar</strong>, não uma oportunidade comercial aprovada. Os dados podem estar desatualizados; situação e prazo precisam de confirmação na fonte oficial. Valores zero não comprovam orçamento sigiloso. Aderência comercial: <strong>NEUTRO</strong>.</p>
 </section>
 <section id="results" hidden>
 <div class="stats">
+<div class="stat"><strong id="ncompletos">—</strong><span>Pregões com itens oficiais</span></div>
+<div class="stat"><strong id="nitens">—</strong><span>Itens oficiais coletados</span></div>
 <div class="stat"><strong id="nbase">—</strong><span>Pregões na base de origem</span><small id="origemBase" class="muted"></small></div>
 <div class="stat"><strong id="ncand">—</strong><span>Candidatos no snapshot</span></div>
 <div class="stat"><strong id="nvis">—</strong><span>Resultados filtrados</span></div>
@@ -165,12 +167,9 @@ function filtrar(){
  const vencidos=dados.filter(x=>estadoTempo(x)==="VENCIDO_DESDE_SNAPSHOT").length;
  el("avisoTempo").textContent=vencidos?fmt.format(vencidos)+" candidatos com prazo vencido desde a extração; recarregue um snapshot atualizado.":"Prazos comparados ao relógio do computador.";
 }
-el("file").addEventListener("change",async e=>{
+function carregarDados(d,nome){
  el("results").hidden=true;el("status").textContent="Validando arquivo...";
  try{
-  const f=e.target.files?.[0];if(!f)return;
-  if(f.size>25*1024*1024)throw Error("JSON excede 25 MB");
-  const d=JSON.parse(await f.text());
   if(!["gov-intelligence-radar-v1-poc52","gov-intelligence-radar-v1-poc57"].includes(d.schema)||!Array.isArray(d.candidatos)||!Number.isSafeInteger(d.contratacoesBase)||d.contratacoesBase<=0)throw Error("Arquivo incompatível ou metadado contratacoesBase inválido; esperado inteiro positivo.");
   if(d.candidatos.some(x=>typeof x.id!=="string"||!x.encerramentoProposta||x.statusRadar!=="CANDIDATO_PRELIMINAR"||x.aderenciaComercial!=="NEUTRO"))throw Error("Inconsistência na classificação dos candidatos");
   if(new Set(d.candidatos.map(x=>x.id)).size!==d.candidatos.length)throw Error("IDs duplicados no snapshot");
@@ -196,12 +195,28 @@ el("file").addEventListener("change",async e=>{
    throw Error("Falha de exibição: base apresentada divergente do JSON");
   }
   el("ncand").textContent=fmt.format(dados.length);
+  const completos=dados.filter(x=>x.statusEnriquecimentoItens==="COMPLETO");
+  el("ncompletos").textContent=fmt.format(completos.length);
+  el("nitens").textContent=fmt.format(completos.reduce((n,x)=>n+(x.resumoItensPNCP?.totalItens||0),0));
   el("nzero").textContent=fmt.format(dados.filter(x=>x.valorEstimado?.estado==="ZERO_SIGILO_NAO_VERIFICADO").length);
   el("metadados").textContent="Extração: "+formatData(d.geradoEm)+" · Dados podem ter mudado desde a extração · "+d.abrangencia;
-  el("status").textContent="Radar V1.3.1 · Base validada: "+f.name+" · "+fmt.format(d.contratacoesBase)+" pregões declarados";
+  el("status").textContent="Radar V1.4 · Base validada: "+nome+" · "+fmt.format(d.contratacoesBase)+" pregões declarados";
   el("results").hidden=false;preencherMunicipios();el("municipio").value="";filtrar();
- }catch(err){el("status").textContent="Erro: "+err.message}
+ }catch(err){el("status").textContent="Erro: "+err.message;return false}
+ return true;
+}
+el("file").addEventListener("change",async e=>{
+ const f=e.target.files?.[0];if(!f)return;
+ try{
+  if(f.size>25*1024*1024)throw Error("JSON excede 25 MB");
+  carregarDados(JSON.parse(await f.text()),f.name);
+ }catch(err){el("results").hidden=true;el("status").textContent="Erro: "+err.message}
 });
+const embeddedNode=document.getElementById("embeddedData");
+if(embeddedNode){
+ try{carregarDados(JSON.parse(embeddedNode.textContent),"snapshot incorporado (offline)")}
+ catch(err){el("status").textContent="Erro no snapshot incorporado: "+err.message}
+}
 ["busca","fase","valor","ordem","municipio","prazo","natureza","itensFiltro"].forEach(id=>el(id).addEventListener(id==="busca"?"input":"change",filtrar));
 el("mais").addEventListener("click",()=>{limite+=50;desenhar()});
 el("fecharDetalhes").addEventListener("click",()=>el("detalhes").close());
@@ -213,4 +228,6 @@ el("exportar").addEventListener("click",()=>{
  const csv="\uFEFF"+[cab,...rows].map(row=>row.map(celulaCSV).join(";")).join("\r\n");
  const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="arilub_radar_v1_3_filtrado.csv";a.click();setTimeout(()=>URL.revokeObjectURL(url),500);
 });
-</script></body></html>
+</script>
+<!-- GOV_RADAR_EMBEDDED_JSON_V14 -->
+</body></html>
