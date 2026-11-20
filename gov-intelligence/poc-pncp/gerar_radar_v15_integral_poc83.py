@@ -67,8 +67,7 @@ def main():
  s=trocar(s,'if(d.schema==="gov-intelligence-radar-v1-poc57"){',
  'if(d.schema==="gov-intelligence-radar-v1-poc57"||d.schema==="gov-intelligence-radar-v15-integral"){')
  s=trocar(s,'meta?.schema==="gov-intelligence-radar-v1-poc57"','["gov-intelligence-radar-v1-poc57","gov-intelligence-radar-v15-integral"].includes(meta?.schema)')
- s=trocar(s,'el("status").textContent="Radar V1.4 · Base validada: "',
- 'el("status").textContent="Radar V1.5 · Base validada: "')
+ # O texto de status ja foi atualizado pela substituicao global Radar V1.4 -> Radar V1.5.
  s=trocar(s,'el("metadados").textContent="Extração: "+formatData(d.geradoEm)+" · Dados podem ter mudado desde a extração · "+d.abrangencia;',
  'el("metadados").textContent="Extração: "+formatData(d.geradoEm)+" · "+d.abrangencia+" · 1 linha por pregão";\n'
  ' el("coberturaAviso").textContent="Base local: "+fmt.format(d.contratacoesBase)+" pregões. O histórico ainda pode ter lacunas; nem todos os itens foram coletados ("+fmt.format(d.enriquecimento?.processosComItensCompletos||0)+" pregões enriquecidos). Situações oficiais e prazos são informações distintas. Aderência comercial: NEUTRO.";')
