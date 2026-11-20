@@ -69,7 +69,7 @@ def main():
                 return f
 
             same = work / "identico.json"
-            same.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+            same.write_text(seeded[0], encoding="utf-8")
             base_date = payload["dataAtualizacaoGlobal"]
             with sqlite3.connect(clone) as db:
                 base_status = status(db)
