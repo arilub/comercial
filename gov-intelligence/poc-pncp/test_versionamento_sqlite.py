@@ -5,6 +5,7 @@ import sqlite3
 import subprocess
 import sys
 import tempfile
+from contextlib import closing
 from pathlib import Path
 
 def ck(path, row):
@@ -49,24 +50,24 @@ def main():
         ck(newer, base_record("2026-10-05T09:00:00", 110))
         ck(older, base_record("2026-10-03T09:00:00", 90))
         run(script, initial, db)
-        with sqlite3.connect(db) as c:
+        with closing(sqlite3.connect(db)) as c:
             assert c.execute("SELECT COUNT(*) FROM contratacoes").fetchone()[0] == 1
             assert c.execute("SELECT COUNT(*) FROM versoes").fetchone()[0] == 1
         run(script, initial, db)
         run(script, newer, db)
-        with sqlite3.connect(db) as c:
+        with closing(sqlite3.connect(db)) as c:
             row = c.execute("SELECT data_atualizacao,payload_json FROM contratacoes").fetchone()
             assert row[0].startswith("2026-10-05")
             assert json.loads(row[1])["valorTotalHomologado"] == 110
             assert c.execute("SELECT COUNT(*) FROM versoes").fetchone()[0] == 2
         run(script, older, db)
-        with sqlite3.connect(db) as c:
+        with closing(sqlite3.connect(db)) as c:
             row = c.execute("SELECT data_atualizacao,payload_json FROM contratacoes").fetchone()
             assert row[0].startswith("2026-10-05")
             assert json.loads(row[1])["valorTotalHomologado"] == 110
             assert c.execute("SELECT COUNT(*) FROM versoes").fetchone()[0] == 2
             assert c.execute("SELECT COUNT(*) FROM importacoes").fetchone()[0] == 3
-            assert c.execute("SELECT obsoletos FROM importacoes ORDER BY importado_utc DESC LIMIT 1").fetchone()[0] in (0, 1)
+            assert c.execute("SELECT obsoletos FROM importacoes WHERE nome_arquivo=?", ("antigo.json",)).fetchone()[0] == 1
             assert c.execute("PRAGMA integrity_check").fetchone()[0] == "ok"
         print("=== TESTE DE VERSIONAMENTO ISOLADO ===")
         print("Insercao inicial: OK")
