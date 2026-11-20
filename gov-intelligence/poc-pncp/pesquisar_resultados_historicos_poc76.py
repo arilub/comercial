@@ -30,18 +30,26 @@ def fetch(url):
     except HTTPError as e:
         return e.code,{"erroHTTP":str(e.reason)}
 def parsed_id(s):
-    m=re.fullmatch(r"(\d{14})-1-(\d{4})-(\d+)",str(s))
-    return m.groups() if m else None
+    m=re.fullmatch(r"(\d{14})-1-(\d+)/(\d{4})",str(s))
+    return (m.group(1),m.group(3),m.group(2)) if m else None
 def candidates(dbfile):
     with sqlite3.connect("file:"+dbfile.resolve().as_posix()+"?mode=ro",uri=True) as db:
         if db.execute("PRAGMA quick_check").fetchone()[0]!="ok":raise RuntimeError("SQLite inconsistente")
-        rows=db.execute("SELECT id,payload_json,data_publicacao FROM contratacoes WHERE data_publicacao IS NOT NULL ORDER BY data_publicacao DESC LIMIT 5000").fetchall()
+        rows=db.execute("SELECT id,payload_json,data_publicacao FROM contratacoes WHERE data_publicacao IS NOT NULL ORDER BY data_publicacao DESC").fetchall()
     opts=[]
     for id,raw,pub in rows:
-        parts=parsed_id(id)
-        if not parts:continue
         try:payload=json.loads(raw)
         except (TypeError,ValueError):continue
+        parts=parsed_id(id)
+        if not parts:continue
+        cnpj,ano,seq=parts
+        anoCampo=payload.get("anoCompra")
+        seqCampo=payload.get("sequencialCompra")
+        cnpjCampo=(payload.get("orgaoEntidade") or {}).get("cnpj")
+        if str(anoCampo or ano)!=ano or str(seqCampo or seq).lstrip("0")!=str(int(seq)):
+            continue
+        if cnpjCampo and str(cnpjCampo)!=cnpj:
+            continue
         st=str(payload.get("situacaoCompraNome") or "")
         termino=str(payload.get("dataEncerramentoProposta") or "")
         if termino and termino[:10]>=datetime.now().strftime("%Y-%m-%d"):continue
@@ -103,7 +111,11 @@ def main():
             print("SEM ITENS:",id,"| formato",type(body).__name__,flush=True)
             time.sleep(2);continue
         selected=[x for x in items if isinstance(x,dict) and x.get("temResultado") is True]
-        print("PROCESSO:",id,"| itens pagina 1:",len(items),"| com resultado:",len(selected),flush=True)
+        # Se o atributo nao for fornecido pelo PNCP, investigar pequena
+        # amostra sem presumir que existe resultado.
+        if not selected:
+            selected=[x for x in items if isinstance(x,dict) and x.get("temResultado") is not False]
+        print("PROCESSO:",id,"| itens pagina 1:",len(items),"| itens para verificacao:",len(selected),flush=True)
         for item in selected[:a.itens]:
             num=item.get("numeroItem")
             if not isinstance(num,int):continue
