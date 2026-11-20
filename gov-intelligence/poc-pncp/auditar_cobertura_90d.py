@@ -53,7 +53,13 @@ def main():
     for path in sorted(dados.glob("pncp*.json")):
         try:
             bruto=path.read_bytes();doc=json.loads(bruto.decode("utf-8-sig"))
+            if not isinstance(doc, dict):
+                nao_reconhecidos.append(path.name + " (JSON raiz nao e objeto)")
+                continue
             cfg=doc.get("config") or {}
+            if not isinstance(cfg, dict):
+                nao_reconhecidos.append(path.name + " (config nao e objeto)")
+                continue
             first=cfg.get("inicio");last=cfg.get("fim")
             if not (isinstance(first,str) and isinstance(last,str) and
                     len(first)==8 and len(last)==8):
