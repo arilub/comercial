@@ -42,6 +42,8 @@ def fetch(uri, tries=2):
         try:
             req = Request(uri, headers={"Accept": "application/json", "User-Agent": "GOV-Intelligence-POC/0.45"})
             with urlopen(req, timeout=25) as response:
+                if response.status == 204:
+                    return {"_http204": True}
                 return json.loads(response.read().decode("utf-8-sig"))
         except HTTPError as exc:
             if exc.code != 429 or attempt + 1 == tries:
@@ -108,6 +110,18 @@ def main():
         url = ENDPOINT + "?" + urlencode(params)
         try:
             response = fetch(url)
+            if response.get("_http204"):
+                if pagina != 1 or state["registros"] or state["totalRegistrosInformado"] not in (None, 0):
+                    raise ValueError("HTTP 204 inesperado apos inicio de paginacao; interromper")
+                state["totalRegistrosInformado"] = 0
+                state["totalPaginasInformado"] = 0
+                state["status"] = "COMPLETO"
+                state["proximaPagina"] = 2
+                state["atualizadoEmUTC"] = utcnow()
+                state["observacoes"].append("HTTP 204 No Content na pagina 1: consulta sem registros")
+                atomic_json(out, state)
+                print("HTTP 204 | 0 registros | COMPLETO", flush=True)
+                break
             items = response.get("data")
             if not isinstance(items, list):
                 raise ValueError("Resposta sem array data")
