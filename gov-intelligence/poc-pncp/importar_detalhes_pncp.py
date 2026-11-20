@@ -97,7 +97,12 @@ def executar(banco, arquivo, aplicar=False):
 
         # Validacao de versoes deve ocorrer ANTES de qualquer escrita.
         if versao and estado != "IDENTICO":
-            raise ValueError("Hash ja presente no historico, mas estado ativo divergente; revisao requerida")
+            # Versao historica conhecida: replay idempotente sem escrita.
+            print("Estado efetivo: VERSAO_HISTORICA_EXISTENTE")
+            print("Versoes inseridas: 0")
+            print("Atuais inseridos/atualizados: 0")
+            print("MODO: SEM ALTERACOES")
+            return
         if estado == "CONFLITO_MESMA_DATA":
             # Preserva historico com estado explicito; registro ativo nao e alterado.
             print("AVISO: divergencia na mesma data; registro ativo sera preservado")
