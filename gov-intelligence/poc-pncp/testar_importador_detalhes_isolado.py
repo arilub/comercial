@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """POC-18: testes isolados do importador em copia SQLite; banco original somente leitura."""
 import argparse
+from contextlib import closing
 import json
 import sqlite3
 import subprocess
@@ -40,7 +41,7 @@ def main():
     if not source.is_file() or not importer.is_file():
         raise ValueError("Banco ou importador nao localizado")
 
-    with sqlite3.connect(f"file:{source.resolve().as_posix()}?mode=ro", uri=True) as original:
+    with closing(sqlite3.connect(f"file:{source.resolve().as_posix()}?mode=ro", uri=True)) as original:
         initial = readcounts(original)
         if initial["contratacoes"] != 540:
             raise ValueError("Quantidade original inesperada")
@@ -56,7 +57,7 @@ def main():
         with tempfile.TemporaryDirectory(prefix="gov_poc18_") as td:
             work = Path(td)
             clone = work / "copia_isolada.sqlite3"
-            with sqlite3.connect(clone) as copy:
+            with closing(sqlite3.connect(clone)) as copy:
                 original.backup(copy)
             print("Copia isolada:", clone.name, "| Banco original somente leitura")
 
@@ -71,52 +72,52 @@ def main():
             same = work / "identico.json"
             same.write_text(seeded[0], encoding="utf-8")
             base_date = payload["dataAtualizacaoGlobal"]
-            with sqlite3.connect(clone) as db:
+            with closing(sqlite3.connect(clone)) as db:
                 base_status = status(db)
             print("BASE:", base_status)
 
             print("\nCASO 1: IDENTICO (repeticao)")
             r = run(sys.executable, importer, clone, same)
             assert r.returncode == 0 and "Estado: IDENTICO" in r.stdout
-            with sqlite3.connect(clone) as db:
+            with closing(sqlite3.connect(clone)) as db:
                 assert status(db) == base_status
 
             print("\nCASO 2: CONFLITO MESMA DATA")
             conflict = fixture("conflito", 2, base_date)
             r = run(sys.executable, importer, clone, conflict)
             assert r.returncode == 0 and "Estado: CONFLITO_MESMA_DATA" in r.stdout
-            with sqlite3.connect(clone) as db:
+            with closing(sqlite3.connect(clone)) as db:
                 assert status(db) == (base_status[0], base_status[1] + 1)
 
             print("\nCASO 3: MAIS RECENTE")
             future = fixture("recente", 1, "2026-11-10T10:00:00")
             r = run(sys.executable, importer, clone, future)
             assert r.returncode == 0 and "Estado: MAIS_RECENTE" in r.stdout
-            with sqlite3.connect(clone) as db:
+            with closing(sqlite3.connect(clone)) as db:
                 assert status(db) == ((1, "2026-11-10T10:00:00"), base_status[1] + 2)
 
             print("\nCASO 4: OBSOLETO, SEM TROCAR REGISTRO ATUAL")
             older = fixture("obsoleto", 2, "2026-11-09T20:00:00")
             r = run(sys.executable, importer, clone, older)
             assert r.returncode == 0 and "Estado: OBSOLETO" in r.stdout
-            with sqlite3.connect(clone) as db:
+            with closing(sqlite3.connect(clone)) as db:
                 assert status(db) == ((1, "2026-11-10T10:00:00"), base_status[1] + 3)
 
             print("\nCASO 5: REPROCESSAMENTO DE VERSAO HISTORICA")
             r = run(sys.executable, importer, clone, conflict)
             print("  resultado atual:", "BLOQUEADO" if r.returncode else "ACEITO")
-            # Retorna falha conhecida: importador bloqueia hash historico quando nao e ativo.
-            historical_replay = r.returncode == 0
+            historical_replay = r.returncode == 0 and "Estado efetivo: VERSAO_HISTORICA_EXISTENTE" in r.stdout
+            assert historical_replay, "Reprocessamento historico deve ser idempotente"
 
-            with sqlite3.connect(clone) as db:
+            with closing(sqlite3.connect(clone)) as db:
                 assert readcounts(db) == initial
                 assert db.execute("PRAGMA integrity_check").fetchone()[0] == "ok"
                 assert db.execute("PRAGMA foreign_key_check").fetchall() == []
                 assert status(db) == ((1, "2026-11-10T10:00:00"), base_status[1] + 3)
 
             print("\nCONCLUSOES:")
-            print("Quatro cenarios principais: APROVADOS NA COPIA")
-            print("Reprocessar versao historica:", "APROVADO" if historical_replay else "PENDENTE DE CORRECAO")
+            print("Cinco cenarios: APROVADOS NA COPIA")
+            print("Reprocessar versao historica: APROVADO")
             print("Banco principal: SOMENTE LEITURA")
             print("API: ZERO | AGENDAMENTOS: ZERO")
 
