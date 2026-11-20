@@ -73,7 +73,7 @@ def main():
     p.add_argument("--base",required=True)
     p.add_argument("--python",default=sys.executable)
     p.add_argument("--dia",required=True,help="YYYYMMDD, dia encerrado")
-    p.add_argument("--max-paginas",type=int,default=10)
+    p.add_argument("--max-paginas",type=int,default=8)
     p.add_argument("--intervalo",type=float,default=4)
     p.add_argument("--executar",action="store_true")
     args=p.parse_args()
