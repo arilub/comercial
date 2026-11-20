@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ARILUB GOV Intelligence | Radar V1.1</title>
+<title>ARILUB GOV Intelligence | Radar V1.2</title>
 <style>
 :root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#18283b;background:#f3f6f9}
 *{box-sizing:border-box}body{margin:0}header{background:#122b44;color:white;padding:22px max(22px,calc((100vw - 1260px)/2))}header h1{margin:3px 0 8px;font-size:22px}header small{color:#c2d4e2}
@@ -14,7 +14,7 @@ h2{font-size:16px;margin:0 0 12px}.intro{color:#455970;line-height:1.5}.tools{di
 small.muted,.muted{color:#667c90}.pill{display:inline-block;border:1px solid #d2dde5;border-radius:30px;padding:3px 8px;color:#385165;background:#f5f8fa;font-size:11px}a{color:#115c9b}a:focus,input:focus,select:focus{outline:2px solid #2c7cb0;outline-offset:2px}dialog{border:1px solid #c4d2dd;border-radius:14px;box-shadow:0 18px 80px #102c4566;max-width:760px;width:calc(100% - 24px);max-height:85vh;overflow:auto;padding:22px;color:#1c3248}dialog::backdrop{background:#122a4399}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.detail-grid dt{color:#63788a;font-size:12px}.detail-grid dd{margin:4px 0 0;overflow-wrap:anywhere}dialog h3{font-size:15px}dialog p{line-height:1.55;white-space:pre-wrap}.close-row{display:flex;justify-content:space-between;align-items:center;gap:15px}.detail-links{margin-top:14px}.status-expired{color:#a35b17;font-weight:600}footer{font-size:12px;color:#64798d;margin:28px 0 32px}.notice{border-left:3px solid #8b9baa;padding-left:12px;color:#425970}
 [hidden]{display:none!important}@media(max-width:840px){.stats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr}}@media(max-width:500px){.filters{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}header{padding:20px}}
 </style></head><body>
-<header><small>ARILUB • GOV INTELLIGENCE</small><h1>Radar de Licitações — V1.1</h1><small>Consulta local de dados oficiais PNCP • abrangência CE • modalidade pregão</small></header>
+<header><small>ARILUB • GOV INTELLIGENCE</small><h1>Radar de Licitações — V1.2</h1><small>Consulta local de dados oficiais PNCP • abrangência CE • modalidade pregão</small></header>
 <main>
 <section class="panel">
 <h2>Carregar base de oportunidades</h2>
@@ -35,11 +35,12 @@ small.muted,.muted{color:#667c90}.pill{display:inline-block;border:1px solid #d2
 <input type="search" id="busca" placeholder="Objeto, órgão, município ou ID PNCP" aria-label="Pesquisar">
 <select id="fase" aria-label="Fase da proposta"><option value="">Todas as fases</option><option value="PRAZO_EM_CURSO">Prazo em curso</option><option value="ABERTURA_FUTURA">Abertura futura</option><option value="ABERTURA_INDETERMINADA">Abertura indeterminada</option></select>
 <select id="valor" aria-label="Valor estimado"><option value="">Todos os valores</option><option value="VALOR_POSITIVO_INFORMADO">Valor informado</option><option value="ZERO_SIGILO_NAO_VERIFICADO">Zero / sigilo não verificado</option><option value="NAO_INFORMADO">Não informado</option></select>
+<select id="natureza" aria-label="Natureza provável do objeto"><option value="materiais">Materiais + indefinidos (padrão)</option><option value="bens">Possível fornecimento de bens</option><option value="indefinido">Indefinidos / mistos</option><option value="servicos">Serviços prováveis</option><option value="">Todos (incluindo serviços)</option></select>
 <select id="municipio" aria-label="Município"><option value="">Todos os municípios</option></select>
 <select id="prazo" aria-label="Prazo de encerramento"><option value="">Todos os prazos do snapshot</option><option value="vigente">Ainda não encerrado (agora)</option><option value="3">Encerra em até 3 dias</option><option value="7">Encerra em até 7 dias</option><option value="30">Encerra em até 30 dias</option><option value="vencido">Vencido desde a extração</option></select>
 <select id="ordem" aria-label="Ordenação"><option value="prazo">Encerramento mais próximo</option><option value="valor">Maior valor estimado</option><option value="orgao">Órgão A–Z</option></select>
 </div>
-<p class="muted" id="metadados"></p>
+<p class="muted" id="metadados"></p><p class="notice" id="naturezaInfo"></p>
 <div class="actions"><button type="button" id="exportar">Exportar CSV filtrado</button><span class="muted" id="avisoTempo"></span></div>
 <div class="scroll"><table><thead><tr><th>Encerramento</th><th>Órgão / Município</th><th>Objeto</th><th>Valor estimado</th><th>Etapa</th><th>Fonte / Análise</th></tr></thead><tbody id="linhas"></tbody></table></div>
 <p id="pagina" class="muted"></p><button id="mais" type="button" hidden>Mostrar mais 50</button>
@@ -56,6 +57,18 @@ function textCell(tr,value,cls){let td=document.createElement("td");td.textConte
 function formatData(v){if(!v)return"Não informada";let d=new Date(v);return Number.isNaN(d.getTime())?String(v):new Intl.DateTimeFormat("pt-BR",{timeZone:"America/Fortaleza",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}).format(d)}
 function texto(v){return String(v??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
 function linkValido(v){try{let u=new URL(v);return u.protocol==="https:"&&u.hostname==="pncp.gov.br"&&u.pathname.startsWith("/app/editais/")?u.href:null}catch{return null}}
+// Triagem conservadora baseada EXCLUSIVAMENTE no texto do objeto.
+ // Nao corresponde a classificacao oficial de itens ou aderencia comercial.
+function naturezaObjeto(d){
+ const t=texto(d.objeto);
+ const bens=/(aquisic(?:ao|oes) de (?:materiais|material|produtos|equipamentos|insumos|pecas|pneus|lubrificantes|combustiveis|ferramentas|medicamentos|generos|mobiliario|veiculos|itens|bens)|fornecimento de (?:materiais|material|produtos|equipamentos|insumos|pecas|pneus|lubrificantes|combustiveis|ferramentas|medicamentos|generos|mobiliario|veiculos|bens)|registro de precos? (?:para )?(?:futura(?:s)? e eventual(?:is)? )?aquisic|compra de (?:materiais|produtos|equipamentos|insumos|pecas)|material de consumo|material permanente|rel[eé]s|materiais eletromecanicos)/.test(t);
+ const servico=/(prestacao de servicos|contratacao de (?:empresa|servicos|servico|profissional)|servicos de (?:limpeza|vigilancia|terceirizacao|telefonia|consultoria|manutencao|locacao|engenharia|software|tecnologia)|servico de (?:terceirizacao|consultoria|manutencao)|licenca de uso|locacao de |terceirizacao de |mao de obra|execucao de obras|obra de engenharia|servicos continuados|servicos terceirizados)/.test(t);
+ if(bens&&servico)return "INDEFINIDO_MISTO";
+ if(bens)return "POSSIVEL_FORNECIMENTO";
+ if(servico)return "SERVICO_PROVAVEL";
+ return "INDEFINIDO_MISTO";
+}
+function rotuloNatureza(d){return {POSSIVEL_FORNECIMENTO:"Possível fornecimento de bens",SERVICO_PROVAVEL:"Serviço provável",INDEFINIDO_MISTO:"Indefinido / misto"}[naturezaObjeto(d)]}
 function estadoTempo(d){const fim=Date.parse(d.encerramentoProposta);return Number.isFinite(fim)&&fim<=Date.now()?"VENCIDO_DESDE_SNAPSHOT":"AINDA_NAO_ENCERRADO"}
 function valorTexto(d){const v=d.valorEstimado||{};return v.estado==="VALOR_POSITIVO_INFORMADO"&&Number.isFinite(v.valor)?brl.format(v.valor):v.estado==="ZERO_SIGILO_NAO_VERIFICADO"?"Zero / sigilo não verificado":"Não informado"}
 function preencherMunicipios(){
@@ -69,7 +82,7 @@ function abrirDetalhes(d){
  const h=document.createElement("h3");h.textContent=d.id;root.appendChild(h);
  const resumo=document.createElement("p");resumo.textContent=d.objeto||"Objeto não informado";root.appendChild(resumo);
  const dl=document.createElement("dl");dl.className="detail-grid";
- [["Órgão",d.orgao],["Município",d.municipio],["Situação no snapshot",d.situacaoPNCP],["Abertura das propostas",formatData(d.aberturaProposta)],["Encerramento das propostas",formatData(d.encerramentoProposta)],["Prazo na consulta atual",estadoTempo(d)==="VENCIDO_DESDE_SNAPSHOT"?"Vencido desde a extração":"Ainda não encerrado pela data"],["Valor estimado",valorTexto(d)],["Valor homologado informado",d.valorHomologadoInformado==null?"Não informado":brl.format(d.valorHomologadoInformado)],["Aderência comercial",d.aderenciaComercial],["Itens",d.classificacaoItens],["Orçamento sigiloso",d.orcamentoSigiloso],["Data de extração",formatData(meta.geradoEm)]].forEach(x=>textoDetalhe(dl,x[0],x[1]));
+ [["Órgão",d.orgao],["Triagem por objeto",rotuloNatureza(d)+" (não validada por itens)"],["Município",d.municipio],["Situação no snapshot",d.situacaoPNCP],["Abertura das propostas",formatData(d.aberturaProposta)],["Encerramento das propostas",formatData(d.encerramentoProposta)],["Prazo na consulta atual",estadoTempo(d)==="VENCIDO_DESDE_SNAPSHOT"?"Vencido desde a extração":"Ainda não encerrado pela data"],["Valor estimado",valorTexto(d)],["Valor homologado informado",d.valorHomologadoInformado==null?"Não informado":brl.format(d.valorHomologadoInformado)],["Aderência comercial",d.aderenciaComercial],["Itens",d.classificacaoItens],["Orçamento sigiloso",d.orcamentoSigiloso],["Data de extração",formatData(meta.geradoEm)]].forEach(x=>textoDetalhe(dl,x[0],x[1]));
  root.appendChild(dl);
  const p=document.createElement("p");p.className="notice";p.textContent="Candidato preliminar, não validado comercialmente. Confirme situação, itens e prazo no edital original antes de qualquer decisão.";root.appendChild(p);
  const href=linkValido(d.linkPNCP);if(href){const a=document.createElement("a");a.href=href;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Abrir processo no PNCP";a.className="detail-links";root.appendChild(a)}
@@ -81,7 +94,7 @@ function desenhar(){
   const tr=document.createElement("tr");
   textCell(tr,formatData(d.encerramentoProposta));
   const org=textCell(tr,d.orgao||"Órgão não informado","org");let s=document.createElement("small");s.className="muted";s.textContent=" · "+(d.municipio||"CE");org.appendChild(s);
-  const objeto=textCell(tr,d.objeto||"Objeto não informado","object");let id=document.createElement("small");id.className="muted";id.textContent="\n"+d.id;id.style.whiteSpace="pre-line";objeto.appendChild(id);
+  const objeto=textCell(tr,d.objeto||"Objeto não informado","object");let categoria=document.createElement("span");categoria.className="pill";categoria.textContent=rotuloNatureza(d);categoria.style.marginTop="6px";categoria.style.display="inline-block";objeto.appendChild(document.createElement("div"));objeto.appendChild(categoria);let id=document.createElement("small");id.className="muted";id.textContent="\n"+d.id;id.style.whiteSpace="pre-line";objeto.appendChild(id);
   textCell(tr,valorTexto(d));
   const etapa=textCell(tr,d.faseTemporal==="PRAZO_EM_CURSO"?"Propostas iniciadas":d.faseTemporal==="ABERTURA_FUTURA"?"Abertura futura":"Indeterminada");
   if(estadoTempo(d)==="VENCIDO_DESDE_SNAPSHOT"){const av=document.createElement("small");av.textContent=" · Prazo já vencido";av.className="status-expired";etapa.appendChild(av)}
@@ -94,19 +107,24 @@ function desenhar(){
  el("mais").hidden=limite>=visiveis.length;
 }
 function filtrar(){
- const q=texto(el("busca").value),fase=el("fase").value,valor=el("valor").value,municipio=el("municipio").value,prazo=el("prazo").value;
+ const q=texto(el("busca").value),fase=el("fase").value,valor=el("valor").value,municipio=el("municipio").value,prazo=el("prazo").value,natureza=el("natureza").value;
  const agora=Date.now(),dias=Number(prazo),limiar=agora+dias*86400000;
  visiveis=dados.filter(d=>{
  const fim=Date.parse(d.encerramentoProposta);
  const valido=Number.isFinite(fim)&&fim>agora;
  const atendePrazo=!prazo||(prazo==="vigente"&&valido)||(prazo==="vencido"&&!valido)||(["3","7","30"].includes(prazo)&&valido&&fim<=limiar);
- return atendePrazo&&(!municipio||d.municipio===municipio)&&(!fase||d.faseTemporal===fase)&&(!valor||d.valorEstimado?.estado===valor)&&(!q||texto([d.id,d.objeto,d.orgao,d.municipio].join(" ")).includes(q));
+ const classe=naturezaObjeto(d);
+ const atendeNatureza=!natureza||(natureza==="materiais"&&classe!=="SERVICO_PROVAVEL")||(natureza==="bens"&&classe==="POSSIVEL_FORNECIMENTO")||(natureza==="indefinido"&&classe==="INDEFINIDO_MISTO")||(natureza==="servicos"&&classe==="SERVICO_PROVAVEL");
+ return atendeNatureza&&atendePrazo&&(!municipio||d.municipio===municipio)&&(!fase||d.faseTemporal===fase)&&(!valor||d.valorEstimado?.estado===valor)&&(!q||texto([d.id,d.objeto,d.orgao,d.municipio].join(" ")).includes(q));
  });
  switch(el("ordem").value){
  case"valor":visiveis.sort((a,b)=>(b.valorEstimado?.valor||0)-(a.valorEstimado?.valor||0));break;
  case"orgao":visiveis.sort((a,b)=>String(a.orgao||"").localeCompare(String(b.orgao||""),"pt-BR"));break;
  default:visiveis.sort((a,b)=>String(a.encerramentoProposta).localeCompare(String(b.encerramentoProposta)));}
  limite=50;desenhar();
+ const categorias={POSSIVEL_FORNECIMENTO:0,SERVICO_PROVAVEL:0,INDEFINIDO_MISTO:0};
+ dados.forEach(d=>categorias[naturezaObjeto(d)]++);
+ el("naturezaInfo").textContent="Triagem apenas pelo objeto: "+categorias.POSSIVEL_FORNECIMENTO+" possíveis fornecimentos, "+categorias.INDEFINIDO_MISTO+" indefinidos/mistos, "+categorias.SERVICO_PROVAVEL+" serviços prováveis. O filtro padrão oculta apenas serviços prováveis. Não elimina registros do arquivo nem substitui a análise dos itens.";
  const vencidos=dados.filter(x=>estadoTempo(x)==="VENCIDO_DESDE_SNAPSHOT").length;
  el("avisoTempo").textContent=vencidos?fmt.format(vencidos)+" candidatos com prazo vencido desde a extração; recarregue um snapshot atualizado.":"Prazos comparados ao relógio do computador.";
 }
@@ -128,15 +146,15 @@ el("file").addEventListener("change",async e=>{
   el("results").hidden=false;preencherMunicipios();el("municipio").value="";filtrar();
  }catch(err){el("status").textContent="Erro: "+err.message}
 });
-["busca","fase","valor","ordem","municipio","prazo"].forEach(id=>el(id).addEventListener(id==="busca"?"input":"change",filtrar));
+["busca","fase","valor","ordem","municipio","prazo","natureza"].forEach(id=>el(id).addEventListener(id==="busca"?"input":"change",filtrar));
 el("mais").addEventListener("click",()=>{limite+=50;desenhar()});
 el("fecharDetalhes").addEventListener("click",()=>el("detalhes").close());
 function celulaCSV(v){const t=String(v??"").replace(/[\r\n]+/g," ").trim();const seguro=/^[=+@\-\t\r]/.test(t)?"'"+t:t;return '"'+seguro.replace(/"/g,'""')+'"'}
 el("exportar").addEventListener("click",()=>{
  if(!meta||!visiveis.length){alert("Nenhum resultado para exportar.");return}
- const cab=["ID PNCP","Órgão","Município","Objeto","Encerramento","Situação PNCP","Fase","Valor estimado (BRL)","Status valor","Aderência comercial","Link PNCP","Gerado em"];
- const rows=visiveis.map(d=>[d.id,d.orgao,d.municipio,d.objeto,d.encerramentoProposta,d.situacaoPNCP,d.faseTemporal,d.valorEstimado?.estado==="VALOR_POSITIVO_INFORMADO"?d.valorEstimado.valor:"",d.valorEstimado?.estado,d.aderenciaComercial,linkValido(d.linkPNCP)||"",meta.geradoEm]);
+ const cab=["ID PNCP","Órgão","Município","Objeto","Encerramento","Situação PNCP","Fase","Valor estimado (BRL)","Status valor","Aderência comercial","Triagem por objeto","Link PNCP","Gerado em"];
+ const rows=visiveis.map(d=>[d.id,d.orgao,d.municipio,d.objeto,d.encerramentoProposta,d.situacaoPNCP,d.faseTemporal,d.valorEstimado?.estado==="VALOR_POSITIVO_INFORMADO"?d.valorEstimado.valor:"",d.valorEstimado?.estado,d.aderenciaComercial,rotuloNatureza(d),linkValido(d.linkPNCP)||"",meta.geradoEm]);
  const csv="\uFEFF"+[cab,...rows].map(row=>row.map(celulaCSV).join(";")).join("\r\n");
- const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="arilub_radar_v1_1_filtrado.csv";a.click();setTimeout(()=>URL.revokeObjectURL(url),500);
+ const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="arilub_radar_v1_2_filtrado.csv";a.click();setTimeout(()=>URL.revokeObjectURL(url),500);
 });
 </script></body></html>
