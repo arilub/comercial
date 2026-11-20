@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """GOV POC-08: self-test isolado de versoes e obsolescencia. Rede zero."""
 import json
+import gc
+import shutil
+import time
 import sqlite3
 import subprocess
 import sys
@@ -40,8 +43,8 @@ def main():
     script = Path(__file__).with_name("importar_checkpoint_sqlite.py")
     if not script.is_file():
         raise FileNotFoundError(f"Modulo principal ausente: {script}")
-    with tempfile.TemporaryDirectory(prefix="gov_poc_teste_") as folder:
-        root = Path(folder)
+    root = Path(tempfile.mkdtemp(prefix="gov_poc_teste_"))
+    try:
         db = root / "base_teste.sqlite3"
         initial = root / "inicial.json"
         newer = root / "novo.json"
@@ -78,6 +81,20 @@ def main():
         print("Integridade SQLite: ok")
         print("Dados reais: INALTERADOS | Rede: ZERO")
         return 0
+    finally:
+        # Windows: antivirus/indexadores podem manter um handle temporario.
+        # A integridade do teste nao depende do sucesso da limpeza.
+        gc.collect()
+        for attempt in range(6):
+            try:
+                shutil.rmtree(root)
+                print("Limpeza temporaria: OK")
+                break
+            except OSError as exc:
+                if attempt == 5:
+                    print(f"AVISO: limpeza temporaria pendente: {root} ({exc})", file=sys.stderr)
+                else:
+                    time.sleep(1.0)
 
 if __name__ == "__main__":
     try:
